@@ -9,7 +9,7 @@ Virtually every one of the ~800 agencies that make up the US federal government 
 
 ## Caveats
 
-...
+* There are many .gov domains and websites used by state, tribal, and local governments.  This index does not include those by using the list of federal .gov domains as a canonical list of the .gov domains (and thus websites) that are operated by the federal government.  
 
 ## Summary of Methodology
 
