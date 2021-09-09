@@ -6,7 +6,7 @@
 * 2016 EOT archive
 * ...
 
-2) Download fresh copies of the data
+2) Download fresh copies of the data and host them as snapshots [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots)
 
 3) Upload/Import into a Google spreadsheet 
 
