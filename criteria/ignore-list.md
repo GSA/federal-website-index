@@ -1,7 +1,7 @@
 This page tracks the criteria used to filter out URLs that are not likely to be public websites.  
 
 URL begins with:
-* *
+* `*`
 * 5+ numerals
 * access.
 * access-
@@ -33,7 +33,6 @@ URL begins with:
 * extranet.
 * internal.
 * intranet.
-* login.
 * lyncdiscover.
 * mail.
 * mdm.
@@ -78,5 +77,6 @@ URL begins with:
 * a numeral then www
 * local
 * auth
+* login
 * meetings
 * signin
