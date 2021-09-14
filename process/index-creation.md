@@ -1,8 +1,8 @@
 
 1) Decide which datasets to use
 
-* DAP export
-* .gov domain export 
+* [List of Federal .gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md)
+* [Digital Analytics Program Websites](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md)
 * 2016 EOT archive
 * ...
 
