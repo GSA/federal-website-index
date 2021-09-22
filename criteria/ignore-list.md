@@ -71,6 +71,8 @@ URL begins with:
 * www0.
 * www1.
 * www2.
+* www.staging.
+
 
 
 #### Candidates
