@@ -25,3 +25,5 @@
 8) Add corresponding base domain, agency, agency code, office, and bureau code
 
 9) Export as a CSV and [host here](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/site-scanning/current-federal-subdomains.csv) for the use of the Site Scanning tool
+
+10) Note that the Site Scanning system then needs to be prompted to ingest the new list.  
