@@ -1,4 +1,4 @@
 URL begins with:, Rational  
-*, 
-5+ numerals, 
-access., 
+*, x,
+5+ numerals, x,
+access., x,
