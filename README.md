@@ -14,13 +14,11 @@ Virtually all of the ~800 agencies that make up the US federal government mainta
 
 ## Summary of Methodology
 
-The process for assembling this website index is as follows: 
-* Download the below datasets
-* Assemble them
-* Dedup the list
-* Remove any websites that do not a base domain that is on the list of federal .gov domains.
-* Use the list of federal .gov domains to assign every website an agency and bureau
-* Use the OMB list of agency and bureau codes to assign every website agency and bureau codes.  
+Here's the process we use to build the website index: 
+* Download, combine, and deduplicate the below datasets
+* Remove any websites that do not a base domain that is on the list of federal `.gov` domains.
+* Use the list of federal `.gov` domains to assign each website an agency and bureau
+* Use the OMB list of agency and bureau codes to match and add website agency and bureau codes.  
 
 ## Major Datasets
 
