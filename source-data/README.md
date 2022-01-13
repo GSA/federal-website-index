@@ -7,7 +7,7 @@ This section provides details about each of the original datasets that are used 
 * [End of Term 2016 Crawl](https://github.com/GSA/federal-website-index/blob/main/source-data/eot2016.md)
 * [Censys](https://github.com/GSA/federal-website-index/blob/main/source-data/censys.md)
 * Other .gov Websites
-* pulse.cio.gov snapshot
+* [pulse.cio.gov snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
 
 
 #### Other Candidates
