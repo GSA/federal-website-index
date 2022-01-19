@@ -1,0 +1,86 @@
+Date,,5/6/21,5/11/21,7/14/21,7/19/21,8/17/21,11/9/21,11/16/21,11/24/21,12/17/21,12/21/21,12/28/21
+Notes,,,,,,,,,,,,
+Link to Data,trend,https://docs.google.com/spreadsheets/d/1FNrh_5rXSVHHB0CvUhcQfw2vpAlRvhzglfcBm6lmMKA/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1V9DVXLZMIUwS7NLeQz9rtXs-MQt8F3xOExb03HQenmY/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1c28IQZ0Ftr4Gzv0D47zc5YY9AySyemTY54_6JBLc7g4/edit#gid=1236776136,https://docs.google.com/spreadsheets/d/1hStY2K2qhzzG1sHuZNXemXZlU5W-dXRj7be-dBjDiTM/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1FRz0UkhFGZmQQSmaZLIz852aWFruRr3cXLT4TC9hAOo/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1pvY1ZIW-rzMkISslFha2LtaNEy8tEamByUH2Io2r-Zw/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1JWqsRuyASHgAjpKwghDLzLhhDDxG4p4f4iDNs1cBpRU/edit#gid=122177678,https://docs.google.com/spreadsheets/d/1ilomb926Evkn_25PXSYiXqD_ZjmXk4i68V9VIzJ93KA/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1rdnoJO8ugHnUXo4Zl7eJpqXkcrXaOq68Qgq07s82_YM/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1lYfDoOTl4WJYX_o9Bfxtzi7DHsbBPGMbVNYH9Y4WKfY/edit#gid=2130082636,https://docs.google.com/spreadsheets/d/1kA_rSYYwzndPFHF03bUDrM6-gzVj3E4TkzD3yNYJRz0/edit#gid=2130082636
+How many urls did we scan?,,"24,638","24,638","24,638","24,638","24,638","24,716","24,716","24,716","24,716","82,168","82,168"
+How many agency owners are represented?,,132,132,132,132,132,132,132,132,133,155,155
+How many bureau owners are represented?,,554,554,554,554,554,579,579,579,580,659,659
+How many domains did we scan?,,"1,003","1,003","1,003","1,003","1,003","1,058","1,058","1,058","1,059","1,060","1,308"
+How many final urls are represented?,,"17,727","17,739","17,838","17,903","17,907","17,950","17,950","17,937","17,980","18,051","18,410"
+How many final domains are represented?,,811,813,812,814,815,832,833,832,834,833,905
+How many urls are from the executive branch?,,"24,623","24,623","24,623","24,623","24,623","24,231","24,231","24,231","24,230","7,095","7,095"
+How many urls are from the legislative branch?,,0,0,0,0,0,0,0,0,0,0,0
+How many urls are from the judicial branch?,,0,0,0,0,0,0,0,0,0,0,0
+What is the oldest scan date?,,0,0,0,0,0,0,0,0,0,0,0
+How many scans completed?,,"18,132","17,803","18,045","17,060","16,166","17,377","16,515","17,530","17,196","17,171","17,643"
+How many scans failed?,,"6,505","6,834","6,592","7,577","8,471","7,333","8,195","7,180","7,513","7,545","8,513"
+How many scans failed because of dns resolution?,,"2,321","2,403","2,435","2,654","2,709","3,164","3,202","3,226","3,294","3,331","4,098"
+How many scans failed because of invalid ssl certs?,,586,562,600,535,496,458,443,477,469,469,477
+How many scans failed because of timeouts?,,"2,015","2,297","1,923","2,805","3,664","2,070","2,864","1,845","2,135","2,137","2,246"
+How many scans failed for unknown reasons?,,"1,583","1,572","1,634","1,583","1,602","1,641","1,686","1,632","1,615","1,608","1,692"
+How many final urls are html files?,,"19,100","19,129","19,221","19,305","19,321","19,433","19,438","19,445","19,448","19,458","19,911"
+How many final urls are text files?,,144,145,148,153,151,148,149,149,152,154,164
+How many final urls are json files?,,62,60,61,52,52,52,52,52,52,52,53
+How many final urls are xml files?,,61,61,61,61,61,61,61,61,61,61,61
+How many final urls are another filetype?,,344,338,355,345,349,359,360,360,387,389,392
+How many final urls are on the same domain as the target urls?,,"18,799","18,795","18,913","18,970","18,975","19,073","19,072","19,084","19,112","19,127","19,534"
+How many final urls are on the same website as the target urls?,,"12,287","12,291","12,273","12,312","12,333","12,329","12,328","12,350","12,349","12,372","12,717"
+How many urls return a 2xx server code?,,"16,115","16,101","16,174","16,219","16,206","16,331","16,294","16,231","16,241","16,189","16,654"
+How many urls return a 3xx server code?,,2,2,2,2,2,0,0,0,0,0,0
+How many urls return a 4xx server code?,,"3,087","3,109","3,123","3,162","3,190","3,217","3,251","3,312","3,361","3,365","3,406"
+How many urls return a 5xx server code?,,555,569,595,582,584,555,564,574,546,609,571
+How many urls pass the 404 test?,,"12,398","12,370","12,337","12,321","12,311","12,335","12,320","12,209","12,204","12,166","12,448"
+How many urls fail the 404 test?,,"7,361","7,411","7,557","7,644","7,671","7,768","7,789","7,908","7,944","7,997","8,183"
+How many solutions scans completed?,,"17,978","17,677","17,892","16,923","16,030","17,197","16,347","17,344","16,991","16,975","17,420"
+How many solutions scans failed?,,"6,659","6,960","6,745","7,714","8,607","7,513","8,363","7,366","7,718","7,741","8,735"
+How many solutions scans failed because of dns resolution?,,"2,333","2,415","2,444","2,683","2,730","3,184","3,228","3,257","3,327","3,365","4,129"
+How many solutions scans failed because of invalid ssl certs?,,587,562,601,535,497,459,443,478,469,469,477
+How many solutions scans failed because of timeouts?,,"2,063","2,340","1,961","2,826","3,704","2,106","2,922","1,872","2,171","2,160","2,273"
+How many solutions scans failed for unknown reasons?,,"1,676","1,643","1,739","1,670","1,676","1,764","1,770","1,759","1,751","1,747","1,856"
+How many urls have a uswds count below 50?,,"18,441","18,461","18,569","18,567","18,584","18,654","18,654","18,657","18,664","18,500","18,828"
+How many urls have a uswds count 51-100?,,744,787,787,846,846,874,873,876,888,888,942
+How many urls have a uswds count 101-150?,,334,315,315,332,334,359,361,365,358,363,394
+How many urls have a uswds count 151+?,,391,376,382,392,392,418,423,426,431,613,685
+How many urls have dap detected?,,"6,220","6,203","6,205","6,195","6,214","6,299","6,269","6,218","6,221","6,243","6,507"
+How many urls don't have dap detected?,,"13,408","13,453","13,566","13,645","13,642","13,684","13,722","13,781","13,798","13,793","13,988"
+How many urls weren't scanned for DAP (failed scans)?,,"5,010","4,982","4,867","4,798","4,782","151,231","4,725","4,717","4,696","62,132","61,673"
+How many urls have added an agency dap parameter?,,"4,794","4,796","4,802","5,024","5,026","5,120","5,089","5,032","5,030","5,058","5,276"
+How many urls have added a subagency dap parameter?,,"3,235","3,247","3,262","3,221","3,213","3,327","3,295","3,241","3,232","3,256","3,389"
+How many urls have an og_title?,,"2,324","2,325","2,321","2,379","2,388","2,508","2,467","2,503","2,496","2,498","2,651"
+How many urls have an og_description?,,"1,831","1,786","1,777","1,879","1,729","1,837","1,801","1,843","1,831","1,840","1,955"
+How many urls have an og_title but don't have an og_description?,,514,557,562,524,684,699,694,688,694,687,726
+How many urls have an og_description but don't have an og_title?,,21,18,18,24,25,28,28,28,29,29,30
+How many urls have an og_article_published?,,0,0,0,0,0,0,0,0,1,0,0
+How many urls have an og_article_modified?,,0,0,0,0,0,0,0,0,1,0,0
+How many urls have a main_element_present?,,"3,362","3,408","3,423","3,479","3,498","3,619","3,628","3,528","3,533","3,728","3,923"
+How many urls don't have main_element_present_final_url?,,"16,266","16,248","16,348","16,361","16,358","16,364","16,363","16,471","16,486","16,308","16,572"
+How many urls have a robots.txt detected?,,"6,338","6,333","6,327","6,280","6,295","6,319","6,321","6,223","6,232","6,253","6,512"
+How many urls return a 2xx server code for their robots.txt?,,"9,678","9,705","9,773","9,779","9,790","9,928","9,898","9,840","9,826","9,843","10,160"
+How many urls return a 3xx server code for their robots.txt?,,1,1,1,1,1,1,1,1,1,1,1
+How many urls return a 4xx server code for their robots.txt?,,"9,378","9,356","9,381","9,437","9,438","9,452","9,482","9,537","9,604","9,601","9,719"
+How many urls return a 5xx server code for their robots.txt?,,571,594,616,623,627,602,610,621,588,591,615
+How many urls have a LIVE robots.txt?,,"9,653","9,680","9,748","9,754","9,765","9,903","9,873","9,815","9,801","9,818","10,135"
+How many urls do not have a LIVE robots.txt?,,"9,975","9,976","10,023","10,086","10,091","10,080","10,118","10,184","10,218","10,218","10,360"
+How many urls' robots.txt are text files?,,"6,102","6,090","6,074","6,046","6,057","6,070","6,072","5,975","5,984","6,008","6,259"
+How many urls' robots.txt are another file type?,,"6,102","6,090","6,074","6,046","6,057","6,070","6,072","5,975","5,984","6,008","6,259"
+How many urls' robots.txt redirect?,,"5,196","5,228","5,315","5,389","5,396","5,568","5,580","5,589","5,615","5,615","5,712"
+How many urls' robots.txt file size were detected?,,"6,525","6,555","6,616","6,687","6,725","6,893","6,911","6,916","6,939","6,952","7,243"
+How many urls' robots.txt have a crawl_delay?,,910,913,921,954,953,950,948,949,940,942,994
+How many urls' robots.txt link to sitemaps?,,"1,265","1,269","1,273","1,264","1,274","1,319","1,320","1,335","1,353","1,358","1,430"
+How many urls have a sitemap.xml detected?,,"2,194","2,227","2,240","2,226","2,237","2,244","2,227","2,221","2,223","2,120","2,259"
+How many urls return a 2xx server code for their sitemap.xml?,,"6,626","6,693","6,796","6,842","6,888","7,019","6,972","7,016","7,007","6,992","7,235"
+How many urls return a 3xx server code for their sitemap.xml?,,4,4,4,4,4,4,4,4,4,4,4
+How many urls return a 4xx server code for their sitemap.xml?,,"12,375","12,312","12,301","12,329","12,297","12,317","12,362","12,318","12,377","12,403","12,598"
+How many urls return a 5xx server code for their sitemap.xml?,,623,647,670,665,667,643,653,661,631,637,658
+How many urls have a LIVE sitemap.xml?,,"6,601","6,668","6,771","6,817","6,863","6,994","6,947","6,991","6,982","6,967","7,210"
+How many urls do not have a LIVE sitemap.xml?,,"13,027","12,988","13,000","13,023","12,993","12,989","13,044","13,008","13,037","13,069","13,285"
+How many urls' sitemap.xml redirect?,,"6,373","6,415","6,525","6,597","6,660","6,830","6,845","6,855","6,887","6,987","7,122"
+How many urls' sitemap.xml file size were detected?,,"2,330","2,376","2,390","2,435","2,459","2,625","2,636","2,639","2,655","2,668","2,827"
+How many urls' sitemap.xml are xml files?,,"2,338","2,355","2,369","2,368","2,418","2,448","2,433","2,433","2,432","2,266","2,390"
+How many urls' sitemap.xml are another file type?,,"22,300","22,283","22,269","22,270","22,220","168,766","22,283","22,283","22,284","79,902","79,778"
+How many urls' sitemap.xml have an item count?,,916,919,924,920,918,939,940,938,928,867,905
+How many urls' sitemap.xml have a pdf count?,,258,257,264,262,261,286,289,289,288,292,313
+How many urls have third party services?,,"11,458","11,464","11,458","11,464","11,296","11,606","11,569","11,507","11,520","11,526","11,892"
+How many urls have 1-5 third party services?,,"6,810","6,806","6,787","6,742","6,574","6,746","6,750","6,746","6,761","6,809","7,005"
+How many urls have 6-10 third party services?,,"2,514","2,565","2,578","2,623","2,624","2,649","2,647","2,665","2,634","2,499","2,570"
+How many urls have 11-20 third party services?,,"1,939","1,880","1,884","1,879","1,877","2,013","1,970","1,889","1,920","2,024","2,081"
+How many urls have over 20 third party services?,,195,213,209,220,221,198,202,207,204,194,236
