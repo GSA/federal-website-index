@@ -19,6 +19,7 @@ Here's the process we use to build the website index:
 * Remove any websites that do not have a base domain that is on the list of federal `.gov` domains.
 * Use the list of federal `.gov` domains to assign each website an agency and bureau
 * Use the OMB list of agency and bureau codes to match and add website agency and bureau codes.  
+* Remove websites that contain [certain strings of character](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) that we've found almost always indicate a non-public website, such as `admin.` or `staging.`.
 
 ## Major Datasets
 
