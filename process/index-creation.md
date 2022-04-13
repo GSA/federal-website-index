@@ -1,10 +1,5 @@
 
-1) Decide which datasets to use
-
-* [List of Federal .gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md)
-* [Digital Analytics Program Websites](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md)
-* 2016 EOT archive
-* ...
+1) Decide [which datasets to use](https://github.com/GSA/federal-website-index#major-datasets)
 
 2) Download fresh copies of the data and host them as snapshots [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots)
 
