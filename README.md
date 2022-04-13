@@ -23,10 +23,11 @@ Here's the process we use to build the website index:
 
 ## Major Datasets
 
-* [List of Federal .Gov Domains](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) 
-* [List of Websites That Participate In The Digital Analytics Program](https://analytics.usa.gov/data/live/sites.csv) 
-* [2016 End of Term Web Archive](https://github.com/end-of-term/eot2016/blob/master/seed-lists/eot_2016_bulk_seeds_test_report.txt)
-* [OMB Bureau/Agency Codes](https://resources.data.gov/resources/dcat-us/#bureauCode)
+* [List of Federal .Gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md) 
+* [List of Websites That Participate In The Digital Analytics Program](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md) 
+* [2020 pulse.cio.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
+* [2016 End of Term Web Archive](https://github.com/GSA/federal-website-index/blob/main/source-data/eot2016.md)
+* [OMB Bureau/Agency Codes](https://github.com/GSA/federal-website-index/blob/main/source-data/omb-codes.md)
 * Censys 
 * Rapid7
 * .gov Registry DNS
