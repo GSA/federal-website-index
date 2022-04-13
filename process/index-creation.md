@@ -3,7 +3,9 @@
 
 2) Download fresh copies of the data and host them as snapshots [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots)
 
-3) Upload/Import into a Google spreadsheet 
+3) Take the [current template formula spreadsheet](https://docs.google.com/spreadsheets/d/1reGwemIkUeMDwyebQTcHuutaRxCUUztAK_INv9287tA/edit#gid=1843664497) and clone it into [this folder](https://drive.google.com/drive/u/1/folders/1ndBdaI78RPFPQAjamROOmiv_wCi1bsp5)
+
+5) Import the fresh copies of the source data into the new spreadsheet
 
 4) Normalize the columns so that the data can be stacked on each other
 
