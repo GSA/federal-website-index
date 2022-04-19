@@ -9,18 +9,20 @@
 
 4) Normalize the columns so that the data can be stacked on each other
 
-5) Combine all of the URLs 
+5) Use Find/Replace to remove the `Federal - ` from the Branch column on the `federal_domains` sheet
 
-6) Dedup the URLs
+6) Combine all of the URLs 
 
-7) Remove URLs that begin with certain strings that are on our ignore list (e.g. `staging.`)
+7) Dedup the URLs
 
-8) Add in the override list
+8) Remove URLs that begin with certain strings that are on our ignore list (e.g. `staging.`)
 
-7) Filter for Federal domains
+9) Add in the override list
 
-8) Add corresponding base domain, agency, agency code, office, and bureau code
+10) Filter for Federal domains
 
-9) Export as a CSV and [host here](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/site-scanning/current-federal-subdomains.csv) for the use of the Site Scanning tool
+11) Add corresponding base domain, agency, agency code, office, and bureau code
 
-10) Note that the Site Scanning system then needs to be prompted to ingest the new list.  
+12) Export as a CSV and [host here](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/site-scanning/current-federal-subdomains.csv) for the use of the Site Scanning tool
+
+13) Note that the Site Scanning system then needs to be prompted to ingest the new list.  
