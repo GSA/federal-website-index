@@ -25,4 +25,4 @@
 
 12) Export as a CSV and [host here](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/site-scanning/current-federal-subdomains.csv) for the use of the Site Scanning tool
 
-13) Note that the Site Scanning system then needs to be prompted to ingest the new list.  
+13) Note that the Site Scanning system then needs to be [prompted]([url](https://github.com/GSA/site-scanning-engine/actions/workflows/ingest.yml)) to ingest the new list.  
