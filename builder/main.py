@@ -90,4 +90,7 @@ url_df['url'] = '---'
 url_df = url_df[['website', 'base_domain', 'url', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 
 # write list to csv
+if os.path.exists(config['target_url_list_path']) == False:
+    os.makedirs(config['target_url_list_path'])
+
 url_df.to_csv(config['target_url_list_path'], index=False)
