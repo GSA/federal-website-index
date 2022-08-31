@@ -12,7 +12,7 @@ of building the federal website index.
 - `gov_source_url`: the URL hosting the [list of Federal .Gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md)
 - `pulse_source_url`: the URL hosting the [2020 pulse.cio.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
 - `dap_source_url`: the URL hosting the [list of Websites That Participate In The Digital Analytics Program](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md)
-- `omb_source_url`: the URL hosting[OMB Bureau/Agency Codes](https://github.com/GSA/federal-website-index/blob/main/source-data/omb-codes.md)
+- `omb_source_url`: the URL hosting [OMB Bureau/Agency Codes](https://github.com/GSA/federal-website-index/blob/main/source-data/omb-codes.md)
 - `additional_data_path`: a CSV file containing additional federal domains
 - `ignore_list_path`: a CSV file listing terms to ignore in the URL datasets
 - `todays_snapshot_path`: the directory for the current day's data snapshot
