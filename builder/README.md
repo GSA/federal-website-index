@@ -26,3 +26,7 @@ All dependencies are listed in `requirements.txt`.
 
 `.github/workflows/build-list.yml` specifies the GitHub action for building the
 federal website index.
+
+## Running the Action
+
+* In this repo, run the GitHub Action named 'Build Target URL List'.  It snapshots the source data that it is using [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots), and overwrites the specified file [here](https://github.com/GSA/federal-website-index/tree/main/data).   
