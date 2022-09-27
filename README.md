@@ -36,6 +36,7 @@ A more detailed description of the process [can be found here](https://github.co
 
 
 ## Resources
+* [Target URL List - Data Dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
 * [Terms and how we are using them](https://github.com/GSA/site-scanning-documentation/blob/main/pages/terms.md)
 
 
