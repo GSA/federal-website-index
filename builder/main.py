@@ -83,11 +83,8 @@ url_df = url_df.fillna('')
 url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
 
-# add URL column
-url_df['url'] = '---'
-
 # reorder columns
-url_df = url_df[['target_url', 'base_domain', 'url', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
+url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
