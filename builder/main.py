@@ -66,6 +66,9 @@ url_df['source_manually_added'] = url_df['source_manually_added'].map(lambda x: 
 # get relevant subset
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 
+# set branch column's value to 'Executive' if empty
+url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
+
 # load agency and bureau reference data
 omb_df = csv_to_df(config['omb_source_url'])
 agency_codes = omb_df[['Agency Name', 'Agency Code']]
