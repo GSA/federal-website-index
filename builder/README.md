@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory contains a Python script (`main.py`) that automates the process
+This directory contains a Python script (`__main__.py`) that automates the process
 of building the federal website index.
 
 ## Configuration
