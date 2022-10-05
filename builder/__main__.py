@@ -29,6 +29,7 @@ pulse_df['source_list_pulse'] = 'TRUE'
 
 dap_df = dap_df.rename(columns={'domain': 'target_url'})
 dap_df['source_list_dap'] = 'TRUE'
+dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
 # strip out 'Federal - ' leading string from domain type column for .gov data
 gov_df['branch'] = gov_df['branch'].map(lambda x: x.lstrip('Federal - '))
@@ -56,6 +57,12 @@ url_df = url_df.fillna('')
 
 url_df['agency'] = url_df['agency_x'].astype(str) + '' + url_df['agency_y'].astype(str)
 url_df['base_domain'] = url_df['base_domain_x'].astype(str) + '' + url_df['base_domain_y'].astype(str)
+
+# populate base domain for pulse records
+for tuple in url_df.iterrows():
+    row = tuple[1]
+    if row['base_domain'] == '':
+        row['base_domain'] = row['base_domain_pulse']
 
 # format source columns
 url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
@@ -85,6 +92,29 @@ url_df = url_df.fillna('')
 # format agency and bureau codes
 url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
+
+# get lookup table of agencies and agency codes mapped to base domain
+agency_df = url_df[url_df.agency != '']
+agency_df = agency_df[['base_domain', 'agency', 'agency_code']]
+agency_df['base_domain'] = agency_df['base_domain'].str.lower()
+agency_df = agency_df.drop_duplicates()
+
+# merge in agencies and agency codes
+url_df = url_df.merge(agency_df, on='base_domain', how='left')
+url_df = url_df.fillna('')
+url_df['agency'] = ''
+url_df['agency_code'] = ''
+
+for tuple in url_df.iterrows():
+    row = tuple[1]
+    if row['agency_x'] == '':
+        row['agency'] = row['agency_y']
+    else:
+        row['agency'] = row['agency_x']
+    if row['agency_x'] == '':
+        row['agency_code'] = row['agency_code_y']
+    else:
+        row['agency_code'] = row['agency_code_x']
 
 # get lookup table of bureaus and bureau codes mapped to base domain
 bureau_df = url_df[url_df.bureau != '']
