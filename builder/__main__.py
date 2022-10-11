@@ -21,6 +21,7 @@ if os.path.exists(todays_snapshot_path) == False:
 
 # normalize columns
 gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
+gov_df['target_url'] = gov_df['target_url'].str.lower()
 gov_df['base_domain'] = gov_df['target_url']
 gov_df['source_list_federal_domains'] = 'TRUE'
 
@@ -127,8 +128,9 @@ url_df = url_df.fillna('')
 url_df['bureau'] = url_df['bureau_x'].astype(str) + '' + url_df['bureau_y'].astype(str)
 url_df['bureau_code'] = url_df['bureau_code_x'].astype(str) + '' + url_df['bureau_code_y'].astype(str)
 
-# reorder columns
+# reorder columns and sort
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
+url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 
 # # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
