@@ -56,14 +56,24 @@ url_df = url_df.merge(dap_df, on='target_url', how='left')
 url_df = url_df.merge(additional_data, on='target_url', how='left')
 url_df = url_df.fillna('')
 
-url_df['agency'] = url_df['agency_x'].astype(str) + '' + url_df['agency_y'].astype(str)
-url_df['base_domain'] = url_df['base_domain_x'].astype(str) + '' + url_df['base_domain_y'].astype(str)
+# populate base domain and agency columns
+url_df['agency'] = ''
+url_df['base_domain'] = ''
 
-# populate base domain for pulse records
 for tuple in url_df.iterrows():
     row = tuple[1]
-    if row['base_domain'] == '':
+    if row['base_domain_pulse'] != '':
         row['base_domain'] = row['base_domain_pulse']
+    else:
+        if row['base_domain_x'] != '':
+            row['base_domain'] = row['base_domain_x']
+        else:
+            row['base_domain'] = row['base_domain_y']
+
+    if row['agency_x'] == '':
+        row['agency'] = row['agency_y']
+    else:
+        row['agency'] = row['agency_x']
 
 # format source columns
 url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
@@ -112,7 +122,7 @@ for tuple in url_df.iterrows():
         row['agency'] = row['agency_y']
     else:
         row['agency'] = row['agency_x']
-    if row['agency_x'] == '':
+    if row['agency_code_x'] == '':
         row['agency_code'] = row['agency_code_y']
     else:
         row['agency_code'] = row['agency_code_x']
@@ -125,12 +135,24 @@ bureau_df['base_domain'] = bureau_df['base_domain'].str.lower()
 # merge in bureaus and bureau codes
 url_df = url_df.merge(bureau_df, on='base_domain', how='left')
 url_df = url_df.fillna('')
-url_df['bureau'] = url_df['bureau_x'].astype(str) + '' + url_df['bureau_y'].astype(str)
-url_df['bureau_code'] = url_df['bureau_code_x'].astype(str) + '' + url_df['bureau_code_y'].astype(str)
+url_df['bureau'] = '' #url_df['bureau_x'].astype(str) + '' + url_df['bureau_y'].astype(str)
+url_df['bureau_code'] = '' #url_df['bureau_code_x'].astype(str) + '' + url_df['bureau_code_y'].astype(str)
+
+for tuple in url_df.iterrows():
+    row = tuple[1]
+    if row['bureau_x'] == '':
+        row['bureau'] = row['bureau_y']
+    else:
+        row['bureau'] = row['bureau_x']
+    if row['bureau_code_x'] == '':
+        row['bureau_code'] = row['bureau_code_y']
+    else:
+        row['bureau_code'] = row['bureau_code_x']
 
 # reorder columns and sort
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
+url_df = url_df.drop_duplicates()
 
-# # write list to csv
+# write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
