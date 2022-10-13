@@ -39,7 +39,8 @@ url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['ta
 url_df = pd.DataFrame(url_series)
 
 # remove duplicates
-url_df = url_df.drop_duplicates()
+url_df = url_df.drop_duplicates('target_url')
+url_df.reset_index(inplace=True)
 
 # remove URLs with ignore-listed strings
 ignore_df = pd.read_csv(config['ignore_list_path'])
@@ -129,8 +130,9 @@ for tuple in url_df.iterrows():
 # reorder columns, sort, and remove all non-.gov urls
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
-url_df = url_df.drop_duplicates()
+url_df = url_df.drop_duplicates('target_url')
 url_df = url_df[url_df.target_url.str.contains('.gov')]
+url_df.reset_index(inplace=True)
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
