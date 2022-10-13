@@ -24,6 +24,8 @@ gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'bra
 gov_df['target_url'] = gov_df['target_url'].str.lower()
 gov_df['base_domain'] = gov_df['target_url']
 gov_df['source_list_federal_domains'] = 'TRUE'
+# strip out 'Federal - ' leading string from domain type column for .gov data
+gov_df['branch'] = gov_df['branch'].map(lambda x: x.lstrip('Federal - '))
 
 pulse_df = pulse_df.rename(columns= {'Domain': 'target_url', 'Base Domain': 'base_domain', 'Agency': 'agency'})
 pulse_df['source_list_pulse'] = 'TRUE'
@@ -31,9 +33,6 @@ pulse_df['source_list_pulse'] = 'TRUE'
 dap_df = dap_df.rename(columns={'domain': 'target_url'})
 dap_df['source_list_dap'] = 'TRUE'
 dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
-
-# strip out 'Federal - ' leading string from domain type column for .gov data
-gov_df['branch'] = gov_df['branch'].map(lambda x: x.lstrip('Federal - '))
 
 # combine all URLs into one column
 url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], additional_data['target_url']])
@@ -127,32 +126,11 @@ for tuple in url_df.iterrows():
     else:
         row['agency_code'] = row['agency_code_x']
 
-# get lookup table of bureaus and bureau codes mapped to base domain
-bureau_df = url_df[url_df.bureau != '']
-bureau_df = bureau_df[['base_domain', 'bureau', 'bureau_code']]
-bureau_df['base_domain'] = bureau_df['base_domain'].str.lower()
-
-# merge in bureaus and bureau codes
-url_df = url_df.merge(bureau_df, on='base_domain', how='left')
-url_df = url_df.fillna('')
-url_df['bureau'] = '' #url_df['bureau_x'].astype(str) + '' + url_df['bureau_y'].astype(str)
-url_df['bureau_code'] = '' #url_df['bureau_code_x'].astype(str) + '' + url_df['bureau_code_y'].astype(str)
-
-for tuple in url_df.iterrows():
-    row = tuple[1]
-    if row['bureau_x'] == '':
-        row['bureau'] = row['bureau_y']
-    else:
-        row['bureau'] = row['bureau_x']
-    if row['bureau_code_x'] == '':
-        row['bureau_code'] = row['bureau_code_y']
-    else:
-        row['bureau_code'] = row['bureau_code_x']
-
-# reorder columns and sort
+# reorder columns, sort, and remove all non-.gov urls
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates()
+url_df = url_df[url_df.target_url.str.contains('.gov')]
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
