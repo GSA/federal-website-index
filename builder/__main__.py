@@ -132,7 +132,6 @@ url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code',
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates('target_url')
 url_df = url_df[url_df.target_url.str.contains('.gov')]
-url_df.reset_index(inplace=True)
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
