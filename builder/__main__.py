@@ -40,7 +40,6 @@ url_df = pd.DataFrame(url_series)
 
 # remove duplicates
 url_df = url_df.drop_duplicates('target_url')
-url_df.reset_index(inplace=True)
 
 # remove URLs with ignore-listed strings
 ignore_df = pd.read_csv(config['ignore_list_path'])
@@ -69,7 +68,6 @@ for tuple in url_df.iterrows():
             row['base_domain'] = row['base_domain_x']
         else:
             row['base_domain'] = row['base_domain_y']
-
     if row['agency_x'] == '':
         row['agency'] = row['agency_y']
     else:
