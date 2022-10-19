@@ -85,6 +85,38 @@ url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'sou
 # set branch column's value to 'Executive' if empty
 url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
 
+# get lookup table of agencies mapped to base domain
+agency_df = gov_df[['base_domain', 'agency']]
+agency_df = agency_df.drop_duplicates()
+
+# merge in agencies
+url_df = url_df.merge(agency_df, on='base_domain', how='left')
+url_df = url_df.fillna('')
+url_df['agency'] = ''
+
+for tuple in url_df.iterrows():
+    row = tuple[1]
+    if row['agency_x'] == '':
+        row['agency'] = row['agency_y']
+    else:
+        row['agency'] = row['agency_x']
+
+# get lookup table of bureaus mapped to base domain
+bureau_df = gov_df[['base_domain', 'bureau']]
+bureau_df = bureau_df.drop_duplicates()
+
+# merge in bureaus
+url_df = url_df.merge(bureau_df, on='base_domain', how='left')
+url_df = url_df.fillna('')
+url_df['bureau'] = ''
+
+for tuple in url_df.iterrows():
+    row = tuple[1]
+    if row['bureau_x'] == '':
+        row['bureau'] = row['bureau_y']
+    else:
+        row['bureau'] = row['bureau_x']
+
 # load agency and bureau reference data
 omb_df = csv_to_df(config['omb_source_url'])
 agency_codes = omb_df[['Agency Name', 'Agency Code']]
@@ -101,29 +133,6 @@ url_df = url_df.fillna('')
 # format agency and bureau codes
 url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
-
-# get lookup table of agencies and agency codes mapped to base domain
-agency_df = url_df[url_df.agency != '']
-agency_df = agency_df[['base_domain', 'agency', 'agency_code']]
-agency_df['base_domain'] = agency_df['base_domain'].str.lower()
-agency_df = agency_df.drop_duplicates()
-
-# merge in agencies and agency codes
-url_df = url_df.merge(agency_df, on='base_domain', how='left')
-url_df = url_df.fillna('')
-url_df['agency'] = ''
-url_df['agency_code'] = ''
-
-for tuple in url_df.iterrows():
-    row = tuple[1]
-    if row['agency_x'] == '':
-        row['agency'] = row['agency_y']
-    else:
-        row['agency'] = row['agency_x']
-    if row['agency_code_x'] == '':
-        row['agency_code'] = row['agency_code_y']
-    else:
-        row['agency_code'] = row['agency_code_x']
 
 # reorder columns, sort, and remove all non-.gov urls
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
