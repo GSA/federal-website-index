@@ -23,6 +23,8 @@ Here's the process we use to build the website index:
 
 A more detailed description of the process [can be found here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).  
 
+The list of datasets that are used to build the target URL list is [here]([url](https://github.com/GSA/federal-website-index/blob/638457d7c486a1337a8ebb624da9b4912e8a1b4c/builder/config.py)).  
+
 ## Major Datasets
 
 * [List of Federal .Gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md) 
