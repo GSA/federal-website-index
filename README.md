@@ -2,6 +2,8 @@
 
 The goal of this project is to assemble an accurate, up-to-date list of the `.gov` public websites of the federal government.  It turns out that there are a lot of sources to consider, but this repository will explain the process used and reference the source datasets. This effort is a part of the [Site Scanning program](https://digital.gov/site-scanning).    
 
+This [file](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv), which is used by the Site Scanning program for its list of Target URLs, is automatically updated every week on Wednesday at 6pm ET (assuming that there are changes in the source files).  
+
 ## Background
 
 Virtually all of the ~800 agencies that make up the US federal government maintain one or more websites (e.g. `www.state.gov`, `space.commerce.gov`). We know what `.gov` domains exist and what agency operates them because the `.gov` registry [makes this information public](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), but that only tells us what domains exist (e.g. `state.gov`, `commerce.gov`). Each domain may actually have hundreds of distinct websites (e.g. `statecollection.census.gov` and `opportunity.census.gov`, which are each different websites than `www.census.gov`). This project tries to assemble a comprehensive list of all distinct federal websites available to the public.  
