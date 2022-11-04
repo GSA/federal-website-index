@@ -1,8 +1,12 @@
 from config import config
 from helpers import csv_to_df, round_float
+import csv
 import os
 import pandas as pd
 
+
+# initialize analysis dict
+analysis = {}
 
 # import data
 gov_df = csv_to_df(config['gov_source_url'])
@@ -10,6 +14,11 @@ pulse_df = csv_to_df(config['pulse_source_url'])
 dap_df = csv_to_df(config['dap_source_url'])
 additional_data = pd.read_csv(config['additional_data_path'])
 additional_data['source_manually_added'] = 'TRUE'
+
+# track length of source datasets
+analysis['gov url list length'] = len(gov_df.index)
+analysis['pulse url list length'] = len(pulse_df.index)
+analysis['dap url list length'] = len(dap_df.index)
 
 # create new snapshot directory and save snapshot of data, if necessary
 todays_snapshot_path = config['todays_snapshot_path']
@@ -37,9 +46,11 @@ dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.spli
 # combine all URLs into one column
 url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], additional_data['target_url']])
 url_df = pd.DataFrame(url_series)
+analysis['combined url list length'] = len(url_df.index)
 
 # remove duplicates
 url_df = url_df.drop_duplicates('target_url')
+analysis['deduped url list length'] = len(url_df.index)
 
 # remove URLs with ignore-listed strings
 ignore_df = pd.read_csv(config['ignore_list_path'])
@@ -47,6 +58,8 @@ ignore_series = ignore_df['URL begins with:']
 
 for string in ignore_series:
     url_df = url_df[~url_df['target_url'].str.startswith(string)]
+
+analysis['url list length after ignore list processed'] = len(url_df.index)
 
 # merge data back in
 url_df = url_df.merge(gov_df, on='target_url', how='left')
@@ -139,6 +152,14 @@ url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code',
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates('target_url')
 url_df = url_df[url_df.target_url.str.contains('.gov')]
+analysis['url list length after non-.gov urls removed'] = len(url_df.index)
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
+
+# write analysis to csv
+with open(config['analysis_csv_oath'], 'w') as csv_file:
+    writer = csv.DictWriter(csv_file, fieldnames=['question', 'answer'])
+    writer.writeheader()
+    for key, value in analysis.items():
+        writer.writerow({'question': key, 'answer': value})
