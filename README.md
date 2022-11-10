@@ -38,6 +38,9 @@ The list of datasets that are used to build the target URL list is [here]([url](
 * Rapid7
 * .gov Registry DNS
 
+## Analysis
+* [Analysis Repository](https://github.com/GSA/site-scanning-analysis/tree/main/reports)
+* Analysis Reports: [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
 
 ## Resources
 * [Target URL List - Data Dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
