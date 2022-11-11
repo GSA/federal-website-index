@@ -15,5 +15,5 @@ config = {
     'target_url_list_path': os.path.join(dirname, '../data/site-scanning-target-url-list.csv'),
     'analysis_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv'),
     'non_gov_url_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-removed-nonfederal.csv'),
-    'ignored_url_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-ignore.csv'),
+    'ignored_url_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-removed-ignore.csv'),
 }
