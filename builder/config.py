@@ -13,5 +13,7 @@ config = {
     'ignore_list_path': os.path.join(dirname, '../criteria/ignore-list.csv'),
     'omb_source_url': 'https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv',
     'target_url_list_path': os.path.join(dirname, '../data/site-scanning-target-url-list.csv'),
-    'analysis_csv_oath': os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv'),
+    'analysis_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv'),
+    'non_gov_url_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-removed-nonfederal.csv'),
+    'ignored_url_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-ignored.csv'),
 }

@@ -5,6 +5,13 @@ import os
 import pandas as pd
 
 
+def write_to_csv(path, df):
+    with open(path, 'w') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=['question', 'answer'])
+        writer.writeheader()
+        for key, value in df.items():
+            writer.writerow({'question': key, 'answer': value})
+
 # initialize analysis dict
 analysis = {}
 
@@ -55,10 +62,9 @@ analysis['deduped url list length'] = len(url_df.index)
 # remove URLs with ignore-listed strings
 ignore_df = pd.read_csv(config['ignore_list_path'])
 ignore_series = ignore_df['URL begins with:']
-
-for string in ignore_series:
-    url_df = url_df[~url_df['target_url'].str.startswith(string)]
-
+ignored_df = url_df[url_df['target_url'].str.startswith(tuple(ignore_series))]
+ignored_df.to_csv(config['ignored_url_csv_path'])
+url_df = url_df[~url_df['target_url'].str.startswith(tuple(ignore_series))]
 analysis['url list length after ignore list processed'] = len(url_df.index)
 
 # merge data back in
@@ -147,19 +153,19 @@ url_df = url_df.fillna('')
 url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
 
-# reorder columns, sort, and remove all non-.gov urls
+# reorder columns, sort, remove duplicates
 url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates('target_url')
-url_df = url_df[url_df.target_url.str.contains('.gov')]
+
+# remove all non-.gov urls
+non_gov_df = url_df[~url_df['target_url'].str.contains('.gov')]
+non_gov_df.to_csv(config['non_gov_url_csv_path'])
+url_df = url_df[url_df['target_url'].str.contains('.gov')]
 analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
 # write list to csv
 url_df.to_csv(config['target_url_list_path'], index=False)
 
-# write analysis to csv
-with open(config['analysis_csv_oath'], 'w') as csv_file:
-    writer = csv.DictWriter(csv_file, fieldnames=['question', 'answer'])
-    writer.writeheader()
-    for key, value in analysis.items():
-        writer.writerow({'question': key, 'answer': value})
+# write analysis tocsv
+write_to_csv(config['analysis_csv_path'], analysis)
