@@ -5,11 +5,11 @@ import os
 import pandas as pd
 
 
-def write_to_csv(path, df):
+def write_to_csv(path, dict):
     with open(path, 'w') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=['question', 'answer'])
         writer.writeheader()
-        for key, value in df.items():
+        for key, value in dict.items():
             writer.writerow({'question': key, 'answer': value})
 
 # initialize analysis dict
@@ -43,6 +43,11 @@ gov_df['source_list_federal_domains'] = 'TRUE'
 # strip out 'Federal - ' leading string from domain type column for .gov data
 gov_df['branch'] = gov_df['branch'].map(lambda x: x.lstrip('Federal - '))
 
+# add www. to .gov URLs
+www_gov_df = gov_df
+www_gov_df['target_url'] = 'www.' + www_gov_df['target_url'].astype(str)
+gov_df = pd.concat([gov_df, www_gov_df])
+
 pulse_df = pulse_df.rename(columns= {'Domain': 'target_url', 'Base Domain': 'base_domain', 'Agency': 'agency'})
 pulse_df['source_list_pulse'] = 'TRUE'
 
@@ -63,7 +68,7 @@ analysis['deduped url list length'] = len(url_df.index)
 ignore_df = pd.read_csv(config['ignore_list_path'])
 ignore_series = ignore_df['URL begins with:']
 ignored_df = url_df[url_df['target_url'].str.startswith(tuple(ignore_series))]
-ignored_df.to_csv(config['ignored_url_csv_path'])
+ignored_df.to_csv(config['ignored_url_csv_path'], index=False)
 url_df = url_df[~url_df['target_url'].str.startswith(tuple(ignore_series))]
 analysis['url list length after ignore list processed'] = len(url_df.index)
 
@@ -160,7 +165,7 @@ url_df = url_df.drop_duplicates('target_url')
 
 # remove all non-.gov urls
 non_gov_df = url_df[~url_df['target_url'].str.contains('.gov')]
-non_gov_df.to_csv(config['non_gov_url_csv_path'])
+non_gov_df.to_csv(config['non_gov_url_csv_path'], index=False)
 url_df = url_df[url_df['target_url'].str.contains('.gov')]
 analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
