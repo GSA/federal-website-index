@@ -159,7 +159,7 @@ url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
 
 # reorder columns, sort, remove duplicates
-url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
+url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap', 'source_list_pulse', 'source_manually_added']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates('target_url')
 
