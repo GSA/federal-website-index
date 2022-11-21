@@ -18,14 +18,15 @@ Virtually all of the ~800 agencies that make up the US federal government mainta
 
 Here's the process we use to build the website index: 
 * Download, combine, and deduplicate some of the below datasets.
-* Remove any websites that do not have a base domain that is on the list of federal `.gov` domains.
+* Remove websites that contain [certain character strings](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) that we've found almost always indicate a non-public website, such as `admin.` or `staging.`.
 * Use the list of federal `.gov` domains to assign each website an agency and bureau
 * Use the OMB list of agency and bureau codes to match and add website agency and bureau codes.  
-* Remove websites that contain [certain strings of character](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) that we've found almost always indicate a non-public website, such as `admin.` or `staging.`.
+* Remove any websites that do not have a base domain that is on the list of federal `.gov` domains.
+
 
 A more detailed description of the process [can be found here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).  
 
-The list of datasets that are used to build the target URL list is [here]([url](https://github.com/GSA/federal-website-index/blob/638457d7c486a1337a8ebb624da9b4912e8a1b4c/builder/config.py)).  
+The list of datasets that are currently used to build the target URL list is [here](https://github.com/GSA/federal-website-index/blob/638457d7c486a1337a8ebb624da9b4912e8a1b4c/builder/config.py).  
 
 ## Major Datasets
 
