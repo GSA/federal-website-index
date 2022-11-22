@@ -59,6 +59,10 @@ analysis['combined url list length'] = len(url_df.index)
 url_df.to_csv(config['combined_snapshot_path'], index=False)
 
 # remove duplicates
+url_series = url_df['target_url']
+duplicated_df = url_df[url_series.isin(url_series[url_series.duplicated()])].sort_values("target_url")
+duplicated_df = duplicated_df.drop_duplicates()
+duplicated_df.to_csv(config['dedup_removed'], index=False)
 url_df = url_df.drop_duplicates('target_url')
 analysis['deduped url list length'] = len(url_df.index)
 url_df.to_csv(config['deduped_snapshot_path'], index=False)

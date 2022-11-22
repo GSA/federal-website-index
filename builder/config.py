@@ -13,6 +13,7 @@ config = {
     'dap_snapshot_path': os.path.join(dirname, '../data/snapshots/dap.csv'),
     'combined_snapshot_path': os.path.join(dirname, '../data/snapshots/combined.csv'),
     'deduped_snapshot_path': os.path.join(dirname, '../data/snapshots/combined-dedup.csv'),
+    'dedup_removed': os.path.join(dirname, '../data/snapshots/dedup_removed.csv'),
     'remove_ignore_path': os.path.join(dirname, '../data/snapshots/remove-ignore.csv'),
     'additional_data_path': os.path.join(dirname, '../data/dataset/other-websites.csv'),
     'ignore_list_path': os.path.join(dirname, '../criteria/ignore-list.csv'),
