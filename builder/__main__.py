@@ -27,13 +27,10 @@ analysis['gov url list length'] = len(gov_df.index)
 analysis['pulse url list length'] = len(pulse_df.index)
 analysis['dap url list length'] = len(dap_df.index)
 
-# create new snapshot directory and save snapshot of data, if necessary
-todays_snapshot_path = config['todays_snapshot_path']
-if os.path.exists(todays_snapshot_path) == False:
-    os.makedirs(todays_snapshot_path)
-    gov_df.to_csv(todays_snapshot_path + '/gov.csv', index=False)
-    pulse_df.to_csv(todays_snapshot_path + '/pulse.csv', index=False)
-    dap_df.to_csv(todays_snapshot_path + '/dap.csv', index=False)
+# create new snapshots of source files
+gov_df.to_csv(config['gov_snapshot_path'], index=False)
+pulse_df.to_csv(config['pulse_snapshot_path'], index=False)
+dap_df.to_csv(config['dap_snapshot_path'], index=False)
 
 # normalize columns
 gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
@@ -59,10 +56,12 @@ dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.spli
 url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], additional_data['target_url']])
 url_df = pd.DataFrame(url_series)
 analysis['combined url list length'] = len(url_df.index)
+url_df.to_csv(config['combined_snapshot_path'], index=False)
 
 # remove duplicates
 url_df = url_df.drop_duplicates('target_url')
 analysis['deduped url list length'] = len(url_df.index)
+url_df.to_csv(config['deduped_snapshot_path'], index=False)
 
 # remove URLs with ignore-listed strings
 ignore_df = pd.read_csv(config['ignore_list_path'])
@@ -71,6 +70,7 @@ ignored_df = url_df[url_df['target_url'].str.startswith(tuple(ignore_series))]
 ignored_df.to_csv(config['ignored_url_csv_path'], index=False)
 url_df = url_df[~url_df['target_url'].str.startswith(tuple(ignore_series))]
 analysis['url list length after ignore list processed'] = len(url_df.index)
+url_df.to_csv(config['remove_ignore_path'], index=False)
 
 # merge data back in
 url_df = url_df.merge(gov_df, on='target_url', how='left')
