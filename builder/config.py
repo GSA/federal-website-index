@@ -18,7 +18,7 @@ config = {
     'combined_snapshot_path': os.path.join(dirname, '../data/snapshots/combined.csv'),
     'remove_ignore_path': os.path.join(dirname, '../data/snapshots/remove-ignore.csv'),
     'deduped_snapshot_path': os.path.join(dirname, '../data/snapshots/combined-dedup.csv'),
-    'dedup_removed': os.path.join(dirname, '../data/snapshots/dedup_removed.csv'),
+    'dedup_removed': os.path.join(dirname, '../data/snapshots/dedup-removed.csv'),
     'ignored_removed': os.path.join(dirname, '../data/snapshots/ignored-removed.csv'),
     'nonfederal_removed': os.path.join(dirname, '../data/snapshots/nonfederal-removed.csv'),
     'analysis_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv'),
