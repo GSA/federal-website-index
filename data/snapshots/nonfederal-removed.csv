@@ -336,10 +336,9 @@ airuniversity.usaf.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,
 all-hands.navy.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcent.army.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 defense.dod.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+hq.usace.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marines.usmc.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-music.usaf.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navcms.navy.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-navfac-dev.navy.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pavilion1.dod.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai.mil,ai.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airdomainintelligence.mil,airdomainintelligence.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -371,7 +370,7 @@ amc.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 amlc.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ancadmin.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ancadminstg.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-anmcadmin.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ancpublicstg.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcp.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcyber.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armycemeteries.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -394,7 +393,6 @@ crg.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 crgcm.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cyber.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cyberdefensereview.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-d-armyhealthfacilities.detrick.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 daaf-wx.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dasadec.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eeo.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -485,7 +483,6 @@ swf.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swg.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swl.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swt.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-t-armyhealthfacilities.detrick.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 t-cac.detrick.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 t-efmp.detrick.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tad.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -554,7 +551,6 @@ mccoy.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 meade.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 miami.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 natick.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-pacific.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 parks.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 picatinny.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pinebluff.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -612,7 +608,6 @@ dimoc.mil,dimoc.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 disa.mil.apps.gcds.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dsnbbs.ncr.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-origin-www.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sprs.csd.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stl.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uismdy8b.isd.disa.mil,disa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -676,14 +671,9 @@ am02.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 amrv.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armymedicine.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 blastinjuryresearch.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coopam.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coophearing.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coopmhs.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dev-cms.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eitpmo.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hearing.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-hearing03.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 info.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jtapic.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jts.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -714,7 +704,6 @@ usariem.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vce.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wrair.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hexoftheturtleislands.com,hexoftheturtleislands.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-styleguide.cnhindustrial.ind.br,ind.br,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 inherentresolve.mil,inherentresolve.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jbab.jb.mil,jb.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jbcharleston.jb.mil,jb.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -857,7 +846,6 @@ amphib7flt.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 applocker.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 atlantic.navfac.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author.history.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-authorqa.history.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bootcamp.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bracpmo.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 c2f.usff.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -921,7 +909,7 @@ oni.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onr.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p2p.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pacific.navfac.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-portal.navsea.cloud.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+public.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pzal.metoc.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qa-beta.history.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ready.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -989,7 +977,6 @@ cool.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dodsoco.ogc.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 doha.ogc.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dote.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-jpeocbrnd.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 milgears.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ogc.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 skillbridge.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1025,13 +1012,9 @@ chemapps.stolaf.edu,stolaf.edu,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stratcom.mil,stratcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swcs.mil,swcs.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bush41library.tamu.edu,tamu.edu,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-capstone-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cco-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cisa-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-es-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 inss-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndupress-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-nwc-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airforceacademy.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 altus.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1057,11 +1040,9 @@ calmed.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 camp-lejeune.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 camp-pendleton.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cannon.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cd02.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 charleston.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cherrypoint.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 columbus.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coopcd.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 corpuschristi.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 darnall.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 davismonthan.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1155,7 +1136,6 @@ reynolds.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 robins.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rodriguez.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rota.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-rv01.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sandiego.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 scott.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seymourjohnson.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1255,7 +1235,6 @@ zh-reg.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh-store.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh-tools.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-westindustries.com,westindustries.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 whitehousecommsagency.mil,whitehousecommsagency.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esd.whs.mil,whs.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pac.whs.mil,whs.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
