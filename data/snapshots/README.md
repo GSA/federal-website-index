@@ -3,6 +3,7 @@ The files in this folder automatically update/overwrite whenever a new target UR
 * dap.csv - a snapshot of the DAP sourcefile that is being ingested
 * gov.csv - a snapshot of the list of federal .gov domains sourcefile that is being ingested
 * pulse.csv - a snapshot of the pulse snapshot sourcefile that is being ingested
+* To Create: other-websites.csv - a snapshot of the pulse snapshot sourcefile that is being ingested
 * combined.csv - a snapshot of the list created when each of the sourcefiles are added together 
 * combined-dedup.csv - a shapshot of the list created when the `combined` list is deduped
 * dedup-removed.csv - a list of the URLs that are removed when the `combined` list is deduped
