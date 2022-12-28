@@ -19,18 +19,20 @@ analysis = {}
 gov_df = csv_to_df(config['gov_source_url'])
 pulse_df = csv_to_df(config['pulse_source_url'])
 dap_df = csv_to_df(config['dap_source_url'])
-additional_data = pd.read_csv(config['additional_data_path'])
-additional_data['source_manually_added'] = 'TRUE'
+other_df = pd.read_csv(config['other_websites_path'])
+other_df['source_list_other'] = 'TRUE'
 
 # track length of source datasets
 analysis['gov url list length'] = len(gov_df.index)
 analysis['pulse url list length'] = len(pulse_df.index)
 analysis['dap url list length'] = len(dap_df.index)
+analysis['other website url list length'] = len(other_df.index)
 
 # create new snapshots of source files
 gov_df.to_csv(config['gov_snapshot_path'], index=False)
 pulse_df.to_csv(config['pulse_snapshot_path'], index=False)
 dap_df.to_csv(config['dap_snapshot_path'], index=False)
+other_df.to_csv(config['other_snapshot_path'], index=False)
 
 # normalize columns
 gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
@@ -53,7 +55,7 @@ dap_df['source_list_dap'] = 'TRUE'
 dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
 # combine all URLs into one column
-url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], additional_data['target_url']])
+url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], other_df['target_url']])
 url_df = pd.DataFrame(url_series)
 analysis['combined url list length'] = len(url_df.index)
 url_df.to_csv(config['combined_snapshot_path'], index=False)
@@ -80,7 +82,7 @@ url_df.to_csv(config['remove_ignore_path'], index=False)
 url_df = url_df.merge(gov_df, on='target_url', how='left')
 url_df = url_df.merge(pulse_df, on='target_url', how='left')
 url_df = url_df.merge(dap_df, on='target_url', how='left')
-url_df = url_df.merge(additional_data, on='target_url', how='left')
+url_df = url_df.merge(other_df, on='target_url', how='left')
 url_df = url_df.fillna('')
 
 # populate base domain and agency columns
@@ -105,10 +107,10 @@ for tuple in url_df.iterrows():
 url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
 url_df['source_list_pulse'] = url_df['source_list_pulse'].map(lambda x: 'FALSE' if x == '' else x)
 url_df['source_list_dap'] = url_df['source_list_dap'].map(lambda x: 'FALSE' if x == '' else x)
-url_df['source_manually_added'] = url_df['source_manually_added'].map(lambda x: 'FALSE' if x == '' else x)
+url_df['source_list_other'] = url_df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
 
 # get relevant subset
-url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_manually_added']]
+url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_list_other']]
 
 # set branch column's value to 'Executive' if empty
 url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
@@ -163,7 +165,7 @@ url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
 url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
 
 # reorder columns, sort, remove duplicates
-url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap', 'source_list_pulse', 'source_manually_added']]
+url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap', 'source_list_pulse', 'source_list_other']]
 url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 url_df = url_df.drop_duplicates('target_url')
 
