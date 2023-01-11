@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.9"
       - run: pip install -r ./builder/requirements.txt
-      - run: python ./builder
+      - run: python ./builder/main.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build target url list
