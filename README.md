@@ -24,7 +24,7 @@ Here's the process we use to build the website index:
 * Remove any websites that do not have a base domain that is on the list of federal `.gov` domains.
 
 
-A more detailed description of the process [can be found here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md) - [actual source code [here](https://github.com/GSA/federal-website-index/blob/main/builder/__main__.py)].  
+A more detailed description of the process [can be found here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md) - [actual source code [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py)].  
 
 The list of datasets that are currently used to build the target URL list is [here](https://github.com/GSA/federal-website-index/blob/638457d7c486a1337a8ebb624da9b4912e8a1b4c/builder/config.py).  
 
