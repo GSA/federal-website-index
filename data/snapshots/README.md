@@ -9,5 +9,5 @@ The files in this folder automatically update/overwrite whenever a new target UR
 - dedup-removed.csv - a list of the URLs that are removed when the `combined` list is deduped
 - remove-ignore.csv - a snapshot of the list created when URLs that meet the `ignore list` criteria are removed from the `combined-deduped` list
 - ignored-removed.csv - a list of the URLs that are removed when the URLs that meet the `ignore list` criteria are removed from the `combined-deduped` list
-- remove-nonfederal.csv - a snapshot of the list created when URLs on non-federal domains are removed from the `remove-ignore` list; this is the final target URL list file
+- ~remove-nonfederal.csv~ - a snapshot of the list created when URLs on non-federal domains are removed from the `remove-ignore` list; **this is the final target URL list file**
 - nonfederal-removed.csv - a list of the URLS that are removed when the URLS on non-federal domains are removed from the `remove-ignore` list
