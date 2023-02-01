@@ -1344,6 +1344,7 @@ assets.usgs.gov
 cms.aviation.dot.gov
 cms.buildamerica.dot.gov
 cms.csrc.nist.gov
+cms.csrc.test-e1a.nist.gov
 cms.disa.mil
 cms.doe.gov
 cms.dot.gov
@@ -1389,10 +1390,10 @@ dev.coralreef.noaa.gov
 dev.d9.justice.gov
 dev.ebilling.nrc-gateway.gov
 dev.efile.dol.gov
-dev.emsl.pnl.gov
 dev.fai.gov
 dev.fas.usda.gov
 dev.fedshirevets.gov
+dev.financialaidtoolkit.ed.gov
 dev.fiscaldata.treasury.gov
 dev.flag.dol.gov
 dev.fort.usgs.gov
@@ -1416,12 +1417,12 @@ dev.niehs.nih.gov
 dev.nrs.ed.gov
 dev.nsf.gov
 dev.oig.treasury.gov
-dev.opendap.co-ops.nos.noaa.gov
 dev.opm.gov
 dev.osti.gov
 dev.ppubs.awslab.uspto.gov
 dev.restoreactscienceprogram.noaa.gov
 dev.simplereport.gov
+dev.stb.gov
 dev.tidesandcurrents.noaa.gov
 dev.usmarshals.gov
 dev.wrh.noaa.gov
@@ -1432,6 +1433,8 @@ edit.armymwr.com
 edit.armytenmiler.com
 edit.bep.gov
 edit.cdfifund.gov
+edit.data.healthcare.gov
+edit.data.medicaid.gov
 edit.insurekidsnow.gov
 edit.makinghomeaffordable.gov
 edit.manufacturing.gov
@@ -1445,7 +1448,6 @@ edit.tfm.fiscal.treasury.gov
 edit.tfx.treasury.gov
 edit.uscourts.gov
 edit.usmarshals.gov
-extranet.acq.osd.mil
 internal.ncifcrf.gov
 internal.sewp.nasa.gov
 internal.wma.chs.usgs.gov
@@ -1472,7 +1474,6 @@ qa.beta-nsf.aws-dev.nsf.gov
 qa.civics.archives.gov
 qa.clinicaltrials.gov
 qa.cmsd9.chs.usgs.gov
-qa.coralreef.gov
 qa.coralreef.noaa.gov
 qa.emsl.pnnl.gov
 qa.idmanagement.gov
@@ -1503,7 +1504,6 @@ staging.benefits.gov
 staging.cafc.uscourts.gov
 staging.cmsd9.chs.usgs.gov
 staging.consumer.ftc.gov
-staging.consumer.gov
 staging.consumidor.ftc.gov
 staging.demo.cfpb.gov
 staging.dhs.gov
@@ -1513,9 +1513,9 @@ staging.fai.gov
 staging.flag.dol.gov
 staging.ftc.gov
 staging.gomo.army.mil
+staging.hirevets.gov
 staging.maps.coastalscience.noaa.gov
 staging.marketplace.va.gov
-staging.mycreditunion.gov
 staging.ncua.gov
 staging.ohrp.cit.nih.gov
 staging.products.coastalscience.noaa.gov
@@ -1530,7 +1530,6 @@ stg.simplereport.gov
 test.apprenticeship.gov
 test.bea.gov
 test.benefits.gov
-test.blog.dol.gov
 test.census.gov
 test.efile.dol.gov
 test.emsl.pnl.gov
@@ -1540,12 +1539,14 @@ test.fra.dot.gov
 test.hirevets.gov
 test.jobcorps.gov
 test.nac-mvp.archives.gov
+test.namus.nij.ojp.gov
 test.ncdc.noaa.gov
 test.ncei.noaa.gov
 test.next.benefits.gov
 test.nga.mil
 test.nij.ojp.gov
 test.nrd.gov
+test.nrs.ed.gov
 test.nsf.gov
 test.ojp.gov
 test.osti.gov
