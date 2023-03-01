@@ -44,6 +44,8 @@ The list of datasets that are currently used to build the target URL list is [he
 * Analysis Reports: [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
 * [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
 * [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
+* [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
+
 
 ## Resources
 * [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
