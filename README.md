@@ -33,7 +33,6 @@ The list of datasets that are currently used to build the target URL list is [he
 * [List of Federal .Gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md) 
 * [List of Websites That Participate In The Digital Analytics Program](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md) 
 * [2020 pulse.cio.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
-* [2016 End of Term Web Archive](https://github.com/GSA/federal-website-index/blob/main/source-data/eot2016.md)
 * [Other .gov Websites](https://github.com/GSA/federal-website-index/blob/main/source-data/other-websites.md)
 * [OMB Bureau/Agency Codes](https://github.com/GSA/federal-website-index/blob/main/source-data/omb-codes.md)
 
@@ -41,6 +40,8 @@ The list of datasets that are currently used to build the target URL list is [he
 Other Datasets That Are Under Consideration For Use
 * [Censys](https://github.com/GSA/federal-website-index/blob/main/source-data/censys.md) 
 * Rapid7
+* [2016 End of Term Web Archive](https://github.com/GSA/federal-website-index/blob/main/source-data/eot2016.md)
+* 2020 End of Term Web Archive
 * .gov Registry DNS
 
 ## Analysis
