@@ -1,12 +1,12 @@
 
 
-## V2, using GitHub Actions
+## V2, using GitHub Actions (active)
 
 * The process now runs automatically [once a week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) or can be triggered on demand.  
 * The order of the process is represented [in this code](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) (from the beginning to the end of the file).  
 
 
-## V1, using google sheets 
+## V1, using google sheets (inactive)
 
 1) Decide [which datasets to use](https://github.com/GSA/federal-website-index#major-datasets)
 
