@@ -4,7 +4,7 @@ The official, full list of registered domains from the .gov top-level domain, fi
 
 The file is [located here](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) and can be [downloaded here](https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv).  
 
-It contains roughly 1,200 urls.  
+It contains roughly 1,200 urls.  This is doubled though, as we also add `www.` to each of these to create a second entry (so that our target url list has, e.g., `fbi.gov` and `www.fbi.gov`).  
 
 ### Caveats
 
