@@ -55,6 +55,8 @@ if __name__ == "__main__":
     dap_df['source_list_dap'] = 'TRUE'
     dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
+    other_df['base_domain_other'] = other_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+
     # combine all URLs into one column
     url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], other_df['target_url']])
     url_df = pd.DataFrame(url_series)
@@ -94,6 +96,8 @@ if __name__ == "__main__":
         row = tuple[1]
         if row['base_domain_pulse'] != '':
             row['base_domain'] = row['base_domain_pulse']
+        if row['base_domain_other'] != '':
+            row['base_domain'] = row['base_domain_other']
         else:
             if row['base_domain_x'] != '':
                 row['base_domain'] = row['base_domain_x']

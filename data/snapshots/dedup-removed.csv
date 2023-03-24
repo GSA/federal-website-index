@@ -39,7 +39,6 @@ accessdata.fda.gov
 accessgudid.nlm.nih.gov
 accessibility.18f.gov
 accessibility.digital.gov
-accessibility.gov
 accesstest.trade.gov
 accesstocare.va.gov
 accesstopwt.va.gov
@@ -87,6 +86,7 @@ afni-dev.nimh.nih.gov
 afni.nimh.nih.gov
 agclass.nal.usda.gov
 agcounts.usda.gov
+agency.uat.usajobs.gov
 agents.floodsmart.gov
 aghealth.nih.gov
 agid.acl.gov
@@ -178,6 +178,7 @@ aoprals.state.gov
 aotus.blogs.archives.gov
 apd440.gsfc.nasa.gov
 aphis.usda.gov
+api.bls.gov
 api.data.gov
 api.digitalmedia.hhs.gov
 api.nasa.gov
@@ -185,7 +186,6 @@ api.ncbi.nlm.nih.gov
 api.open.fec.gov
 api.seer.cancer.gov
 apod.nasa.gov
-app.buyaccessible.gov
 appel.nasa.gov
 applications.cpfp.cancer.gov
 appliedsciences.nasa.gov
@@ -209,6 +209,7 @@ aqua.nasa.gov
 ar.edit.usembassy.gov
 ar.usembassy.gov
 arc.fiscal.treasury.gov
+archive-dtd.ncbi.nlm.nih.gov
 archive.ahrq.gov
 archive.epa.gov
 archive.fisheries.noaa.gov
@@ -254,6 +255,7 @@ asthmabirthcohorts.niaid.nih.gov
 astrobiology.gsfc.nasa.gov
 astroe.gsfc.nasa.gov
 astromaterials.jsc.nasa.gov
+astrowebmaps.wr.usgs.gov
 at.usembassy.gov
 atbcstudy.cancer.gov
 atf-eregs-demo.app.cloud.gov
@@ -402,7 +404,6 @@ bondpro.gov
 bones.nih.gov
 bop.gov
 bosque.gov
-boston.va.gov
 boxelder.jobcorps.gov
 bpa.gov
 bphc.hrsa.gov
@@ -431,6 +432,7 @@ business.defense.gov
 businessdefense.gov
 buyusa.gov
 bva.va.gov
+bw.edit.usembassy.gov
 bw.usembassy.gov
 by.usembassy.gov
 bz.usembassy.gov
@@ -765,6 +767,7 @@ cr.edit.usembassy.gov
 cr.usembassy.gov
 cra-q.fdic.gov
 cra.fdic.gov
+crime-data-explorer.fr.cloud.gov
 crm.usmission.gov
 crt-portal-django-prod.app.cloud.gov
 csa.fmcsa.dot.gov
@@ -775,7 +778,6 @@ csat-registration.dhs.gov
 csbf.nasa.gov
 csc.noaa.gov
 cshiip.research.va.gov
-csi-rt2.cbp.dhs.gov
 cso.nasa.gov
 csosmember.nhlbi.nih.gov
 csrc.nist.gov
@@ -912,8 +914,8 @@ dev-hads.ncep.noaa.gov
 dev-nrrd.app.cloud.gov
 dev-www.faa.gov
 dev-www.foia.gov
-dev.bea.gov
 dev.edit.irs.gov
+dev.edit.stayexempt.irs.gov
 dev.j1visa.state.gov
 dev.lep.gov
 dev.nihms.nih.gov
@@ -955,7 +957,6 @@ discover-aq.larc.nasa.gov
 discover.nci.nih.gov
 discovery.larc.nasa.gov
 disposal.gsa.gov
-distributor.hcup-us.ahrq.gov
 diver.orr.noaa.gov
 diversity.defense.gov
 diversity.nih.gov
@@ -964,7 +965,6 @@ dk.usembassy.gov
 dlmf.nist.gov
 dm.usda.gov
 dmedev.edit.irs.gov
-dmesit.edit.eitc.irs.gov
 dmesit.edit.irs.gov
 dnfsb.gov
 dni.gov
@@ -1094,6 +1094,8 @@ edit.doi.gov
 edit.dol.gov
 edit.e-verify.gov
 edit.fema.gov
+edit.fleta.gov
+edit.fletc.gov
 edit.ftc.gov
 edit.ice.gov
 edit.innovation.cms.gov
@@ -1110,7 +1112,6 @@ edit.staging.fema.gov
 edit.staging.fletc.gov
 edit.staging.ice.gov
 edit.staging.niccs.us-cert.gov
-edit.staging.ready.gov
 edit.staging.tsa.gov
 edit.staging.uscis.gov
 edit.testing.tsa.gov
@@ -1144,7 +1145,6 @@ efilingapps.fec.gov
 efoia-pal.sec.gov
 efoservices.fec.gov
 efr.fdic.gov
-eg.edit.usembassy.gov
 eg.usembassy.gov
 egov.uscis.gov
 egp.nwcg.gov
@@ -1155,6 +1155,7 @@ ehpd.gsfc.nasa.gov
 eisenhowerlibrary.gov
 eitc.irs.gov
 eitc.perf.irs.gov
+eite.edit.eitc.irs.gov
 eite.edit.irs.gov
 ejscreen.epa.gov
 eld.fmcsa.dot.gov
@@ -1426,7 +1427,6 @@ fishadvisoryonline.epa.gov
 fisheries.noaa.gov
 fisheriespermits.noaa.gov
 fisherybulletin.nmfs.noaa.gov
-fishwatch.gov
 fitbir-demo.cit.nih.gov
 fitbir.nih.gov
 fits.gsfc.nasa.gov
@@ -1441,6 +1441,7 @@ fleeteur.fas.gsa.gov
 fleeteurb.fas.gsa.gov
 fleta.gov
 fletc.gov
+flightopportunities.nasa.gov
 flightopportunities.ndc.nasa.gov
 flightsimulation.larc.nasa.gov
 flintgenesee.jobcorps.gov
@@ -1499,6 +1500,7 @@ frtib.gov
 frtr.gov
 fs.usda.gov
 fsa.usda.gov
+fsapps.nwcg.gov
 fsc.va.gov
 fsd.gov
 fsis.usda.gov
@@ -1521,7 +1523,6 @@ fws.gov
 fws.sciencebase.gov
 fwsprimary.wim.usgs.gov
 g5.gov
-ga.edit.usembassy.gov
 ga.usembassy.gov
 ga.water.usgs.gov
 gaborone.ilea.state.gov
@@ -1581,7 +1582,6 @@ ghgreporting.epa.gov
 ghr.nlm.nih.gov
 gimms.gsfc.nasa.gov
 ginniemae.gov
-giovanni-test.gesdisc.eosdis.nasa.gov
 giovanni.gsfc.nasa.gov
 gipsy-oasis.jpl.nasa.gov
 gipsy.jpl.nasa.gov
@@ -1703,7 +1703,6 @@ healthcaredelivery.cancer.gov
 healthit.gov
 healthquality.va.gov
 healthyeating.nhlbi.nih.gov
-healthypeople.gov
 heartoftexas.va.gov
 heasarc.gsfc.nasa.gov
 hec.nasa.gov
@@ -1781,7 +1780,6 @@ hr.usembassy.gov
 hrsa.gov
 hsi.arc.nasa.gov
 hsrd.research.va.gov
-ht.edit.usembassy.gov
 ht.usembassy.gov
 https.cio.gov
 https.ncbi.nlm.nih.gov
@@ -1928,7 +1926,6 @@ ipsc.ncats.nih.gov
 iq.edit.usembassy.gov
 iq.usembassy.gov
 iqrs.npdb.hrsa.gov
-ir.edit.usembassy.gov
 ir.usembassy.gov
 irb.nasa.gov
 irbo.nih.gov
@@ -1982,6 +1979,7 @@ jo.usembassy.gov
 jobcorps.gov
 jobs.cdc.gov
 jobs.occ.gov
+jobsearch.usajobs.gov
 join.tts.gsa.gov
 joinastudy.niehs.nih.gov
 joliet.jobcorps.gov
@@ -2070,7 +2068,6 @@ legacy.export.gov
 legacy.rma.usda.gov
 legacy.trade.gov
 lehd.ces.census.gov
-lemnos.gsfc.nasa.gov
 lep-pds.gsfc.nasa.gov
 lep.gov
 lersearch.inl.gov
@@ -2133,7 +2130,6 @@ lrp.nih.gov
 ls.usembassy.gov
 lspcountdown.ndc.nasa.gov
 lt.usembassy.gov
-ltdl.wr.usgs.gov
 lu.usembassy.gov
 lunar.gsfc.nasa.gov
 lunarvolatiles.nasa.gov
@@ -2328,7 +2324,6 @@ msha.gov
 msix.ed.gov
 mspb.gov
 msqs.gsfc.nasa.gov
-mt.edit.usembassy.gov
 mt.usembassy.gov
 mticatwhy.nlm.nih.gov
 mtiwhy.nlm.nih.gov
@@ -2346,6 +2341,7 @@ my.uscis.gov
 my.usembassy.gov
 my.usgs.gov
 my.uspto.gov
+myarmycivilianservice.usajobs.gov
 mycreditunion.gov
 mydfas.usajobs.gov
 mydon.usajobs.gov
@@ -2353,6 +2349,7 @@ myfaa.usajobs.gov
 myhealth.va.gov
 mymarketnews.ams.usda.gov
 mymarketnewsdev.ams.usda.gov
+mymedicare.gov
 mymoney.gov
 mypart-cms.cancer.gov
 mypba.pbgc.gov
@@ -2370,7 +2367,6 @@ naccenter.arc.nasa.gov
 naddb01.er.usgs.gov
 naddb02.cr.usgs.gov
 nadrc.acl.gov
-nadww01.er.usgs.gov
 nadww02.cr.usgs.gov
 nafri.gov
 nagb.gov
@@ -2406,7 +2402,6 @@ nato.usmission.gov
 natweb.resolve.usgs.gov
 natwebcaas01.wr.usgs.gov
 natwebsdas01.cr.usgs.gov
-natwebsdww02.cr.usgs.gov
 natwebvaas01.er.usgs.gov
 natwebvaww01.er.usgs.gov
 nauticalcharts.noaa.gov
@@ -2593,7 +2588,6 @@ npdb.hrsa.gov
 npgallery.nps.gov
 npgsweb.ars-grin.gov
 npin.cdc.gov
-npp.cdc.gov
 nps.gov
 npssearch.nps.gov
 nrc.gov
@@ -2688,6 +2682,7 @@ oig.nsa.gov
 oig.ssa.gov
 oighotlineportal.ed.gov
 oiip.jpl.nasa.gov
+oiir.hq.nasa.gov
 oit.va.gov
 ojjdp.gov
 ojjdp.ojp.gov
@@ -2890,6 +2885,8 @@ pmaint.edit.irs.gov
 pmel.noaa.gov
 pmf.gov
 pml.nist.gov
+pmlb.nist.gov
+pmlg.nist.gov
 pmm-gv.gsfc.nasa.gov
 pmmpublisher.pps.eosdis.nasa.gov
 poisonhelp.hrsa.gov
@@ -2941,6 +2938,7 @@ procurement.usaid.gov
 prod.edit.eitc.irs.gov
 prod.edit.irs.gov
 prod.edit.stayexempt.irs.gov
+prod.lep.gov
 prod.nais.nasa.gov
 prod.vcf.gov
 product-guide.18f.gov
@@ -3067,7 +3065,6 @@ regulations.gov
 rehab.research.va.gov
 rehab.va.gov
 report.nih.gov
-reportband.gov
 reporting.demo.research.gov
 reporting.gov
 repository.library.noaa.gov
@@ -3167,11 +3164,11 @@ sam.gov
 samate.nist.gov
 samhsa.gov
 sammis.gsfc.nasa.gov
+sample2.edit.usembassy.gov
 sample2.usembassy.gov
 sams.grc.nasa.gov
 sanctuaries.noaa.gov
 sandbox.ntp.niehs.nih.gov
-sandbox.usaspending.gov
 sandia.gov
 sandiego.jobcorps.gov
 sanjose.jobcorps.gov
@@ -3321,7 +3318,6 @@ semspub.epa.gov
 sep.va.gov
 separation.training.nij.gov
 seqapass.epa.gov
-services.irs.gov
 services.od.nih.gov
 sesi.gsfc.nasa.gov
 sewp.nasa.gov
@@ -3366,6 +3362,7 @@ situationroom.archives.gov
 sk.edit.usembassy.gov
 sk.usembassy.gov
 skyview.gsfc.nasa.gov
+sl.edit.usembassy.gov
 sl.usembassy.gov
 slds.ed.gov
 slgs.gov
@@ -3491,7 +3488,6 @@ staging.nia.nih.gov
 staging.niccs.us-cert.gov
 staging.regulations.gov
 staging.seer.cancer.gov
-staging.tsa.gov
 staging.uscis.gov
 staging.va.gov
 staging.waterdata.usgs.gov
@@ -3499,7 +3495,6 @@ staging.waterservices.usgs.gov
 standards.nasa.gov
 star.nesdis.noaa.gov
 starchild.gsfc.nasa.gov
-starport.jsc.nasa.gov
 state.gov
 state.test.usajobs.gov
 state.uat.usajobs.gov
@@ -3556,6 +3551,7 @@ sunearthday.nasa.gov
 supplychain.gsfc.nasa.gov
 support.nlm.nih.gov
 supportorgs.cancer.gov
+surp.jpl.nasa.gov
 surveillance.cancer.gov
 surveys.nces.ed.gov
 sustainability.gov
@@ -3570,7 +3566,6 @@ swift.gsfc.nasa.gov
 swot.jpl.nasa.gov
 swpa.gov
 sy.usembassy.gov
-sz.edit.usembassy.gov
 sz.usembassy.gov
 t-origin.cdc.gov
 t.cdc.gov
@@ -3579,7 +3574,6 @@ tailored.fedramp.gov
 talkingleaves.jobcorps.gov
 tao.ndbc.noaa.gov
 target-data.nci.nih.gov
-tartarus.gsfc.nasa.gov
 tbportals.niaid.nih.gov
 tcc.export.gov
 tco.gsfc.nasa.gov
@@ -3587,7 +3581,6 @@ tcots.epa.gov
 td.usembassy.gov
 tda.jpl.nasa.gov
 tdglobal.ksc.nasa.gov
-tdrs.gsfc.nasa.gov
 teas.uspto.gov
 teasi.uspto.gov
 tech.ed.gov
@@ -3782,13 +3775,13 @@ tz.usembassy.gov
 ua.edit.usembassy.gov
 ua.usembassy.gov
 uars.gsfc.nasa.gov
-uat-www.ojjdp.gov
 uat.bja.ojp.gov
 uat.digitaldashboard.gov
 uat.ojjdp.ojp.gov
 uat.ojp.gov
 uat.opm.gov
 uat.ovc.ojp.gov
+uat.research.archives.gov
 uat.rocis.gov
 uat.urs.earthdata.nasa.gov
 uat.usajobs.gov
@@ -3817,10 +3810,8 @@ usa.gov
 usability.gov
 usace.usajobs.gov
 usagm.gov
-usahire.opm.gov
 usaid.gov
 usajobs.gov
-usao.usajobs.gov
 usap.gov
 usaspending.gov
 usastaffing.gov
@@ -3934,7 +3925,6 @@ volcano.gov
 volcano.wr.usgs.gov
 volcanoes.usgs.gov
 volpe.dot.gov
-volpedb1.volpe.dot.gov
 volunteer.gov
 volunteer.va.gov
 vote.gov
@@ -3987,7 +3977,6 @@ webapps.nwfsc.noaa.gov
 webapps.usgs.gov
 webb.nasa.gov
 webbook.nist.gov
-webdisks.jpl.nasa.gov
 weberbasin.jobcorps.gov
 webforms.fec.gov
 webharvest.gov
@@ -4040,7 +4029,6 @@ wrclib.noaa.gov
 wrh.noaa.gov
 wright.grc.nasa.gov
 wrp.gov
-ws.edit.usembassy.gov
 ws.usembassy.gov
 ws680.nist.gov
 wsd.nlm.nih.gov
@@ -5426,6 +5414,7 @@ xk.usembassy.gov
 xte.gsfc.nasa.gov
 xyce.sandia.gov
 yali.state.gov
+ye.edit.usembassy.gov
 ye.usembassy.gov
 ylai.state.gov
 yosemite.epa.gov

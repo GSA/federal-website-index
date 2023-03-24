@@ -1358,7 +1358,6 @@ cms.health.mil
 cms.nasa.gov
 cms.nhtsa.dot.gov
 cms.nids.noaa.gov
-cms.osti.gov
 cms.phmsa.dot.gov
 cms.seaway.dot.gov
 cms.tricare.mil
@@ -1391,7 +1390,6 @@ dev.coastalscience.noaa.gov
 dev.consumer.ftc.gov
 dev.consumer.gov
 dev.contentstage.www.ed.gov
-dev.coralreef.noaa.gov
 dev.d9.justice.gov
 dev.ebilling.nrc-gateway.gov
 dev.efile.dol.gov
@@ -1410,6 +1408,7 @@ dev.grants.nih.gov
 dev.intranet.co-ops.nos.noaa.gov
 dev.ioos.noaa.gov
 dev.madeinamerica.gov
+dev.maps.coastalscience.noaa.gov
 dev.marketplace.va.gov
 dev.mycreditunion.gov
 dev.nac-mvp.archives.gov
@@ -1450,13 +1449,13 @@ edit.mymoney.gov
 edit.oig.treasury.gov
 edit.secretservice.gov
 edit.sigpr.gov
+edit.sigtarp.gov
 edit.tfm.fiscal.treasury.gov
 edit.tfx.treasury.gov
 edit.uscourts.gov
 edit.usmarshals.gov
 internal.ncifcrf.gov
 internal.sewp.nasa.gov
-internal.wma.chs.usgs.gov
 intranet.co-ops.nos.noaa.gov
 intranet.epa.gov
 intranet.ncbi.nlm.nih.gov
@@ -1499,7 +1498,6 @@ stage.cms.doe.gov
 stage.edgarfiling.sec.gov
 stage.energy.gov
 stage.filermanagement.edgarfiling.sec.gov
-stage.foiaonline.gov
 stage.madeinamerica.gov
 stage.mpw.mcc.gov
 stage.niaaa.nih.gov
@@ -1507,6 +1505,9 @@ stage.oese.ed.gov
 stage.onlineforms.edgarfiling.sec.gov
 stage.portal.edgarfiling.sec.gov
 stage.sharing.nih.gov
+stage.sites.ed.gov
+stage.sustainability.gov
+stage.tech.ed.gov
 stage.trade.gov
 stage.webdev.ofr.treas.gov
 stage.webtest.ofr.treas.gov
@@ -1531,8 +1532,6 @@ staging.gomo.army.mil
 staging.hirevets.gov
 staging.maps.coastalscience.noaa.gov
 staging.marketplace.va.gov
-staging.militaryconsumer.gov
-staging.mycreditunion.gov
 staging.ncua.gov
 staging.nrd.gov
 staging.ohrp.cit.nih.gov
@@ -1545,7 +1544,6 @@ stg.cdfifund.gov
 stg.d9.justice.gov
 stg.fiscaldata.treasury.gov
 stg.geoplatform.gov
-stg.ocio-jira.acf.hhs.gov
 stg.oig.treasury.gov
 stg.pbgc.gov
 stg.simplereport.gov
@@ -1553,6 +1551,7 @@ test.apprenticeship.gov
 test.armymwr.com
 test.bea.gov
 test.benefits.gov
+test.bja.ojp.gov
 test.bjs.ojp.gov
 test.blog.dol.gov
 test.census.gov
@@ -1579,7 +1578,6 @@ test.sites.ed.gov
 test.smartpay.gsa.gov
 test.stb.gov
 test.streamstats.usgs.gov
-test.ucms.intel.gov
 test.waterdata.usgs.gov
 test.wrp.gov
 test.www.ed.gov
@@ -1587,8 +1585,8 @@ uat.access.co-ops.nos.noaa.gov
 uat.acl.gov
 uat.amberalert.ojp.gov
 uat.bjs.ojp.gov
+uat.cdfifund.gov
 uat.cmist.noaa.gov
-uat.crimesolutions.ojp.gov
 uat.cybercareers.gov
 uat.fedshirevets.gov
 uat.fiscaldata.treasury.gov
@@ -1597,6 +1595,7 @@ uat.itdashboard.gov
 uat.justicegrants.usdoj.gov
 uat.namus.nij.ojp.gov
 uat.ncirc.bja.ojp.gov
+uat.oig.treasury.gov
 uat.opendap.co-ops.nos.noaa.gov
 uat.prosperafrica.gov
 uat.theo.opm.gov
