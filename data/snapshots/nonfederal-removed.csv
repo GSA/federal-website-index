@@ -75,6 +75,7 @@ target_url,base_domain,branch,agency,agency_code,bureau,bureau_code,source_list_
 157arw.ang.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 158fw.ang.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 159fw.ang.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+159samfrontendadmincomp.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 15af.acc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 15thmeu.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 15wing.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -191,7 +192,6 @@ target_url,base_domain,branch,agency,agency_code,bureau,bureau_code,source_list_
 55samfrontendcomp.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 55samfrontendlogin.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 55samfrontendminc.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-55samfrontendprod.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 55samfrontendprodlike.apps.prod-iae.bsp.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 59mdw.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 5af.pacaf.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -222,7 +222,10 @@ target_url,base_domain,branch,agency,agency_code,bureau,bureau_code,source_list_
 9thmcd.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 a-app-mt10.acpt.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 a-app-mt11.acpt.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+aao-se-aboutmaptis-dev.nc.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aao-se-aboutmaterialsinspace-dev.nc.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+aao-se-aboutpsi-dev.nc.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+aao-se-mua-dev.nc.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aatc.ang.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aberdeen.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 about.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -241,6 +244,7 @@ account-demo.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 account-dev.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 account-ncbi-nlm-nih-gov.ezproxy.nihlibrary.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 account-ncbi-nlm-nih-gov.ezproxyhhs.nihlibrary.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+account-pvt-passive.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 account-pvt.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 account.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ace-d3.cbp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -287,7 +291,6 @@ acv-new-epact-stage.its.nrel.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 adc-stage.nal.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 admin-di-sa.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 admin-intb.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-admin-ppd.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 admin-syst.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 admintools2.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 adr.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -309,7 +312,6 @@ afinspectorgeneral.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afirm.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afjag.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aflcmc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-aflink.usaf.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afmaa.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afmc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afnwc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -338,7 +340,6 @@ ahrpo.amedd.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ahrq-stage.ahrq.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ahwmpt-staging.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai-biscusradmqa1.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ai-clinregsappprd2.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai-dev.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai-int.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai-test.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -347,7 +348,7 @@ ai.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aiaccelerator.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aidev.volpe.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-aidv-cshs-dev1.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+aidv-nccd-bdep.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 air572.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airdomainintelligence.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airforceacademy.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -361,10 +362,8 @@ airman.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airmanmagazine.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airnowfire-blue.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airpac.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-airs-cms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airsnrt2.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airuniversity.af.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-airuniversity.usaf.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ak-commerce-opog-commerce9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ak.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akadev-ion-www.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -393,6 +392,7 @@ akastage-mchbgrandchallenges.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage-poisonhelp.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage-wecandothis.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage-www.foodsafety.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+akastage-www.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage.reproductiverights.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage1-ion-www.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 akastage2-ion-www.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -409,7 +409,6 @@ akauat-ion-www.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 al.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 alaska-mdc.diver.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 albany.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-all-hands.navy.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 all-sorns.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 allhands.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 alpenacrtc.ang.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -455,7 +454,6 @@ api-ccte.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 api-tanfdata.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 api.abmc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 api.globe.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-apidev.opadev.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apisstaging.niaaa.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apistaging.globe.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 app-dev.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -466,6 +464,7 @@ app-test3-dcc.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 app-test4-dcc.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 app-test5-dcc.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 app.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+app.origin.studentaid.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 app1dr.osti.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 applocker.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps-beta.nationalmap.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -477,16 +476,18 @@ apps.glerl.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps.nifc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps.nssl.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+apps2dev.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps3prd.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apps3tst.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 appsc.bea.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 appsd.bea.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+appsdirdev.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+appsdirprd.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 appsdirtst.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apstarc.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apt.sec.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ar.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcacc.fiscal.treasury.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-arcent.army.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 archive.ada.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 archive.revenuedata.doi.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcp.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -520,14 +521,13 @@ arscareers.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arsouth.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 artcrimes.fbi.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arun-cdo9-200-cdo9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+arun-commerce9-1121-commerce9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 asafm.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 asb.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ascan-references-int.fit.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aschq.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-aspv-oadc-mon1.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 at-iqrs.npdb.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 at.dod.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-at.npdb.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 atdv-wndr-1.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 atec.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 atlantic.navfac.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -545,7 +545,6 @@ authinternal.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author-publish.cms.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author-publish.dev.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author-publish.test.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-author.cms-web32.adsd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author.cms-web7.qa.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author.cms.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 author.dev.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -592,6 +591,7 @@ bds.explorer.ces.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beacon.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beale.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beale.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+bear.staging.search.usa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beaufort.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beaufort.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bec.ic3.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -610,7 +610,6 @@ beta.access-board.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.acpt.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.ada.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.aws-dev.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-beta.cem.vaec.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.childcare.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.clinicaltrials.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 beta.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -627,6 +626,7 @@ betaforums.huduser.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 betamgmt.huduser.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 betatest.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bg-crawford.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+bhsint.econ.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bhwnextgenpreprodcloud.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bic.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bil.test.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -666,11 +666,9 @@ bmtflightphotos.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bnpdev.bankdev.occ.treas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bnpstage.bankdev.occ.treas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bootcamp.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-bop-ps1-apps04.bop.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bop-sallydvlp.bop.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bpvhxwviis306.lab.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bracpmo.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-brad.nrd.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bragg.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bremerton.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 briandallgood.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -730,6 +728,8 @@ carsb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 carseurb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 carson.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 carto-wfs.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+carto.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cartowfs.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cas.niddk.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 casa.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 casac.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -746,6 +746,7 @@ catcfo.sba.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 catpx-custreg.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cbirf.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ccad.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ccc-q422-web-wildfly-0.fqt.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cce-datasharing-dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cce-datasharing-shumana.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cce-dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -777,10 +778,12 @@ ccte-impact-dev.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ccte-impact.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ccte-res-ncd.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cd.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cd03.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cdas.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cdaweb-dev.sci.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cde.dev.ucr.cjis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cde.nida.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cde.part.ucr.cjis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cde.ppd.ucr.cjis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cde.test.ucr.cjis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cde.ucr.cjis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -802,6 +805,7 @@ cebs.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cebsp10.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cebsp11.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cedar.opm.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cedcd-dev.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cedcd-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ceds.communities.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cedsci-web66.stage.ced.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -816,7 +820,7 @@ cervixca.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cesdatad.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cesdataorigin1.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cfcprodcopy-vss.phdc-test.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cfctest3-vss.phdc-test.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cfgov-eks.dev-public.aws.cfpb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cflpractice.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cfmedicine.awsprod.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cfo.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -833,7 +837,6 @@ charleston.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 charlie.sam.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 charon.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 chemapps.stolaf.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-chemm-app-test.beam.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 chemm.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cherrypoint.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cherrypoint.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -846,11 +849,10 @@ chpl-dev.healthit.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 chpl-migration.healthit.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 chpl-qa.healthit.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 chpl-stg.healthit.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cic-12-2-apache-drupal01.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cic-12-2-apache-drupal04.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cic-staging.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cic.ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cidr-webadmin.econ.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cidr-webadmin.train.econ.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cidr-webpub.dev.econ.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cidr-webpub.test.econ.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ciidta.communities.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -861,7 +863,6 @@ civics.archives.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cjsl.ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 classic.clinicaltrials.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 classification-us-east-1.awsprod.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-classification-us-east-1.awsqa.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 classification.awsprod.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 classification.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cleanairnortheast.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -872,6 +873,7 @@ clint13.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 clinton.presidentiallibraries.us,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 closedbanks-d.fdic.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cloud-dev.d2d.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cloud.go2.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cloud.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cloud.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cloudfront.www.sba.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -880,6 +882,7 @@ cm.nems.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cm.orf.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cm.ors.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cm.sgeportal.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cm.traffic.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cm.wellnessatnih.ors.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cm1.fsa.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cmadmin.staging.es.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -888,6 +891,7 @@ cmn.nimh.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-acceptance.osti.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-app3.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-app4.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+cms-dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-dev.osti.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-drupal-hrsa-prod.cloud.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cms-drupal-intranet-prod.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -933,7 +937,6 @@ compass.er.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 compliance.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 compsimsolutions.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 comptoxstaging.rtpnc.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-concrete.el.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 connect3prd.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 constitutionday.cpms.osd.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 content-drupal-gulfspill.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -961,9 +964,7 @@ covid19serohub-dev.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 covid19serohub-stage.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 covid19serohub.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 covid19travelinfo-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-covid19travelinfo-dev.origin.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 covid19travelinfo.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-covid19travelinfo.origin.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 covidtests.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cpf.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cpo.communities.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -990,8 +991,10 @@ crisisnextdoor.trumpwhitehouse.archives.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALS
 cross-sim.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 crossfunctional.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 crt-portal-django-stage.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+crusr.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cryosparc.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csa-dev.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+csa-test.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csadev.volpe.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csat-registration-demo.ornl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csat.bjs.ojp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1007,7 +1010,6 @@ csp.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csp.wisconsin.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csp.wv.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csr.dotgov.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-csrc.test-e1a.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 csrc.test-e1c.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 css-staging.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cssi-dev2.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1063,7 +1065,6 @@ data-beta.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data-dev.snafu.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data-science.test.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data-science.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-data-stage.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.at.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.canary.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1075,25 +1076,28 @@ data.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.er.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.er.ditd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.fr.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-data.fr.ditd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.geoplatform.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.lhncbc.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.ntsb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.pmel.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.preprod.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+data.pt.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox1.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox11.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+data.sandbox12.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox13.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox14.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox16.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox18.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox2.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox3.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+data.sandbox5.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.sandbox9.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.staging.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.test.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data.test.ncei.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 data1.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+data2.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datacatalog.ccdi.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datacommons-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datacommons-stage.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1109,11 +1113,11 @@ dataservice-dev.datacommons.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dataservice-qa.datacommons.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dataservice-stage.datacommons.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dataservice.datacommons.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-datastage1.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datatest.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datatools.ahrq.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datavault.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 datavaultdev.opadev.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+datavaultqa.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dave-cldp-175-cldp9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dave-commerce9-1145-commerce9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 davismonthan.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1125,8 +1129,7 @@ dc.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dc3.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dcaa.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dceg-prod-acsf.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dcegconnect-cms-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dchqdomino1.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+dcegconnect-cms.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dcm.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dcma.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dcms.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1139,6 +1142,7 @@ ddp-dev-2.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-dev.ita.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-dev.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-edit.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ddp-edit.whistleblowers.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-preview.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-staging.ita.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddp-staging.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1149,10 +1153,8 @@ ddp-www.osha.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ddt-vehss.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 de.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 deagovstage.dea.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-deais-info-dev.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 deais-info-test.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 deajobs.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-defense.dod.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 defenseculture.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 defensesbirsttr.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 defensetravel.dod.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1169,6 +1171,7 @@ detroit.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-03-drupal-climate.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-04-drupal-climate.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-acquia.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+dev-apps.ocfo.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-blm.sciencebase.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-blog-nrrd.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-brt.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1177,14 +1180,12 @@ dev-cms.fs.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-cms.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-doi.sciencebase.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-drupal9-climate.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dev-dsfa.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-erma-ui.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-esc-preview.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-financeweb.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-forecast-precip-wpc.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-iis.ocfo.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-mmhsrp.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dev-ncvs.bjs.ojp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-onrr-frontend.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-perm.flag.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-seafoodinspection.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1207,7 +1208,6 @@ dev4.demo.cfpb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev4.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev4.simplereport.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev4bhwnextgen.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dev4programportal.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev5.demo.cfpb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev5.simplereport.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev6.simplereport.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1254,6 +1254,7 @@ dhra.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dhs-ocss-ssp.enterprise.ri.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dhscs.test.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dhscs.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+dia-dev.dod.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dia.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 diabetespath2prevention-int.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 diabetespath2prevention.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1284,7 +1285,6 @@ dla.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dla.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dm.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dma.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-dmb-monitor-dashboard.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dmb-test-dashboard.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dmcs.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dnfsbdev.dnfsb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1324,7 +1324,9 @@ drivethrud.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 drum.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 drumcorps.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 drupal-internal.ntp.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+drupal9-dev.dev-store.chs.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 drupal9-production.store.chs.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+drupal9-staging.dev-store.chs.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dsb.cto.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dsd-web12.dev.demo.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dsnbbs.ncr.disa.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1371,7 +1373,6 @@ ecom-cat.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ecps-ext-dev.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ecps-ext-stg.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ecps-qa.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-eda-cdn.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eddataexpress.dev.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eddataexpress.stage.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eddm.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1392,20 +1393,12 @@ edgarfiling-main-stable.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FAL
 edgarfiling-mr-2224.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-5827.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-5930.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6222.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6321.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6456.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6470.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6481.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6486.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6491.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6499.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6506.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6524.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6526.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6534.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6536.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-edgarfiling-mr-6537.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6538.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6539.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6542.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1419,18 +1412,31 @@ edgarfiling-mr-6612.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,F
 edgarfiling-mr-6637.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6640.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6642.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6643.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6648.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6651.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6652.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6655.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6659.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6661.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6663.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6665.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6666.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6679.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6685.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6689.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6690.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6691.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6697.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-mr-6703.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6707.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6716.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6718.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6721.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6739.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6740.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6742.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edgarfiling-mr-6746.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-release-canary.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edgarfiling-release-stable.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edges.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1449,7 +1455,9 @@ edit-ogc.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edit-preview.cisa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edit-staging.cisa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edit-staging.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edit-staging.schoolsafety.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edit-testint-biometrics.cbp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+edit-uat-www.eeoc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edpass.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 education.arlingtoncemetery.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 edwards.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1492,7 +1500,6 @@ energystar.staging.es.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 energystar.test.es.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 engage.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 engineering.18f.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-enrollmentcenter.medicare.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ensight.eosdis.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 enterpriseservices.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 environment-dev.volpe.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1526,6 +1533,7 @@ esdresearch-dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esdresearch.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esi.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 espanol-covid.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+espanolauthor.nichd.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esta-sit.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esta-test.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 estta-fqt.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1534,7 +1542,7 @@ estta-sit.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esubmit-devtemp.oai.bts.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 esubmit-test.oai.bts.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 etas-fqt.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-etas-madrid.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+etas-q322-madrid-wildfly-0.fqt.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ethicssao.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 etic2.nps.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 etict.nps.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1548,6 +1556,7 @@ events.webext.staging.appdat.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 events1-1-pz.sewp.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 events1-2-pz.sewp.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 evs-sip.ha2.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+evweb.ornl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ewtgpac.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 exis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 exoplanets-cms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1558,7 +1567,6 @@ exploregwas-qa.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 exploregwas.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 expokids.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ext-courtsweb.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-extapps-test.ksc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 external.webext.staging.appdat.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 extwiki.acpt.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 exwc.navfac.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1573,6 +1581,7 @@ factorstage-acquia.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fairchild.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fairchild.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 falcon.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+famdev.nwcg.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 famprod.nwcg.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 famtest2.nwcg.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 faq.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1588,7 +1597,6 @@ fdc-stage.nal.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fdp.astrogeology.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fec-feature-cms.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalcomments.sba.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-federalist-13589e88-efbe-45eb-8f89-5360fdd0483b.sites.pages-staging.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-14ccf384-8bd5-4e30-aa95-a5fe5894e3c1.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-16bec0ab-dd6f-45ed-8314-3a790c79298a.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-1716bf9c-dd79-4d96-8285-6e56dc391b84.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1600,17 +1608,16 @@ federalist-2372d2fd-fc94-42fe-bcc7-a8af4f664a51.sites.pages.cloud.gov,,Executive
 federalist-2ac784db-2321-4734-8d02-933835d88304.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-2c628203-05c2-48ab-8f87-3eda79380559.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-2f194a10-945e-4413-be01-46ca6dae5358.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-federalist-44e5982c-e9de-47b1-a21e-3baf570a5526.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-466b7d92-5da1-4208-974f-d61fd4348571.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+federalist-48b3228b-0241-4802-9442-e08ff5c3e680.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-4be496a3-cca3-4187-b4d4-c3d573ae3139.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-61b9594e-083a-41f6-89bb-8b418db4ccf9.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-federalist-67816181-8ac2-428b-bc4e-be2d38d8f3ea.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-72f8c817-7f2f-4b96-8b07-a8b9314c7a4a.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-7a132a2e-6307-4cd0-9f82-e30e871d214a.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-85357bc9-1249-41ef-98fc-280b69ce96be.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-92a82776-1dfb-4c5a-9366-896b2f358138.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-92b5c263-14e3-4225-a235-5ee71593c138.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+federalist-96b31d01-fd9f-4ced-b87c-39bda5d12b65.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-9b06719f-4ddf-4b5e-92cf-4df82a05922b.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-9ced6b17-00dc-42ae-b318-a64b44bb24f0.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 federalist-9dc074d2-9bb0-4720-8e37-036899ae1463.sites.pages.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1632,7 +1639,6 @@ federalist-f7cff978-bf3d-4aaa-bbff-a77bbfc6d827.sites.pages.cloud.gov,,Executive
 federalregister.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fedidcard-staging.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fedregdev.opadev.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-feeprocessingportal-passive-test.fqt.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 feeprocessingportal-test.fqt.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 feeprocessingportalpassive.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fees-dmz-alx1.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1649,13 +1655,14 @@ fhwatest.fhwa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fia.fs.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 filermanagement-beta.edgarfiling.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 filermanagement-edgar-troi.apps.stg.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-filermanagement-main-stable.apps.edg-int.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-filermanagement-mr-6243.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+filermanagement-main-stable.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+filermanagement-mr-5827.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 filermanagement-mr-6652.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fincen-dev.env2.fincen.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fincen-sit.env2.fincen.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fincen-test.env2.fincen.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 findahealthcenter.dev.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+findahealthcenter.test.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 findingaids.awsint.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 findingaids.awsqa.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 findingaids.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1666,12 +1673,12 @@ first-public-stage.apps.k8s-ext.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FA
 first-public-test.apps.k8s-nonprod.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 first.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fiscaldata.treasury.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-fitbir-dev.cit.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fitbir-stage.cit.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fitbir-uat.cit.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fitness.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fl.acpt.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fl.dev.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+fleetautoauctionsb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fleetb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fleetd.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 flowsheet-lhc-prod.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1697,6 +1704,7 @@ fpls.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fpls.dcfs.la.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fplssyt.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fplstest.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+fplsuat.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fpng-int-test.fqt.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fqt.fpng.awslab.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fqt1egrants.cns.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1715,6 +1723,7 @@ fs-www-avi-lb-pz.sewp.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fs1.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fsabcl-nonb01d.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fsabcl-nonb01p.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+fsabcl-rid02p.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fscigl-migen01d.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fscnpl-bnkly01p.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fsis-dev.fsis.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1728,9 +1737,7 @@ fsxsnpf0167.fdc.fs.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ft.future.its.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ftdev.pay.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ftig.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ftp.wildfire.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fuji.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-furlswsint-sbx.dev.fda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fusionftp.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 futures.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 g5dev2.dectest.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1745,6 +1752,7 @@ gcgx.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gcplearningcenterdev.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gcplearningcenterqa.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gdh-data-hub.service.l5d.query.bethesda-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+gds.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 geocode.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 geonarrative.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 get.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1769,7 +1777,6 @@ gordon.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gosere.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gpdashboard.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gpo.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-gps12.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 grace-cms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 grafenwoehr.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 grandforks.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1778,6 +1785,7 @@ graphical.mdl.nws.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 grasp_internal_test.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 greely.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 green-archivesspace-us-east-1.awsint.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+green-archivesspace-us-east-1.awsqa.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 green-uts-us-east-1.awsint.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 greengov.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 grgb.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1822,6 +1830,7 @@ hacc.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hads-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hadsdev.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hadsqa-bldr.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+hadsqa-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hadstops-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 hadstqa-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 halekoa.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1912,6 +1921,8 @@ hypertension.millionhearts.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i-nspires.nasaprs.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i-web-l-www01.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i-web-l-www02.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+i2f.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+i5k-dev.nal.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i5k-node1-cbo.nal.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i5k-stage-node1-cbo.nal.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 i94-test.sat.istio.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1960,7 +1971,6 @@ idp.mdiarra.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.mww59.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.p3ch3n.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.pauldoom.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-idp.ryandbrown.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.scanners.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.sshelton.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 idp.ubuntu2004.identitysandbox.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1980,14 +1990,18 @@ il.ngb.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ilet.state.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 iload.fpds.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagery.nationalmap.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+imagery.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+imagesadmin.nigms.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagesadminstage.nigms.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagesstage.nigms.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagic-prod.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagic-stage.lhcaws-test.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+imaging-test.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imagingtherapy.nibib.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 imef.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 immport-qa.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 immport-user-admin.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+imp.innovation.cms.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 import.ecfr.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 in.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 inactive.fiscaldata.treasury.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2027,9 +2041,7 @@ internal-prod-elis2.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internal-pt-elis2.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internal-trn1-elis2.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internal-trn2-elis2.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-internalapps.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internalbqs.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-internalqsb.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internals.coast.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internationalclaims.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internet-12-3-test-admin.apps.nonprodaro.nhlbi.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2047,6 +2059,7 @@ intra.ams.ncei.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 intra.gp.usbr.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 intra.mp.usbr.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 intra.usbr.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+intrahr.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 intrawebdev2.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 intrawebdev2.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ioa-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2060,6 +2073,7 @@ ipmc-dev11.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ipmc-dev15.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ipris.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 iprradmin.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ipv6.energystar.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 irad.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 irb-int.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ireland.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2081,7 +2095,6 @@ itad.dev.dsd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 italy.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 itb.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 itcdweb.hq.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-itcdweb.stage.hq.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 itcr-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 itcr-prod.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 itest.fpds.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2114,7 +2127,6 @@ jblm.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jblmdesignstandards.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jbmdl.jb.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jbmhh.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-jbsa.dod.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jbsa.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jcs.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jcu.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2171,7 +2183,6 @@ keesler.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 keller.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 kenner.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 keystone.ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-kidsdev-acquia.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 kimbrough.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 kirk.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 kirtland.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2188,7 +2199,6 @@ kwajalein.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ky.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 kyeb.uscourts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 labs-beta.waterdata.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ladmfawstest.ntis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lakenheath.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 landstuhl.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 langleyeustis.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2200,6 +2210,7 @@ lbj.artifacts.archives.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lbjlibrary.org,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ldlink-dev.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ldlink-qa.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ldlink-stage.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 learcat.bjs.ojp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 learningprofessionals.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 leavenworth.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2227,8 +2238,7 @@ lforms-fhir.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lforms-fhir.wip.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lforms-service-vip.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lforms-service-wip.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-lhc-lx-lexdev.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-lhc-lx-lexdev01.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+lhc-lx-openidev.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lhc-lx-plynch.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lhc-lx-sedinkinya.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lhc-lx-xiehao.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2248,8 +2258,8 @@ live-dojoig.oversight.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 live-www-goesr.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lmjmfcis101421.cis1.cisr.uscis.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lms.nel.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-local-collections-1.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 local-collectionsdev-1.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+local-vsac-1.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 local-vsac-qa-1.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 local.cedar.opm.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 local.cioa.opm.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2277,10 +2287,10 @@ lrp-test.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lrp.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 luke.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 luke.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-luna2.hesc.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lvgwebtools.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lyster.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 m.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+m04bmm-devweb.ent.ds.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 m2m.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 macdill.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 macdill.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2288,7 +2298,6 @@ macg28.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madeinamerica.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madigan.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madis-bldr.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-madis-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madisdev.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madisqa-cprk.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 madisqa.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2304,12 +2313,11 @@ magazine-local.medlineplus.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 magpara-bldr.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 magpie-prod.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 magpie-stage.lhcaws-test.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-magtest.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 maintenance.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 malmstrom.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 malmstrom.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 maps-beta.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-maps-dev.snafu.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+maptis.uat.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marcent.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 march.afrc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marcorsyscom.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2327,7 +2335,6 @@ marinerhiring.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marines-dev.usmc.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marines.usmc.afpims.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-marines.usmc.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marketplace.geoplatform.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marketplace.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mars.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2379,6 +2386,7 @@ mcsfr.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mcwl.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mda.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mdctmcr.cms.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+mdsdev.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 me.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 meade.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 med.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2400,6 +2408,7 @@ mf.dev.nrs.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mgmt.huduser.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mhs-europe.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mhs02.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+mhs03.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mhv-di-sa.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mhv-intb.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mhv-syst.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2465,10 +2474,10 @@ msc.navy.afpims.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 msc.usff.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 msiexchange.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mssp.uscourts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+mua.uat.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 munson.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 music.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 music.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-music.usaf.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mvd.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mvk.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mvm.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2485,7 +2494,9 @@ my-dev.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my-passive.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my-pvt-passive.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my-pvt.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+my.dod.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my.joint.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+my.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 my.ttb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 myafn.dodlive.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2495,7 +2506,6 @@ mydata.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mydata.staging.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mydata.test.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mymarketnewsdev2.ams.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-mynavyhr-dev.navy.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mynavyhr.navy.afpims.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mynavyhr.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mypart-cms-test.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2531,7 +2541,6 @@ natweb-test.usgs-test.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nau.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navalaviationnews.navylive.dodlive.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navalsafetycommand.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-navcms.navy.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navfac.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navifor.usff.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 navsea.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2551,13 +2560,12 @@ nccddev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nccdintra.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nccdqa.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nccrexplorer.ccdi.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-nccs-collections-1.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ncd.sites.eop.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nceo.communities.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncgm.uscg.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nci60.ha2.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncias-p2470-v.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncias-p2471-v.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-nciconnect-cms-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncif-future.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncif-staging.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncif-support.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2567,6 +2575,7 @@ ncim-data-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncim-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncirc.bja.ojp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncis.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ncit-data-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nciterms-data-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nciterms-qa.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nciws-d1066-c.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2576,6 +2585,7 @@ ncler.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncolcoe.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncoworldwide.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncp.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ncp.test-e1a.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncp.test-e1c.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncptsd.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ncrmsqa.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2592,7 +2602,6 @@ ndia.dtic.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndmsepca01.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndmsepua01.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ndupress-ndu-edu.gcmc.idm.oclc.org,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndupress-ndu-edu.translate.goog,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndupress.ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndw.cnic.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2600,7 +2609,6 @@ necc.usff.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 neddev.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nedtest.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nehrpsearch.el.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-neicommonsworkspace.nei.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 neidatacommons-stage.cit.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nellis.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nellis.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2613,6 +2621,7 @@ neportstg.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nes.energy.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nesdnow.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nesr.fns.agcloud.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nesr.staging.platform.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nesruat.fns.edc.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nessadmin.ntis.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 netc.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2632,6 +2641,7 @@ news.uscg.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 news.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 newsroom.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 newweb.sba.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+next-test.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nfrp-dev.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nfrtest.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nga.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2654,6 +2664,10 @@ nidcdstg.nidcd.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nidcdtest.nidcd.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nihnimhdir.nimh.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nihpublications-test.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nihwamweb5.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nihwamweb6.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nihwamweb7.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nihwamweb8.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nimhimgprd.nimh.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ninr-test.ninr.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nioccs4.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2696,9 +2710,9 @@ nsw.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntlrepository.bts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntpdev.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntpdocs.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ntpsearch-dev.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntpsearch-test.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntptest.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ntptools-dev.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntptools.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ntts.arc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nvd.test-e1a.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2730,7 +2744,6 @@ observer.globe.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 obtportal.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 occgovwepsstg.occ.treas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 occpr-dev.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-occpr-stage.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ocdb.smce.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oceannoise.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ocfootsprod1.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2767,7 +2780,6 @@ oighotline.np.nrc-gateway.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oighotline.nrc-gateway.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oigportal.oig.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oitecareersblog.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ojpsdcweb256.ojp.usdoj.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ok.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 okinawa.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 okinawa.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2788,19 +2800,15 @@ oni.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineclaims.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-edgar-beta.appsdmz.edg-stg.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-edgar-troi.apps.stg.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-onlineforms-main-canary.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-main-stable.apps.edg-int.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6304.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6308.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6352.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-onlineforms-mr-6467.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6469.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6491.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6499.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6500.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-onlineforms-mr-6511.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6520.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-onlineforms-mr-6521.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6529.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6545.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6546.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2821,6 +2829,14 @@ onlineforms-mr-6679.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,F
 onlineforms-mr-6683.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6684.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-mr-6685.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6697.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6701.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6717.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6735.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6736.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6737.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6738.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+onlineforms-mr-6745.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-release-canary.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 onlineforms-release-stable.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ono.ccmc.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2834,6 +2850,7 @@ openi-wip.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 opmtest.uat.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 opmtest.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 opotxfind.test.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ops-bean1.sewp.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 opstest.fhwa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 orator-map.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 orbitaldebris-dev.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2841,7 +2858,6 @@ orders.gpo.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ordspub.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ordsstage.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 organizations.nsopw.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-origin-apps-afsc.fisheries.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-aws-espanol.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-aws-www.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-catpx-about.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2862,7 +2878,6 @@ origin-fs.fs.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-prod.simplereport.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-qa-api.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-seafoodinspection.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-origin-stage.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-wdr.doleta.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-west-en.epaweb-prod.aws.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-west-www-nhc.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2871,6 +2886,7 @@ origin-west-www-satepsanone.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-west-www-spc.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-west-www-wpc.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-www.faa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+origin3.www.fsa.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 originwww.nrs.fs.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ors-od-nih-gov.ezproxy.nihlibrary.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ors-od-nih-gov.ezproxyhhs.nihlibrary.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2884,7 +2900,6 @@ osh-slat-int.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 osh-slat.apps.ecpaas-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 osh-slat.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oshacareers.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-oshpubcatalogadmin.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oshpubcatalogadmindev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oshpubcatalogadminstage.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 oshpubcatalogadmintest.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2909,8 +2924,6 @@ p-app-l-rgovsvc02.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p-app-mt10.prod.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p-app-mt11.prod.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p-web-l-www01.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-p-web-l-www02.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-p-web-l-wwwacpt1.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p-web-mt10.prod.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p-web-mt11.prod.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p1.dso.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -2989,11 +3002,10 @@ phc.amedd.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phccm.amedd.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phcp.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phiesta.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+phiestadev.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phiestaqa.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phiestastg.niaid.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-phlrequest-staging.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phlrequest.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-physics-cms.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 physics-dev-acsf.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 physics-prod-acsf.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 physics-test-acsf.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3024,14 +3036,14 @@ polk.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pope.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pope.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 popo.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+portal-beta.edgarfiling.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal-beta.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-portal-main-stable.apps.edg-int.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+portal-main-stable.apps.dev.edg.ixdmz.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal-staging.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal-test.fmcsa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal.challenge.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal.imaging.datacommons.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal.navsea.cloud.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-portaldevrh8.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portalrh8.nas.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ports.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portsmouth.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3048,6 +3060,7 @@ pramsarf.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 preprod-rt.dtic.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 preprod.ebilling.nrc-gateway.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 preprod.pki.eauth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+preprodvp.ecms.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 presidio.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 preview-onrr-frontend.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 preview-prod.vfs.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3096,6 +3109,7 @@ prs.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ps.staging.platform.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pscc.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 psdi.astrogeology.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+psi.uat.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 psiuserregistration.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 psmagazine.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 psnet-staging.ahrq.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3110,20 +3124,18 @@ pty2my.americorps.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pub-data.diver.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pub-datapre.diver.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pub-portaldev.diver.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-pub-proxy2-ext.esrl.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubchem.st-va.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubchemdev12.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubchemdev21.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 public-dev.ksc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 public.cyber.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-public.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 publicaffairs.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 publications.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 publish.cms-web3.asd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-publish.cms-web33.adsd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 publish.nrc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubmed-d.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubmed-ncbi-nlm-nih-gov.dbgateway.nysed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+pubmed-ncbi-nlm-nih-gov.nduezproxy.idm.oclc.org,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubmed-ncbi-nlm-nih-gov.proxy.library.ohio.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubmedhh-prod.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pubmedhh-stage.lhcaws-test.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3139,6 +3151,7 @@ pvpact.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pvt-components.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pvt-tsdr.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pwms.treas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+pwp-snapshot-2.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pwp-snapshot-dev-1.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pwp-snapshot-dev-2.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pwp-snapshot-dev-4.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3157,6 +3170,7 @@ qa-gcmrc.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qa-osh-slat.apps.ecpaas-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qa-stacks.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qa-viewer.weather.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+qa-web.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qacur.pay.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qadev.pay.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qars.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3164,9 +3178,9 @@ qarsdev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qas.unicor.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qat.fiscaldata.treasury.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qavetrecs.archives.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-qawebapps.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qed.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qedlinux1stg.aws.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+qfrdb.hq.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qlikdev.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qlikviz.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qpl.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3180,6 +3194,7 @@ quick.hfs.illinois.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quick.sd.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quickkidscsb.dcs.in.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quickohio.jfs.ohio.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+quickstatsdev.nass.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 r7atwork.r07.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 radar-bo.weather.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 radar-cp.weather.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3194,6 +3209,7 @@ raisz.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ramstein.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ramstein.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ransomware.ic3.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+raportal-uat.vpn.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rapweb-dev.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rasopathies.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 raymond-bliss.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3206,6 +3222,7 @@ reach-test.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 reach.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ready.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ready.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+realestatesalesb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 realmail.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 receivership.fdic.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 reclamationcareers.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3247,6 +3264,7 @@ riverstreamassessment.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rma.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rmc.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 roads.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+roadsb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 robins.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 robins.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rockisland.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3269,19 +3287,21 @@ rtorstg.rtpnc.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rucker.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rural.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rural.staging.platform.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ruraldevelopment.rancher.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rxmix-stage.lhcaws-test.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rxnav-stage.lhcaws-test.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rxterms-vip.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rxterms-wip.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rxterms65-vip.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ryanwhite.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+s-app-fl01.dev.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s-app-fl02.dev.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s-app-fl04.dev.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-s-app-l-rgovdev05.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s-web-l-www01.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s-web-l-www02.nsf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s1p-extdrup8-00.uxpax.usitc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s1p-extdrup8-01.uxpax.usitc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+s3c.sandia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 s3vi-staging.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sa.dev.nrs.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sab.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3304,6 +3324,7 @@ sallyport.bop.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sam.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sample.usembassy.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 samples.moonshotbiobank.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+sandbox-cm1.fsa.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sandbox.fsa.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sandiego.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sarcomacelllines.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3341,6 +3362,7 @@ sda.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sdasacc.fiscal.treasury.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sdo7.nascom.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sdo8.nascom.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+sdt-sandbox.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sdwis.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sdwisstg.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seabeemagazine.navylive.dodlive.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3367,7 +3389,6 @@ securestage.rrb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 securetest.rrb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 security.cms.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 securityhub.usalearning.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-sed-d8dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sedwebdev-new.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sedwebdev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seed.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3430,7 +3451,6 @@ soccer-dev.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 soccer-stage.nci.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 software.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 solarsystem-cms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-solc-dev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 soma-d.larc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 soma.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sonar.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3466,6 +3486,7 @@ spk.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spl.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spn.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spnuat.nichd.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+spnuatauthor.nichd.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spoc.spaceforce.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sporapweb.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spotlight.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3484,7 +3505,6 @@ ssaisanfrancisco.test.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssc.spaceforce.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssd-api-dev.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssfl-staging.msfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-sso-edgar-beta.appsdmz.edg-stg.sec.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssp.cs.dhs.nd.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssp.dcss.ca.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssp.dss.virginia.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3518,8 +3538,6 @@ stagenorc.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stagenwd.acl.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stageouiextweb.doleta.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-analytics.kansas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-armi.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-armymedicine.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-businessdefense.acq.osd.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-ca.water.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-cm.water.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3529,7 +3547,7 @@ staging-erma-ui.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-esc-preview.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-esc.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-fl.water.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-learn.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+staging-hearing.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-leatherdata.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-mars.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-marscms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3537,13 +3555,14 @@ staging-meps.ahrq.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-mobile.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-or.water.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-perm.flag.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+staging-sc.water.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-stacks.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-www.acq.osd.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-www.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-www.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 staging-www.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+stagingprod-seafoodinspection.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 standards-dev.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-standards-stage.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 starcom.spaceforce.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stat.nist.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 state-tables-d.fdic.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3562,8 +3581,8 @@ stfm.webtest.ofr.treas.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stg-bloodstemcell.cloud.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stg-marketplace.geoplatform.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stg-mbda9.d.commerce.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+stg-samhsa-dpt2.samhsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stgdatafiles.samhsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-stgpdas.samhsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stgstore.samhsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stl.disa.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 store.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3587,10 +3606,8 @@ surveyreviewbeta.nass.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sustainability-web-dev.ace.nrel.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-cgv-browser-496-b3e0-app01.service.l5d.query.bethesda-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-cgv-browser-500-b6ff-app01.service.l5d.query.bethesda-prod.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-svc-http-pmdm-1546-2881-app01.service.l5d.query.aws-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-pmdm-1552-1f7-app01.service.l5d.query.aws-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-pmdm-1554-a773-app01.service.l5d.query.aws-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-svc-http-sciencv-django-1052-1d17-app01.service.l5d.query.bethesda-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-sciencv-django-1056-89cf-app01.service.l5d.query.bethesda-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svc-http-sciencv-django-1081-f062-app01.service.l5d.query.bethesda-dev.consul.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 svsdev.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3602,7 +3619,6 @@ swf.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swfsc-publications.fisheries.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swg.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swl.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-swot-cms.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 swt.usace.army.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 syntheticbiology.nibib.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 systest.adams.nrc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3618,7 +3634,6 @@ tasa.dma.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder11.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder12.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder13.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-tcbuilder14.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder15.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder21.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tcbuilder22.be-md.ncbi.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3628,7 +3643,6 @@ tdp-backend-develop.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tdp-backend-staging.app.cloud.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 teamsite.bop.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 teamsite.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-teamsite.www2.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 teamsiteqa.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 teas-sec-app-fqt.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 teas-sec-app-sit.etc.uspto.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3653,6 +3667,7 @@ techtransfer.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tecom.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tellusstaging.arsnet.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tesseract.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+test-apps.ocfo.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test-certificate-seafoodinspection.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test-dsfa.nmfs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test-east-www-ospo.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3674,6 +3689,7 @@ test3bhwnextgen.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test3programportal.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test4bhwnextgen.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 test4programportal.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+testcnap.nhlbi.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 testinet.orr.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 testinglocator.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 testinglocatordev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3691,10 +3707,8 @@ tinker.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tinker.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tlc.response.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tmcpfstest.fhwa.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-tmss-1-2ppuiux-ppang031201.prod-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-tmss-1-9ang-ang14up031001.test-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tmss-2-54-prodrel032201.prod-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-tmss.test-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+tmss-2-55-prodrel032501.prod-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tnm-apps-dev.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tnmbeta.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 to.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3732,8 +3746,6 @@ training.wrp.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trainingd.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trainingorigin1.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 transtats-devtemp.oai.bts.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-transtats-prod.oai.bts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-transtats-test.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 transtats-test.oai.bts.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 travel.dod.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 travis.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3745,6 +3757,7 @@ tripler.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trnbhwnextgen.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trngcmd.marines.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trnprogramportal.bhwenv.hrsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+trp-test.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trumpadministration.archives.performance.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trumplibrary.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 trumpwhitehouse.archives.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3759,7 +3772,6 @@ tst.niehs.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tstethics.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tstofacp.od.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tstservice.fsd.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-tststore.samhsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tsunami-cp.ncep.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ttgp.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ttp-dev.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3768,10 +3780,7 @@ ttp-test.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 twentynine-palms.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tyndall.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tyndall.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ua-enforcedata.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-uas-devdatasharingportal.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uat-cts.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-uat-learn.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uat-leatherdata.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uat-portal.gdc.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uat-subdomains.digitaldashboard.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3786,13 +3795,13 @@ ucum-vip.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ucum.lhcaws-stage.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ucum.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ucview.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-uenroll.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uenroll.tsa.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uismsy8e.iss.disa.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 unc.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 universalenroll.tsa.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 universalenroll.tsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uq.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+us-cert.cisa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 us.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usaarl.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usaccess.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3824,6 +3833,7 @@ usda-redesign.staging.platform.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usff.navy.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usfj.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usfk.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+usgeo.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usicecenter.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usmap.osd.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usmint.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3832,6 +3842,7 @@ usnhistory.navylive.dodlive.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uspreventiveservicestaskforce.org,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uspstfdev.ahrq.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+usrrbsecuretest2.rrb.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ut.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 utmdelta.arc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uts-green.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3844,9 +3855,7 @@ uui-test.gesdisc.eosdis.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 uxvnwg001a2662.sat.cbp.dhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v18h1n-cfstg1.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v18h1n-cfstg2.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-v18h1n-cfstg2t.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v18h1n-fedctr.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-v18h1n-metrostg.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v18ovhrtay331.aa.ad.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v2626umcth849.rtord.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 v2626umcth887.rtord.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3867,7 +3876,6 @@ vdevweb2.spc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vdevweb4.spc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vdevweb5.spc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vehicledispatchb.fas.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-vehss-dev.apps.ecpaas-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vehss-qa.apps.ecpaas-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 veterans-in-blue.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vgpenoi.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3895,7 +3903,6 @@ vsacadmin-dev.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-dev.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-dev15-2-dmp-031623-vscmain.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-dev15-2-dmp-tst-vscmain.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-vsc-dev15-2-stig-vscmain.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-dev15-3-dmp-tst-vscmain.dev-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-prod.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 vsc-prod4-3-dmp-032223-vscmain.prod-acqit.helix.gsa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3933,7 +3940,6 @@ wdob.stage.adsd.census.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weather.dev.nids.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weather.ndc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weather.nifc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-web-e1diyjx1mztfhiy6yjye4hbsdideqhwu.demo.cms.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 web-liqqgmzl7tsyfbwyulbkuborufuuttav.demo.cms.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 web-vhg3nllop1uu0vnr2mr1grjsmxf4xrns.ci.cms.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 web.dev.research.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3948,9 +3954,7 @@ webapps.hazdev-route53-lp-development.cloud.usgs.gov,,Executive,,,,,FALSE,TRUE,F
 webappsdev-net.opadev.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webarchive.loc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webdev.er.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-webdev2.rtpnc.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webeast.ngs.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-weblexaccess.lhcaws-stage.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weblexaccess.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weblvg.lhcaws.nlm.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webmaps.astrogeology.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3958,7 +3962,6 @@ webpricer.cms.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webtools.ccmc.gsfc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 webvadevvs04.er.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wecandothis.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-wee.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 weed-irwin.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 westindustries.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 westover.afrc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3967,6 +3970,7 @@ wethinktwice.acf.hhs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wew.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wgc.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wgc2.jpl.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+wh-int.er.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 whdapps.dol.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 whitehousecommsagency.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 whiteman.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -3984,6 +3988,7 @@ winmd.ird.staging.appdat.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 winn.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wioaplans.ed.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wisqars.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+witv-grsp-3.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wmdcenter-ndu-edu.translate.goog,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wmdcenter.ndu.edu,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 womack.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4000,7 +4005,6 @@ wq-srs.epa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wrair.health.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wrightpatterson.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wv.ng.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ww2.glerl.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ww3.safaq.hq.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wwe.usajobs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wwsrv1.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4008,6 +4012,7 @@ wwsrvvm.cr.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-1.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-4.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-5.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+www-accessdata-fda-gov.ezproxy.nihlibrary.nih.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-author.aphis.usda.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-avi-lb-pz.sewp.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-cms-test.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4020,6 +4025,7 @@ www-home-app--qualtrics-test.ocpdev-be.p2gate.ncbi.nlm.nih.gov,,Executive,,,,,FA
 www-int-ac.cancer.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-mnd.qa.uscourts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-ncbi-nlm-nih-gov.nduezproxy.idm.oclc.org,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+www-ndu-edu.translate.goog,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-origin.usaid.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-ppd.myhealth.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-prod-01.oceanexplorer.woc.noaa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4042,9 +4048,9 @@ www1-beta.usgs.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www10.jsc.nasa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www16dev.fhfa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www16dev.int.fhfa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-www16stg.fhfa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www16stg.int.fhfa.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www2dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+www3.donotcall.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www3.uscourts.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www4.va.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www7.bts.dot.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4086,7 +4092,6 @@ yellowtask.ncifcrf.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 yokosuka.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 yokota.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 yokota.tricare.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-yokota.usaf.afpimsstaging.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 yongsan.armymwr.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 youngstown.afrc.af.mil,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 yrbssanalysis-dev.apps.ecpaas-dev.cdc.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -4099,6 +4104,7 @@ zh-store.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh-tools.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh.stopbullying.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zh.usps.com,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+zuni2.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zuni2.psb.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zuni3.psb.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 zuni3po.psb.bls.gov,,Executive,,,,,FALSE,TRUE,FALSE,FALSE
