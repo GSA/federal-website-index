@@ -48,12 +48,13 @@ if __name__ == "__main__":
     www_gov_df['target_url'] = 'www.' + www_gov_df['target_url'].astype(str)
     gov_df = pd.concat([gov_df, www_gov_df])
 
-    pulse_df = pulse_df.rename(columns= {'Domain': 'target_url', 'Base Domain': 'base_domain', 'Agency': 'agency'})
+    pulse_df = pulse_df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain'})
+    pulse_df = pulse_df[['target_url', 'base_domain']]
     pulse_df['source_list_pulse'] = 'TRUE'
 
     dap_df = dap_df.rename(columns={'domain': 'target_url'})
     dap_df['source_list_dap'] = 'TRUE'
-    dap_df['base_domain_pulse'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    dap_df['base_domain'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
     other_df['base_domain_other'] = other_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
@@ -94,19 +95,10 @@ if __name__ == "__main__":
 
     for tuple in url_df.iterrows():
         row = tuple[1]
-        if row['base_domain_pulse'] != '':
-            row['base_domain'] = row['base_domain_pulse']
-        if row['base_domain_other'] != '':
-            row['base_domain'] = row['base_domain_other']
+        if row['base_domain_x'] != '':
+            row['base_domain'] = row['base_domain_x']
         else:
-            if row['base_domain_x'] != '':
-                row['base_domain'] = row['base_domain_x']
-            else:
-                row['base_domain'] = row['base_domain_y']
-        if row['agency_x'] == '':
-            row['agency'] = row['agency_y']
-        else:
-            row['agency'] = row['agency_x']
+            row['base_domain'] = row['base_domain_y']
 
     # format source columns
     url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
@@ -119,6 +111,7 @@ if __name__ == "__main__":
 
     # set branch column's value to 'Executive' if empty
     url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
+    url_df = url_df.drop_duplicates()
 
     # get lookup table of agencies mapped to base domain
     agency_df = gov_df[['base_domain', 'agency']]
