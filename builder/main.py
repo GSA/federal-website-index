@@ -24,35 +24,51 @@ def fetch_data(analysis):
     other_df.to_csv(config['other_snapshot_path'], index=False)
     return gov_df, pulse_df, dap_df, other_df
 
+def format_gov_df(df):
+    # drop unnecessary columns
+    df = df.drop(columns=['City', 'State', 'Security Contact Email'])
+    # rename columns
+    df = df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
+    # convert to lowercase
+    df['target_url'] = df['target_url'].str.lower()
+    df['base_domain'] = df['target_url']
+    df['source_list_federal_domains'] = 'TRUE'
+    # strip out 'Federal - ' leading string from domain type column for .gov data
+    df['branch'] = df['branch'].map(lambda x: x.lstrip('Federal - '))
+
+    # add www. to .gov URLs
+    www_gov_df = df.copy()
+    www_gov_df['target_url'] = 'www.' + www_gov_df['target_url'].astype(str)
+    df = pd.concat([df, www_gov_df])
+    return df
+
+def format_pulse_df(df):
+    df = df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain'})
+    df = df[['target_url', 'base_domain']]
+    df['source_list_pulse'] = 'TRUE'
+    return df
+
+def format_dap_df(df):
+    df = df.rename(columns={'domain': 'target_url'})
+    df['source_list_dap'] = 'TRUE'
+    df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    return df
+
+def format_other_df(df):
+    df['base_domain_other'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    return df
+
 if __name__ == "__main__":
     # initialize analysis dict
     analysis = {}
 
     # import data
-    gov_df, pulse_df, dap_df, other_df = fetch_data(analysis)
+    gov_df_raw, pulse_df_raw, dap_df_raw, other_df_raw = fetch_data(analysis)
 
-    # normalize columns
-    gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
-    gov_df['target_url'] = gov_df['target_url'].str.lower()
-    gov_df['base_domain'] = gov_df['target_url']
-    gov_df['source_list_federal_domains'] = 'TRUE'
-    # strip out 'Federal - ' leading string from domain type column for .gov data
-    gov_df['branch'] = gov_df['branch'].map(lambda x: x.lstrip('Federal - '))
-
-    # add www. to .gov URLs
-    www_gov_df = gov_df
-    www_gov_df['target_url'] = 'www.' + www_gov_df['target_url'].astype(str)
-    gov_df = pd.concat([gov_df, www_gov_df])
-
-    pulse_df = pulse_df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain'})
-    pulse_df = pulse_df[['target_url', 'base_domain']]
-    pulse_df['source_list_pulse'] = 'TRUE'
-
-    dap_df = dap_df.rename(columns={'domain': 'target_url'})
-    dap_df['source_list_dap'] = 'TRUE'
-    dap_df['base_domain'] = dap_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
-
-    other_df['base_domain_other'] = other_df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    gov_df = format_gov_df(gov_df_raw)
+    pulse_df = format_pulse_df(pulse_df_raw)
+    dap_df = format_dap_df(dap_df_raw)
+    other_df = format_other_df(other_df_raw)
 
     # combine all URLs into one column
     url_series = pd.concat([gov_df['target_url'], pulse_df['target_url'], dap_df['target_url'], other_df['target_url']])
