@@ -1,21 +1,9 @@
 from config import config
-from helpers import csv_to_df, round_float
-import csv
-import os
+from helpers import csv_to_df, round_float, dict_to_csv
 import pandas as pd
 
 
-def write_to_csv(path, dict):
-    with open(path, 'w') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=['question', 'answer'])
-        writer.writeheader()
-        for key, value in dict.items():
-            writer.writerow({'question': key, 'answer': value})
-
-if __name__ == "__main__":
-    # initialize analysis dict
-    analysis = {}
-
+def fetch_data(analysis):
     # import data
     gov_df = csv_to_df(config['gov_source_url'])
     pulse_df = csv_to_df(config['pulse_source_url'])
@@ -34,6 +22,14 @@ if __name__ == "__main__":
     pulse_df.to_csv(config['pulse_snapshot_path'], index=False)
     dap_df.to_csv(config['dap_snapshot_path'], index=False)
     other_df.to_csv(config['other_snapshot_path'], index=False)
+    return gov_df, pulse_df, dap_df, other_df
+
+if __name__ == "__main__":
+    # initialize analysis dict
+    analysis = {}
+
+    # import data
+    gov_df, pulse_df, dap_df, other_df = fetch_data(analysis)
 
     # normalize columns
     gov_df = gov_df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
@@ -177,4 +173,4 @@ if __name__ == "__main__":
     url_df.to_csv(config['target_url_list_path'], index=False)
 
     # write analysis tocsv
-    write_to_csv(config['analysis_csv_path'], analysis)
+    dict_to_csv(config['analysis_csv_path'], analysis)
