@@ -43,6 +43,12 @@ def format_gov_df(df):
     return df
 
 def format_pulse_df(df):
+    # drop unnecessary columns
+    df = df.drop(columns=['URL', 'Agency', 'Sources', 'Compliant with M-15-13 and BOD 18-01', 'Enforces HTTPS',
+        'Strict Transport Security (HSTS)', 'Free of RC4/3DES and SSLv2/SSLv3', '3DES', 'RC4', 'SSLv2', 'SSLv3',
+        'Preloaded'])
+
+    # rename columns
     df = df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain'})
     df = df[['target_url', 'base_domain']]
     df['source_list_pulse'] = 'TRUE'

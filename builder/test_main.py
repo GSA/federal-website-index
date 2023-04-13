@@ -33,7 +33,35 @@ class TestMain(unittest.TestCase):
         )
 
     def test_format_pulse_df(self):
-        pass
+        test_pulse_df = pandas.DataFrame({
+            'Domain': ['18f.gov'],
+            'Base Domain': ['18f.gov'],
+            'URL': ['https://18f.gov'],
+            'Agency': ['General Services Administration'],
+            'Sources': ['dotgov'],
+            'Compliant with M-15-13 and BOD 18-01': ['Yes'],
+            'Enforces HTTPS': ['Yes'],
+            'Strict Transport Security (HSTS)': ['Yes'],
+            'Free of RC4/3DES and SSLv2/SSLv3': ['Yes'],
+            '3DES': ['No'],
+            'RC4': ['No'],
+            'SSLv2': ['No'],
+            'SSLv3': ['No'],
+            'Preloaded': ['Yes']
+        })
+
+        expected_pulse_df = pandas.DataFrame({
+            'target_url': ['18f.gov'],
+            'base_domain': ['18f.gov'],
+            'source_list_pulse': ['TRUE']
+        })
+
+        actual_pulse_df = format_pulse_df(test_pulse_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_pulse_df.reset_index(drop=True),
+            actual_pulse_df.reset_index(drop=True)
+        )
 
     def test_format_dap_df(self):
         pass
