@@ -64,10 +64,40 @@ class TestMain(unittest.TestCase):
         )
 
     def test_format_dap_df(self):
-        pass
+        test_dap_df = pandas.DataFrame({
+            'domain': ['1.usa.gov']
+        })
+
+        expected_dap_df = pandas.DataFrame({
+            'target_url': ['1.usa.gov'],
+            'base_domain': ['usa.gov'],
+            'source_list_dap': ['TRUE']
+        })
+
+        actual_dap_df = format_dap_df(test_dap_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_dap_df.reset_index(drop=True),
+            actual_dap_df.reset_index(drop=True)
+        )
 
     def test_format_other_df(self):
-        pass
+        test_other_df = pandas.DataFrame({
+            'target_url': ['ab2d.cms.gov']
+        })
+
+        expected_other_df = pandas.DataFrame({
+            'target_url': ['ab2d.cms.gov'],
+            'base_domain_other': ['cms.gov'],
+            'source_list_other': ['TRUE']
+        })
+
+        actual_other_df = format_other_df(test_other_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_other_df.reset_index(drop=True),
+            actual_other_df.reset_index(drop=True)
+        )
 
 if __name__ == '__main__':
     unittest.main()

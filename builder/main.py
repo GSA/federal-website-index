@@ -47,7 +47,6 @@ def format_pulse_df(df):
     df = df.drop(columns=['URL', 'Agency', 'Sources', 'Compliant with M-15-13 and BOD 18-01', 'Enforces HTTPS',
         'Strict Transport Security (HSTS)', 'Free of RC4/3DES and SSLv2/SSLv3', '3DES', 'RC4', 'SSLv2', 'SSLv3',
         'Preloaded'])
-
     # rename columns
     df = df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain'})
     df = df[['target_url', 'base_domain']]
@@ -56,12 +55,13 @@ def format_pulse_df(df):
 
 def format_dap_df(df):
     df = df.rename(columns={'domain': 'target_url'})
-    df['source_list_dap'] = 'TRUE'
     df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    df['source_list_dap'] = 'TRUE'
     return df
 
 def format_other_df(df):
     df['base_domain_other'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+    df['source_list_other'] = 'TRUE'
     return df
 
 if __name__ == "__main__":
