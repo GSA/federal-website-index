@@ -107,16 +107,14 @@ if __name__ == "__main__":
     url_df = url_df.merge(other_df, on='target_url', how='left')
     url_df = url_df.fillna('')
 
-    # populate base domain and agency columns
-    url_df['agency'] = ''
-    url_df['base_domain'] = ''
-
+    # populate base domain column
     for tuple in url_df.iterrows():
         row = tuple[1]
-        if row['base_domain_x'] != '':
-            row['base_domain'] = row['base_domain_x']
-        else:
-            row['base_domain'] = row['base_domain_y']
+        if row['base_domain'] == '':
+            if row['base_domain_x'] != '':
+                row['base_domain'] = row['base_domain_x']
+            else:
+                row['base_domain'] = row['base_domain_y']
 
     # format source columns
     url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)

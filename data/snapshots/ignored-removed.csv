@@ -1371,7 +1371,6 @@ demo.idmanagement.gov
 demo.nrd.gov
 demo.simplereport.gov
 demo.touchpoints.digital.gov
-dev.access.co-ops.nos.noaa.gov
 dev.admin.coastalscience.noaa.gov
 dev.aff.gov
 dev.americanspaces.state.gov
@@ -1395,13 +1394,12 @@ dev.coastalscience.noaa.gov
 dev.consumer.ftc.gov
 dev.consumer.gov
 dev.consumidor.ftc.gov
-dev.consumidor.gov
 dev.contentstage.www.ed.gov
 dev.coralreef.noaa.gov
 dev.d9.justice.gov
-dev.eauth.va.gov
 dev.ebilling.nrc-gateway.gov
 dev.efile.dol.gov
+dev.emsl.pnl.gov
 dev.fas.usda.gov
 dev.fedshirevets.gov
 dev.fiscaldata.treasury.gov
@@ -1445,7 +1443,6 @@ dev.www.ed.gov
 edit.apprenticeship.gov
 edit.armymwr.com
 edit.armytenmiler.com
-edit.bep.gov
 edit.cdfifund.gov
 edit.data.healthcare.gov
 edit.data.medicaid.gov
@@ -1454,7 +1451,6 @@ edit.makinghomeaffordable.gov
 edit.mymoney.gov
 edit.ofac.treasury.gov
 edit.oig.treasury.gov
-edit.secretservice.gov
 edit.sigpr.gov
 edit.sigtarp.gov
 edit.tfm.fiscal.treasury.gov
@@ -1483,7 +1479,6 @@ prod.osac.gov
 prod.sba.gov
 prod.tidesandcurrents.noaa.gov
 prod.usmarshals.gov
-qa.archives.gov
 qa.beta-nsf.aws-dev.nsf.gov
 qa.civics.archives.gov
 qa.clinicaltrials.gov
@@ -1524,7 +1519,7 @@ staging.benefits.gov
 staging.bulkorder.ftc.gov
 staging.cafc.uscourts.gov
 staging.cmsd9.chs.usgs.gov
-staging.consumer.ftc.gov
+staging.consumer.gov
 staging.demo.cfpb.gov
 staging.dhs.gov
 staging.dmap-prod.aws.epa.gov
@@ -1533,7 +1528,6 @@ staging.fai.gov
 staging.flag.dol.gov
 staging.ftc.gov
 staging.gomo.army.mil
-staging.govloans.gov
 staging.hirevets.gov
 staging.maps.coastalscience.noaa.gov
 staging.marketplace.va.gov
@@ -1543,16 +1537,17 @@ staging.ohrp.cit.nih.gov
 staging.pmel.noaa.gov
 staging.products.coastalscience.noaa.gov
 staging.seasonaljobs.dol.gov
-staging.ssabest.benefits.gov
 staging.usaspending.gov
+stg.addiction.surgeongeneral.samhsa.gov
 stg.aff.gov
-stg.collegedrinkingprevention.cit.nih.gov
 stg.d9.justice.gov
 stg.geoplatform.gov
 stg.ocio-jira.acf.hhs.gov
 stg.pbgc.gov
 stg.simplereport.gov
+stg.spectrum.niaaa.cit.nih.gov
 test.apprenticeship.gov
+test.armymwr.com
 test.benefits.gov
 test.bja.ojp.gov
 test.bjs.ojp.gov
@@ -1563,7 +1558,6 @@ test.emsl.pnl.gov
 test.financialaidtoolkit.ed.gov
 test.flag.dol.gov
 test.govloans.gov
-test.hirevets.gov
 test.jobcorps.gov
 test.nac-mvp.archives.gov
 test.ncdc.noaa.gov
@@ -1581,9 +1575,7 @@ test.ovc.ojp.gov
 test.ppubs.awslab.uspto.gov
 test.simplereport.gov
 test.sites.ed.gov
-test.ssabest.benefits.gov
 test.streamstats.usgs.gov
-test.ucms.intel.gov
 test.waterdata.usgs.gov
 test.wrp.gov
 test.www.ed.gov
@@ -1593,10 +1585,10 @@ uat.cedar.opm.gov
 uat.cmist.noaa.gov
 uat.crimesolutions.ojp.gov
 uat.cybercareers.gov
-uat.facjj.ojp.gov
 uat.fedshirevets.gov
 uat.fiscaldata.treasury.gov
 uat.htcbc.ovc.ojp.gov
+uat.intranet.co-ops.nos.noaa.gov
 uat.itdashboard.gov
 uat.justicegrants.usdoj.gov
 uat.juvenilecouncil.ojp.gov
@@ -1606,6 +1598,7 @@ uat.ncirc.bja.ojp.gov
 uat.opendap.co-ops.nos.noaa.gov
 uat.prosperafrica.gov
 uat.qa.obamalibrary.gov
+uat.telework.gov
 uat.tidesandcurrents.noaa.gov
 www2.bop.gov
 www2.dev.nsf.gov
