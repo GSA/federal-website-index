@@ -22,7 +22,7 @@ def fetch_data(analysis):
     pulse_df.to_csv(config['pulse_snapshot_path'], index=False)
     dap_df.to_csv(config['dap_snapshot_path'], index=False)
     other_df.to_csv(config['other_snapshot_path'], index=False)
-    return gov_df, pulse_df, dap_df, other_df
+    return gov_df, pulse_df, dap_df, other_df, analysis
 
 def format_gov_df(df):
     # drop unnecessary columns
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     analysis = {}
 
     # import data
-    gov_df_raw, pulse_df_raw, dap_df_raw, other_df_raw = fetch_data(analysis)
+    gov_df_raw, pulse_df_raw, dap_df_raw, other_df_raw, analysis = fetch_data(analysis)
 
     gov_df = format_gov_df(gov_df_raw)
     pulse_df = format_pulse_df(pulse_df_raw)
