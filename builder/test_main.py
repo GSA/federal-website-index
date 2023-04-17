@@ -1,4 +1,4 @@
-from main import format_gov_df, format_pulse_df, format_dap_df, format_other_df
+from main import format_gov_df, format_pulse_df, format_dap_df, format_other_df, format_source_columns
 import pandas
 import unittest
 
@@ -97,6 +97,38 @@ class TestMain(unittest.TestCase):
         pandas.testing.assert_frame_equal(
             expected_other_df.reset_index(drop=True),
             actual_other_df.reset_index(drop=True)
+        )
+
+    def test_format_source_columns(self):
+        test_df = pandas.DataFrame({
+            'target_url': ['mypay.gov'],
+            'base_domain': ['mypay.gov'],
+            'branch': ['Executive'],
+            'agency': ['Department of Defense'],
+            'bureau': ['Defense Finance and Accounting Service'],
+            'source_list_federal_domains': ['TRUE'],
+            'source_list_pulse': [''],
+            'source_list_dap': [''],
+            'source_list_other': [''],
+        })
+
+        expected_df = pandas.DataFrame({
+            'target_url': ['mypay.gov'],
+            'base_domain': ['mypay.gov'],
+            'branch': ['Executive'],
+            'agency': ['Department of Defense'],
+            'bureau': ['Defense Finance and Accounting Service'],
+            'source_list_federal_domains': ['TRUE'],
+            'source_list_pulse': ['FALSE'],
+            'source_list_dap': ['FALSE'],
+            'source_list_other': ['FALSE'],
+        })
+
+        actual_df = format_source_columns(test_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_df.reset_index(drop=True),
+            actual_df.reset_index(drop=True)
         )
 
 if __name__ == '__main__':

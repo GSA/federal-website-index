@@ -64,6 +64,13 @@ def format_other_df(df):
     df['source_list_other'] = 'TRUE'
     return df
 
+def format_source_columns(df):
+    df['source_list_federal_domains'] = df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
+    df['source_list_pulse'] = df['source_list_pulse'].map(lambda x: 'FALSE' if x == '' else x)
+    df['source_list_dap'] = df['source_list_dap'].map(lambda x: 'FALSE' if x == '' else x)
+    df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
+    return df
+
 if __name__ == "__main__":
     # initialize analysis dict
     analysis = {}
@@ -116,14 +123,11 @@ if __name__ == "__main__":
             else:
                 row['base_domain'] = row['base_domain_y']
 
-    # format source columns
-    url_df['source_list_federal_domains'] = url_df['source_list_federal_domains'].map(lambda x: 'FALSE' if x == '' else x)
-    url_df['source_list_pulse'] = url_df['source_list_pulse'].map(lambda x: 'FALSE' if x == '' else x)
-    url_df['source_list_dap'] = url_df['source_list_dap'].map(lambda x: 'FALSE' if x == '' else x)
-    url_df['source_list_other'] = url_df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
-
     # get relevant subset
     url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_list_other']]
+
+    # format source columns
+    url_df = format_source_columns(url_df)
 
     # set branch column's value to 'Executive' if empty
     url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
