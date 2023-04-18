@@ -131,5 +131,22 @@ class TestMain(unittest.TestCase):
             actual_df.reset_index(drop=True)
         )
 
+        # target_url,base_domain,branch,agency_x,bureau_x,source_list_federal_domains,source_list_pulse,source_list_dap,source_list_other,agency_y,agency,bureau_y,bureau,agency_code,bureau_code
+        # ,,,,TRUE,TRUE,TRUE,FALSE,Department of Education,Department of Education,Office of Chief Information Officer,Office of Chief Information Officer,18.0,12.0
+
+    def test_format_round_agency_code(self):
+        test_df = pandas.DataFrame({
+            'target_url': ['nationsreportcard.gov'],
+            'base_domain': ['nationsreportcard.gov'],
+            'branch': ['Executive'],
+            'agency': ['Department of Education'],
+            'bureau': ['Office of Chief Information Officer'],
+            'agency_code': [18.0],
+            'bureau_code': [12.0],
+        })
+
+    def test_format_round_bureau_code(self):
+        pass
+
 if __name__ == '__main__':
     unittest.main()

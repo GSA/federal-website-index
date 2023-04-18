@@ -71,6 +71,11 @@ def format_source_columns(df):
     df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
     return df
 
+def format_agency_and_bureau_codes(df):
+    df['agency_code'] = df['agency_code'].map(lambda x: round_float(x))
+    df['bureau_code'] = df['bureau_code'].map(lambda x: round_float(x))
+    return df
+
 if __name__ == "__main__":
     # initialize analysis dict
     analysis = {}
@@ -178,8 +183,7 @@ if __name__ == "__main__":
     url_df = url_df.fillna('')
 
     # format agency and bureau codes
-    url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
-    url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
+    url_df = format_agency_and_bureau_codes(url_df)
 
     # reorder columns, sort, remove duplicates
     url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code', 'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap', 'source_list_pulse', 'source_list_other']]
