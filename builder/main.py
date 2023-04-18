@@ -131,7 +131,6 @@ if __name__ == "__main__":
 
     # set branch column's value to 'Executive' if empty
     url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
-    url_df = url_df.drop_duplicates()
 
     # get lookup table of agencies mapped to base domain
     agency_df = gov_df[['base_domain', 'agency']]
