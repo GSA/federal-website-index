@@ -71,6 +71,38 @@ def format_source_columns(df):
     df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
     return df
 
+def merge_agencies(df, agency_df):
+    df = df.merge(agency_df, on='base_domain', how='left')
+    df = df.fillna('')
+    df['agency'] = ''
+
+    for tuple in df.iterrows():
+        row = tuple[1]
+        if row['agency_x'] == '':
+            row['agency'] = row['agency_y']
+        else:
+            row['agency'] = row['agency_x']
+
+    # drop temp agency columns
+    df = df.drop(columns=['agency_x', 'agency_y'])
+    return df
+
+def merge_bureaus(df, bureau_df):
+    df = df.merge(bureau_df, on='base_domain', how='left')
+    df = df.fillna('')
+    df['bureau'] = ''
+
+    for tuple in df.iterrows():
+        row = tuple[1]
+        if row['bureau_x'] == '':
+            row['bureau'] = row['bureau_y']
+        else:
+            row['bureau'] = row['bureau_x']
+
+    # drop temp bureau columns
+    df = df.drop(columns=['bureau_x', 'bureau_y'])
+    return df
+
 def format_agency_and_bureau_codes(df):
     df['agency_code'] = df['agency_code'].map(lambda x: round_float(x))
     df['bureau_code'] = df['bureau_code'].map(lambda x: round_float(x))
@@ -142,38 +174,14 @@ if __name__ == "__main__":
     agency_df = agency_df.drop_duplicates()
 
     # merge in agencies
-    url_df = url_df.merge(agency_df, on='base_domain', how='left')
-    url_df = url_df.fillna('')
-    url_df['agency'] = ''
-
-    for tuple in url_df.iterrows():
-        row = tuple[1]
-        if row['agency_x'] == '':
-            row['agency'] = row['agency_y']
-        else:
-            row['agency'] = row['agency_x']
-
-    # drop temp agency columns
-    url_df = url_df.drop(columns=['agency_x', 'agency_y'])
+    url_df = merge_agencies(url_df, agency_df)
 
     # get lookup table of bureaus mapped to base domain
     bureau_df = gov_df[['base_domain', 'bureau']]
     bureau_df = bureau_df.drop_duplicates()
 
     # merge in bureaus
-    url_df = url_df.merge(bureau_df, on='base_domain', how='left')
-    url_df = url_df.fillna('')
-    url_df['bureau'] = ''
-
-    for tuple in url_df.iterrows():
-        row = tuple[1]
-        if row['bureau_x'] == '':
-            row['bureau'] = row['bureau_y']
-        else:
-            row['bureau'] = row['bureau_x']
-
-    # drop temp bureau columns
-    url_df = url_df.drop(columns=['bureau_x', 'bureau_y'])
+    url_df = merge_bureaus(url_df, bureau_df)
 
     # load agency and bureau reference data
     omb_df = csv_to_df(config['omb_source_url'])

@@ -1,4 +1,5 @@
-from main import format_gov_df, format_pulse_df, format_dap_df, format_other_df, format_source_columns, format_agency_and_bureau_codes
+from main import format_gov_df, format_pulse_df, format_dap_df, format_other_df, \
+    format_source_columns, merge_agencies, merge_bureaus, format_agency_and_bureau_codes
 import pandas
 import unittest
 
@@ -131,6 +132,56 @@ class TestMain(unittest.TestCase):
             actual_df.reset_index(drop=True)
         )
 
+    def test_merge_agencies(self):
+        test_df = pandas.DataFrame({
+            'target_url': ['accessibility.18f.gov'],
+            'base_domain': ['18f.gov'],
+            'agency': ['']
+        })
+
+        test_agency_df = pandas.DataFrame({
+            'base_domain': ['18f.gov'],
+            'agency': ['General Services Administration'],
+        })
+
+        expected_df = pandas.DataFrame({
+            'target_url': ['accessibility.18f.gov'],
+            'base_domain': ['18f.gov'],
+            'agency': ['General Services Administration']
+        })
+
+        actual_df = merge_agencies(test_df, test_agency_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_df.reset_index(drop=True),
+            actual_df.reset_index(drop=True)
+        )
+
+    def test_merge_bureaus(self):
+        test_df = pandas.DataFrame({
+            'target_url': ['accessibility.18f.gov'],
+            'base_domain': ['18f.gov'],
+            'bureau': ['']
+        })
+
+        test_bureau_df = pandas.DataFrame({
+            'base_domain': ['18f.gov'],
+            'bureau': ['GSA, TTS'],
+        })
+
+        expected_df = pandas.DataFrame({
+            'target_url': ['accessibility.18f.gov'],
+            'base_domain': ['18f.gov'],
+            'bureau': ['GSA, TTS'],
+        })
+
+        actual_df = merge_bureaus(test_df, test_bureau_df)
+
+        pandas.testing.assert_frame_equal(
+            expected_df.reset_index(drop=True),
+            actual_df.reset_index(drop=True)
+        )
+
     def test_format_agency_and_bureau_codes(self):
         test_df = pandas.DataFrame({
             'target_url': ['nationsreportcard.gov'],
@@ -158,9 +209,6 @@ class TestMain(unittest.TestCase):
             expected_df.reset_index(drop=True),
             actual_df.reset_index(drop=True)
         )
-
-    def test_format_round_bureau_code(self):
-        pass
 
 if __name__ == '__main__':
     unittest.main()
