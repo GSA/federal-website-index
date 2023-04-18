@@ -153,6 +153,9 @@ if __name__ == "__main__":
         else:
             row['agency'] = row['agency_x']
 
+    # drop temp agency columns
+    url_df = url_df.drop(columns=['agency_x', 'agency_y'])
+
     # get lookup table of bureaus mapped to base domain
     bureau_df = gov_df[['base_domain', 'bureau']]
     bureau_df = bureau_df.drop_duplicates()
@@ -168,6 +171,9 @@ if __name__ == "__main__":
             row['bureau'] = row['bureau_y']
         else:
             row['bureau'] = row['bureau_x']
+
+    # drop temp bureau columns
+    url_df = url_df.drop(columns=['bureau_x', 'bureau_y'])
 
     # load agency and bureau reference data
     omb_df = csv_to_df(config['omb_source_url'])
