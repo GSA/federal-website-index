@@ -1400,7 +1400,6 @@ dev.ebilling.nrc-gateway.gov
 dev.efile.dol.gov
 dev.emsl.pnl.gov
 dev.fas.usda.gov
-dev.fedshirevets.gov
 dev.fiscaldata.treasury.gov
 dev.flag.dol.gov
 dev.foiaonline.gov
@@ -1447,13 +1446,11 @@ edit.cdfifund.gov
 edit.data.healthcare.gov
 edit.data.medicaid.gov
 edit.insurekidsnow.gov
-edit.makinghomeaffordable.gov
 edit.manufacturing.gov
 edit.mymoney.gov
 edit.ofac.treasury.gov
 edit.oig.treasury.gov
 edit.sigpr.gov
-edit.sigtarp.gov
 edit.tfm.fiscal.treasury.gov
 edit.uscourts.gov
 edit.usmarshals.gov
@@ -1495,6 +1492,7 @@ qa.museum.archives.gov
 qa.obamalibrary.gov
 qa.trumanlibrary.gov
 secure.tsp.gov
+stage.addictionresearch.nih.gov
 stage.atf.gov
 stage.blog.ed.gov
 stage.cloud.nih.gov
@@ -1508,8 +1506,10 @@ stage.madeinamerica.gov
 stage.niaaa.nih.gov
 stage.onlineforms.edgarfiling.sec.gov
 stage.portal.edgarfiling.sec.gov
+stage.sharing.nih.gov
 stage.sites.ed.gov
 stage.sustainability.gov
+stage.webdev.ofr.treas.gov
 stage.webtest.ofr.treas.gov
 stage.www.ed.gov
 staging.admin.coastalscience.noaa.gov
@@ -1519,8 +1519,8 @@ staging.benefits.gov
 staging.bulkorder.ftc.gov
 staging.cafc.uscourts.gov
 staging.cmsd9.chs.usgs.gov
+staging.consumer.ftc.gov
 staging.consumer.gov
-staging.demo.cfpb.gov
 staging.dhs.gov
 staging.dmap-prod.aws.epa.gov
 staging.efile.dol.gov
@@ -1539,10 +1539,12 @@ staging.products.coastalscience.noaa.gov
 staging.seasonaljobs.dol.gov
 stg.addiction.surgeongeneral.samhsa.gov
 stg.aff.gov
+stg.bep.gov
 stg.d9.justice.gov
 stg.geoplatform.gov
 stg.ocio-jira.acf.hhs.gov
 stg.pbgc.gov
+stg.rethinkingdrinking.niaaa.cit.nih.gov
 stg.simplereport.gov
 stg.spectrum.niaaa.cit.nih.gov
 test.apprenticeship.gov
@@ -1556,7 +1558,7 @@ test.efile.dol.gov
 test.emsl.pnl.gov
 test.financialaidtoolkit.ed.gov
 test.flag.dol.gov
-test.govloans.gov
+test.hirevets.gov
 test.jobcorps.gov
 test.nac-mvp.archives.gov
 test.ncei.noaa.gov
@@ -1583,13 +1585,13 @@ uat.cedar.opm.gov
 uat.cmist.noaa.gov
 uat.crimesolutions.ojp.gov
 uat.cybercareers.gov
+uat.feb.gov
 uat.fedshirevets.gov
 uat.fiscaldata.treasury.gov
 uat.htcbc.ovc.ojp.gov
 uat.intranet.co-ops.nos.noaa.gov
 uat.itdashboard.gov
 uat.justicegrants.usdoj.gov
-uat.juvenilecouncil.ojp.gov
 uat.namus.nij.ojp.gov
 uat.nationalgangcenter.ojp.gov
 uat.ncirc.bja.ojp.gov
