@@ -3,8 +3,6 @@ name: Build target url list
 
 # yamllint disable-line rule:truthy
 on:
-  schedule:
-    - cron: "0 22 * * 3"
   workflow_dispatch:
 
 jobs:
