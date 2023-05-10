@@ -205,9 +205,10 @@ if __name__ == "__main__":
     url_df = url_df.drop_duplicates('target_url')
 
     # remove all non-.gov urls
-    non_gov_df = url_df[~url_df.base_domain.isin(gov_df.base_domain)]
+    gov_base_domains = set(gov_df.base_domain)
+    non_gov_df = url_df[~url_df.base_domain.isin(gov_base_domains)]
     non_gov_df.to_csv(config['nonfederal_removed'], index=False)
-    url_df = url_df[url_df.base_domain.isin(gov_df.base_domain)]
+    url_df = url_df[url_df.base_domain.isin(gov_base_domains)]
     analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
     # write list to csv
