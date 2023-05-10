@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     permissions:
       actions: write
       contents: write
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.9"
       - run: pip install -r ./builder/requirements.txt
-      - run: python ./builder/main.py
+      - run: python3 ./builder/main.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build target url list
