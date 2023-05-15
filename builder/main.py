@@ -135,14 +135,24 @@ if __name__ == "__main__":
     analysis['deduped url list length'] = len(url_df.index)
     url_df.to_csv(config['deduped_snapshot_path'], index=False)
 
-    # remove URLs with ignore-listed strings
-    ignore_df = pd.read_csv(config['ignore_list_path'])
+    # remove URLs with ignore-listed strings and the beginning of urls
+    ignore_df = pd.read_csv(config['ignore_list_begins_path'])
     ignore_series = ignore_df['URL begins with:']
     ignored_df = url_df[url_df['target_url'].str.startswith(tuple(ignore_series))]
-    ignored_df.to_csv(config['ignored_removed'], index=False)
+    ignored_df.to_csv(config['ignored_removed_begins'], index=False)
     url_df = url_df[~url_df['target_url'].str.startswith(tuple(ignore_series))]
-    analysis['url list length after ignore list processed'] = len(url_df.index)
-    url_df.to_csv(config['remove_ignore_path'], index=False)
+    analysis['url list length after ignore list checking beginnning of urls processed'] = len(url_df.index)
+    url_df.to_csv(config['remove_ignore_begins_path'], index=False)
+
+    # remove URLs with ignore-listed strings contained anywhere in urls
+    ignore_df = pd.read_csv(config['ignore_list_contains_path'])
+    ignore_series = ignore_df['URL contains between non-word characters:']
+    pattern = r'[^a-zA-Z0-9](?:{})[^a-zA-Z0-9]'.format('|'.join(ignore_series.array))
+    ignored_df = url_df[url_df['target_url'].str.contains(pattern)]
+    ignored_df.to_csv(config['ignored_removed_contains'], index=False)
+    url_df = url_df[~url_df['target_url'].str.contains(pattern)]
+    analysis['url list length after ignore list checking entire url'] = len(url_df.index)
+    url_df.to_csv(config['remove_ignore_contains_path'], index=False)
 
     # merge data back in
     url_df = url_df.merge(gov_df, on='target_url', how='left')

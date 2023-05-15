@@ -375,13 +375,11 @@ amcom.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 amlc.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ancadmin.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ancadminstg.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-ancpublicstg.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 apt.sec.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcp.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arcyber.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armycemeteries.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armyhealthfacilities.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-armypubs-test.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armypubs.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armyupress.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 arnorth.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -393,8 +391,6 @@ aschq.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 avmc.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 awg.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 band.eur.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cac.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cascom-dev.lee.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cascom.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ccad.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cid.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -431,7 +427,6 @@ lrh.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lrl.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lrn.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lrp.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-medcoe-staging.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 medcoe.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 medlinet.amedd.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mepcom.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -564,6 +559,7 @@ mcalester.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mccoy.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 meade.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 miami.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+moore.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 natick.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 novosel.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 origin-stage.armymwr.com,armymwr.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -618,7 +614,6 @@ cloud.mil,cloud.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eshhsflu.convertlanguage.com,convertlanguage.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 analytics.cookcountyil.gov,cookcountyil.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 coronavirustesting.gov,coronavirustesting.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
-navynpc--dev005--c.sandbox.vf.crmforce.mil,crmforce.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssportal.csnet.gov,csnet.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ac.cto.mil,cto.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cto.mil,cto.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -683,14 +678,11 @@ dpaa.mil,dpaa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dragonhilllodge.com,dragonhilllodge.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mrsi.erdc.dren.mil,dren.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 coalition.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coalition.staging.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-cso-wp-site.staging.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jobs.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p1.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-p1.staging.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 padawan-docs.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+websites.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dspo.mil,dspo.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-apps.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 discover.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dodiac.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dticwp2.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -753,7 +745,6 @@ afirm.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afrims.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 armymedicine.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 blastinjuryresearch.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coopmhs.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dev-cms.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 eitpmo.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -768,12 +759,6 @@ mrdc.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 mrdg.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 nicbr.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 phcp.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-armymedicine.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-cms.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-hearing.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-militarykidsconnect.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-mobile.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-www.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 stem.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 technologytransfer.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usaarl.health.mil,health.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -807,7 +792,6 @@ jtf-spacedefense.mil,jtf-spacedefense.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jtnc.mil,jtnc.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 jwac.mil,jwac.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 analytics.kansas.gov,kansas.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-analytics.kansas.gov,kansas.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ocseportal.chfsinet.ky.gov,ky.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 fpls.dcfs.la.gov,la.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 lbjlibrary.org,lbjlibrary.org,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -943,16 +927,17 @@ demographics.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRU
 demographics.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpandme.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpandme.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+efmpandme.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpeducationdirectory.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpeducationdirectory.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+installations.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 installations.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 installations.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 millifelearning.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 millifelearning.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 millifelearning.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-planmydeployment.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 planmydeployment.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 planmydeployment.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 planmymove.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1122,7 +1107,6 @@ jtfn.northcom.mil,northcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 northcom.mil,northcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 northeastdiesel.org,northeastdiesel.org,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssp.dwss.nv.gov,nv.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-pubmed-ncbi-nlm-nih-gov.dbgateway.nysed.gov,nysed.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-ncbi-nlm-nih-gov.nduezproxy.idm.oclc.org,oclc.org,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ocse.gov,ocse.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 activesync.ofda.gov,ofda.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -1152,9 +1136,6 @@ jpeocbrnd.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 milgears.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ogc.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 skillbridge.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-businessdefense.acq.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-www.acq.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-test-evaluation.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 usmap.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 wageandsalary.dcpas.osd.mil,osd.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pacom.mil,pacom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1171,6 +1152,7 @@ qart.gov,qart.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 repi.mil,repi.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dhs-ocss-ssp.enterprise.ri.gov,ri.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pacss.dss.sc.gov,sc.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+doe.sd.gov,sd.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quick.sd.gov,sd.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sda.mil,sda.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seniorcorps.gov,seniorcorps.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -1239,7 +1221,6 @@ cd03.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 charleston.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cherrypoint.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 columbus.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-coopcd.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 corpuschristi.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 darnall.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 davismonthan.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1341,8 +1322,6 @@ sheppard.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sigonella.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 southcomclinic.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 spangdahlem.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-cms.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-staging-www.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tinker.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 travis.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1397,6 +1376,7 @@ gab.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gateway.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 holdmail-cat.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 holdmail.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ibcalc.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 informeddelivery.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internationalclaims.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 loyalty.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
