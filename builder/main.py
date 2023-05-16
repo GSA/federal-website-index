@@ -160,6 +160,7 @@ if __name__ == "__main__":
     url_df = url_df.merge(dap_df, on='target_url', how='left')
     url_df = url_df.merge(other_df, on='target_url', how='left')
     url_df = url_df.fillna('')
+    url_df.to_csv(config['url_df_pre_base_domains_merged'], index=False)
 
     # populate base domain column
     for tuple in url_df.iterrows():
@@ -169,6 +170,8 @@ if __name__ == "__main__":
                 row['base_domain'] = row['base_domain_x']
             else:
                 row['base_domain'] = row['base_domain_y']
+
+    url_df.to_csv(config['url_df_post_base_domains_merged'], index=False)
 
     # get relevant subset
     url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau', 'source_list_federal_domains', 'source_list_pulse', 'source_list_dap', 'source_list_other']]

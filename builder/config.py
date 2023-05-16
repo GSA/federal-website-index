@@ -26,5 +26,7 @@ config = {
     'ignored_removed_contains': os.path.join(dirname, '../data/snapshots/ignored-removed-contains.csv'),
     'nonfederal_removed': os.path.join(dirname, '../data/snapshots/nonfederal-removed.csv'),
     'analysis_csv_path': os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv'),
-    'gov_base_domains': os.path.join(dirname, '../data/dataset/gov-base-domains.csv'),
+    'gov_base_domains': os.path.join(dirname, '../data/test/gov-base-domains.csv'),
+    'url_df_pre_base_domains_merged': os.path.join(dirname, '../data/test/url_df_pre_base_domains_merged.csv'),
+    'url_df_post_base_domains_merged': os.path.join(dirname, '../data/test/url_df_post_base_domains_merged.csv'),
 }
