@@ -221,7 +221,6 @@ if __name__ == "__main__":
     gov_base_domains = set(gov_df.base_domain)
     analysis['number of .gov base domains'] = len(gov_base_domains)
     url_df['is_gov'] = url_df['base_domain'].apply(lambda x: x in gov_base_domains)
-    url_df.to_csv(config['gov_base_domains'], index=False)
     non_gov_df = url_df[url_df['is_gov'] == False]
     non_gov_df = non_gov_df.drop(columns=['is_gov'])
     non_gov_df.to_csv(config['nonfederal_removed'], index=False)
