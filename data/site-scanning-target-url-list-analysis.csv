@@ -1,10 +1,12 @@
 question,answer
-gov url list length,1331
+gov url list length,1332
 pulse url list length,24637
-dap url list length,8469
+dap url list length,8484
 other website url list length,1
-combined url list length,35769
-deduped url list length,30753
-url list length after ignore list checking beginnning of urls processed,28990
-url list length after ignore list checking entire url,27919
-url list length after non-federal urls removed,26494
+combined url list length,35786
+deduped url list length,30773
+url list length after ignore list checking beginnning of urls processed,29011
+url list length after ignore list checking entire url,27935
+number of .gov base domains,1332
+number of urls with non-.gov base domains removed,1421
+url list length after non-federal urls removed,26514

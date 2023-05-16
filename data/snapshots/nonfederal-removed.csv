@@ -339,10 +339,8 @@ safety.navy.afpims.mil,afpims.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 afpims4.mil,afpims4.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 aflink.usaf.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airuniversity.usaf.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-all-hands.navy.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 defense.dod.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 marines.usmc.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-navcms.navy.afpimsstaging.mil,afpimsstaging.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ai.mil,ai.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airdomainintelligence.mil,airdomainintelligence.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 alsa.mil,alsa.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -468,6 +466,7 @@ pscc.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 psmagazine.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 publications.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 recruiting.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+rma.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 rmc.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sac.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sad.usace.army.mil,army.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -599,6 +598,7 @@ askkaren.gov,askkaren.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 m.askkaren.gov,askkaren.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 attorneygeneral.gov,attorneygeneral.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dcssocsewebp01a.azdes.gov,azdes.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+local.beagov.gov,beagov.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 bebest.gov,bebest.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 befoodsafe.gov,befoodsafe.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 broadband.gov,broadband.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -611,8 +611,6 @@ centcom.mil,centcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 cep.gov,cep.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 cfda.gov,cfda.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 cloud.mil,cloud.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-eshhsflu.convertlanguage.com,convertlanguage.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-analytics.cookcountyil.gov,cookcountyil.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 coronavirustesting.gov,coronavirustesting.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 ssportal.csnet.gov,csnet.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ac.cto.mil,cto.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -685,9 +683,9 @@ websites.dso.mil,dso.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dspo.mil,dspo.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 discover.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dodiac.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+dodresearch-pre.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dticwp2.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndia.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-preprod-rt.dtic.mil,dtic.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dtra.mil,dtra.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dtv.gov,dtv.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 e-enterprise.gov,e-enterprise.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -697,7 +695,6 @@ eisenhowermemorial.gov,eisenhowermemorial.gov,Executive,,,,,FALSE,FALSE,TRUE,FAL
 legacy.eisenhowermemorial.gov,eisenhowermemorial.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 timeline.eisenhowermemorial.gov,eisenhowermemorial.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 endingthedocumentgame.gov,endingthedocumentgame.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
-denwcmrd02.usmint.etreas.gov,etreas.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 denwcmrd05.usmint.etreas.gov,etreas.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 everykidinapark.gov,everykidinapark.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 exis.gov,exis.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -776,6 +773,7 @@ homesales.gov,homesales.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 quick.hfs.illinois.gov,illinois.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quickkidscsb.dcs.in.gov,in.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 styleguide.cnhindustrial.ind.br,ind.br,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+industrygrp.com,industrygrp.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 inherentresolve.mil,inherentresolve.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 isitdoneyet.gov,isitdoneyet.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 jbab.jb.mil,jb.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -922,14 +920,11 @@ apps.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FA
 blog-brigade.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 blog-brigade.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 blog-brigade.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-demographics.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 demographics.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 demographics.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpandme.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpandme.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-efmpandme.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 efmpeducationdirectory.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-efmpeducationdirectory.pre.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 installations.gcn.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 installations.militaryonesource.mil,militaryonesource.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1039,11 +1034,13 @@ outreach.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 p2p.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pacific.navfac.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 portal.navsea.cloud.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+public.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pzal.metoc.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 qa-beta.history.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ready.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seaport.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 secnav.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+securedev.nre.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 srf.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sublant.usff.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 surflant.usff.navy.mil,navy.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1107,7 +1104,6 @@ jtfn.northcom.mil,northcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 northcom.mil,northcom.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 northeastdiesel.org,northeastdiesel.org,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ssp.dwss.nv.gov,nv.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-www-ncbi-nlm-nih-gov.nduezproxy.idm.oclc.org,oclc.org,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ocse.gov,ocse.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 activesync.ofda.gov,ofda.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 anyconnect01.ofda.gov,ofda.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -1152,7 +1148,6 @@ qart.gov,qart.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
 repi.mil,repi.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 dhs-ocss-ssp.enterprise.ri.gov,ri.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 pacss.dss.sc.gov,sc.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-doe.sd.gov,sd.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 quick.sd.gov,sd.gov,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 sda.mil,sda.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 seniorcorps.gov,seniorcorps.gov,Executive,,,,,FALSE,FALSE,TRUE,FALSE
@@ -1191,7 +1186,7 @@ cco-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 inss-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ismo-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ndupress-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
-wmdcenter-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+nwc-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 www-ndu-edu.translate.goog,translate.goog,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 airforceacademy.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 altus.tricare.mil,tricare.mil,Executive,,,,,FALSE,TRUE,FALSE,FALSE
@@ -1377,6 +1372,7 @@ gateway.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 holdmail-cat.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 holdmail.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 ibcalc.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
+ibcalcsm.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 informeddelivery.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 internationalclaims.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
 loyalty.usps.com,usps.com,Executive,,,,,FALSE,TRUE,FALSE,FALSE
