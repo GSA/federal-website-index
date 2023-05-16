@@ -163,13 +163,19 @@ if __name__ == "__main__":
     url_df.to_csv(config['url_df_pre_base_domains_merged'], index=False)
 
     # populate base domain column
-    for tuple in url_df.iterrows():
-        row = tuple[1]
+    # for tuple in url_df.iterrows():
+    #     row = tuple[1]
+    #     if row['base_domain'] == '':
+    #         if row['base_domain_x'] != '':
+    #             row['base_domain'] = row['base_domain_x']
+    #         else:
+    #             row['base_domain'] = row['base_domain_y']
+    for idx, row in url_df.iterrows():
         if row['base_domain'] == '':
             if row['base_domain_x'] != '':
-                row['base_domain'] = row['base_domain_x']
+                url_df.at[idx, 'base_domain'] = row['base_domain_x']
             else:
-                row['base_domain'] = row['base_domain_y']
+                url_df.at[idx, 'base_domain'] = row['base_domain_y']
 
     url_df.to_csv(config['url_df_post_base_domains_merged'], index=False)
 
