@@ -76,13 +76,6 @@ def merge_agencies(df, agency_df):
     df = df.fillna('')
     df['agency'] = ''
 
-    # for tuple in df.iterrows():
-    #     row = tuple[1]
-    #     if row['agency_x'] == '':
-    #         row['agency'] = row['agency_y']
-    #     else:
-    #         row['agency'] = row['agency_x']
-
     for idx, row in df.iterrows():
         if row['agency'] == '':
             if row['agency_x'] != '':
@@ -98,13 +91,6 @@ def merge_bureaus(df, bureau_df):
     df = df.merge(bureau_df, on='base_domain', how='left')
     df = df.fillna('')
     df['bureau'] = ''
-
-    # for tuple in df.iterrows():
-    #     row = tuple[1]
-    #     if row['bureau_x'] == '':
-    #         row['bureau'] = row['bureau_y']
-    #     else:
-    #         row['bureau'] = row['bureau_x']
 
     for idx, row in df.iterrows():
         if row['bureau'] == '':
