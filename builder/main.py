@@ -76,12 +76,19 @@ def merge_agencies(df, agency_df):
     df = df.fillna('')
     df['agency'] = ''
 
-    for tuple in df.iterrows():
-        row = tuple[1]
-        if row['agency_x'] == '':
-            row['agency'] = row['agency_y']
-        else:
-            row['agency'] = row['agency_x']
+    # for tuple in df.iterrows():
+    #     row = tuple[1]
+    #     if row['agency_x'] == '':
+    #         row['agency'] = row['agency_y']
+    #     else:
+    #         row['agency'] = row['agency_x']
+
+    for idx, row in df.iterrows():
+        if row['agency'] == '':
+            if row['agency_x'] != '':
+                df.at[idx, 'agency'] = row['agency_x']
+            else:
+                df.at[idx, 'agency'] = row['agency_y']
 
     # drop temp agency columns
     df = df.drop(columns=['agency_x', 'agency_y'])
@@ -92,12 +99,19 @@ def merge_bureaus(df, bureau_df):
     df = df.fillna('')
     df['bureau'] = ''
 
-    for tuple in df.iterrows():
-        row = tuple[1]
-        if row['bureau_x'] == '':
-            row['bureau'] = row['bureau_y']
-        else:
-            row['bureau'] = row['bureau_x']
+    # for tuple in df.iterrows():
+    #     row = tuple[1]
+    #     if row['bureau_x'] == '':
+    #         row['bureau'] = row['bureau_y']
+    #     else:
+    #         row['bureau'] = row['bureau_x']
+
+    for idx, row in df.iterrows():
+        if row['bureau'] == '':
+            if row['bureau_x'] != '':
+                df.at[idx, 'bureau'] = row['bureau_x']
+            else:
+                df.at[idx, 'bureau'] = row['bureau_y']
 
     # drop temp bureau columns
     df = df.drop(columns=['bureau_x', 'bureau_y'])
@@ -163,13 +177,6 @@ if __name__ == "__main__":
     url_df.to_csv(config['url_df_pre_base_domains_merged'], index=False)
 
     # populate base domain column
-    # for tuple in url_df.iterrows():
-    #     row = tuple[1]
-    #     if row['base_domain'] == '':
-    #         if row['base_domain_x'] != '':
-    #             row['base_domain'] = row['base_domain_x']
-    #         else:
-    #             row['base_domain'] = row['base_domain_y']
     for idx, row in url_df.iterrows():
         if row['base_domain'] == '':
             if row['base_domain_x'] != '':
