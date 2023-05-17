@@ -458,7 +458,6 @@ pty1my.americorps.gov,americorps.gov,Executive,Corporation for National & Commun
 pty2my.americorps.gov,americorps.gov,Executive,Corporation for National & Community Service,,AmeriCorps,,FALSE,TRUE,FALSE,FALSE
 questions.americorps.gov,americorps.gov,Executive,Corporation for National & Community Service,,AmeriCorps,,FALSE,TRUE,FALSE,FALSE
 uat1my.americorps.gov,americorps.gov,Executive,Corporation for National & Community Service,,AmeriCorps,,FALSE,TRUE,FALSE,FALSE
-uat2my.americorps.gov,americorps.gov,Executive,Corporation for National & Community Service,,AmeriCorps,,FALSE,TRUE,FALSE,FALSE
 www.americorps.gov,americorps.gov,Executive,Corporation for National & Community Service,,AmeriCorps,,TRUE,FALSE,FALSE,FALSE
 americorpsoig.gov,americorpsoig.gov,Executive,Corporation for National & Community Service,,AmeriCorps Office of Inspector General,,TRUE,FALSE,FALSE,FALSE
 www.americorpsoig.gov,americorpsoig.gov,Executive,Corporation for National & Community Service,,AmeriCorps Office of Inspector General,,TRUE,FALSE,FALSE,FALSE
@@ -1304,8 +1303,10 @@ cesdataorigin1.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor 
 cesdatat.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,TRUE,FALSE
 data.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,TRUE,FALSE
 datadev.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
+datadevapc01.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
 datatest.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
 dewscmsd.psb.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
+dewscmsdpreview.psb.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
 dewscmsp.psb.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
 dewscmspreview.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
 dewscmspreview.psb.bls.gov,bls.gov,Executive,Department of Labor,12,Bureau of Labor Statistics,20,FALSE,TRUE,FALSE,FALSE
@@ -1687,6 +1688,7 @@ crn.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,Na
 cryosparc.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
 cssi-dev2.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
 cssi-prod-sg.ha2.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
+cssi-stage2.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
 cssi.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
 ctep.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
 ctrandomization.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
@@ -1829,6 +1831,7 @@ next.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,N
 nmtstudy.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
 nonhodgkin.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
 obf.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
+occpr-stage.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
 ocg-sg.ha2.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
 ocg.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
 oham.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
@@ -1952,6 +1955,7 @@ webapis.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,
 webresources.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
 www-cms.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
 www-int-ac.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
+www-ncbi-nlm-nih-gov.ezlibfrederick.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,FALSE,FALSE
 www-prod-acsf.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,TRUE,TRUE,FALSE
 www-prod.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,FALSE,FALSE,TRUE,FALSE
 www.cancer.gov,cancer.gov,Executive,Department of Health and Human Services,9,National Cancer Institute,,TRUE,FALSE,FALSE,FALSE
@@ -2267,7 +2271,7 @@ cert.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers
 chamdirext.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 chamfeext.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 chamfeweb-ext.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
-chinese.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
+chinese.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,TRUE,FALSE
 chronicdata.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 citgo-piv.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 citgo.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
@@ -2293,7 +2297,6 @@ dbdgateway.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,C
 dcipher-training.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 dcipher.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,FALSE,TRUE,FALSE
 ddt-vehss.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
-designsystems.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 dhds-int.apps.ecpaas.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 dhds.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,TRUE,FALSE
 dhdsdev.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
@@ -2480,6 +2483,7 @@ tceols.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Cente
 testinglocator.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 testinglocatordev.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 testinglocatoruat.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
+thecommunityguide-link.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 tools-1.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 tools-2.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
 tools-3.cdc.gov,cdc.gov,Executive,Department of Health and Human Services,9,Centers For Disease Control and Prevention,,FALSE,TRUE,FALSE,FALSE
@@ -2659,7 +2663,6 @@ microdata.api.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Cens
 mojo.it.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,FALSE,TRUE,FALSE
 onthemap.ces.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,TRUE,TRUE,FALSE
 onthemap.web1.ces.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,TRUE,FALSE,FALSE
-onthemap.web2.ces.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,TRUE,FALSE,FALSE
 opportunity.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,FALSE,TRUE,FALSE
 outage.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,FALSE,TRUE,FALSE
 portal.census.gov,census.gov,Executive,Department of Commerce,6,U.S. Census Bureau,,FALSE,FALSE,TRUE,FALSE
@@ -2713,6 +2716,7 @@ bomgar.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consume
 cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,TRUE,FALSE,TRUE,FALSE
 ctljss.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,FALSE,TRUE,FALSE
 dev4.demo.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,TRUE,FALSE,FALSE
+dev5.demo.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,TRUE,FALSE,FALSE
 devvpn1.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,FALSE,TRUE,FALSE
 devvpn2.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,FALSE,TRUE,FALSE
 extvpn1.cfpb.gov,cfpb.gov,Executive,Consumer Financial Protection Bureau,,Consumer Financial Protection Bureau,,FALSE,FALSE,TRUE,FALSE
@@ -2952,7 +2956,6 @@ federalist-9b06719f-4ddf-4b5e-92cf-4df82a05922b.app.cloud.gov,cloud.gov,Executiv
 federalist-9ced6b17-00dc-42ae-b318-a64b44bb24f0.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-9dc074d2-9bb0-4720-8e37-036899ae1463.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-a1f29504-db06-4d32-992e-c2dadbfe82f2.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
-federalist-a2423046-fe43-4e75-a2ef-2651e5e123ca.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-b146cf1e-c756-4b1f-bb83-c516cac94fbb.app.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,FALSE,TRUE,FALSE
 federalist-b6c4d61f-facd-4833-a4a9-554523a87147.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-bb524037-85b7-4932-b166-937acfe82a45.app.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,FALSE,TRUE,FALSE
@@ -2970,6 +2973,7 @@ federalist-cfade689-2192-403e-a4d0-0335f68f0203.sites.pages.cloud.gov,cloud.gov,
 federalist-d703a102-c627-4805-8934-78f5bf4c97da.app.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,FALSE,TRUE,FALSE
 federalist-d99fdc38-63df-4d35-bcc2-5f9654483de0.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-db14ea61-37f0-44fd-8ab9-591433f0ec2b.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
+federalist-e0a7489d-c5c2-4a41-b4ce-e27bc0bc4913.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-e3fba26d-2806-4f02-bf0e-89c97cfba93c.sites.pages.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,TRUE,FALSE,FALSE
 federalist-e9c24948-6a42-4d93-94cd-6dbacf6299bd.app.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,FALSE,TRUE,FALSE
 federalist-e9cffb99-9f28-4e6c-83f8-130e5a03a9f7.app.cloud.gov,cloud.gov,Executive,General Services Administration,23,"GSA, TTS",,FALSE,FALSE,TRUE,FALSE
@@ -3375,7 +3379,6 @@ ocio.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of C
 ogc.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,TRUE,TRUE,FALSE
 open.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,FALSE,TRUE,FALSE
 qa-cldp9.d.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,TRUE,FALSE,FALSE
-qa-commerce9.d.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,TRUE,FALSE,FALSE
 qa-mbda9.d.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,TRUE,FALSE,FALSE
 remoteapps.eas.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,FALSE,TRUE,FALSE
 search.commerce.gov,commerce.gov,Executive,Department of Commerce,6,Depatment of Commerce,,FALSE,TRUE,TRUE,FALSE
@@ -3955,6 +3958,7 @@ internal-trn2-elis2.uscis.dhs.gov,dhs.gov,Executive,Department of Homeland Secur
 ipgateway.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,FALSE,TRUE,FALSE
 ipris.cbp.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,TRUE,FALSE,FALSE
 iprradmin.cbp.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,TRUE,FALSE,FALSE
+iprs.cbp.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,TRUE,FALSE,FALSE
 isccompliance.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,FALSE,TRUE,FALSE
 iscd-chemsec.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,FALSE,TRUE,FALSE
 iscd-portal.dhs.gov,dhs.gov,Executive,Department of Homeland Security,24,Headquarters,,FALSE,FALSE,TRUE,FALSE
@@ -4303,7 +4307,6 @@ connect5.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Ene
 cpsweb.ee.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,FALSE,TRUE,FALSE
 crowdsourcing.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,FALSE,TRUE,FALSE
 ctsedwweb.ee.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,FALSE,TRUE,FALSE
-d7-local.cms.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,TRUE,FALSE,FALSE
 data.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,FALSE,TRUE,FALSE
 devra.kcnsc.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,FALSE,TRUE,FALSE
 devscreeningtool.doe.gov,doe.gov,Executive,Department of Energy,19,"US Department of Energy, Office of the CIO",,FALSE,TRUE,FALSE,FALSE
@@ -4514,7 +4517,7 @@ on.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief I
 ream.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 revenuedata.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 safetynet.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-search.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
+search.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 securetransport.ibc.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 sft-tst.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 smis.doi.gov,doi.gov,Executive,Department of the Interior,10,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -4530,7 +4533,6 @@ lakefw1.doioig.gov,doioig.gov,Executive,Department of the Interior,10,U.S. DEPAR
 securemail1.doioig.gov,doioig.gov,Executive,Department of the Interior,10,U.S. DEPARTMENT OF INTERIOR / OIG,,FALSE,FALSE,TRUE,FALSE
 www.doioig.gov,doioig.gov,Executive,Department of the Interior,10,U.S. DEPARTMENT OF INTERIOR / OIG,,TRUE,FALSE,FALSE,FALSE
 doj.gov,doj.gov,Executive,Department of Justice,11,U.S. Department of Justice,,TRUE,FALSE,FALSE,FALSE
-publicstaging.doj.gov,doj.gov,Executive,Department of Justice,11,U.S. Department of Justice,,FALSE,TRUE,FALSE,FALSE
 www.doj.gov,doj.gov,Executive,Department of Justice,11,U.S. Department of Justice,,TRUE,FALSE,FALSE,FALSE
 aqsweb.dol-esa.gov,dol-esa.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
 cqs.dol-esa.gov,dol-esa.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
@@ -4564,7 +4566,6 @@ cmptst2.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Inf
 compliancesheriff.opadev.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 contractorportal.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 cxsearch.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
-datadev.opadev.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 dataportal.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 datavault.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 debsstage.dol.gov,dol.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
@@ -4748,8 +4749,8 @@ csa-int.fmcsa.dot.gov,dot.gov,Executive,Department of Transportation,21,United S
 csa.fmcsa.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,TRUE,FALSE
 csadev.volpe.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,FALSE,FALSE
 damis.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,FALSE,TRUE,FALSE
-daprocess-prod.oai.bts.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,FALSE,FALSE
 data.fra.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,FALSE,TRUE,FALSE
+dataqs-int.fmcsa.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,FALSE,FALSE
 dataqs.fmcsa.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,TRUE,FALSE
 dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,TRUE,FALSE,TRUE,FALSE
 dotcms.fra.dot.gov,dot.gov,Executive,Department of Transportation,21,United States Department of Transportation,,FALSE,TRUE,TRUE,FALSE
@@ -5058,6 +5059,7 @@ ip2012.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government P
 lovelargelabia.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 mcarney.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 nbuscasamais.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
+ngoyave-nsekoseld.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 np.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 ns1hahn-mtf.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 ns1owyhee.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
@@ -5068,6 +5070,7 @@ nsdm-mg.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government 
 nslavinia.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 nsmenzel.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 nsvps4579.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
+nthewertzonejrobinson.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 nxpose2.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 nyell1.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
 retired.ecfr.gov,ecfr.gov,Executive,Government Publishing Office,,US Government Publishing Office,,FALSE,TRUE,FALSE,FALSE
@@ -5224,6 +5227,7 @@ gotowork.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Info
 hepis.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,FALSE,TRUE,FALSE
 hops.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,FALSE,TRUE,FALSE
 icer.ies.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,FALSE,TRUE,FALSE
+icras.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,TRUE,FALSE,FALSE
 icrasdev.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,TRUE,TRUE,FALSE
 idea.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,FALSE,TRUE,FALSE
 ies.ed.gov,ed.gov,Executive,Department of Education,18,Office of Chief Information Officer,12,FALSE,TRUE,TRUE,FALSE
@@ -5617,7 +5621,6 @@ www.eop.gov,eop.gov,Executive,Executive Office of the President,100,Office of Ad
 acres5.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 actor.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 actorws.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
-adc.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 adc2021.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 airnow.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 ampd-admin.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
@@ -5662,7 +5665,6 @@ bmdsonline.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environm
 bpauthhqproxy.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 bpauthproxy.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 bpworkplace.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
-cadlinkstg.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 camd.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 camddr.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 campd.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
@@ -5877,7 +5879,7 @@ owapps.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmenta
 owshiny.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 owsrf.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 owsrfprod.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
-ozone.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
+ozone.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,TRUE,FALSE
 ozoneairqualitystandards.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,TRUE,FALSE
 pasteur.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 permitsearch.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
@@ -5893,6 +5895,7 @@ pss.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental P
 pubsearch1.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 pubweb.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,TRUE,FALSE
 qed.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
+qedlinux1stg.aws.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 qlikdev.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 qlikviz.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 r7atwork.r07.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
@@ -5976,6 +5979,7 @@ wata.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental 
 water.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 watersgeo.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,TRUE,FALSE
 webeoc.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
+wetlandassessment.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,TRUE,FALSE,FALSE
 workplace.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 workplacedrredirect.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
 workplaceproxy.epa.gov,epa.gov,Executive,Environmental Protection Agency,20,Environmental Protection Agency,0,FALSE,FALSE,TRUE,FALSE
@@ -6619,7 +6623,7 @@ orapartners.preprod.fda.gov,fda.gov,Executive,Department of Health and Human Ser
 orauportal.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
 orautest.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
 precision.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
-preprod.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,TRUE,TRUE,FALSE
+preprod.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
 rmodels.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
 search.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,TRUE,TRUE,FALSE
 timsimtamobile.fda.gov,fda.gov,Executive,Department of Health and Human Services,9,U. S. Food and Drug Administration,,FALSE,FALSE,TRUE,FALSE
@@ -8309,6 +8313,7 @@ www.greengov.gov,greengov.gov,Executive,Environmental Protection Agency,20,Offic
 100samfrontendaltcomp.apps.prod-iae.bsp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 100samfrontendaltminc.apps.prod-iae.bsp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 10x.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,TRUE,FALSE
+155samfrontenduatcomp.apps.prod-iae.bsp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 18f.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,TRUE,FALSE
 55samfrontend.prod.apps-internal.prod-iae.bsp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 55samfrontend.prodlike.apps-internal.prod-iae.bsp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
@@ -8349,7 +8354,6 @@ autochoiceb.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GS
 autochoiced.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 autovendor.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,TRUE,FALSE
 autovendorb.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
-baart.int.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 benchmarks.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 bi.cfo.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 buy.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
@@ -8559,7 +8563,7 @@ ret.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS
 reverseauctions.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 reverseauctionsdemo.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 roads.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
-roadsb.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
+roadsd.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 roadsviewb.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 sasyec.fas.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 scopereview.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
@@ -8612,6 +8616,7 @@ vltp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECA
 vpndev.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 vpntest.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 vpntest2.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
+vsc-prod4-5-dmp-051523-vscmain.prod-acqit.helix.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
 vsc.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,TRUE,FALSE
 vscftp.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,FALSE,TRUE,FALSE
 vscintranet.gsa.gov,gsa.gov,Executive,General Services Administration,23,"GSA, IDI, ECAS II",,FALSE,TRUE,FALSE,FALSE
@@ -9186,7 +9191,6 @@ stg-asprswift.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,
 stg-asprvideos.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
 stg-asprwg.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
 stg-asprwgpublic.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
-stg-bloodstemcell.cloud.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,TRUE,FALSE,FALSE
 stg-emportal.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
 stg-idsvr.acf.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
 stg-mrcportal.hhs.gov,hhs.gov,Executive,Department of Health and Human Services,9,Office of the Secretary,3,FALSE,FALSE,TRUE,FALSE
@@ -9364,8 +9368,6 @@ mchb.tvisdata.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Service
 mchb.tvisdata.sec.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,TRUE,FALSE,FALSE
 mchbgrandchallenges.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,TRUE,TRUE,FALSE
 mchbtvis.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,FALSE,TRUE,FALSE
-mchbtvisdatastg01.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,TRUE,FALSE,FALSE
-mchbtvisdatastg02.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,TRUE,FALSE,FALSE
 mchbtvisdatauat04.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,TRUE,FALSE,FALSE
 media.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,FALSE,TRUE,FALSE
 muafind.hrsa.gov,hrsa.gov,Executive,Department of Health and Human Services,9,Health Resources and Services Administration,15,FALSE,FALSE,TRUE,FALSE
@@ -9974,6 +9976,7 @@ itap.gov,itap.gov,Executive,U.S. Department of Agriculture,,"USDA, ARS, NAL",,TR
 www.itap.gov,itap.gov,Executive,U.S. Department of Agriculture,,"USDA, ARS, NAL",,TRUE,FALSE,FALSE,FALSE
 itc.gov,itc.gov,Executive,Department of Defense,,Interagency Training Center,,TRUE,FALSE,FALSE,FALSE
 www.itc.gov,itc.gov,Executive,Department of Defense,,Interagency Training Center,,TRUE,FALSE,FALSE,FALSE
+gitlab.itdashboard.gov,itdashboard.gov,Executive,General Services Administration,23,"GSA, Office of Government-wide Policy",,FALSE,TRUE,FALSE,FALSE
 it-2013.itdashboard.gov,itdashboard.gov,Executive,General Services Administration,23,"GSA, Office of Government-wide Policy",,FALSE,FALSE,TRUE,FALSE
 it-2014.itdashboard.gov,itdashboard.gov,Executive,General Services Administration,23,"GSA, Office of Government-wide Policy",,FALSE,FALSE,TRUE,FALSE
 it-2015.itdashboard.gov,itdashboard.gov,Executive,General Services Administration,23,"GSA, Office of Government-wide Policy",,FALSE,FALSE,TRUE,FALSE
@@ -10240,7 +10243,6 @@ kennedy-center.gov,kennedy-center.gov,Executive,John F. Kennedy Center for Perfo
 www.kennedy-center.gov,kennedy-center.gov,Executive,John F. Kennedy Center for Performing Arts,,John F Kennedy Center for Performing Arts,,TRUE,FALSE,FALSE,FALSE
 kids.gov,kids.gov,Executive,General Services Administration,23,"GSA, TTS",,TRUE,FALSE,TRUE,FALSE
 www.kids.gov,kids.gov,Executive,General Services Administration,23,"GSA, TTS",,TRUE,FALSE,FALSE,FALSE
-dc1vwebsaawsp01.ent.dir.labor.gov,labor.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,TRUE,FALSE,FALSE
 labor.gov,labor.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,TRUE,FALSE,FALSE,FALSE
 www.labor.gov,labor.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,TRUE,FALSE,FALSE,FALSE
 lacoast.gov,lacoast.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,TRUE,FALSE,TRUE,FALSE
@@ -11907,7 +11909,7 @@ sdis.medicaid.gov,medicaid.gov,Executive,Department of Health and Human Services
 seds.medicaid.gov,medicaid.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
 stage0.medicaid.gov,medicaid.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
 www.medicaid.gov,medicaid.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,TRUE,FALSE,FALSE,FALSE
-medicalbillrights.gov,medicalbillrights.gov,Executive,Department of Health and Human Services,9,CMS,,TRUE,TRUE,FALSE,FALSE
+medicalbillrights.gov,medicalbillrights.gov,Executive,Department of Health and Human Services,9,CMS,,TRUE,FALSE,FALSE,FALSE
 www.medicalbillrights.gov,medicalbillrights.gov,Executive,Department of Health and Human Services,9,CMS,,TRUE,FALSE,FALSE,FALSE
 ftp.medicalcountermeasures.gov,medicalcountermeasures.gov,Executive,Department of Health and Human Services,9,"Assistant Secretary for Preparedness and Response, Office of the Secretary",,FALSE,FALSE,TRUE,FALSE
 medicalcountermeasures.gov,medicalcountermeasures.gov,Executive,Department of Health and Human Services,9,"Assistant Secretary for Preparedness and Response, Office of the Secretary",,TRUE,TRUE,TRUE,FALSE
@@ -11919,6 +11921,7 @@ dev1.edit.medicare.gov,medicare.gov,Executive,Department of Health and Human Ser
 dev1.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
 dev2.edit.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
 dev2.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
+enrollmentcenter.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,TRUE,FALSE,FALSE
 es.imp.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
 es.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,TRUE,TRUE,FALSE
 go.medicare.gov,medicare.gov,Executive,Department of Health and Human Services,9,Centers for Medicare and Medicaid Services,38,FALSE,FALSE,TRUE,FALSE
@@ -12016,7 +12019,7 @@ arlweb.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief In
 lakmshaegov01.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
 lakmshaegov02.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
 microstrategy.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
-msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,TRUE,TRUE,TRUE,FALSE
+msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,TRUE,FALSE,TRUE,FALSE
 search.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,FALSE,FALSE,TRUE,FALSE
 www.msha.gov,msha.gov,Executive,Department of Labor,12,Office of The Chief Information Officer (OCIO),,TRUE,FALSE,FALSE,FALSE
 e-appeal.mspb.gov,mspb.gov,Executive,Merit Systems Protection Board,389,US Merit Systems Protection Board,,FALSE,FALSE,TRUE,FALSE
@@ -12412,7 +12415,6 @@ carve.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administrat
 cas.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 casper.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 cats.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
-cce-datasharing-shumana.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 cce-datasharing.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 cce-signin.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 cce.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
@@ -12803,7 +12805,7 @@ europa-cms.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Admini
 europa.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 europa.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 europalander.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-euve.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
+euve.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 eve.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 events-avi-lb-pz.sewp.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 events.grc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -12929,7 +12931,6 @@ gcmdservices.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Adm
 gcn.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gcss-dime.giss.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gdc.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-gds.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 gdscc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 geer.grc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gems.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -12946,7 +12947,7 @@ geodynamics.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Admi
 getmoving.ksc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gewa.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gewex-rfa.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-gewex-srb.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
+gewex-srb.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 gfo.wff.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 ghrc.nsstc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 ghrcdrive.nsstc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -13020,9 +13021,9 @@ grin.hq.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administratio
 gs-3285-le.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 gs3264-cddis-webdev.cddis.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 gs450drupal.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-gs470jdrstst.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 gs470jpssjiram.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 gs470sp22tst.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
+gs470spsbx.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 gs580s-pubweb4.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 gs5w8v-ww1.wff.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 gs6101-gmao.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
@@ -13360,7 +13361,7 @@ jplfoundry.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Admini
 jplinvites.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 jplspaceship.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 jplteamx.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-jplwater.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
+jplwater.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 jps.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 jpsr.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 jpss.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
@@ -13492,6 +13493,7 @@ lms.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administrati
 lmse.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 locrwg.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 loirp.arc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
+loko.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 lola.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 lpo-mager.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 lpvs.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
@@ -13777,7 +13779,6 @@ nef.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26
 nek.ksc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 nen.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 neo-bolide.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
-neo-p-stage.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 neo.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 neo.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 neo.sci.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -14003,7 +14004,6 @@ pds-imaging.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Admin
 pds-jira.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 pds.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 pds.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
-pdscloud-gamma.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 pdsimg.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 pdsmgmt.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 pdsmgmt.sci.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -14263,12 +14263,12 @@ seawifs.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administ
 sec353ext.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 section508.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 securefs.nssc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-sed-d8dev.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 sed.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 sedupdate.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 sedvme.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 sedwebdev-new.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 sedwebdev.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
+sedwebtest-new.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 sedwebtest.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 seec.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 seecdev.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -14488,6 +14488,7 @@ stmd.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,2
 ston.jsc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 storm-pps.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 storm.pps.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
+storm2.pps.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 stp.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 stp9.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 strategicplan.jsc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
@@ -14547,6 +14548,7 @@ tco.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administrati
 tda.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 tdglobal.ksc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 tdrs.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
+tdval.ksc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 tec.grc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 techgatewire.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 technology-afrc.ndc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
@@ -14579,6 +14581,7 @@ tess.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administrat
 test1.sci.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 testsite.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 testsite1.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
+testsite2.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 tesweb.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 tetruss.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 texturecam.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -14725,7 +14728,6 @@ web-f.pps.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Admi
 web.cddis.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 web3.giss.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 webb.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
-webdev7.pps.eosdis.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 webdisks.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 webhost2.grc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 webpass.nas.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -14794,13 +14796,12 @@ www-misr.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administ
 www-pm.larc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 www-robotics.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
 www-spof.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
-www-stage.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 www-stage.nas.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
-www-stage.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 www.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,TRUE,FALSE,FALSE,FALSE
 www1-1-pz.sewp.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 www1-2-pz.sewp.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 www10.jsc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
+www2rh8.nas.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 www3.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 www4.jpl.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 wwwastro.msfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
@@ -14815,7 +14816,7 @@ xraybeamline.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Adm
 xrayschool.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 xronos.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 xspec.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
-xte.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,TRUE,TRUE,FALSE
+xte.gsfc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 zaphod1.grc.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 zeus.nascom.nasa.gov,nasa.gov,Executive,National Aeronautics and Space Administration,26,NASA Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 nationalbank.gov,nationalbank.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCC,,TRUE,FALSE,TRUE,FALSE
@@ -14936,7 +14937,6 @@ fsabcl-bids01d.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human 
 fsabcl-nonb01p.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,TRUE,FALSE,FALSE
 fscnpl-bnkly01p.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,TRUE,FALSE,FALSE
 fsswpl-cpti01d.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,TRUE,FALSE,FALSE
-fsswpl-dev01d.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,TRUE,FALSE,FALSE
 fsswpl-ostr01d.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,TRUE,FALSE,FALSE
 gbnci-abcc.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,FALSE,TRUE,FALSE
 gbnci.abcc.ncifcrf.gov,ncifcrf.gov,Executive,Department of Health and Human Services,9,"Enterprise Information Technology, NIH",,FALSE,FALSE,TRUE,FALSE
@@ -15230,6 +15230,7 @@ accessdata.fda.gov.ezproxyhhs.nihlibrary.nih.gov,nih.gov,Executive,Department of
 accessgudid.awsprod.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 accessgudid.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 accessgudid.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
+account-demo.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 account-ncbi-nlm-nih-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 account-ncbi-nlm-nih-gov.ezproxyhhs.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 account.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
@@ -15419,7 +15420,6 @@ breakitup.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Service
 brics-demo.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 brics-guid.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 brics-intramural.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
-brics-stage.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 brics.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 brics.nei.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 bricsguid.nia.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -15514,7 +15514,6 @@ cebs-ext.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services
 cebs.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 cebs.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 cebsp10.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
-cebsp11.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 cedcd.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 cehtaskforce.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 cehtaskforcestage.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -15821,6 +15820,7 @@ dsmblearningcenter.niaid.nih.gov,nih.gov,Executive,Department of Health and Huma
 dsrtp.niddk.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 dtd.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 dtd.wip.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
+dtmcwsttst01.nida.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 dtp.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 dtrtraining.orf.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 dtts.ors.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -15881,7 +15881,6 @@ escellbank.nia.nih.gov,nih.gov,Executive,Department of Health and Human Services
 espanol.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 espanol.ninds.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 espanol.smokefree.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-espanolauthor.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 esps.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 esps.nccih.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 ethics.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
@@ -16129,7 +16128,6 @@ ids.nhlbi.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,Na
 idss-bioinformatics.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 iebdev11.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 iebdev12.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
-iebdev21.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 iebdev22.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 ietp.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 ihm.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16146,6 +16144,7 @@ imagej.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,Natio
 images.nigms.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 images.nimh.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 images.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
+imagestest.nigms.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 imagic-prod.lhcaws.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 imagic.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 imaging-stage.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16235,7 +16234,6 @@ kerim2.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services
 kidney-espanol.niddk.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 kidney.niddk.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 kids.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
-kidsdev-acquia.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 kidsdev.niehs.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 kidsenvirohealth.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 kidsenvirohealth.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16303,7 +16301,6 @@ lhc-formbuilder.lhc.nlm.nih.gov,nih.gov,Executive,Department of Health and Human
 lhc-formbuilder.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 lhc-forms.lhc.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 lhc-forms.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-lhc-lx-lformssvcstage.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 lhc-lx-luanx2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 lhc-lx-plynch.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 lhc-lx-sedinkinya.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
@@ -16369,7 +16366,6 @@ local-rxnedit-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Ser
 local-rxnedit-2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-rxnedit-3.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-rxnedit.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-local-searchqa7-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 local-ts-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-ts-2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-ts.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16377,7 +16373,6 @@ local-uts-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Service
 local-uts.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-utsws-3.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-utsws.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-local-vsac-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 local-vsac.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-www-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 local-www-2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16440,7 +16435,6 @@ mdisaster.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,
 mdisasterinfo.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 mdisasterinfoapi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 mdisasterlit.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-mdphd-stage.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 mdphd.gpp.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 mdr2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 mdsld.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16581,7 +16575,7 @@ nccs-resource-2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Ser
 nccs-resource.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 nccs-sites.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 nccs-srch.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-nccs-vsac.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
+nccs-vsac.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 nccs-www-1.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 nccs-www-2.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 nccs-www-3.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16798,7 +16792,6 @@ nvinterviews.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Servic
 oacu.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 oacu.oir.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 oacutraining.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-oadev11.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 oai.niams.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 oai.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 oalm.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -16832,7 +16825,6 @@ oerevents.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9
 oers.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 oers.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 oerstaff.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-ofacp-test2.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 ofacp.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 ofacp.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 officeofbudget.od.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
@@ -16967,6 +16959,7 @@ prkar1a.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,
 probis.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 profiles-us-east-1.awsprod.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 profiles.awsprod.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
+profiles.awsqa.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 profiles.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 profiles.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 profilesinternal-lhc.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -17163,7 +17156,6 @@ search.nccih.nih.gov,nih.gov,Executive,Department of Health and Human Services,9
 search.nhlbi.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 search.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 search.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-searchqa7.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 secure-vip.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 securedev.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 secureemail.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -17308,6 +17300,7 @@ structure.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Serv
 structuredabstracts.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 stsstg.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 stsuat.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
+stsuatauthor.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 submit.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 submit.wip.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 subscription.nhlbi.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -17349,11 +17342,13 @@ teamscience.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,
 teamsite.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 teamsiteqa.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 techfinder.nhlbi.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
+techtransfer.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 tenure.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 tenuretrack.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 terap.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 terar.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 testblast142.be-md.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
+testcnap.nhlbi.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 testdash.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 testdomain.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 testdomain2.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
@@ -17469,7 +17464,7 @@ vip-intranet.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human S
 vip-qa-extweb.ncbi.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 vis-review-si.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 visualize.projectreporter.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
-visuals-prod-cf10.ha.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
+visuals-prod-cf10.ha.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 visuals.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 vmd-xplor.cit.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 vmd-xplor.niddk.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
@@ -17538,7 +17533,7 @@ www-drugabuse-gov.ezproxyhhs.nihlibrary.nih.gov,nih.gov,Executive,Department of 
 www-mslmb.niddk.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 www-ncbi-nlm-nih-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
 www-ncbi-nlm-nih-gov.ezproxyhhs.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
-www-nih-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
+www-nih-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 www-nih-gov.ezproxyhhs.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 www-nist-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 www-nlm-nih-gov.ezproxy.nihlibrary.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,TRUE,FALSE
@@ -17570,6 +17565,7 @@ wwwstage.nigms.nih.gov,nih.gov,Executive,Department of Health and Human Services
 wwwsvlt.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 wwwsvlt.wip.nlm.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 wwwtest.nigms.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
+wwwuat.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 wwwuatauthor.nichd.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,TRUE,FALSE,FALSE
 wye.nci.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
 xen.cc.nih.gov,nih.gov,Executive,Department of Health and Human Services,9,National Institutes of Health,25,FALSE,FALSE,TRUE,FALSE
@@ -17731,6 +17727,7 @@ lre.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of S
 maldi.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,TRUE,TRUE,FALSE
 materials.registry.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,FALSE,TRUE,FALSE
 materialsdata.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,FALSE,TRUE,FALSE
+math-idev.cam.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,TRUE,FALSE,FALSE
 math.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,TRUE,TRUE,FALSE
 mbark.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,FALSE,TRUE,FALSE
 mdcs.nist.gov,nist.gov,Executive,Department of Commerce,6,National Institute of Standards and Technology (NIST),,FALSE,FALSE,TRUE,FALSE
@@ -18551,7 +18548,6 @@ ociobldfw1.noc.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oce
 ocm-chs-fw1.coast.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 ocm-s-sp2016.coast.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,FALSE,FALSE
 ocotillonam.atdd.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
-ocs.dove.pmel.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,FALSE,FALSE
 ocsdata.ncd.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 oculus.atdd.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 odds.afsc.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
@@ -18725,6 +18721,7 @@ shiptracker.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceani
 shoreline.chs.coast.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
 shoreline.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
 shoreline.qa.coast.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
+shortotlk.spc.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,FALSE,FALSE
 sift.pmel.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 simp-data-silv.ctc.nwave.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 sis.nws.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
@@ -18783,8 +18780,8 @@ techpartnerships.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National O
 test2.satepsanone.woc.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 testbeds.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 testmd.orr.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
-testmdblog.orr.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
-testrrblog.orr.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
+testmdblog.orr.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
+testrrblog.orr.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 testtrack.nws.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 tgftp.cp.ncep.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 tgftp.nws.noaa.gov,noaa.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
@@ -19121,6 +19118,7 @@ mobileconnectconsole.nsf.gov,nsf.gov,Executive,National Science Foundation,422,N
 nationalscienceboard.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,FALSE,TRUE,FALSE
 ncses.acpt.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 ncses.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,TRUE,FALSE
+ncsesdata-internal.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 ncsesdata-stage.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 ncsesdata.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,TRUE,FALSE
 new.acpt.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
@@ -19136,6 +19134,7 @@ p-app-fl10.prod.nsf.gov,nsf.gov,Executive,National Science Foundation,422,Nation
 p-app-fl11.prod.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 p-app-fl12.prod.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 p-app-fl13.prod.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
+p-app-l-ncsesweb01.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 p-app-l-rgovsvc01.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 p-app-l-rgovsvc02.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
 p-app-mt10.prod.nsf.gov,nsf.gov,Executive,National Science Foundation,422,National Science Foundation,0,FALSE,TRUE,FALSE,FALSE
@@ -19293,8 +19292,10 @@ dea.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Info
 dmf.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,FALSE,TRUE,FALSE
 dmfcert.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,FALSE,TRUE,FALSE
 ladmf.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,TRUE,TRUE,FALSE
+ladmfawsp.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,TRUE,FALSE,FALSE
 ladmfawstest.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,TRUE,FALSE,FALSE
 nessadmin.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,TRUE,FALSE,FALSE
+nessadminawsp.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,TRUE,FALSE,FALSE
 ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,TRUE,TRUE,TRUE,FALSE
 ntrl.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,FALSE,TRUE,FALSE
 ra.ntis.gov,ntis.gov,Executive,Department of Commerce,6,National Technical Information Service,54,FALSE,FALSE,TRUE,FALSE
@@ -19606,6 +19607,7 @@ studentcertification.opm.gov,opm.gov,Executive,Office of Personnel Management,27
 study.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
 teopf.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
 timesheets.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
+uat2.escs.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,TRUE,FALSE,FALSE
 usahire.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
 usahiredemo.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
 usahirestage.opm.gov,opm.gov,Executive,Office of Personnel Management,27,Office Of Personnel Management,,FALSE,FALSE,TRUE,FALSE
@@ -20035,7 +20037,6 @@ www.ovc.gov,ovc.gov,Executive,Department of Justice,11,"U.S. Department of Justi
 ovcttac.gov,ovcttac.gov,Executive,Department of Justice,11,"U.S. Department of Justice, Office of Justice Programs",,TRUE,TRUE,TRUE,FALSE
 tims.ovcttac.gov,ovcttac.gov,Executive,Department of Justice,11,"U.S. Department of Justice, Office of Justice Programs",,FALSE,FALSE,TRUE,FALSE
 www.ovcttac.gov,ovcttac.gov,Executive,Department of Justice,11,"U.S. Department of Justice, Office of Justice Programs",,TRUE,FALSE,FALSE,FALSE
-live-dojoig.oversight.gov,oversight.gov,Executive,Council of Inspectors General on Integrity and Efficiency,,Council of the Inspectors General on Integrity and Efficiency,0,FALSE,TRUE,FALSE,FALSE
 oversight.gov,oversight.gov,Executive,Council of Inspectors General on Integrity and Efficiency,,Council of the Inspectors General on Integrity and Efficiency,0,TRUE,FALSE,TRUE,FALSE
 pandemic.oversight.gov,oversight.gov,Executive,Council of Inspectors General on Integrity and Efficiency,,Council of the Inspectors General on Integrity and Efficiency,0,FALSE,FALSE,TRUE,FALSE
 qa-doj.oversight.gov,oversight.gov,Executive,Council of Inspectors General on Integrity and Efficiency,,Council of the Inspectors General on Integrity and Efficiency,0,FALSE,TRUE,FALSE,FALSE
@@ -21538,7 +21539,6 @@ www.savingsbondwizard.gov,savingsbondwizard.gov,Executive,Department of the Trea
 advocacy.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,FALSE,TRUE,FALSE
 ca1danube.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
 ca2quantico.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
-ca2rouge.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
 ca2yukon.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
 catran.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,TRUE,FALSE
 catweb.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,TRUE,FALSE
@@ -21564,7 +21564,6 @@ loaddmz1.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small B
 loaddmz2.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,FALSE,TRUE,FALSE
 map.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,FALSE,TRUE,FALSE
 maps.certify.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,FALSE,TRUE,FALSE
-newenile.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
 newweb.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,FALSE,FALSE
 pro-net.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,TRUE,FALSE
 pronet.sba.gov,sba.gov,Executive,Small Business Administration,28,U.S. Small Business Administration,,FALSE,TRUE,TRUE,FALSE
@@ -22180,6 +22179,7 @@ abarrslite.ofac.treas.gov,treas.gov,Executive,Department of the Treasury,15,Depa
 abarrsliteuat.ofac.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
 bep.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
 bnpdev.bankdev.occ.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
+bnpdevext.bankdev.occ.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
 bnppreview.bankdev.occ.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
 bnpstage.bankdev.occ.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
 bpd.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
@@ -22208,7 +22208,6 @@ fir.fms.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department o
 fms.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,TRUE,FALSE
 fmsp.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
 fmsq.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
-fsi.webtest.ofr.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
 gtas.fms.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
 gwa.fms.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,FALSE,TRUE,FALSE
 hqdcweprhxpv11.occ.treas.gov,treas.gov,Executive,Department of the Treasury,15,Department of the Treasury - DO,,FALSE,TRUE,FALSE,FALSE
@@ -22364,7 +22363,6 @@ irs.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department
 irsoversightboard.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
 isim-wf.fiscal.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
 isimq-wf.fiscal.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
-legacyholdings.fiscal.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,TRUE,FALSE,FALSE
 m.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
 maint.services.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
 modernmoney.treasury.gov,treasury.gov,Executive,Department of the Treasury,15,Department of the Treasury - OCIO,,FALSE,FALSE,TRUE,FALSE
@@ -22623,7 +22621,7 @@ ugov.gov,ugov.gov,Executive,Director of National Intelligence,,Office of Directo
 www.ugov.gov,ugov.gov,Executive,Director of National Intelligence,,Office of Director of National Intelligence - CIO (ICES),,TRUE,FALSE,FALSE,FALSE
 ui.gov,ui.gov,Executive,Department of Labor,12,Office of the Chief Information Officer,,TRUE,FALSE,FALSE,FALSE
 www.ui.gov,ui.gov,Executive,Department of Labor,12,Office of the Chief Information Officer,,TRUE,FALSE,FALSE,FALSE
-unemployment.gov,unemployment.gov,Executive,Department of Labor,12,Office of the Chief Information Officer,,TRUE,TRUE,FALSE,FALSE
+unemployment.gov,unemployment.gov,Executive,Department of Labor,12,Office of the Chief Information Officer,,TRUE,FALSE,FALSE,FALSE
 www.unemployment.gov,unemployment.gov,Executive,Department of Labor,12,Office of the Chief Information Officer,,TRUE,FALSE,FALSE,FALSE
 qas.unicor.gov,unicor.gov,Executive,Department of Justice,11,Unicor,,FALSE,TRUE,FALSE,FALSE
 unicor.gov,unicor.gov,Executive,Department of Justice,11,Unicor,,TRUE,TRUE,TRUE,FALSE
@@ -22860,6 +22858,7 @@ bamc.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Hum
 bg.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
 bil.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,TRUE,FALSE,FALSE
 blm.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,TRUE,TRUE,FALSE
+blockedwww.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,TRUE,FALSE,FALSE
 blog.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
 buildd.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
 bumed.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
@@ -23110,6 +23109,7 @@ www.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Huma
 wwww.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
 xxx.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,TRUE,FALSE,FALSE
 xyq.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,FALSE,TRUE,FALSE
+•www.usajobs.gov,usajobs.gov,Executive,Office of Personnel Management,27,OPM Human Resource Solutions,,FALSE,TRUE,FALSE,FALSE
 cldcentral.usalearning.gov,usalearning.gov,Executive,Office of Personnel Management,27,OPM Center for Leadership Development,,FALSE,TRUE,FALSE,FALSE
 fedvte.usalearning.gov,usalearning.gov,Executive,Office of Personnel Management,27,OPM Center for Leadership Development,,FALSE,FALSE,TRUE,FALSE
 securityawareness.usalearning.gov,usalearning.gov,Executive,Office of Personnel Management,27,OPM Center for Leadership Development,,FALSE,TRUE,TRUE,FALSE
@@ -23430,6 +23430,7 @@ dcs.sc.egov.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FA
 de.nrcs.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,FALSE,TRUE,FALSE
 dev-cms.fs.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,TRUE,FALSE,FALSE
 devanalyticsportal.fsis.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,FALSE,TRUE,FALSE
+devapps.fas.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,TRUE,FALSE,FALSE
 devfs.ess.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,TRUE,FALSE,FALSE
 dg.fns.agcloud.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,TRUE,FALSE,FALSE
 dguat.fns.edc.usda.gov,usda.gov,Executive,U.S. Department of Agriculture,,USDA,,FALSE,TRUE,FALSE,FALSE
@@ -24041,6 +24042,7 @@ nflis.deadiversion.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office
 notify.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 ojp.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 ojpnet.ojp.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
+ojpsdcweb257.ojp.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 ojpsdcweb258.ojp.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,TRUE,FALSE,FALSE
 operationladyjustice.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
 ows.usdoj.gov,usdoj.gov,Executive,Department of Justice,11,Office of the Chief Information Officer,,FALSE,FALSE,TRUE,FALSE
@@ -24183,7 +24185,7 @@ cr.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of G
 cr.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 cr.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 crm-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
-cu.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
+cu.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 cu.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 cu.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 cv.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
@@ -24360,7 +24362,7 @@ kz.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global
 la.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 la.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 la.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
-languages.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
+languages.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 languages.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 lb.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 lb.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
@@ -24374,7 +24376,7 @@ lr.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global
 ls.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 ls.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 ls.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
-lt.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
+lt.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 lt.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 lt.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 lu.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
@@ -24392,7 +24394,7 @@ ma.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global
 md.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 md.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 md.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
-me.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
+me.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 me.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 me.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 mepi-state.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
@@ -24504,7 +24506,7 @@ ro.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global
 rs.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 rs.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 rs.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
-ru.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
+ru.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 ru.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 ru.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 rw.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
@@ -24610,7 +24612,7 @@ uk.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Gl
 uk.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 unesco-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 unesco-mission.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
-usau-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
+usau-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 usau-mission.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,TRUE,TRUE,TRUE,FALSE
 useu-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
@@ -24622,7 +24624,7 @@ usoecd-mission.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,
 usun-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 usunrome-mission.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 usunrome-mission.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
-uy.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
+uy.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 uy.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 uy.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 uz.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
@@ -24639,7 +24641,7 @@ vienna-mission.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,
 vn.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 vn.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 vn.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
-ws.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
+ws.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 ws.pre.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
 ws.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,TRUE,TRUE,FALSE
 www-ait.edit.usembassy.gov,usembassy.gov,Executive,Department of State,14,Bureau of Global Public Affairs (GPA),,FALSE,FALSE,TRUE,FALSE
@@ -24786,6 +24788,7 @@ dev-earthquake.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S.
 dev-geomag.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dev-landslides.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dev-sciencebase.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
+dev-webapps.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 dev01-acquisition.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dev01-earthquake.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dev01-geomag.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -24799,7 +24802,6 @@ devearlywarning.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S
 development-earthquake.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 deveros.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 devfiredanger.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
-devlcmap.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 diseasemaps.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dms.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 dmsdata.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -24927,13 +24929,10 @@ igsaws400sbt001.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. G
 igskahcgvmd1aq1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 igskahcgvmd1pd1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 igskahcgvmp1aq1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
-igskbthivmstwd1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 igskmncgvmp2aq1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 igskmnkahitsup1.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 igskrd911sss106.er.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
-igskrdcnvscms01.er.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 igsrglib03.er.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
-igswia046svltdl.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 il.water.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
 imagery.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 ims.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -24944,7 +24943,7 @@ infolink.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geolo
 infotrek.er.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 int-volcanoes.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 intcraftdev.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
-internalapps.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
+internalqsb.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 international.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 iowa.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 iraq.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -25048,7 +25047,7 @@ nationalmap.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geolo
 natweb-r53.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,FALSE,FALSE
 natweb.resolve.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
 natwebcaas01.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
-natwebcaww01.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
+natwebcaww01.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 natwebcaww02.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 natwebsdas01.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
 natwebsdww01.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -25306,7 +25305,7 @@ wi.water.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geologic
 wi.waterdata.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 wildfire.cr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 wildfire.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
-wim.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
+wim.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
 wimcloud.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
 wise.er.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,TRUE,TRUE,FALSE
 wms.wr.usgs.gov,usgs.gov,Executive,Department of the Interior,10,U.S. Geological Survey,,FALSE,FALSE,TRUE,FALSE
@@ -25530,6 +25529,7 @@ webvpn.uspsoig.gov,uspsoig.gov,Executive,United States Postal Service,,USPS Offi
 www.uspsoig.gov,uspsoig.gov,Executive,United States Postal Service,,USPS Office of Inspector General,,TRUE,FALSE,FALSE,FALSE
 10millionpatents.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,TRUE,TRUE,FALSE
 account-passive.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,TRUE,FALSE,FALSE
+account-pvt-passive.etc.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,TRUE,FALSE,FALSE
 account-pvt.etc.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,TRUE,FALSE,FALSE
 account.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,TRUE,TRUE,FALSE
 acts-fqt.etc.uspto.gov,uspto.gov,Executive,Department of Commerce,6,USPTO,,FALSE,FALSE,TRUE,FALSE
@@ -25849,7 +25849,6 @@ cshiip.research.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Offic
 csp.maveric.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
 csp.research.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
 csp.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
-d7-decom.mobile.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,FALSE,FALSE
 dailyburialschedule.cem.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,TRUE,FALSE
 danville.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
 das-sqa.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
@@ -25942,7 +25941,6 @@ insurance.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of I
 int.eauth.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,TRUE,FALSE
 int.ebenefits.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,FALSE,FALSE
 int.fed.eauth.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
-int.pki.eauth.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,FALSE,FALSE
 int.vdc.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,TRUE,FALSE,FALSE
 iowacity.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
 iris.custhelp.va.gov,va.gov,Executive,Department of Veterans Affairs,29,"Office of Information and Technology, IT Operations and Services (ITOPS)",,FALSE,FALSE,TRUE,FALSE
@@ -26407,7 +26405,7 @@ radar.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceani
 training.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 w1.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
 w2-md.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
-w2-mo.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,FALSE,TRUE,FALSE
+w2-mo.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
 w2.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
 water-md.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
 water-mo.weather.gov,weather.gov,Executive,Department of Commerce,6,National Oceanic and Atmospheric Administration,48,FALSE,TRUE,TRUE,FALSE
