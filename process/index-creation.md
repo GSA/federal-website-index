@@ -1,5 +1,24 @@
 
 
+
+## V2, using GitHub Actions (active) - verbose version 
+
+
+* The federal website index is created by combining and processing a number of individual source datasets.  The list of datasets is managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py), and the urls for these datasets are managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py).  
+* The specified source datasets are copied and imported into memory.  Snapshots of each individual dataset are stored [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots).
+* One further source dataset is created by taking the [list of federal .gov domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md) and adding `www` to the front of each of them.
+* Agency, bureau, and branch information is added to each website by pulling in the relevant information for its base domain from the [list of federal .gov domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md).  
+* The various source datasets are combined.  A snapshot of this combined list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined.csv).  
+* The combined list of websites is then deduplicated.  A snapshot of the dedupped list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined-dedup.csv).  A list of the website that are removed in this step is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/dedup-removed.csv).
+* The list of websites is filtered to remove any entries that should be ignored, as specified by two ignore files (begins with list, contains list). The purpose of this is to try and remove non-public websites.
+* ...
+
+
+
+
+
+The code for this process is [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py), and is actually well commented so as to enable a layperson to follow what is happening.  
+
 ## V2, using GitHub Actions (active)
 
 * The process now runs automatically [once a week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) or can be triggered on demand.  
