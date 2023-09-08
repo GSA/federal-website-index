@@ -18,7 +18,14 @@ The `contains` ignore list actually functions by requiring that the string be bo
 
 - There are 56 entries that are `.demo.`, `-demo.`, or `-demo`, all of which appear to be staging or development sites and none of which appear to be intended for public consumption.
 - Skimming through the rest, I can't see any others that would get caught up in this filter that we wouldn't want to remove.
-- There are still several staging and development websites that look like they won't get filtered (e.g. awsdemo.grantsolutions.gov), but this change will at least address the ones that are currently being asked for us to remove.  
+- There are still several staging and development websites that look like they won't get filtered (e.g. awsdemo.grantsolutions.gov), but this change will at least address the ones that are currently being asked for us to remove.
+
+### Contains `sharepoint`
+
+We are already filtering out sites that begin with `sharepoint.`.  After that, 6 websites still contain `sharepoint`.  
+- 2 do not resolve and seem safe to specifically remove as internal collaboration tools.
+- 1 will soon be removed because it also contains `acpt`.  
+- Of the other three though, they appear to all reference external guests/non-government individuals having access.  Up until now, our sense is that such a site *would* actually stay in the federal website index.  We should discuss further to confirm, but if that's the case, then we'll likely not filter them out.  
 
 ### Begins with `tools.`
 
