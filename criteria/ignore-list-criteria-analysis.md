@@ -1,6 +1,3 @@
-
-
-
 ### Contains `acpt`
 
 There's currently 15 entries that contain `acpt` in the federal website index.
@@ -19,6 +16,16 @@ The `contains` ignore list actually functions by requiring that the string be bo
 - There are 56 entries that are `.demo.`, `-demo.`, or `-demo`, all of which appear to be staging or development sites and none of which appear to be intended for public consumption.
 - Skimming through the rest, I can't see any others that would get caught up in this filter that we wouldn't want to remove.
 - There are still several staging and development websites that look like they won't get filtered (e.g. awsdemo.grantsolutions.gov), but this change will at least address the ones that are currently being asked for us to remove.
+
+### Begins with `gp.`
+
+Currently, 5 websites in the index begin with `gp.`.  
+
+- At least 1 is a reference to an internal vpn resource called Global Protect.
+- The other 4 do not resolve or return errors.
+
+It seems safe and appropriate to filter all of these out by adding `gp.` to the begins list.  
+
 
 ### Contains `sharepoint`
 
