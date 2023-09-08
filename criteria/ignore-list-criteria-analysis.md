@@ -36,3 +36,16 @@ There's currently 8 entries that begin with `tools.` in the federal website inde
 - 3 are for internal collaboration tools, so should be removed
 
 Therefore, we should filter out the four specific sites we want to remove instead of filtering all `tools.` sites.  
+
+#### Contains `vdi`
+
+We are already filtering out sites that begin with `vdi.`.  After that 32 websites still contain `vdi`.  
+
+- I've manually checked all 32 and all seem to be internal tools (i.e. all are virtual desktops systems meant for internal staff use).
+- Unfortunately, there's a huge variety how the string `vdi` is included in there, so the only rule that would get them would be a true contains `vdi` instead of what we currently have, which requires characters on both sides.
+- Adding `evdi` to the current contains list would get 7 of these.
+- Adding `vdi-` to the begins list gets another 2.
+- Adding `vdilab` to the begins list gets another 2.
+
+This still leaves a good number unaddressed.  I'm creating an issue to return to this.  
+- 
