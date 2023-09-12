@@ -231,6 +231,10 @@ if __name__ == "__main__":
     url_df = url_df.drop(columns=['is_gov'])
     analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
+    # add tld for .gov urls
+    loc = url_df.columns.get_loc('base_domain')
+    url_df.insert(loc=loc+1, column='top_level_domain', value='gov')
+
     # write list to csv
     url_df.to_csv(config['target_url_list_path'], index=False)
 

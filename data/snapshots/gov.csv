@@ -73,14 +73,14 @@ DENALI.GOV,Federal - Executive,Denali Commission,Denali Commission,Anchorage,AK,
 AP.GOV,Federal - Executive,Department of Commerce,TCD / BIS / Dept of Commerce,Washington,DC,BIS.CIRT@bis.doc.gov
 AVIATIONWEATHER.GOV,Federal - Executive,Department of Commerce,National Weather Service,Silver Spring,MD,security@noaa.gov
 BEA.GOV,Federal - Executive,Department of Commerce,Bureau of Economic Analysis,Suitland,MD,bea-cirt@bea.gov
-BIS.GOV,Federal - Executive,Department of Commerce,Bureau of Industry and Security,Washington,DC,soc@bis.doc.gov
+BIS.GOV,Federal - Executive,Department of Commerce,Bureau of Industry and Security,Washington,DC,BIS.CIRT@bis.doc.gov
 BLDRDOC.GOV,Federal - Executive,Department of Commerce,National Institute of Standards and Technology,Boulder,CO,siirt@nist.gov
 BUYUSA.GOV,Federal - Executive,Department of Commerce,International Trade Administration,Washington,DC,OpSec@trade.gov
 CENSUS.GOV,Federal - Executive,Department of Commerce,Census Bureau,Suitland,MD,boc.cirt@census.gov
 CHIPS.GOV,Federal - Executive,Department of Commerce,National Institute of Standards and Technology,Gaithersburg,MD,siirt@nist.gov
 CLIMATE.GOV,Federal - Executive,Department of Commerce,NWS/OPS33,Silver Spring,MD,security@noaa.gov
 COMMERCE.GOV,Federal - Executive,Department of Commerce,Department of Commerce,Washington,DC,esoc@doc.gov
-CWC.GOV,Federal - Executive,Department of Commerce,Bureau of Industry and Security,Washington,DC,ida.mix@bis.doc.gov
+CWC.GOV,Federal - Executive,Department of Commerce,Bureau of Industry and Security,Washington,DC,BIS.CIRT@bis.doc.gov
 DATAPRIVACYFRAMEWORK.GOV,Federal - Executive,Department of Commerce,International Trade Administration,Washington DC,DC,chuck.hicks@trade.gov
 DNSOPS.GOV,Federal - Executive,Department of Commerce,National Institute of Standards and Technology,Gaithersburg,MD,antd-siirt@nist.gov
 DOC.GOV,Federal - Executive,Department of Commerce,Office of the Chief Information Officer,Washington,DC,esoc@doc.gov
@@ -283,6 +283,7 @@ DOCLINE.GOV,Federal - Executive,Department of Health and Human Services,"Nationa
 DONACIONDEORGANOS.GOV,Federal - Executive,Department of Health and Human Services,Health Resources and Services Administration,Rockville,MD,responsibledisclosure@hhs.gov
 DRUGABUSE.GOV,Federal - Executive,Department of Health and Human Services,"National Institute on Drug Abuse, NIH",Baltimore,MD,responsibledisclosure@hhs.gov
 ELDERCARE.GOV,Federal - Executive,Department of Health and Human Services,Administration for Community Living,Washington,DC,responsibledisclosure@hhs.gov
+ENCUENTRAAPOYO.GOV,Federal - Executive,Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,Rockville,MD,(blank)
 EVERYTRYCOUNTS.GOV,Federal - Executive,Department of Health and Human Services,U. S. Food and Drug Administration,Silver Spring,MD,responsibledisclosure@hhs.gov
 FAMILYPLANNING.GOV,Federal - Executive,Department of Health and Human Services,"Office of the Assistant Secretary for Health, Office of the Secretary",Washington,DC,responsibledisclosure@hhs.gov
 FATHERHOOD.GOV,Federal - Executive,Department of Health and Human Services,Administration for Children and Families,Washington,DC,responsibledisclosure@hhs.gov
@@ -753,7 +754,7 @@ OSIS.GOV,Federal - Executive,Director of National Intelligence,Office of Directo
 UGOV.GOV,Federal - Executive,Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),Fort Meade,MD,ismc-networkadmin@ugov.gov
 EAC.GOV,Federal - Executive,Election Assistance Commission,Election Assistance Commission,Silver Spring,MD,security@eac.gov
 HELPAMERICAVOTE.GOV,Federal - Executive,Election Assistance Commission,Election Assistance Commission,Silver Spring,MD,security@eac.gov
-VOTEBYMAIL.GOV,Federal - Executive,Election Assistance Commission,Election Assistance Commission,Silver Spring,MD,security@eac.gov
+VOTEBYMAIL.GOV,Federal - Executive,Election Assistance Commission,Election Assistance Commission,Washington DC,DC,dkaristai@eac.gov
 AIRKNOWLEDGE.GOV,Federal - Executive,Environmental Protection Agency,Environmental Protection Agency,Durham,NC,infosec@epa.gov
 AIRNOW.GOV,Federal - Executive,Environmental Protection Agency,Environmental Protection Agency,Durham,NC,EPA-CISO@epa.gov
 CBI-EPA.GOV,Federal - Executive,Environmental Protection Agency,Environmental Protection Agency,Durham,NC,epa-ciso@epa.gov
@@ -1337,9 +1338,9 @@ USHOUSE.GOV,Federal - Legislative,The Legislative Branch,US House of Representat
 USHR.GOV,Federal - Legislative,The Legislative Branch,US House of Representatives,Washington,DC,(blank)
 USCAPITOLPOLICE.GOV,Federal - Legislative,U.S. Capitol Police,U.S. Capitol Police,Washington,DC,OIS-Security@uscp.gov
 USCP.GOV,Federal - Legislative,U.S. Capitol Police,U.S. Capitol Police,Washington,DC,(blank)
-AMERICA250.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,cchristopher@america250.gov
-USA250.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,aguglielmetti.ctr@america250.gov
-USSEMIQUINCENTENNIAL.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,cchristopher@america250.gov
+AMERICA250.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,domain_security@america250.gov
+USA250.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,domain_security@america250.gov
+USSEMIQUINCENTENNIAL.GOV,Federal - Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,Alexandria,VA,domain_security@america250.gov
 USCC.GOV,Federal - Legislative,U.S.-China Economic and Security Review Commission,U.S. - China Economic and Security Review Commission,Washington,DC,(blank)
 SEN.GOV,Federal - Legislative,United States Senate,US Senate,Washington,DC,saanoc2@saa.senate.gov
 SENATE.GOV,Federal - Legislative,United States Senate,US Senate,Washington,DC,saanoc2@saa.senate.gov
