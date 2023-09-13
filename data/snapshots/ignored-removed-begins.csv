@@ -8,6 +8,9 @@ testing-cookbook.18f.gov
 autodiscover.abilityone.gov
 webmail.abmc.gov
 sts.access-board.gov
+dev-nadrc.acl.gov
+dev-olderindians.acl.gov
+dev-oralhealth.acl.gov
 autodiscover.acus.gov
 mail.adlnet.gov
 autodiscover.ahcpr.gov
@@ -25,6 +28,8 @@ mail.amtrakoig.gov
 origin.www.anchorit.gov
 access.anl.gov
 autodiscover.anl.gov
+dev-dash.anl.gov
+dev-sec-dash.anl.gov
 mail.anl.gov
 sharepoint.anl.gov
 staging-www.anl.gov
@@ -133,6 +138,7 @@ remote.cftc.gov
 autodiscover.cigie.gov
 staging.pulse.cio.gov
 edit.cisa.gov
+dev-nrrd.app.cloud.gov
 staging-13244.cdn-broker-test.cloud.gov
 test-migrate.app.cloud.gov
 assets.cms.gov
@@ -312,6 +318,7 @@ vdi-dr.dot.gov
 vdi.dot.gov
 www1.oig.dot.gov
 www2.dotgov.gov
+dev-www.dotideahub.gov
 demo.drugabuse.gov
 dev.e-enterprise.gov
 test.e-enterprise.gov
@@ -364,6 +371,17 @@ www2.epa.gov
 dev.epic.gov
 remote.esc.gov
 adfs.faa.gov
+dev-adsbrebate.faa.gov
+dev-author-www.faa.gov
+dev-author.faa.gov
+dev-employees.faa.gov
+dev-enroutesupport.faa.gov
+dev-ladd.faa.gov
+dev-mdtcm.mps.faa.gov
+dev-my.faa.gov
+dev-myatocareer.faa.gov
+dev-webfcr.faa.gov
+dev-www.faa.gov
 extranet.asias.faa.gov
 piv.faa.gov
 test-registry.faa.gov
@@ -469,6 +487,10 @@ sharepoint.fnal.gov
 test-docdb.fnal.gov
 vpn.fnal.gov
 admin.foia.gov
+dev-admin.foia.gov
+dev-api.foia.gov
+dev-api2.foia.gov
+dev-www.foia.gov
 origin.foodsafety.gov
 email.fpisc.gov
 www1.fpl.fs.fed.us
@@ -514,6 +536,7 @@ assets.dev.healthcare.gov
 assets.healthcare.gov
 assets.imp.healthcare.gov
 assets.test.healthcare.gov
+dev-t.healthcare.gov
 dev.address.api.healthcare.gov
 dev.geo.api.healthcare.gov
 dev.healthcare.gov
@@ -621,6 +644,7 @@ qa.its.gov
 mail.jobcorps.gov
 remote.jusfc.gov
 connect.justice.gov
+dev-mail365.justice.gov
 dev.justice.gov
 edit.justice.gov
 stg.justice.gov
@@ -874,6 +898,8 @@ collaboration.nichd.nih.gov
 connect.niaid.nih.gov
 connect.niddk.nih.gov
 connect.niehs.nih.gov
+dev-oasrv.ncbi.nlm.nih.gov
+dev-pubmedgov-vip.ncbi.nlm.nih.gov
 dev.allofus.nih.gov
 dev.alzped.nia.nih.gov
 dev.drupalcommunity.nih.gov
@@ -964,6 +990,7 @@ admin.hmspermits.noaa.gov
 cdn.coastalscience.noaa.gov
 cdn.ioos.noaa.gov
 cdn.star.nesdis.noaa.gov
+dev-hads.ncep.noaa.gov
 extranet.gfdl.noaa.gov
 extranet.nesdis.noaa.gov
 extranet.nmfs.noaa.gov
@@ -1165,6 +1192,7 @@ autodiscover.rmrc.psc.gov
 smtp.scms.psc.gov
 vpn.pscr.gov
 uat-www.psob.gov
+dev-static.pubmed.gov
 static.pubmed.gov
 test-static.pubmed.gov
 autodiscover.rcfl.gov
@@ -1333,6 +1361,7 @@ webadmin.test.usajobs.gov
 webadmin.uat.usajobs.gov
 www2.usajobs.gov
 gp.usap.gov
+dev-api.usaspending.gov
 dev.usaspending.gov
 staging-api.usaspending.gov
 connect.stage.usastaffing.gov
@@ -1394,6 +1423,10 @@ qa.usembassy.gov
 download.usgcrp.gov
 access.er.usgs.gov
 access.usgs.gov
+dev-acquisition.cr.usgs.gov
+dev-earthquake.cr.usgs.gov
+dev-geomag.cr.usgs.gov
+dev-landslides.cr.usgs.gov
 internal.aquatic.biodata.usgs.gov
 origin.cloud.usgs.gov
 staging-earthquake.usgs.gov
@@ -1412,11 +1445,13 @@ mdm.usmarshals.gov
 preview.catalog.usmint.gov
 autodiscover.uspsoig.gov
 collaboration.uspsoig.gov
+dev-collaboration.uspsoig.gov
 lyncdiscover.uspsoig.gov
 sso.uspsoig.gov
 vdi.uspsoig.gov
 vpn.uspsoig.gov
 cdn.uspto.gov
+dev-services-fed-iam.etc.uspto.gov
 dialin.etc.uspto.gov
 sts.etc.uspto.gov
 sts.uspto.gov
@@ -1427,6 +1462,8 @@ access.va.gov
 adfs.edeazclabs.va.gov
 autodiscover.va.gov
 cdn.eo.va.gov
+dev-api.va.gov
+dev-developer.va.gov
 dev.adfs.federation.va.gov
 dev.mvp-reef.va.gov
 dev.va.gov
@@ -1459,6 +1496,7 @@ edit.whistleblowers.gov
 staging.whistleblowers.gov
 email.whitehouse.gov
 sso.workplace.gov
+accessdevext.trade.gov
 admin.accountcreation.cftc.gov
 admin.ahrq.gov
 admin.amberalert.ojp.gov
@@ -1496,6 +1534,31 @@ demo.madeinamerica.gov
 demo.simplereport.gov
 demo.smartpay.gsa.gov
 demo.touchpoints.digital.gov
+dev-02-drupal-climate.woc.noaa.gov
+dev-03-drupal-climate.woc.noaa.gov
+dev-acquia.niehs.nih.gov
+dev-apps-st.fisheries.noaa.gov
+dev-blog-nrrd.app.cloud.gov
+dev-bloodstemcell.cloud.hhs.gov
+dev-brt.niehs.nih.gov
+dev-cms.fs.usda.gov
+dev-csat.bjs.ojp.gov
+dev-doi.sciencebase.gov
+dev-drupal9-climate.woc.noaa.gov
+dev-dsfa.nmfs.noaa.gov
+dev-erma-ui.orr.noaa.gov
+dev-iis.ocfo.gsa.gov
+dev-onrr-frontend.app.cloud.gov
+dev-otra.cdan.dot.gov
+dev-perm.flag.dol.gov
+dev-sciencebase.usgs.gov
+dev-seafoodinspection.nmfs.noaa.gov
+dev-serapps.cr.usgs.gov
+dev-vadr.usgs.gov
+dev-vhptools.usgs.gov
+dev-west-www-wpc.woc.noaa.gov
+dev-www-goesr.woc.noaa.gov
+dev-www-wpc.woc.noaa.gov
 dev.access.co-ops.nos.noaa.gov
 dev.americanspaces.state.gov
 dev.americorps.gov
@@ -1522,6 +1585,7 @@ dev.ebilling.nrc-gateway.gov
 dev.era.nih.gov
 dev.fai.gov
 dev.fas.usda.gov
+dev.fedshirevets.gov
 dev.fiscaldata.treasury.gov
 dev.flag.dol.gov
 dev.ftc.gov
@@ -1539,12 +1603,15 @@ dev.nac-mvp.archives.gov
 dev.ncdc.noaa.gov
 dev.ncei.noaa.gov
 dev.ncua.gov
+dev.nfc.usda.gov
 dev.niaaa.nih.gov
+dev.nrs.ed.gov
 dev.nsf.gov
 dev.opendap.co-ops.nos.noaa.gov
 dev.opm.gov
 dev.osti.gov
 dev.ppubs.awslab.uspto.gov
+dev.products.coastalscience.noaa.gov
 dev.restoreactscienceprogram.noaa.gov
 dev.seasonaljobs.dol.gov
 dev.simplereport.gov
@@ -1571,7 +1638,7 @@ edit.msha.gov
 edit.mymoney.gov
 edit.ofac.treasury.gov
 edit.oig.treasury.gov
-edit.openpaymentsdata.cms.gov
+edit.sigpr.gov
 edit.tfm.fiscal.treasury.gov
 edit.tfx.treasury.gov
 edit.uscourts.gov
@@ -1602,7 +1669,6 @@ qa.cmsd9.chs.usgs.gov
 qa.coralreef.gov
 qa.coralreef.noaa.gov
 qa.emsl.pnnl.gov
-qa.fai.gov
 qa.georgewbushlibrary.gov
 qa.idmanagement.gov
 qa.medlineplus.gov
@@ -1616,6 +1682,8 @@ stage.armytenmiler.com
 stage.atf.gov
 stage.cloud.nih.gov
 stage.cms.doe.gov
+stage.collegedrinkingprevention.gov
+stage.dcp.psc.gov
 stage.edgarfiling.sec.gov
 stage.energy.gov
 stage.filermanagement.edgarfiling.sec.gov
@@ -1626,7 +1694,6 @@ stage.oalj.dol.gov
 stage.olaw.nih.gov
 stage.onlineforms.edgarfiling.sec.gov
 stage.portal.edgarfiling.sec.gov
-stage.sites.ed.gov
 stage.trade.gov
 stage.usmarshals.gov
 stage.usphs.gov
@@ -1658,6 +1725,7 @@ staging-www.tricare.mil
 staging.aasis.omha.cit.nih.gov
 staging.admin.coastalscience.noaa.gov
 staging.apprenticeship.gov
+staging.benefits.gov
 staging.cafc.uscourts.gov
 staging.cisa.gov
 staging.cmsd9.chs.usgs.gov
@@ -1668,6 +1736,8 @@ staging.fai.gov
 staging.flag.dol.gov
 staging.ftc.gov
 staging.gomo.army.mil
+staging.hirevets.gov
+staging.iris.fws.gov
 staging.maps.coastalscience.noaa.gov
 staging.marketplace.va.gov
 staging.mycreditunion.gov
@@ -1680,7 +1750,6 @@ staging.ppubs.aws.uspto.gov
 staging.products.coastalscience.noaa.gov
 staging.schoolsafety.gov
 staging.seasonaljobs.dol.gov
-staging.usaspending.gov
 stg.aff.gov
 stg.d9.justice.gov
 stg.fiscaldata.treasury.gov
@@ -1689,7 +1758,6 @@ stg.ocio-jira.acf.hhs.gov
 stg.pbgc.gov
 stg.rethinkingdrinking.niaaa.cit.nih.gov
 stg.simplereport.gov
-stg.tfm.fiscal.treasury.gov
 test-apps-st.fisheries.noaa.gov
 test-dsfa.nmfs.noaa.gov
 test-east-www-ospo.woc.noaa.gov
@@ -1698,6 +1766,7 @@ test-iis.ocfo.gsa.gov
 test-my.ttb.gov
 test-perm.flag.dol.gov
 test-seafoodinspection.nmfs.noaa.gov
+test-storms.l.noaa.gov
 test-storms.ngs.noaa.gov
 test-www-satepsanone.woc.noaa.gov
 test-www-wpc.woc.noaa.gov
@@ -1745,6 +1814,7 @@ uat.access.co-ops.nos.noaa.gov
 uat.cmist.noaa.gov
 uat.dev-ppm.fcs.gsa.gov
 uat.fiscaldata.treasury.gov
+uat.intranet.co-ops.nos.noaa.gov
 uat.itdashboard.gov
 uat.opendap.co-ops.nos.noaa.gov
 uat.prosperafrica.gov
