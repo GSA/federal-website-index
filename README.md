@@ -2,12 +2,11 @@
 
 The goal of this project is to assemble an accurate, up-to-date list of the `.gov` public websites of the federal government.  It turns out that there are a lot of sources to consider, but this repository will explain the process used and reference the source datasets. This effort is a part of the [Site Scanning program](https://digital.gov/site-scanning).    
 
-This [file](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv), which is used by the Site Scanning program for its list of Target URLs, is automatically updated every week on Wednesday at 6pm ET (assuming that there are changes in the source files).  
+The end product, a Federal Website Index, can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv) and is automatically updated every week on Wednesday at 6pm ET.  It is used by the Site Scanning program to serve as its list of Target URLs, is automatically updated every week on Wednesday at 6pm ET.  
 
 ## Background
 
-Virtually all of the ~800 agencies that make up the US federal government maintain one or more websites (e.g. `www.state.gov`, `space.commerce.gov`). We know what `.gov` domains exist and what agency operates them because the `.gov` registry [makes this information public](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), but that only tells us what domains exist (e.g. `state.gov`, `commerce.gov`). Each domain may actually have hundreds of distinct websites (e.g. `statecollection.census.gov` and `opportunity.census.gov`, which are each different websites than `www.census.gov`). This project tries to assemble a comprehensive list of all distinct federal websites available to the public.  
-
+Virtually all of the ~300 agencies that make up the US federal government maintain one or more websites (e.g. `www.state.gov`, `space.commerce.gov`). We know what `.gov` domains exist and which agency operates them because the `.gov` registry [makes this information public](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), but that only tells us what domains exist (e.g. `state.gov`, `commerce.gov`). Each domain may actually have hundreds of distinct websites (e.g. `statecollection.census.gov` and `opportunity.census.gov`, which are each different websites than `www.census.gov`). This project tries to assemble a comprehensive list of all distinct federal websites available to the public.  
 
 ## Caveats
  
@@ -26,7 +25,7 @@ Here's the process we use to build the website index:
 
 A more detailed description of the process [can be found here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md) - [actual source code [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py)].  
 
-The list of datasets that are currently used to build the target URL list is [here](https://github.com/GSA/federal-website-index/blob/638457d7c486a1337a8ebb624da9b4912e8a1b4c/builder/config.py).  
+The list of datasets that are currently used to build the target URL list is [here](https://github.com/GSA/federal-website-index/blob/main/builder/config.py).  
 
 ## Datasets Used To Generate The Target URL List
 
@@ -44,20 +43,17 @@ Other Datasets That Are Under Consideration For Use
 * 2020 End of Term Web Archive
 * .gov Registry DNS
 
-## Analysis
-* [Analysis Repository](https://github.com/GSA/site-scanning-analysis/tree/main/reports)
-* Analysis Reports: [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
-* [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md); [Quality Assurance Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/quality-assurance-walkthrough.md)
-* [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
-* [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
-* [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
+## Site Scanning Program Links
 
+The [Site Scanning program](https://digital.gov/site-scanning/) automates a wide range of scans of public federal websites and generates data about website health and best practices. The program is a shared service provided by the [Technology Transformation Services](http://www.gsa.gov/tts) at the U.S. General Services Administration (GSA).
 
-## Resources
-* [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
-* [Target URL List - Data Dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
-* [Terms and how we are using them](https://github.com/GSA/site-scanning-documentation/blob/main/pages/terms.md)
-
+* [Program Website](https://digital.gov/site-scanning)
+* [API Documentation](https://open.gsa.gov/api/site-scanning-api/)
+* [Central Project Repository](https://github.com/GSA/site-scanning)
+* [Program Documentation Repository](https://github.com/GSA/site-scanning-documentation)
+* [Analysis Repository](https://github.com/GSA/site-scanning-analysis)
+* [Site Scanning Engine Repository](https://github.com/GSA/site-scanning-engine)
+* [Extensive List of Links to Technical Details, Snapshots, Analysis Reports, and More](https://digital.gov/guides/site-scanning/technical-details/) (if in doubt, look here)
 
 ## Feedback
 
