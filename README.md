@@ -53,6 +53,7 @@ The [Site Scanning program](https://digital.gov/site-scanning/) automates a wide
 * [Program Documentation Repository](https://github.com/GSA/site-scanning-documentation)
 * [Analysis Repository](https://github.com/GSA/site-scanning-analysis)
 * [Site Scanning Engine Repository](https://github.com/GSA/site-scanning-engine)
+* [Snapshots Repository](https://github.com/GSA/site-scanning-snapshots)
 * [Extensive List of Links to Technical Details, Snapshots, Analysis Reports, and More](https://digital.gov/guides/site-scanning/technical-details/) (if in doubt, look here)
 
 ## Feedback
