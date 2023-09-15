@@ -45,7 +45,7 @@ Other Datasets That Are Under Consideration For Use
 
 ## Site Scanning Program Links
 
-The [Site Scanning program](https://digital.gov/site-scanning/) automates a wide range of scans of public federal websites and generates data about website health and best practices. The program is a shared service provided by the [Technology Transformation Services](http://www.gsa.gov/tts) at the U.S. General Services Administration (GSA).
+The [Site Scanning program](https://digital.gov/site-scanning/) automates a wide range of scans of public federal websites and generates data about website health and best practices. 
 
 * [Program Website](https://digital.gov/site-scanning)
 * [API Documentation](https://open.gsa.gov/api/site-scanning-api/)
