@@ -3,7 +3,7 @@
 
 The Digital Analytics Program (DAP) is a website analytics shared service that is available to all federal agencies. A daily export of the individual websites that have implemented DAP on at least one page is generated and hosted on analytics.usa.gov.  
 
-[The file is located here]([https://analytics.usa.gov/data/live/sites.csv](https://analytics.usa.gov/data/live/sites-extended.csv)).   
+[The file is located here](https://analytics.usa.gov/data/live/sites-extended.csv).   
 
 It contains roughly 5,700 URLs.  
 
