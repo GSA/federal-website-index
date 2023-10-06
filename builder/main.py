@@ -108,6 +108,33 @@ def format_agency_and_bureau_codes(df):
     df['bureau_code'] = df['bureau_code'].map(lambda x: round_float(x))
     return df
 
+def get_mil_subset():
+    df = csv_to_df(config['mil_source_url'])
+    mil_domains_df = csv_to_df(config['mil_domains_url'])
+
+    df = df.rename(columns={'Website': 'target_url', 'Agency': 'agency', 'Bureau': 'bureau', 'Branch': 'branch'})
+    df['agency_code'] = 0
+    df['bureau_code'] = 0
+    df['source_list_federal_domains'] = 'FALSE'
+    df['source_list_dap'] = 'FALSE'
+    df['source_list_pulse'] = 'FALSE'
+    df['source_list_other'] = 'FALSE'
+    df['source_list_mil'] = 'TRUE'
+    df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
+
+    mil_domains_set = set(mil_domains_df.Domains)
+    df['is_mil'] = df['base_domain'].apply(lambda x: x in mil_domains_set)
+    df = df[df['is_mil'] == True]
+    df = df.drop(columns=['is_mil'])
+    df['top_level_domain'] = 'mil'
+
+    # Reorder columns
+    df = df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency', 'agency_code',
+             'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap',
+             'source_list_pulse', 'source_list_other', 'source_list_mil']]
+
+    return df
+
 if __name__ == "__main__":
     # initialize analysis dict
     analysis = {}
@@ -235,8 +262,15 @@ if __name__ == "__main__":
     loc = url_df.columns.get_loc('base_domain')
     url_df.insert(loc=loc+1, column='top_level_domain', value='gov')
 
+    # get mil subset
+    mil_df = get_mil_subset()
+    # set source_list_mil to False for all urls apart from the mil subset
+    url_df['source_list_mil'] = 'FALSE'
+    # append mil subset to the main list of urls
+    final_df = pd.concat([url_df, mil_df], ignore_index=True)
+
     # write list to csv
-    url_df.to_csv(config['target_url_list_path'], index=False)
+    final_df.to_csv(config['target_url_list_path'], index=False)
 
     # write analysis tocsv
     dict_to_csv(config['analysis_csv_path'], analysis)

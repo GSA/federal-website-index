@@ -9,6 +9,8 @@ config = {
     'pulse_source_url': 'https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv',
     'dap_source_url': 'https://analytics.usa.gov/data/live/sites-extended.csv',
     'omb_source_url': 'https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv',
+    'mil_source_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_websites.csv',
+    'mil_domains_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_domains.csv',
     'other_websites_path': os.path.join(dirname, '../data/dataset/other-websites.csv'),
     'ignore_list_begins_path': os.path.join(dirname, '../criteria/ignore-list-begins.csv'),
     'ignore_list_contains_path': os.path.join(dirname, '../criteria/ignore-list-contains.csv'),
