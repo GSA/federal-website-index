@@ -2,7 +2,7 @@
 
 The goal of this project is to assemble an accurate, up-to-date list of the `.gov` public websites of the federal government.  It turns out that there are a lot of sources to consider, but this repository will explain the process used and reference the source datasets. This effort is a part of the [Site Scanning program](https://digital.gov/site-scanning).    
 
-The end product, a Federal Website Index, can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv) and is automatically updated every week on Wednesday at 6pm ET.  It is used by the Site Scanning program to serve as its list of Target URLs, is automatically updated every week on Wednesday at 6pm ET.  
+The end product, a Federal Website Index, can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv) and is automatically updated every week on Wednesday at 6pm ET.  It is then used by the Site Scanning program to serve as its list of Target URLs.  
 
 ## Background
 
