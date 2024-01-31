@@ -28,7 +28,7 @@ def format_gov_df(df):
     # drop unnecessary columns
     df = df.drop(columns=['City', 'State', 'Security contact email'])
     # rename columns
-    df = df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
+    df = df.rename(columns={'Domain name': 'target_url', 'Domain type': 'branch', 'Agency': 'agency', 'Organization name': 'bureau'})
     # convert to lowercase
     df['target_url'] = df['target_url'].str.lower()
     df['base_domain'] = df['target_url']
