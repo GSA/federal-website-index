@@ -26,7 +26,7 @@ def fetch_data(analysis):
 
 def format_gov_df(df):
     # drop unnecessary columns
-    df = df.drop(columns=['City', 'State', 'Security Contact Email'])
+    df = df.drop(columns=['City', 'State', 'Security contact email'])
     # rename columns
     df = df.rename(columns={'Domain Name': 'target_url', 'Domain Type': 'branch', 'Agency': 'agency', 'Organization': 'bureau'})
     # convert to lowercase
