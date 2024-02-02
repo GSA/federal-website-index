@@ -19,3 +19,8 @@ _x.y.gov is reported as not being a target URL in the Site Scanning data._
 
 
 ## For a website that is in the primary snapshot (aka removing a website)
+
+If a site is included that shouldn't be...
+- Look at the [`begins with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv) or the [`contains` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-contains.csv).
+- Consider a new entry that will filter out the website at issue.
+- Compare against the current `All` snapshot to see if any other entries would be caught up in this new filter and reconsider appropriately.  
