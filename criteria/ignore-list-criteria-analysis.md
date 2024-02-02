@@ -1,3 +1,18 @@
+### Begins with `api`
+
+There's currently 62 entries that start with `api.`.  
+- 28 resolve or redirect to a real webpage of substance.
+- 34 seem to either not load or go straight to the endpoint.
+- I'm adding the 34 directly to the begins with list but leaving the other 29 in place
+
+There's another 13 that start just with `api`.  Of those, 7 either do not load, go straight to the endpoint, or are staging urls.  
+
+### Contains `api`
+
+There's 204 entries that contain (but don't start with) `api`.  
+
+
+
 ### Contains `acpt`
 
 There's currently 15 entries that contain `acpt` in the federal website index.
