@@ -26,6 +26,8 @@ Candidates for other datasets that are not currently used but could be are liste
 * [List of URLs in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
 * [List of URLs in OIRA's Inventory Report of information collections](https://www.reginfo.gov/public/do/PRAXML)
 * [Query Wayback Machine's index](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
+* [Federal Register Agency List](https://www.federalregister.gov/api/v1/agencies)
+* [Federal Register Bulk Data](https://www.govinfo.gov/bulkdata/FR/2023)
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
