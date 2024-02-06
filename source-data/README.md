@@ -7,6 +7,7 @@ This section provides details about each of the original datasets that are used 
 * [End of Term 2016 Crawl](https://github.com/GSA/federal-website-index/blob/main/source-data/eot2016.md)
 * [pulse.cio.gov snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
 * [Other .gov Websites](https://github.com/GSA/federal-website-index/blob/main/source-data/other-websites.md)
+* [web.mil List of Customers](https://github.com/GSA/federal-website-index/blob/main/source-data/dotmil-websites.md)
 
 
 #### Other Candidates
