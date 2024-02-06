@@ -20,7 +20,7 @@ Candidates for other datasets that are not currently used but could be are liste
 * [digitaldashboard.gov .mil list](https://github.com/GSA/federal-website-index/blob/main/source-data/dotmil_websites-2.md)
 * [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/source-data/site-scanning-final-websites.md)
 * [Defense.gov List of Websites](https://www.defense.gov/Resources/Military-Departments/)
-* CISA security scan list
+* [CISA security scan list](https://drive.google.com/drive/u/1/folders/1cD71mrR1mKK4ckpji5xYdZqyVn4s5qAh)
 * [usa.gov list of websites](https://github.com/GSA/federal-website-index/blob/main/source-data/usagov_directory.md)
 * [List of US Courts websites](https://www.uscourts.gov/about-federal-courts/federal-courts-public/court-website-links)
 * [List of URLs in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
