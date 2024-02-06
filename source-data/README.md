@@ -28,6 +28,7 @@ Candidates for other datasets that are not currently used but could be are liste
 * [Query Wayback Machine's index](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 * [Federal Register Agency List](https://www.federalregister.gov/api/v1/agencies)
 * [Federal Register Bulk Data](https://www.govinfo.gov/bulkdata/FR/2023)
+* [Federal Depository Library Program web archive](https://www.archive-it.org/home/FDLPwebarchive)
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
