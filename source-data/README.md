@@ -23,7 +23,8 @@ Candidates for other datasets that are not currently used but could be are liste
 * CISA security scan list
 * [usa.gov list of websites](https://www.usa.gov/agency-index)
 * [List of US Courts websites](https://www.uscourts.gov/about-federal-courts/federal-courts-public/court-website-links)
-* [List of URLS in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
+* [List of URLs in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
+* [List of URLs in OIRA's Inventory Report of information collections](https://www.reginfo.gov/public/do/PRAXML)
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
