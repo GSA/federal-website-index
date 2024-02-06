@@ -16,6 +16,8 @@ Candidates for other datasets that are not currently used but could be are liste
 * [EOT2020 Archive](https://github.com/end-of-term/eot2020)
 * [Censys](https://github.com/GSA/federal-website-index/blob/main/source-data/censys.md)
 * [Search.gov's Gov't-URLs project](https://github.com/GSA/govt-urls)
+* [digitaldashboard.gov .mil list](https://github.com/GSA/federal-website-index/blob/main/source-data/dotmil_websites-2.md)
+* [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/source-data/site-scanning-final-websites.md)
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
