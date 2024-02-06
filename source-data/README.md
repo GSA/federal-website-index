@@ -23,7 +23,7 @@ Candidates for other datasets that are not currently used but could be are liste
 * [CISA security scan list](https://drive.google.com/drive/u/1/folders/1cD71mrR1mKK4ckpji5xYdZqyVn4s5qAh)
 * [usa.gov list of websites](https://github.com/GSA/federal-website-index/blob/main/source-data/usagov_directory.md)
 * [List of US Courts websites](https://www.uscourts.gov/about-federal-courts/federal-courts-public/court-website-links)
-* [List of URLs in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
+* [List of URLs in US Government Manual](https://github.com/GSA/federal-website-index/blob/main/source-data/us_government_manual-2022.md)
 * [List of URLs in OIRA's Inventory Report of information collections](https://www.reginfo.gov/public/do/PRAXML)
 * [Query Wayback Machine's index](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 * [Federal Register Agency List](https://www.federalregister.gov/api/v1/agencies)
