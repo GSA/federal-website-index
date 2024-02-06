@@ -21,7 +21,7 @@ Candidates for other datasets that are not currently used but could be are liste
 * [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/source-data/site-scanning-final-websites.md)
 * [Defense.gov List of Websites](https://www.defense.gov/Resources/Military-Departments/)
 * CISA security scan list
-* [usa.gov list of websites](https://www.usa.gov/agency-index)
+* [usa.gov list of websites](https://github.com/GSA/federal-website-index/blob/main/source-data/usagov_directory.md)
 * [List of US Courts websites](https://www.uscourts.gov/about-federal-courts/federal-courts-public/court-website-links)
 * [List of URLs in US Government Manual](https://www.govinfo.gov/bulkdata/GOVMAN)
 * [List of URLs in OIRA's Inventory Report of information collections](https://www.reginfo.gov/public/do/PRAXML)
