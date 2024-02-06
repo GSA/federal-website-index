@@ -19,6 +19,7 @@ Candidates for other datasets that are not currently used but could be are liste
 * [Search.gov's Gov't-URLs project](https://github.com/GSA/govt-urls)
 * [digitaldashboard.gov .mil list](https://github.com/GSA/federal-website-index/blob/main/source-data/dotmil_websites-2.md)
 * [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/source-data/site-scanning-final-websites.md)
+* [Defense.gov List of Websites](https://www.defense.gov/Resources/Military-Departments/)
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
