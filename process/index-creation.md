@@ -8,4 +8,14 @@ Below is a description of the process used to create the Federal Website Index, 
 * The list of websites is filtered to remove any entries that should be ignored, as specified by two ignore files ([`begins with` list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv) first, then the [`contains` list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-contains.csv)) [note that the `contains` list actually requires that the specified string have non-alphanumeric characters both before and after it (or just after, if the string is at the beginning)]. The purpose of this is to try and remove non-public websites. Snapshot of the last after it is filtered can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore-begins.csv) (after the `begins with` list) and [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore-contains.csv) (after the `contains` list). A list of the websites that are removed with each filter can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) (for the `begins with` list) and [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-contains.csv) (for the `contains` list).
 * Agency, bureau, and branch information is added to each website by pulling in the relevant information for its base domain from the [list of federal .gov domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md).
 * The list of websites is then further filtered to only keep those that have a base domain that is on the [list of federal .gov domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md).  This removes non-.gov, non-federal, and expired websites. The result is the Federal Website Index, which can be found [here](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv).  A list of the websites that are removed at this step can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/nonfederal-removed.csv).  
-* Note - An summary report of the assembly process can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).  A summary report of the finalized Federal Website Index can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).   
+* Note - An summary report of the assembly process can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).  A summary report of the finalized Federal Website Index can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).
+
+
+
+
+
+
+
+
+
+
