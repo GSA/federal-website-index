@@ -1,3 +1,15 @@
+
+
+### Contains `acpt`
+
+There's currently 15 entries that contain `acpt` in the federal website index.
+- All belong to NSF, which I believe uses it as part of acceptance testing.
+- Only 2 resolve to websites - the rest timeout, do not connect, or return an error server code.
+- The 2 that resolve have been requested for us to remove them by NSF given that they are staging/development sites.
+
+Therefore, we should add `acpt` to the `contains` ignore list.  
+
+
 ### Begins with `api`
 
 There's currently 62 entries that start with `api.`.  
@@ -12,15 +24,12 @@ There's another 13 that start just with `api`.  Of those, 7 either do not load, 
 There's 204 entries that contain (but don't start with) `api`.  
 
 
+### Begins with `cms`
 
-### Contains `acpt`
+There's 93 urls that contain `cms` [that are removed](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) by the [`begins-with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv).  Of those, 37 are cms.gov urls.  This means that maybe 47 are being removed by this filter (the other 36 are x.cms.gov urls that are rightly removed by another beginning string).  So, the filter is doing good work, but we need to somehow whitelist `cms.gov`.    
 
-There's currently 15 entries that contain `acpt` in the federal website index.
-- All belong to NSF, which I believe uses it as part of acceptance testing.
-- Only 2 resolve to websites - the rest timeout, do not connect, or return an error server code.
-- The 2 that resolve have been requested for us to remove them by NSF given that they are staging/development sites.
+I'm creating an issue to consider solutions, such as moving the `other-websites` source file to the very end of the index generation process.  
 
-Therefore, we should add `acpt` to the `contains` ignore list.  
 
 ### Contains `demo`
 
@@ -47,7 +56,18 @@ It seems safe and appropriate to filter all of these out by adding `gp.` to the 
 We are already filtering out sites that begin with `sharepoint.`.  After that, 6 websites still contain `sharepoint`.  
 - 2 do not resolve and seem safe to specifically remove as internal collaboration tools.
 - 1 will soon be removed because it also contains `acpt`.  
-- Of the other three though, they appear to all reference external guests/non-government individuals having access.  Up until now, our sense is that such a site *would* actually stay in the federal website index.  We should discuss further to confirm, but if that's the case, then we'll likely not filter them out.  
+- Of the other three though, they appear to all reference external guests/non-government individuals having access.  Up until now, our sense is that such a site *would* actually stay in the federal website index.  We should discuss further to confirm, but if that's the case, then we'll likely not filter them out.
+
+
+### Begins with `telework.`
+
+- There's 3 urls that contain `telework.` [that are removed](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) by the [`begins-with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv).
+- One shouldn't be removed (telework.gov).
+- One is rightly removed by another filter (dev.telework.gov)
+- The third needs to be removed (telework.ojp.usdoj.gov).
+- To address the issue, I'm going to remove `telework.` from the `begins with` ignore list but add in `telework.ojp.usdoj.gov`
+
+
 
 ### Begins with `tools.`
 
