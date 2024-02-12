@@ -30,6 +30,10 @@ There's 93 urls that contain `cms` [that are removed](https://github.com/GSA/fed
 
 I'm creating an issue to consider solutions, such as moving the `other-websites` source file to the very end of the index generation process.  
 
+### Begins with `connect.`
+
+- There's 27 urls that contain `connect` [that are removed](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) by the [`begins-with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv).  26 appear to be rightly filtered, but `connect.gov` shouldn't be.
+- The same fix for `cms.gov` can be used to redress this, too.  
 
 ### Contains `demo`
 
