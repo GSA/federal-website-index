@@ -24,6 +24,13 @@ There's another 13 that start just with `api`.  Of those, 7 either do not load, 
 There's 204 entries that contain (but don't start with) `api`.  
 
 
+### Begins with `app`
+- There are 147 websites in our index that begin with `app`.
+- 6 begin with `app-` and should all be filtered out.
+- Some sites that begin with `app.` are legitimate and shouldn't be filtered out.  Therefore, I think the move is to add individual websites that we want to remove to the ignore list.  
+- I've started doing ^^^ but there's a bunch that are already getting filtered out for not being live, so I'm not going to worry about those and just look at the ones that are live with 200 codes. 
+
+
 ### Begins with `cms`
 
 There's 93 urls that contain `cms` [that are removed](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) by the [`begins-with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv).  Of those, 37 are cms.gov urls.  This means that maybe 47 are being removed by this filter (the other 36 are x.cms.gov urls that are rightly removed by another beginning string).  So, the filter is doing good work, but we need to somehow whitelist `cms.gov`.    
