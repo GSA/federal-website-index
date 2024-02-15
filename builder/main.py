@@ -122,7 +122,7 @@ def get_mil_subset():
     df['source_list_mil'] = 'TRUE'
     df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
-    mil_domains_set = set(mil_domains_df.Domains)
+    mil_domains_set = set(mil_domains_df['Domain name'])
     df['is_mil'] = df['base_domain'].apply(lambda x: x in mil_domains_set)
     df = df[df['is_mil'] == True]
     df = df.drop(columns=['is_mil'])
