@@ -5,9 +5,10 @@ import pandas as pd
 import requests
 
 
-def csv_to_df(url):
+def csv_to_df(url, has_headers=True):
     bytes = requests.get(url).content
-    df = pd.read_csv(io.StringIO(bytes.decode('utf8')))
+    header_option = 'infer' if has_headers else None
+    df = pd.read_csv(io.StringIO(bytes.decode('utf8')), header=header_option)
     return df
 
 def round_float(x):
