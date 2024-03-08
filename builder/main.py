@@ -285,7 +285,7 @@ if __name__ == "__main__":
     analysis['url list length after ignore list checking beginnning of urls processed'] = len(url_df.index)
     url_df.to_csv(config['remove_ignore_begins_path'], index=False)
 
-    # remove URLs with ignore-listed strings contained anywhere in urls
+    # remove URLs with ignore-listed strings contained anywhere in urls...
     ignore_df = pd.read_csv(config['ignore_list_contains_path'])
     ignore_series = ignore_df['URL contains between non-word characters:']
     pattern = r'[^a-zA-Z0-9](?:{})[^a-zA-Z0-9]'.format('|'.join(ignore_series.array))
@@ -294,6 +294,10 @@ if __name__ == "__main__":
     url_df = url_df[~url_df['target_url'].str.contains(pattern)]
     analysis['url list length after ignore list checking entire url'] = len(url_df.index)
     url_df.to_csv(config['remove_ignore_contains_path'], index=False)
+    # ...and then reinstate URLs that we should not ignore
+    ignore_except_df = pd.read_csv(config['ignore_except_path'])
+    ignore_except_df = ignore_except_df.rename(columns={'URL': 'target_url'})
+    url_df = pd.concat([url_df, ignore_except_df])
 
     # merge data back in
     url_df = url_df.merge(gov_df, on='target_url', how='left')

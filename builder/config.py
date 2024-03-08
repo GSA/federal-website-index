@@ -20,6 +20,7 @@ config = {
     'other_websites_path': os.path.join(dirname, '../data/dataset/other-websites.csv'),
     'ignore_list_begins_path': os.path.join(dirname, '../criteria/ignore-list-begins.csv'),
     'ignore_list_contains_path': os.path.join(dirname, '../criteria/ignore-list-contains.csv'),
+    'ignore_except_path': os.path.join(dirname, '../criteria/ignore-except.csv'),
     'target_url_list_path': os.path.join(dirname, '../data/site-scanning-target-url-list.csv'),
     'gov_snapshot_path': os.path.join(dirname, '../data/snapshots/gov.csv'),
     'pulse_snapshot_path': os.path.join(dirname, '../data/snapshots/pulse.csv'),
