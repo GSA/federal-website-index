@@ -273,6 +273,7 @@ if __name__ == "__main__":
     duplicated_df = duplicated_df.drop_duplicates()
     duplicated_df.to_csv(config['dedup_removed'], index=False)
     url_df = url_df.drop_duplicates('target_url')
+    url_df = url_df.dropna()
     analysis['deduped url list length'] = len(url_df.index)
     url_df.to_csv(config['deduped_snapshot_path'], index=False)
 
