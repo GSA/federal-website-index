@@ -132,7 +132,6 @@ def format_source_columns(df):
     df['source_list_usacourts'] = df['source_list_usacourts'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_oira'] = df['source_list_oira'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
-    df['omb_idea_public'] = df['omb_idea_public'].map(lambda x: 'FALSE' if x == '' else x)
     return df
 
 def merge_agencies(df, agency_df):
