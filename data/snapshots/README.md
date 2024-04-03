@@ -13,3 +13,6 @@ The files in this folder automatically update/overwrite whenever a new target UR
 - [ignored-removed-begins.csv](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) - a list of the URLs that are removed when the URLs that meet the `ignore list` 'contains' criteria are removed from the `remove-ignore-begins` list
 - ~remove-nonfederal.csv~ - a snapshot of the list created when URLs on non-federal domains are removed from the `remove-ignore` list; **this is the [final target URL list file](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv)**
 - [nonfederal-removed.csv](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/nonfederal-removed.csv) - a list of the URLS that are removed when the URLS on non-federal domains are removed from the `remove-ignore` list
+
+
+- [ignore-except.csv](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-except.csv) - List of the URLs that are added back in at the end of the process in order to ensure that they are not filtered out  
