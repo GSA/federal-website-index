@@ -29,6 +29,8 @@ Candidates for other datasets that are not currently used but could be are liste
 * [Federal Register Agency List](https://www.federalregister.gov/api/v1/agencies)
 * [Federal Register Bulk Data](https://www.govinfo.gov/bulkdata/FR/2023)
 * [Federal Depository Library Program web archive](https://www.archive-it.org/home/FDLPwebarchive)
+* https://github.com/GSA/govt-urls/blob/master/2_govt_urls_federal_only.csv
+- https://github.com/cisagov/scan-target-data/blob/develop/current-federal-non-dotgov.csv
 * Rapid7
 * ScoutPrime
 * An export from the Search.gov index
