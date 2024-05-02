@@ -14,7 +14,7 @@ def fetch_data(analysis):
     eotw_df = csv_to_df(config['2020_eotw_source_url'])
     usagov_df = csv_to_df(config['usagov_directory_source_url'], has_headers=False)
     gov_man_df = csv_to_df(config['gov_man_22_source_url'], has_headers=False)
-    usacourts_df = csv_to_df(config['usacourts_source_url'], has_headers=False)
+    uscourts_df = csv_to_df(config['uscourts_source_url'], has_headers=False)
     oira_df = csv_to_df(config['oira_source_url'])
 
     other_df = pd.read_csv(config['other_websites_path'])
@@ -28,7 +28,7 @@ def fetch_data(analysis):
     analysis['eotw url list length'] = len(eotw_df.index)
     analysis['usagov url list length'] = len(usagov_df.index)
     analysis['gov_man url list length'] = len(gov_man_df.index)
-    analysis['usacourts url list length'] = len(usacourts_df.index)
+    analysis['uscourts url list length'] = len(uscourts_df.index)
     analysis['oira url list length'] = len(oira_df.index)
     analysis['other website url list length'] = len(other_df.index)
 
@@ -40,11 +40,11 @@ def fetch_data(analysis):
     eotw_df.to_csv(config['2020_eotw_snapshot_path'], index=False)
     usagov_df.to_csv(config['usagov_directory_snapshot_path'], index=False)
     gov_man_df.to_csv(config['gov_man_22_snapshot_path'], index=False)
-    usacourts_df.to_csv(config['usacourts_snapshot_path'], index=False)
+    uscourts_df.to_csv(config['uscourts_snapshot_path'], index=False)
     oira_df.to_csv(config['oira_snapshot_path'], index=False)
     other_df.to_csv(config['other_snapshot_path'], index=False)
     return gov_df, pulse_df, dap_df, omb_idea_df, eotw_df, usagov_df, gov_man_df, \
-        usacourts_df, oira_df, other_df, analysis
+        uscourts_df, oira_df, other_df, analysis
 
 def format_gov_df(df):
     # drop unnecessary columns
@@ -105,9 +105,9 @@ def format_gov_man_df(df):
     df = df.drop_duplicates()
     return df
 
-def format_usacourts_df(df):
+def format_uscourts_df(df):
     df = df.rename(columns={0: 'target_url'})
-    df['source_list_usacourts'] = 'TRUE'
+    df['source_list_uscourts'] = 'TRUE'
     df = df.drop_duplicates()
     return df
 
@@ -129,7 +129,7 @@ def format_source_columns(df):
     df['source_list_eotw'] = df['source_list_eotw'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_usagov'] = df['source_list_usagov'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_gov_man'] = df['source_list_gov_man'].map(lambda x: 'FALSE' if x == '' else x)
-    df['source_list_usacourts'] = df['source_list_usacourts'].map(lambda x: 'FALSE' if x == '' else x)
+    df['source_list_uscourts'] = df['source_list_uscourts'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_oira'] = df['source_list_oira'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
     return df
@@ -188,7 +188,7 @@ def get_mil_subset():
     df['source_list_eotw'] = 'FALSE'
     df['source_list_usagov'] = 'FALSE'
     df['source_list_gov_man'] = 'FALSE'
-    df['source_list_usacourts'] = 'FALSE'
+    df['source_list_uscourts'] = 'FALSE'
     df['source_list_oira'] = 'FALSE'
     df['source_list_other'] = 'FALSE'
     df['source_list_mil'] = 'TRUE'
@@ -228,7 +228,7 @@ def get_mil_subset():
     df = df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency', 'agency_code',
              'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap',
              'source_list_pulse', 'source_list_omb_idea', 'source_list_eotw',
-             'source_list_usagov', 'source_list_gov_man', 'source_list_usacourts',
+             'source_list_usagov', 'source_list_gov_man', 'source_list_uscourts',
              'source_list_oira', 'source_list_other', 'source_list_mil', 'omb_idea_public']]
 
     return df
@@ -239,7 +239,7 @@ if __name__ == "__main__":
 
     # import data
     gov_df_raw, pulse_df_raw, dap_df_raw, omb_idea_df_raw, eotw_df_raw, usagov_df_raw, gov_man_df_raw, \
-        usacourts_df_raw, oira_df_raw, other_df_raw, analysis = fetch_data(analysis)
+        uscourts_df_raw, oira_df_raw, other_df_raw, analysis = fetch_data(analysis)
 
     gov_df = format_gov_df(gov_df_raw)
     pulse_df = format_pulse_df(pulse_df_raw)
@@ -251,7 +251,7 @@ if __name__ == "__main__":
     eotw_df = format_eotw_df(eotw_df_raw)
     usagov_df = format_usagov_df(usagov_df_raw)
     gov_man_df = format_gov_man_df(gov_man_df_raw)
-    usacourts_df = format_usacourts_df(usacourts_df_raw)
+    uscourts_df = format_uscourts_df(uscourts_df_raw)
     oira_df = format_oira_df(oira_df_raw)
 
     # combine all URLs into one column
@@ -260,7 +260,7 @@ if __name__ == "__main__":
                             dap_df['target_url'], other_df['target_url'],
                             omb_idea_df['target_url'], eotw_df['target_url'],
                             usagov_df['target_url'], gov_man_df['target_url'],
-                            usacourts_df['target_url'], oira_df['target_url']])
+                            uscourts_df['target_url'], oira_df['target_url']])
 
     url_df = pd.DataFrame(url_series)
     analysis['combined url list length'] = len(url_df.index)
@@ -307,7 +307,7 @@ if __name__ == "__main__":
     url_df = url_df.merge(eotw_df, on='target_url', how='left',)
     url_df = url_df.merge(usagov_df, on='target_url', how='left')
     url_df = url_df.merge(gov_man_df, on='target_url', how='left')
-    url_df = url_df.merge(usacourts_df, on='target_url', how='left')
+    url_df = url_df.merge(uscourts_df, on='target_url', how='left')
     url_df = url_df.merge(oira_df, on='target_url', how='left')
     url_df = url_df.merge(other_df, on='target_url', how='left')
     url_df = url_df.fillna('')
@@ -330,7 +330,7 @@ if __name__ == "__main__":
     url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau',
                      'source_list_federal_domains', 'source_list_pulse',
                      'source_list_dap', 'source_list_omb_idea', 'source_list_eotw',
-                     'source_list_usagov', 'source_list_gov_man', 'source_list_usacourts',
+                     'source_list_usagov', 'source_list_gov_man', 'source_list_uscourts',
                      'source_list_oira','source_list_other', 'omb_idea_public']]
 
     # format source columns
@@ -376,7 +376,7 @@ if __name__ == "__main__":
                      'bureau', 'bureau_code', 'source_list_federal_domains',
                      'source_list_dap', 'source_list_pulse', 'source_list_omb_idea',
                      'source_list_eotw', 'source_list_usagov', 'source_list_gov_man',
-                     'source_list_usacourts', 'source_list_oira', 'source_list_other',
+                     'source_list_uscourts', 'source_list_oira', 'source_list_other',
                       'omb_idea_public']]
     url_df = url_df.sort_values(by=['base_domain', 'target_url'])
     url_df = url_df.drop_duplicates('target_url')
