@@ -173,8 +173,10 @@ def format_agency_and_bureau_codes(df):
 
 def get_mil_subset():
     first_mil_df = csv_to_df(config['mil_source_url'])
+    first_mil_df['source_list_mil_1'] = 'TRUE'
     second_mil_df = csv_to_df(config['mil_source_url_2'], has_headers=False)
     second_mil_df = second_mil_df.rename(columns={0: 'Website'})
+    second_mil_df['source_list_mil_2'] = 'TRUE'
     df = pd.concat([first_mil_df, second_mil_df], ignore_index=True)
 
     df = df.rename(columns={'Website': 'target_url', 'Agency': 'agency', 'Bureau': 'bureau', 'Branch': 'branch'})
@@ -191,7 +193,6 @@ def get_mil_subset():
     df['source_list_uscourts'] = 'FALSE'
     df['source_list_oira'] = 'FALSE'
     df['source_list_other'] = 'FALSE'
-    df['source_list_mil'] = 'TRUE'
     df['omb_idea_public'] = 'FALSE'
     df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
@@ -229,7 +230,7 @@ def get_mil_subset():
              'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap',
              'source_list_pulse', 'source_list_omb_idea', 'source_list_eotw',
              'source_list_usagov', 'source_list_gov_man', 'source_list_uscourts',
-             'source_list_oira', 'source_list_other', 'source_list_mil', 'omb_idea_public']]
+             'source_list_oira', 'source_list_other', 'source_list_mil_1', 'source_list_mil_2', 'omb_idea_public']]
 
     return df
 
@@ -400,8 +401,9 @@ if __name__ == "__main__":
 
     # get mil subset
     mil_df = get_mil_subset()
-    # set source_list_mil to False for all urls apart from the mil subset
-    url_df['source_list_mil'] = 'FALSE'
+    # set source_list_mil_1 and source_list_mil_2 to False for all urls apart from the mil subset
+    url_df['source_list_mil_1'] = 'FALSE'
+    url_df['source_list_mil_2'] = 'FALSE'
     # append mil subset to the main list of urls
     final_df = pd.concat([url_df, mil_df], ignore_index=True)
 
