@@ -53,7 +53,11 @@ def format_gov_df(df):
     df = df.rename(columns={'Domain name': 'target_url', 'Domain type': 'branch', 'Agency': 'agency', 'Organization name': 'bureau'})
     # convert to lowercase
     df['target_url'] = df['target_url'].str.lower()
+    # remove duplicates
+    df = df.drop_duplicates(subset='target_url')
+    # set base domain
     df['base_domain_gov'] = df['target_url']
+    # set source column
     df['source_list_federal_domains'] = 'TRUE'
     # strip out 'Federal - ' leading string from domain type column for .gov data
     df['branch'] = df['branch'].map(lambda x: x.lstrip('Federal - '))
@@ -71,17 +75,27 @@ def format_pulse_df(df):
         'Preloaded'])
     # rename columns
     df = df.rename(columns={'Domain': 'target_url', 'Base Domain': 'base_domain_pulse'})
+    # get subset
     df = df[['target_url', 'base_domain_pulse']]
+    # convert to lowercase
+    df['target_url'] = df['target_url'].str.lower()
+    # remove duplicates
+    df = df.drop_duplicates(subset='target_url')
+    # set source column
     df['source_list_pulse'] = 'TRUE'
     return df
 
 def format_dap_df(df):
     df = df.rename(columns={'domain': 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_dap'] = 'TRUE'
     return df
 
 def format_omb_idea_df(df):
     df = df.rename(columns={'Website': 'target_url', 'Public-Facing': 'omb_idea_public'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_omb_idea'] = 'TRUE'
     df['omb_idea_public'] = df['omb_idea_public'].map({'Yes': 'TRUE', 'No': 'FALSE'})
     df = df.drop_duplicates()
@@ -89,32 +103,37 @@ def format_omb_idea_df(df):
 
 def format_eotw_df(df):
     df = df.rename(columns={'URL': 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_eotw'] = 'TRUE'
-    df = df.drop_duplicates()
     return df
 
 def format_usagov_df(df):
     df = df.rename(columns={0: 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_usagov'] = 'TRUE'
-    df = df.drop_duplicates()
     return df
 
 def format_gov_man_df(df):
     df = df.rename(columns={0: 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_gov_man'] = 'TRUE'
-    df = df.drop_duplicates()
     return df
 
 def format_uscourts_df(df):
     df = df.rename(columns={0: 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_uscourts'] = 'TRUE'
-    df = df.drop_duplicates()
     return df
 
 def format_oira_df(df):
     df = df.rename(columns={'URL': 'target_url'})
+    df['target_url'] = df['target_url'].str.lower()
+    df = df.drop_duplicates(subset='target_url')
     df['source_list_oira'] = 'TRUE'
-    df = df.drop_duplicates()
     return df
 
 def format_other_df(df):

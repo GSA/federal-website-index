@@ -178,7 +178,7 @@ budgetlob.gov,Executive,Department of Education,Office of Chief Information Offi
 childstats.gov,Executive,Department of Education,Office of Chief Information Officer,childstats.gov,TRUE,childstats.gov,TRUE,,,TRUE,TRUE,,,,,,,childstats.gov
 collegenavigator.gov,Executive,Department of Education,Office of Chief Information Officer,collegenavigator.gov,TRUE,collegenavigator.gov,TRUE,,,,,,,,,,,collegenavigator.gov
 ed.gov,Executive,Department of Education,Office of Chief Information Officer,ed.gov,TRUE,ed.gov,TRUE,,,TRUE,TRUE,,,,,,,ed.gov
-fafsa.gov,Executive,Department of Education,Department of Education,fafsa.gov,TRUE,fafsa.gov,TRUE,,,,,,,,,,,fafsa.gov
+fafsa.gov,Executive,Department of Education,Department of Education,fafsa.gov,TRUE,fafsa.gov,TRUE,,,,,,,,,TRUE,,fafsa.gov
 g5.gov,Executive,Department of Education,Office of Chief Information Officer,g5.gov,TRUE,g5.gov,TRUE,7.0,TRUE,TRUE,TRUE,,,,,,,g5.gov
 nagb.gov,Executive,Department of Education,Office of Chief Information Officer,nagb.gov,TRUE,nagb.gov,TRUE,,,TRUE,TRUE,,,,,,,nagb.gov
 nationsreportcard.gov,Executive,Department of Education,Office of Chief Information Officer,nationsreportcard.gov,TRUE,nationsreportcard.gov,TRUE,,,TRUE,TRUE,,,,,,,nationsreportcard.gov
@@ -383,7 +383,7 @@ cpnireporting.gov,Executive,Department of Homeland Security,United States Secret
 cyber.gov,Executive,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,cyber.gov,TRUE,cyber.gov,TRUE,,,,,,,,,,,cyber.gov
 cybersecurity.gov,Executive,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,cybersecurity.gov,TRUE,cybersecurity.gov,TRUE,,,,,,,,,,,cybersecurity.gov
 dhs.gov,Executive,Department of Homeland Security,Headquarters,dhs.gov,TRUE,dhs.gov,TRUE,,,TRUE,TRUE,,,,,TRUE,,dhs.gov
-disasterassistance.gov,Executive,Department of Homeland Security,Federal Emergency Management Agency,disasterassistance.gov,TRUE,disasterassistance.gov,TRUE,,,TRUE,TRUE,,,,,,,disasterassistance.gov
+disasterassistance.gov,Executive,Department of Homeland Security,Federal Emergency Management Agency,disasterassistance.gov,TRUE,disasterassistance.gov,TRUE,,,TRUE,TRUE,,,,,TRUE,,disasterassistance.gov
 dns.gov,Executive,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,dns.gov,TRUE,,,,,,,,,,,,,dns.gov
 dotgov.gov,Executive,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency,dotgov.gov,TRUE,dotgov.gov,TRUE,,,,,,,,,,,dotgov.gov
 e-verify.gov,Executive,Department of Homeland Security,USCIS,e-verify.gov,TRUE,e-verify.gov,TRUE,5.0,TRUE,TRUE,TRUE,,,,,,,e-verify.gov
@@ -550,7 +550,7 @@ osac.gov,Executive,Department of State,Bureau of Diplomatic Security (DS),osac.g
 pepfar.gov,Executive,Department of State,Bureau of Global Public Affairs (GPA),pepfar.gov,TRUE,pepfar.gov,TRUE,,,,,,,,,,,pepfar.gov
 preprodfan.gov,Executive,Department of State,Bureau of Information Resources Management (IRM),preprodfan.gov,TRUE,,,,,,,,,,,,,preprodfan.gov
 securitytestfan.gov,Executive,Department of State,Bureau of Information Resources Management (IRM),securitytestfan.gov,TRUE,,,,,,,,,,,,,securitytestfan.gov
-state.gov,Executive,Department of State,Bureau of Global Public Affairs (GPA),state.gov,TRUE,state.gov,TRUE,,,TRUE,TRUE,,,,,,,state.gov
+state.gov,Executive,Department of State,Bureau of Global Public Affairs (GPA),state.gov,TRUE,state.gov,TRUE,,,TRUE,TRUE,,,,,TRUE,,state.gov
 stateoig.gov,Executive,Department of State,Office of the Inspector General,stateoig.gov,TRUE,stateoig.gov,TRUE,,,TRUE,TRUE,,,,,,,stateoig.gov
 supportfan.gov,Executive,Department of State,Bureau of Information Resources Management (IRM),supportfan.gov,TRUE,,,,,,,,,,,,,supportfan.gov
 usaseanconnect.gov,Executive,Department of State,U.S. - ASEAN Connect,usaseanconnect.gov,TRUE,,,,,,,,,,,,,usaseanconnect.gov
@@ -745,7 +745,7 @@ transportation.gov,Executive,Department of Transportation,U.S. Department of Tra
 reach.gov,Executive,Department of Veterans Affairs,Department of Veterans Affairs - PREVENTS,reach.gov,TRUE,,,,,,,,,,,,,reach.gov
 va.gov,Executive,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",va.gov,TRUE,va.gov,TRUE,,,TRUE,TRUE,,,,,,,va.gov
 vaoig.gov,Executive,Department of Veterans Affairs,VA Office of Inspector General,vaoig.gov,TRUE,,,,,,,,,,,,,vaoig.gov
-vets.gov,Executive,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",vets.gov,TRUE,vets.gov,TRUE,,,,,,,,,,,vets.gov
+vets.gov,Executive,Department of Veterans Affairs,"Office of Information and Technology, IT Operations and Services (ITOPS)",vets.gov,TRUE,vets.gov,TRUE,,,,,,,,,TRUE,,vets.gov
 ce-ncsc.gov,Executive,Director of National Intelligence,Office of the Director of National Intelligence,ce-ncsc.gov,TRUE,,,,,,,,,,,,,ce-ncsc.gov
 dni.gov,Executive,Director of National Intelligence,Office of Directorate of National Intelligence,dni.gov,TRUE,dni.gov,TRUE,,,,,,,,,,,dni.gov
 iarpa.gov,Executive,Director of National Intelligence,ODNI - IARPA,iarpa.gov,TRUE,iarpa.gov,TRUE,,,,,,,,,,,iarpa.gov
@@ -1179,7 +1179,7 @@ ibb.gov,Executive,United States Agency for Global Media,Broadcasting Board of Go
 ocb.gov,Executive,United States Agency for Global Media,Office of Cuba Broadcasting,ocb.gov,TRUE,,,,,,,,,,,,,ocb.gov
 usagm.gov,Executive,United States Agency for Global Media,Broadcasting Board of Governors,usagm.gov,TRUE,usagm.gov,TRUE,,,TRUE,TRUE,,,,,,,usagm.gov
 voa.gov,Executive,United States Agency for Global Media,VOA,voa.gov,TRUE,voa.gov,TRUE,,,,,,,,,,,voa.gov
-globalchange.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,globalchange.gov,TRUE,globalchange.gov,TRUE,,,,,,,,,,,globalchange.gov
+globalchange.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,globalchange.gov,TRUE,globalchange.gov,TRUE,,,TRUE,TRUE,,,,,,,globalchange.gov
 ipcc-wg3.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,ipcc-wg3.gov,TRUE,,,,,,,,,,,,,ipcc-wg3.gov
 usgcrp.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,usgcrp.gov,TRUE,usgcrp.gov,TRUE,,,,,,,,,,,usgcrp.gov
 ushmm.gov,Executive,United States Holocaust Memorial Museum,United States Holocaust Memorial Museum,ushmm.gov,TRUE,,,,,,,,,,,,,ushmm.gov
@@ -1532,7 +1532,7 @@ www.childstats.gov,Executive,Department of Education,Office of Chief Information
 www.collegenavigator.gov,Executive,Department of Education,Office of Chief Information Officer,collegenavigator.gov,TRUE,,,,,,,TRUE,,,,,,collegenavigator.gov
 www.ed.gov,Executive,Department of Education,Office of Chief Information Officer,ed.gov,TRUE,,,238883.0,TRUE,,,TRUE,TRUE,TRUE,,TRUE,,ed.gov
 www.fafsa.gov,Executive,Department of Education,Department of Education,fafsa.gov,TRUE,,,,,,,TRUE,,,,,,fafsa.gov
-www.g5.gov,Executive,Department of Education,Office of Chief Information Officer,g5.gov,TRUE,,,4.0,TRUE,,,TRUE,,,,,,g5.gov
+www.g5.gov,Executive,Department of Education,Office of Chief Information Officer,g5.gov,TRUE,,,4.0,TRUE,,,TRUE,,,,TRUE,,g5.gov
 www.nagb.gov,Executive,Department of Education,Office of Chief Information Officer,nagb.gov,TRUE,,,1929.0,TRUE,,,TRUE,,,,,,nagb.gov
 www.nationsreportcard.gov,Executive,Department of Education,Office of Chief Information Officer,nationsreportcard.gov,TRUE,,,282.0,TRUE,,,TRUE,,,,,,nationsreportcard.gov
 www.studentaid.gov,Executive,Department of Education,Department of Education,studentaid.gov,TRUE,,,,,,,,,,,,,studentaid.gov
@@ -6613,7 +6613,7 @@ gateway.ies.ed.gov,,,,,,ed.gov,TRUE,,,TRUE,TRUE,,,,,,,ed.gov
 gearup.ed.gov,,,,,,ed.gov,TRUE,,,TRUE,TRUE,,,,,,,ed.gov
 gotowork-piv.ed.gov,,,,,,ed.gov,TRUE,,,FALSE,TRUE,,,,,,,ed.gov
 gotowork.ed.gov,,,,,,ed.gov,TRUE,,,FALSE,TRUE,,,,,,,ed.gov
-hepis.ed.gov,,,,,,ed.gov,TRUE,,,TRUE,TRUE,,,,,,,ed.gov
+hepis.ed.gov,,,,,,ed.gov,TRUE,,,TRUE,TRUE,,,,,TRUE,,ed.gov
 hops.ed.gov,,,,,,ed.gov,TRUE,,,TRUE,TRUE,,,,,,,ed.gov
 icer.ies.ed.gov,,,,,,ed.gov,TRUE,,,,,,,,,,,ed.gov
 icrasdev.ed.gov,,,,,,ed.gov,TRUE,,,,,,,,,,,ed.gov
@@ -26500,7 +26500,6 @@ eais.jsc.nasa.gov,,,,,,,,172.0,TRUE,,,,,,,,,nasa.gov
 pubmed-ncbi-nlm-nih-gov.ezproxy.jamk.fi,,,,,,,,172.0,TRUE,,,,,,,,,jamk.fi
 roadmaps.usaid.gov,,,,,,,,172.0,TRUE,,,,,,,,,usaid.gov
 thecommunityguide.org,,,,,,,,172.0,TRUE,TRUE,TRUE,TRUE,,,,,,thecommunityguide.org
-thecommunityguide.org,,,,,,,,172.0,TRUE,FALSE,TRUE,TRUE,,,,,,thecommunityguide.org
 www.epaosc.org,,,,,,,,172.0,TRUE,,,TRUE,,,,,,epaosc.org
 www.naturalhazards.nasa.gov,,,,,,,,172.0,TRUE,,,,,,,,,nasa.gov
 eis-agency-pricer.eos.gsa.gov,,,,,,,,171.0,TRUE,,,,,,,,,gsa.gov
@@ -30823,7 +30822,6 @@ contractorportal.dol.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dol.gov
 coo.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
 cope.ctc.nwave.noaa.gov,,,,,,,,,,TRUE,TRUE,,,,,,,noaa.gov
 coronaviruspreventionnetwork.org,,,,,,,,,,TRUE,TRUE,,,,,,,coronaviruspreventionnetwork.org
-coronaviruspreventionnetwork.org,,,,,,,,,,FALSE,TRUE,,,,,,,coronaviruspreventionnetwork.org
 cotw.naep.ed.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ed.gov
 council.epa.gov,,,,,,,,,,TRUE,TRUE,,,,,,,epa.gov
 courses.dhs.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dhs.gov
@@ -30970,7 +30968,7 @@ ednaweba.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
 edpass.ed.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ed.gov
 edr.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
 edt.tva.gov,,,,,,,,,,TRUE,TRUE,,,,,,,tva.gov
-edtAdmin.cdan.dot.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dot.gov
+edtadmin.cdan.dot.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dot.gov
 edtservice.tva.gov,,,,,,,,,,TRUE,TRUE,,,,,,,tva.gov
 education.ornl.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ornl.gov
 edwards.af.mil,,,,,,,,,,TRUE,TRUE,,,,,,,af.mil
@@ -31101,7 +31099,6 @@ geoplatform.epa.gov,,,,,,,,,,TRUE,TRUE,,,,,,,epa.gov
 gis.ipad.fas.usda.gov,,,,,,,,,,FALSE,TRUE,,,,,,,usda.gov
 gisc-washington-cprk.ncep.noaa.gov,,,,,,,,,,FALSE,TRUE,,,,,,,noaa.gov
 git.nemsis.org,,,,,,,,,,TRUE,TRUE,,,,,,,nemsis.org
-GLOBALCHANGE.GOV,,,,,,,,,,TRUE,TRUE,,,,,,,GLOBALCHANGE.GOV
 globalocean.noaa.gov,,,,,,,,,,TRUE,TRUE,,,,,,,noaa.gov
 glovis-cloud.usgs.gov,,,,,,,,,,TRUE,TRUE,,,,,,,usgs.gov
 glri.us,,,,,,,,,,TRUE,TRUE,,,,,,,glri.us
@@ -31365,9 +31362,9 @@ marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
 mars.af.mil,,,,,,,,,,TRUE,TRUE,,,,,,,af.mil
 marsoc.marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
 maxwell.af.mil,,,,,,,,,,TRUE,TRUE,,,,,,,af.mil
-MBRSubmission.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
-MBRWeb.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
-MBRWebApi.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
+mbrsubmission.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
+mbrweb.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
+mbrwebapi.ferc.gov,,,,,,,,,,TRUE,TRUE,,,,,,,ferc.gov
 mcasfutenma.marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
 mcasiwakuni.marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
 mcasiwakunijp.marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
@@ -31420,7 +31417,7 @@ msauth.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
 msc.usff.navy.mil,,,,,,,,,,TRUE,TRUE,,,,,,,navy.mil
 msg.chem.iastate.edu,,,,,,,,,,FALSE,TRUE,,,,,,,iastate.edu
 msteams.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
-MTSS.cdan.dot.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dot.gov
+mtss.cdan.dot.gov,,,,,,,,,,TRUE,TRUE,,,,,,,dot.gov
 multi.tva.com,,,,,,,,,,FALSE,TRUE,,,,,,,tva.com
 music.af.mil,,,,,,,,,,TRUE,TRUE,,,,,,,af.mil
 music.marines.mil,,,,,,,,,,TRUE,TRUE,,,,,,,marines.mil
@@ -31708,7 +31705,6 @@ reclamationpathways.usajobs.gov,,,,,,,,,,TRUE,TRUE,,,,,,,usajobs.gov
 recoveryswapshop.ird.appdat.jsc.nasa.gov,,,,,,,,,,FALSE,TRUE,,,,,,,nasa.gov
 recruiting.af.mil,,,,,,,,,,TRUE,TRUE,,,,,,,af.mil
 redcolaborar.org,,,,,,,,,,TRUE,TRUE,,,,,,,redcolaborar.org
-redcolaborar.org,,,,,,,,,,FALSE,TRUE,,,,,,,redcolaborar.org
 redirect.pnnl.gov,,,,,,,,,,FALSE,TRUE,,,,,,,pnnl.gov
 remoteaccess.tva.gov,,,,,,,,,,FALSE,TRUE,,,,,,,tva.gov
 repi.mil,,,,,,,,,,TRUE,TRUE,,,,,,,repi.mil
@@ -31988,7 +31984,6 @@ usgs.github.io,,,,,,,,,,TRUE,TRUE,,,,,,,github.io
 uslarp.org,,,,,,,,,,TRUE,TRUE,,,,,,,uslarp.org
 usmma.edu,,,,,,,,,,TRUE,TRUE,TRUE,,,,,,usmma.edu
 uspreventiveservicestaskforce.org,,,,,,,,,,TRUE,TRUE,,,,,,,uspreventiveservicestaskforce.org
-uspreventiveservicestaskforce.org,,,,,,,,,,FALSE,TRUE,,,,,,,uspreventiveservicestaskforce.org
 usqcd.org,,,,,,,,,,TRUE,TRUE,,,,,,,usqcd.org
 ustp.usajobs.gov,,,,,,,,,,TRUE,TRUE,,,,,,,usajobs.gov
 uts-green.nlm.nih.gov,,,,,,,,,,FALSE,TRUE,,,,,,,nih.gov
@@ -33231,7 +33226,7 @@ bushlibrary.tamu.edu,,,,,,,,,,,,TRUE,,,,,,tamu.edu
 buyaccessible.net,,,,,,,,,,,,TRUE,,,,,,buyaccessible.net
 capmembers.com,,,,,,,,,,,,TRUE,,,,,,capmembers.com
 careerinfonet.org,,,,,,,,,,,,TRUE,,,,,,careerinfonet.org
-careeronestop.org,,,,,,,,,,,,TRUE,,,,,,careeronestop.org
+careeronestop.org,,,,,,,,,,,,TRUE,,,,TRUE,,careeronestop.org
 cbacfc.org,,,,,,,,,,,,TRUE,,,,,,cbacfc.org
 cbp-ntep.info,,,,,,,,,,,,TRUE,,,,,,cbp-ntep.info
 ccitoolsforfeds.org,,,,,,,,,,,,TRUE,,,,,,ccitoolsforfeds.org
@@ -33381,7 +33376,7 @@ hsdl.org,,,,,,,,,,,,TRUE,,,,,,hsdl.org
 hubblesite.org,,,,,,,,,,,,TRUE,,,,,,hubblesite.org
 hudexchange.info,,,,,,,,,,,,TRUE,,,,,,hudexchange.info
 hudhomestore.com,,,,,,,,,,,,TRUE,,,,,,hudhomestore.com
-Hudhre.info,,,,,,,,,,,,TRUE,,,,,,Hudhre.info
+hudhre.info,,,,,,,,,,,,TRUE,,,,,,hudhre.info
 hudnsphelp.info,,,,,,,,,,,,TRUE,,,,,,hudnsphelp.info
 huduser.org,,,,,,,,,,,,TRUE,,,,,,huduser.org
 igs.org,,,,,,,,,,,,TRUE,,,,,,igs.org
@@ -33542,13 +33537,13 @@ usafservices.com,,,,,,,,,,,,TRUE,,,,,,usafservices.com
 usarmyjrotc.com,,,,,,,,,,,,TRUE,,,,,,usarmyjrotc.com
 usarmymars.org,,,,,,,,,,,,TRUE,,,,,,usarmymars.org
 uscga.edu,,,,,,,,,,,,TRUE,,,,,,uscga.edu
-USCGAlaska.com,,,,,,,,,,,,TRUE,,,,,,USCGAlaska.com
+uscgalaska.com,,,,,,,,,,,,TRUE,,,,,,uscgalaska.com
 uscgaux.info,,,,,,,,,,,,TRUE,,,,,,uscgaux.info
 uscgboating.org,,,,,,,,,,,,TRUE,,,,,,uscgboating.org
 uscgnews.com,,,,,,,,,,,,TRUE,,,,,,uscgnews.com
 uschs.org,,,,,,,,,,,,TRUE,,,,,,uschs.org
 usda.mannlib.cornell.edu,,,,,,,,,,,,TRUE,,,,,,cornell.edu
-USDirectExpress.com,,,,,,,,,,,,TRUE,,,,,,USDirectExpress.com
+usdirectexpress.com,,,,,,,,,,,,TRUE,,,,,,usdirectexpress.com
 usembassy-china.org.cn,,,,,,,,,,,,TRUE,,,,,,org.cn
 usma.edu,,,,,,,,,,,,TRUE,,,,,,usma.edu
 usmc-mccs.org,,,,,,,,,,,,TRUE,,,,,,usmc-mccs.org
@@ -33717,7 +33712,7 @@ www.ycq2.org,,,,,,,,,,,,TRUE,,,,,,ycq2.org
 www.yesprograms.org,,,,,,,,,,,,TRUE,,,,,,yesprograms.org
 npic.orst.edu,,,,,,,,,,,,,TRUE,,,,,orst.edu
 www.defenselink.mil,,,,,,,,,,,,,TRUE,,,,,defenselink.mil
-"www.fiscal.treasury.gov, Buy and Redeem U.S. Government Securities",,,,,,,,,,,,,TRUE,,,,,S. Government Securities
+"www.fiscal.treasury.gov, buy and redeem u.s. government securities",,,,,,,,,,,,,TRUE,,,,,s. government securities
 www.nj.gov,,,,,,,,,,,,,TRUE,,,,,nj.gov
 www.suicidepreventionlifeline.org,,,,,,,,,,,,,TRUE,,,,,suicidepreventionlifeline.org
 ask.gpo.gov,,,,,,,,,,,,,TRUE,TRUE,,,,gpo.gov
@@ -33735,16 +33730,16 @@ rmi.marines.com,,,,,,,,,,,,,TRUE,,,,,marines.com
 usps.force.com,,,,,,,,,,,,,TRUE,,,,,force.com
 www.1800runaway.org,,,,,,,,,,,,,TRUE,,,,,1800runaway.org
 www.afreserve.com,,,,,,,,,,,,,TRUE,,,,,afreserve.com
-"www.cms.gov, Recursos en español",,,,,,,,,,,,,TRUE,,,,,"cms.gov, Recursos en español"
+"www.cms.gov, recursos en español",,,,,,,,,,,,,TRUE,,,,,"cms.gov, recursos en español"
 www.dau.edu,,,,,,,,,,,,,TRUE,TRUE,,,,dau.edu
-"www.dhs.gov, Información en español",,,,,,,,,,,,,TRUE,,,,,"dhs.gov, Información en español"
+"www.dhs.gov, información en español",,,,,,,,,,,,,TRUE,,,,,"dhs.gov, información en español"
 www.goarmy.com,,,,,,,,,,,,,TRUE,TRUE,,,,goarmy.com
 www.improveirs.org,,,,,,,,,,,,,TRUE,,,,,improveirs.org
 www.knowyouroptions.com,,,,,,,,,,,,,TRUE,,,,,knowyouroptions.com
 www.legislative.noaa.gov,,,,,,,,,,,,,TRUE,,,,,noaa.gov
 www.parentcenterhub.org,,,,,,,,,,,,,TRUE,,,,,parentcenterhub.org
 www.radiotelevisionmarti.com,,,,,,,,,,,,,TRUE,,,,,radiotelevisionmarti.com
-"www.saferproducts.gov, Consumer Product Safety Commission in Spanish",,,,,,,,,,,,,TRUE,,,,,"saferproducts.gov, Consumer Product Safety Commission in Spanish"
+"www.saferproducts.gov, consumer product safety commission in spanish",,,,,,,,,,,,,TRUE,,,,,"saferproducts.gov, consumer product safety commission in spanish"
 www.usdalocalfoodportal.com,,,,,,,,,,,,,TRUE,,,TRUE,,usdalocalfoodportal.com
 www.voatour.com,,,,,,,,,,,,,TRUE,,,,,voatour.com
 anacostia.si.edu,,,,,,,,,,,,,,TRUE,,,,si.edu
@@ -33945,8 +33940,8 @@ www.wfp.org,,,,,,,,,,,,,,TRUE,,,,wfp.org
 www.work.uscg.mil,,,,,,,,,,,,,,TRUE,,,,uscg.mil
 www.youtube.com,,,,,,,,,,,,,,TRUE,,,,youtube.com
 youtu.be,,,,,,,,,,,,,,TRUE,,,,youtu.be
-<WebAddress>www.vacareers.gov,,,,,,,,,,,,,,TRUE,,,,vacareers.gov
-URL,,,,,,,,,,,,,,,TRUE,,,URL
+<webaddress>www.vacareers.gov,,,,,,,,,,,,,,TRUE,,,,vacareers.gov
+url,,,,,,,,,,,,,,,TRUE,,,url
 2www.gud.uscourts.gov,,,,,,,,,,,,,,,TRUE,,,uscourts.gov
 2www.id.uscourts.gov,,,,,,,,,,,,,,,TRUE,,,uscourts.gov
 2www.ned.uscourts.gov,,,,,,,,,,,,,,,TRUE,,,uscourts.gov
@@ -33975,8 +33970,8 @@ txw.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
 ut.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
 vae.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
 vaw.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
-VM233:3,,,,,,,,,,,,,,,TRUE,,,VM233:3
-VM233:3 javascript:void(0),,,,,,,,,,,,,,,TRUE,,,VM233:3 javascript:void(0)
+vm233:3,,,,,,,,,,,,,,,TRUE,,,vm233:3
+vm233:3 javascript:void(0),,,,,,,,,,,,,,,TRUE,,,vm233:3 javascript:void(0)
 vt.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
 waw.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
 wvn.fd.org,,,,,,,,,,,,,,,TRUE,,,fd.org
@@ -34254,7 +34249,6 @@ arcg.is,,,,,,,,,,,,,,,,TRUE,,arcg.is
 awards.nfrmp.us,,,,,,,,,,,,,,,,TRUE,,nfrmp.us
 awc.faa.gov,,,,,,,,,,,,,,,,TRUE,,faa.gov
 bit.ly,,,,,,,,,,,,,,,,TRUE,,bit.ly
-CareerOneStop.org,,,,,,,,,,,,,,,,TRUE,,CareerOneStop.org
 cisaecd.gov1.qualtrics.com,,,,,,,,,,,,,,,,TRUE,,qualtrics.com
 core.publish.no.irs.gov,,,,,,,,,,,,,,,,TRUE,,irs.gov
 crsresources.org,,,,,,,,,,,,,,,,TRUE,,crsresources.org
@@ -34262,14 +34256,12 @@ cvpcorp-1115pmda.adobeconnect.com,,,,,,,,,,,,,,,,TRUE,,adobeconnect.com
 cwf.uvm.edu,,,,,,,,,,,,,,,,TRUE,,uvm.edu
 ddp-preview.osha.gov,,,,,,,,,,,,,,,,TRUE,,osha.gov
 denebleo.sec.gov,,,,,,,,,,,,,,,,TRUE,,sec.gov
-DisasterAssistance.gov,,,,,,,,,,,,,,,,TRUE,,DisasterAssistance.gov
 docs.google.com,,,,,,,,,,,,,,,,TRUE,,google.com
 dol-ncc.my.salesforce-sites.com,,,,,,,,,,,,,,,,TRUE,,salesforce-sites.com
 ecfr.gpoaccess.gov,,,,,,,,,,,,,,,,TRUE,,gpoaccess.gov
 eeocdata.org,,,,,,,,,,,,,,,,TRUE,,eeocdata.org
 exho.epa.gov,,,,,,,,,,,,,,,,TRUE,,epa.gov
 f7-form.azurewebsites.net,,,,,,,,,,,,,,,,TRUE,,azurewebsites.net
-FAFSA.gov,,,,,,,,,,,,,,,,TRUE,,FAFSA.gov
 famweb.nwcg.gov,,,,,,,,,,,,,,,,TRUE,,nwcg.gov
 fdicnet.fdic.gov,,,,,,,,,,,,,,,,TRUE,,fdic.gov
 forms.cbp.gov,,,,,,,,,,,,,,,,TRUE,,cbp.gov
@@ -34283,38 +34275,32 @@ frbog.taleo.net,,,,,,,,,,,,,,,,TRUE,,taleo.net
 fwsepermits.servicenowservices.com,,,,,,,,,,,,,,,,TRUE,,servicenowservices.com
 gc859.pnnl.gov,,,,,,,,,,,,,,,,TRUE,,pnnl.gov
 www.reporting.odp.dhs.gov,,,,,,,,,,,,,,,,TRUE,,dhs.gov
-Grants.gov,,,,,,,,,,,,,,,,TRUE,,Grants.gov
-HEPIS.ed.gov,,,,,,,,,,,,,,,,TRUE,,ed.gov
-WWW.SBA.GOV\CONTENT\INTERMEDIAR,,,,,,,,,,,,,,,,TRUE,,SBA.GOV\CONTENT\INTERMEDIAR
+www.sba.gov\content\intermediar,,,,,,,,,,,,,,,,TRUE,,sba.gov\content\intermediar
 img.exim.gov,,,,,,,,,,,,,,,,TRUE,,exim.gov
 inivasions.si.edu,,,,,,,,,,,,,,,,TRUE,,si.edu
 inside.aphis.usda.gov,,,,,,,,,,,,,,,,TRUE,,usda.gov
 jag.navy.mil,,,,,,,,,,,,,,,,TRUE,,navy.mil
 jstars.eshp.doj.gov,,,,,,,,,,,,,,,,TRUE,,doj.gov
 legacy-www.fws.doi.net,,,,,,,,,,,,,,,,TRUE,,doi.net
-mailto:NFEATraining@atf.gov,,,,,,,,,,,,,,,,TRUE,,mailto:NFEATraining@atf.gov
+mailto:nfeatraining@atf.gov,,,,,,,,,,,,,,,,TRUE,,mailto:nfeatraining@atf.gov
 muskie.usm.maine.edu,,,,,,,,,,,,,,,,TRUE,,maine.edu
 myttb.gov,,,,,,,,,,,,,,,,TRUE,,myttb.gov
 oashsps.my.site.com,,,,,,,,,,,,,,,,TRUE,,site.com
 cowebforms.aphis.usda.gov,,,,,,,,,,,,,,,,TRUE,,usda.gov
-OSHA.gov,,,,,,,,,,,,,,,,TRUE,,OSHA.gov
 oshaelearning.geniussis.com,,,,,,,,,,,,,,,,TRUE,,geniussis.com
 passportmatters.army.mil,,,,,,,,,,,,,,,,TRUE,,army.mil
-Pay.gov,,,,,,,,,,,,,,,,TRUE,,Pay.gov
-PBC-BRAC-Coordinator@fema.dhs.gov,,,,,,,,,,,,,,,,TRUE,,dhs.gov
+pbc-brac-coordinator@fema.dhs.gov,,,,,,,,,,,,,,,,TRUE,,dhs.gov
 portal.max.gov,,,,,,,,,,,,,,,,TRUE,,max.gov
 profile.ncis.navy.mil,,,,,,,,,,,,,,,,TRUE,,navy.mil
 publicaffairs-sme.com,,,,,,,,,,,,,,,,TRUE,,publicaffairs-sme.com
 publish.no.irs.gov,,,,,,,,,,,,,,,,TRUE,,irs.gov
 reporting.cottonboard.org,,,,,,,,,,,,,,,,TRUE,,cottonboard.org
-RSA.ED.GOV,,,,,,,,,,,,,,,,TRUE,,ED.GOV
 seedhealth.org,,,,,,,,,,,,,,,,TRUE,,seedhealth.org
 snapedtoolkit.org,,,,,,,,,,,,,,,,TRUE,,snapedtoolkit.org
-State.gov,,,,,,,,,,,,,,,,TRUE,,State.gov
 survey.rti.org,,,,,,,,,,,,,,,,TRUE,,rti.org
 surveymonkey.com,,,,,,,,,,,,,,,,TRUE,,surveymonkey.com
-SuveyMonkey.com,,,,,,,,,,,,,,,,TRUE,,SuveyMonkey.com
-TCLI@ed.gov,,,,,,,,,,,,,,,,TRUE,,TCLI@ed.gov
+suveymonkey.com,,,,,,,,,,,,,,,,TRUE,,suveymonkey.com
+tcli@ed.gov,,,,,,,,,,,,,,,,TRUE,,tcli@ed.gov
 tp:,,,,,,,,,,,,,,,,TRUE,,tp:
 transform.mindgarden.com,,,,,,,,,,,,,,,,TRUE,,mindgarden.com
 ttp:,,,,,,,,,,,,,,,,TRUE,,ttp:
@@ -34324,7 +34310,6 @@ usdagcc.sharepoint.com,,,,,,,,,,,,,,,,TRUE,,sharepoint.com
 usepa.sharepoint.com,,,,,,,,,,,,,,,,TRUE,,sharepoint.com
 usfema.sharepoint.com,,,,,,,,,,,,,,,,TRUE,,sharepoint.com
 usna.tfaforms.net,,,,,,,,,,,,,,,,TRUE,,tfaforms.net
-Vets.gov,,,,,,,,,,,,,,,,TRUE,,Vets.gov
 view.officeapps.live.com,,,,,,,,,,,,,,,,TRUE,,live.com
 ww.gms.gov,,,,,,,,,,,,,,,,TRUE,,gms.gov
 ww.sba.gov,,,,,,,,,,,,,,,,TRUE,,sba.gov
@@ -34342,12 +34327,10 @@ www.closecall.bts.gov,,,,,,,,,,,,,,,,TRUE,,bts.gov
 www.concessions.nps.gov,,,,,,,,,,,,,,,,TRUE,,nps.gov
 www.csrees.usda.gov,,,,,,,,,,,,,,,,TRUE,,usda.gov
 www.currently-under-development.gov,,,,,,,,,,,,,,,,TRUE,,currently-under-development.gov
-www.DEAdiversion.usdoj.gov,,,,,,,,,,,,,,,,TRUE,,usdoj.gov
 www.deadiversion@usdoj.gov,,,,,,,,,,,,,,,,TRUE,,deadiversion@usdoj.gov
 www.disasteraid.fema.gov,,,,,,,,,,,,,,,,TRUE,,fema.gov
 www.distributor.hcup-us.ahrq.gov,,,,,,,,,,,,,,,,TRUE,,ahrq.gov
 www.dvlottery.state.gov,,,,,,,,,,,,,,,,TRUE,,state.gov
-WWW.EAC.GOV,,,,,,,,,,,,,,,,TRUE,,EAC.GOV
 www.eere-pmc.energy.gov,,,,,,,,,,,,,,,,TRUE,,energy.gov
 www.etran.gov,,,,,,,,,,,,,,,,TRUE,,etran.gov
 www.faa,,,,,,,,,,,,,,,,TRUE,,www.faa
@@ -34356,25 +34339,21 @@ www.finra.org,,,,,,,,,,,,,,,,TRUE,,finra.org
 www.fp.ed.gov,,,,,,,,,,,,,,,,TRUE,,ed.gov
 www.fprs.fns.gov,,,,,,,,,,,,,,,,TRUE,,fns.gov
 www.fprs.gov,,,,,,,,,,,,,,,,TRUE,,fprs.gov
-www.G5.gov,,,,,,,,,,,,,,,,TRUE,,G5.gov
 www.gcr1.com,,,,,,,,,,,,,,,,TRUE,,gcr1.com
 www.gibill.va.gov,,,,,,,,,,,,,,,,TRUE,,va.gov
 www.gms.gov,,,,,,,,,,,,,,,,TRUE,,gms.gov
 www.gomr.boemre.gov,,,,,,,,,,,,,,,,TRUE,,boemre.gov
 www.gov,,,,,,,,,,,,,,,,TRUE,,www.gov
-www.Grants.gov,,,,,,,,,,,,,,,,TRUE,,Grants.gov
-WWW.grants.gov,,,,,,,,,,,,,,,,TRUE,,grants.gov
 www.greenstrides.org,,,,,,,,,,,,,,,,TRUE,,greenstrides.org
 www.gsa.portal.forms,,,,,,,,,,,,,,,,TRUE,,portal.forms
 www.haskell.edu,,,,,,,,,,,,,,,,TRUE,,haskell.edu
 www.hungerfreeamerica.org,,,,,,,,,,,,,,,,TRUE,,hungerfreeamerica.org
 www.iacb.doi.gov,,,,,,,,,,,,,,,,TRUE,,doi.gov
 www.insurance.va.gov,,,,,,,,,,,,,,,,TRUE,,va.gov
-www.IRS.gov,,,,,,,,,,,,,,,,TRUE,,IRS.gov
 www.justgrants.gov,,,,,,,,,,,,,,,,TRUE,,justgrants.gov
 www.malware.us-cert.gov,,,,,,,,,,,,,,,,TRUE,,us-cert.gov
 www.muskie.usm.maine.edu,,,,,,,,,,,,,,,,TRUE,,maine.edu
-www.NSMOsurvey.com,,,,,,,,,,,,,,,,TRUE,,NSMOsurvey.com
+www.nsmosurvey.com,,,,,,,,,,,,,,,,TRUE,,nsmosurvey.com
 www.nycalc.org,,,,,,,,,,,,,,,,TRUE,,nycalc.org
 www.ocio.usda.gov,,,,,,,,,,,,,,,,TRUE,,usda.gov
 www.ojp.usdoj.gov,,,,,,,,,,,,,,,,TRUE,,usdoj.gov
