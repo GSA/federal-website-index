@@ -172,14 +172,31 @@ def format_agency_and_bureau_codes(df):
     return df
 
 def get_mil_subset():
+    # import first dotmil dataset
     first_mil_df = csv_to_df(config['mil_source_url'])
+    # make all strings lowercase
+    first_mil_df = first_mil_df.apply(lambda col: col.map(lambda x: x.lower() if isinstance(x, str) else x))
+    # set source column
     first_mil_df['source_list_mil_1'] = 'TRUE'
+
+    # import second dotmil dataset
     second_mil_df = csv_to_df(config['mil_source_url_2'], has_headers=False)
+    # make all strings lowercase
+    second_mil_df = second_mil_df.apply(lambda col: col.map(lambda x: x.lower() if isinstance(x, str) else x))
+    # rename column with URLs to match the first dataset
     second_mil_df = second_mil_df.rename(columns={0: 'Website'})
+    # set source column
     second_mil_df['source_list_mil_2'] = 'TRUE'
+
+    # combine both dotmil datasets
     df = pd.concat([first_mil_df, second_mil_df], ignore_index=True)
 
+    # remove duplicates
+    df = df.drop_duplicates(subset='Website')
+
+    # rename columns
     df = df.rename(columns={'Website': 'target_url', 'Agency': 'agency', 'Bureau': 'bureau', 'Branch': 'branch'})
+    # set other fields
     df['branch'] = 'Executive'
     df['agency_code'] = 0
     df['bureau_code'] = 0
@@ -196,6 +213,7 @@ def get_mil_subset():
     df['omb_idea_public'] = 'FALSE'
     df['base_domain'] = df['target_url'].map(lambda x: '.'.join(x.split('.')[-2:]))
 
+    # only include URLs with a domain listed in the 'mil_domains_url' CSV file
     mil_domains_df = csv_to_df(config['mil_domains_url'])
     mil_domains_set = set(mil_domains_df['Domain name'])
     df['is_mil'] = df['base_domain'].apply(lambda x: x in mil_domains_set)
@@ -225,7 +243,7 @@ def get_mil_subset():
     # drop temp bureau columns
     df = df.drop(columns=['agency_x', 'agency_y', 'bureau_x', 'bureau_y'])
 
-    # Reorder columns
+    # reorder columns
     df = df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency', 'agency_code',
              'bureau', 'bureau_code', 'source_list_federal_domains', 'source_list_dap',
              'source_list_pulse', 'source_list_omb_idea', 'source_list_eotw',
