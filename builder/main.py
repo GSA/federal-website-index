@@ -1,6 +1,5 @@
 from config import config
 from helpers import csv_to_df, round_float, dict_to_csv
-import numpy as np
 import pandas as pd
 
 
@@ -151,6 +150,16 @@ def format_source_columns(df):
     df['source_list_uscourts'] = df['source_list_uscourts'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_oira'] = df['source_list_oira'].map(lambda x: 'FALSE' if x == '' else x)
     df['source_list_other'] = df['source_list_other'].map(lambda x: 'FALSE' if x == '' else x)
+    return df
+
+def populate_branch_field(df):
+    branch_df = csv_to_df(config['branch_source_list_url'])
+    merged_df = pd.merge(df, branch_df, left_on='base_domain', right_on='Domain name', how='left')
+
+    df['branch'] = df['branch'].combine_first(merged_df['Domain type'])
+    df.loc[df['branch'] == '', 'branch'] = merged_df['Domain type']
+    df['branch'] = df['branch'].str.replace('^Federal - ', '', regex=True)
+
     return df
 
 def merge_agencies(df, agency_df):
@@ -314,7 +323,7 @@ if __name__ == "__main__":
     analysis['deduped url list length'] = len(url_df.index)
     url_df.to_csv(config['deduped_snapshot_path'], index=False)
 
-    # remove URLs with ignore-listed strings and the beginning of urls
+    # remove URLs with ignore-listed strings at the beginning of urls
     ignore_df = pd.read_csv(config['ignore_list_begins_path'])
     ignore_series = ignore_df['URL begins with:']
     ignored_df = url_df[url_df['target_url'].str.startswith(tuple(ignore_series))]
@@ -323,7 +332,7 @@ if __name__ == "__main__":
     analysis['url list length after ignore list checking beginnning of urls processed'] = len(url_df.index)
     url_df.to_csv(config['remove_ignore_begins_path'], index=False)
 
-    # remove URLs with ignore-listed strings contained anywhere in urls...
+    # remove URLs with ignore-listed strings contained anywhere in urls
     ignore_df = pd.read_csv(config['ignore_list_contains_path'])
     ignore_series = ignore_df['URL contains between non-word characters:']
     pattern = r'[^a-zA-Z0-9](?:{})[^a-zA-Z0-9]'.format('|'.join(ignore_series.array))
@@ -374,8 +383,8 @@ if __name__ == "__main__":
     # format source columns
     url_df = format_source_columns(url_df)
 
-    # set branch column's value to 'Executive' if empty
-    url_df[['branch']] = url_df[['branch']].replace('', 'Executive')
+    # populate the branch field
+    url_df = populate_branch_field(url_df)
 
     # get lookup table of agencies mapped to base domain
     agency_df = gov_df[['base_domain_gov', 'agency']]

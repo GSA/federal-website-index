@@ -17,6 +17,7 @@ config = {
     'mil_source_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_websites.csv',
     'mil_source_url_2': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_websites-2.csv',
     'mil_domains_url': 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_domains.csv',
+    'branch_source_list_url': 'https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv',
     'other_websites_path': os.path.join(dirname, '../data/dataset/other-websites.csv'),
     'ignore_list_begins_path': os.path.join(dirname, '../criteria/ignore-list-begins.csv'),
     'ignore_list_contains_path': os.path.join(dirname, '../criteria/ignore-list-contains.csv'),
