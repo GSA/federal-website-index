@@ -8,11 +8,14 @@ usagov url list length,1404
 gov_man url list length,5991
 uscourts url list length,341
 oira url list length,7539
+.mil first url list length,1034
+.mil second url list length,275
 other website url list length,7
-combined url list length,52172
-deduped url list length,36871
-url list length after ignore list checking beginnning of urls processed,35070
-url list length after ignore list checking entire url,34079
+combined url list length,53440
+deduped url list length,37030
+url list length after ignore list checking beginnning of urls processed,35240
+url list length after ignore list checking entire url,34283
 number of .gov base domains,1360
-number of urls with non-.gov base domains removed,6334
-url list length after non-federal urls removed,27816
+number of .mil base domains,77
+number of urls with non-.gov or non-.mil base domains removed,4685
+url list length after non-federal urls removed,30111
