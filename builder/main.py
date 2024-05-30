@@ -401,12 +401,12 @@ def main():
     omb_df = csv_to_df(OMB_SOURCE_URL)
     agency_codes = omb_df[['Agency Name', 'Agency Code']]
     agency_codes = agency_codes.rename(columns={'Agency Name': 'agency', 'Agency Code': 'agency_code'}).drop_duplicates()
-    bureau_codes = omb_df[['Bureau Name', 'Bureau Code']]
-    bureau_codes = bureau_codes.rename(columns={'Bureau Name': 'bureau', 'Bureau Code': 'bureau_code'}).drop_duplicates()
+    bureau_codes = omb_df[['Agency Code', 'Bureau Name', 'Bureau Code']]
+    bureau_codes = bureau_codes.rename(columns={'Agency Code': 'agency_code', 'Bureau Name': 'bureau', 'Bureau Code': 'bureau_code'}).drop_duplicates()
 
     # add agency and bureau codes
     url_df = url_df.merge(agency_codes, on='agency', how='left')
-    url_df = url_df.merge(bureau_codes, on='bureau', how='left')
+    url_df = url_df.merge(bureau_codes, on=['agency_code', 'bureau'], how='left')
     url_df = url_df.drop_duplicates()
     url_df = url_df.fillna('')
 
