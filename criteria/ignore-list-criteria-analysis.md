@@ -47,6 +47,10 @@ There's 204 entries that contain (but don't start with) `api`.
 - 127 contain the string, many of which should stay.
 - adding a bunch of begins with `auth...` 
 
+### Contains `cdn`
+- 5 records contain the string
+- All should be filtered.  Adding a variety of begins and contains to do that.  
+
 ### Begins with `cms`
 
 There's 93 urls that contain `cms` [that are removed](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed-begins.csv) by the [`begins-with` ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv).  Of those, 37 are cms.gov urls.  This means that maybe 47 are being removed by this filter (the other 36 are x.cms.gov urls that are rightly removed by another beginning string).  So, the filter is doing good work, but we need to somehow whitelist `cms.gov`.    
