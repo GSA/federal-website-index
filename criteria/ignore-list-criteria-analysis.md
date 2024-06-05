@@ -81,6 +81,13 @@ Currently, 5 websites in the index begin with `gp.`.
 It seems safe and appropriate to filter all of these out by adding `gp.` to the begins list.  
 
 
+
+### Contains `preprod`
+- There's 74 records.
+- Looking through them, I think all can and should be filtered.
+- I'm going to begin by adding `preprod` to both ignore lists, which will get mosts.  But will need to come back to look for edge cases that have the string buried within the url.  
+
+
 ### Contains `sharepoint`
 
 We are already filtering out sites that begin with `sharepoint.`.  After that, 6 websites still contain `sharepoint`.  
