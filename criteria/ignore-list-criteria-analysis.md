@@ -3,6 +3,11 @@
 - 35 entries begin with `access.`
 - I spot checked them all and 6 should not be filtered out, so I'm going to add them to the exceptions list.  
 
+### Contains `accounts`
+- 13 records, all but two regular accounts.xxxx
+- Everyone is a login page and should be filtered out.  Doing that now.  
+
+
 ### Contains `acpt`
 
 There's currently 15 entries that contain `acpt` in the federal website index.
