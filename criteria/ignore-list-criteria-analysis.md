@@ -14,8 +14,13 @@ There's currently 15 entries that contain `acpt` in the federal website index.
 - All belong to NSF, which I believe uses it as part of acceptance testing.
 - Only 2 resolve to websites - the rest timeout, do not connect, or return an error server code.
 - The 2 that resolve have been requested for us to remove them by NSF given that they are staging/development sites.
-
+  
 Therefore, we should add `acpt` to the `contains` ignore list.  
+
+### Contains `alpha`
+- 9 records
+- 8 are staging-esque sites or similar, with only one seemingly production and public-facing.
+- I'll filter out the 8, then add the last one into the `except` file so that it stays in.  
 
 
 ### Begins with `api`
