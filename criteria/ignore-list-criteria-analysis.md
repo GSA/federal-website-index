@@ -146,7 +146,7 @@ There's currently 8 entries that begin with `tools.` in the federal website inde
 
 Therefore, we should filter out the four specific sites we want to remove instead of filtering all `tools.` sites.  
 
-#### Contains `vdi`
+### Contains `vdi`
 
 We are already filtering out sites that begin with `vdi.`.  After that 32 websites still contain `vdi`.  
 
@@ -157,4 +157,14 @@ We are already filtering out sites that begin with `vdi.`.  After that 32 websit
 - Adding `vdilab` to the begins list gets another 2.
 
 This still leaves a good number unaddressed.  I'm creating an issue to return to this.  
-- 
+
+### Contains `www` (and further characters with it)
+
+Some background notes, from [here](https://github.com/GSA/site-scanning/issues/1021): 
+- There are 29,649 target URLs
+- 3,161 begin with www.
+- 3,231 contain www. (70 unique from ^^^)
+- 3,460 begin with www (298 unique from both of ^^^)
+- 3,577 contain www (48 unique from all of ^^^^))
+
+Looking at these turns up a lot of good candidates, e.g. `local-`, `origin-`, `qa-`, and more
