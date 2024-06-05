@@ -77,6 +77,12 @@ The `contains` ignore list actually functions by requiring that the string be bo
 - Some are legit, esp. if part of 'profiles'
 - I'm going to Add to begin-ignore list: `cloudfiles.`, `nasatvfiles.`, `sfiles.` `files.`, `nfiles.`, and `nacp-files.`
 
+### Contains `ftp` 
+- 99 results
+- Many are on eftps.gov, or are otherwise possibly urls that shouldn't be filtered.
+- All that begin with `ftp`, `ftp2`, or `sftp` seem safe to filter though so I'll add those to these.
+
+
 
 ### Begins with `gp.`
 
