@@ -55,6 +55,12 @@ The `contains` ignore list actually functions by requiring that the string be bo
 - Skimming through the rest, I can't see any others that would get caught up in this filter that we wouldn't want to remove.
 - There are still several staging and development websites that look like they won't get filtered (e.g. awsdemo.grantsolutions.gov), but this change will at least address the ones that are currently being asked for us to remove.
 
+### Contains `files`
+- 46 results
+- Some are legit, esp. if part of 'profiles'
+- I'm going to Add to begin-ignore list: `cloudfiles.`, `nasatvfiles.`, `sfiles.` `files.`, `nfiles.`, and `nacp-files.`
+
+
 ### Begins with `gp.`
 
 Currently, 5 websites in the index begin with `gp.`.  
