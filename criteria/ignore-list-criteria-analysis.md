@@ -95,6 +95,11 @@ It seems safe and appropriate to filter all of these out by adding `gp.` to the 
 - It's a bit of a mess.
 - To begin with, adding `sandbox` to begins and contains list.  
 
+### Begins with `sbx`
+- Only two records, both of which should clearly be filtered.
+- Adding `sbx` to the begins list.  
+
+
 
 ### Contains `sharepoint`
 
