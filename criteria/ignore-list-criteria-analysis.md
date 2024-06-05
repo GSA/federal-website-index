@@ -158,6 +158,10 @@ We are already filtering out sites that begin with `vdi.`.  After that 32 websit
 
 This still leaves a good number unaddressed.  I'm creating an issue to return to this.  
 
+### Begins with `www-`
+- There are 229 records that begin with `www-`
+- I think that all of them can be filtered out, so going to add that to the begins list.  
+
 ### Contains `www` (and further characters with it)
 
 Some background notes, from [here](https://github.com/GSA/site-scanning/issues/1021): 
