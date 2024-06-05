@@ -43,6 +43,9 @@ There's 204 entries that contain (but don't start with) `api`.
 - Some sites that begin with `app.` are legitimate and shouldn't be filtered out.  Therefore, I think the move is to add individual websites that we want to remove to the ignore list.  
 - I've started doing ^^^ but there's a bunch that are already getting filtered out for not being live, so I'm not going to worry about those and just look at the ones that are live with 200 codes. 
 
+### Contains `auth`
+- 127 contain the string, many of which should stay.
+- adding a bunch of begins with `auth...` 
 
 ### Begins with `cms`
 
@@ -108,6 +111,10 @@ We are already filtering out sites that begin with `sharepoint.`.  After that, 6
 - 1 will soon be removed because it also contains `acpt`.  
 - Of the other three though, they appear to all reference external guests/non-government individuals having access.  Up until now, our sense is that such a site *would* actually stay in the federal website index.  We should discuss further to confirm, but if that's the case, then we'll likely not filter them out.
 
+### Contains `sit`
+- 204 contain the string, but many should not be filtered
+- Those that begin with `sit.` or contain `sit` between two characters all should be filtered.
+- Adding `sit` to the contains ignore list should cover those.  
 
 ### Begins with `telework.`
 
