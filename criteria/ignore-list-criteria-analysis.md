@@ -81,11 +81,19 @@ Currently, 5 websites in the index begin with `gp.`.
 It seems safe and appropriate to filter all of these out by adding `gp.` to the begins list.  
 
 
+### Begins with `idp`
+- 28 records, all but 2 of which begin with `idp.` or `idp-`.
+- Filtering those 26 should be good for now.
 
 ### Contains `preprod`
 - There's 74 records.
 - Looking through them, I think all can and should be filtered.
-- I'm going to begin by adding `preprod` to both ignore lists, which will get mosts.  But will need to come back to look for edge cases that have the string buried within the url.  
+- I'm going to begin by adding `preprod` to both ignore lists, which will get mosts.  But will need to come back to look for edge cases that have the string buried within the url.
+
+### Contains `sandbox`
+- There's 47 records.
+- It's a bit of a mess.
+- To begin with, adding `sandbox` to begins and contains list.  
 
 
 ### Contains `sharepoint`
