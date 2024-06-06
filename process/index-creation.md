@@ -1,4 +1,4 @@
-Below is a description of the process used to create the Federal Website Index, which is then used as the target URL list for the Site Scanning engine to scan.  
+Below is a description of the process used to create the Federal Website Index, which is then used as the target URL list for the Site Scanning engine to scan. The actual code that does this is [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py).   
 
 * The Federal Website Index is created by combining and processing a number of [individual source datasets](https://github.com/GSA/federal-website-index/tree/main/data/source-descriptions#readme).  The list of datasets is managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py) (in the `fetch_data` function), and the urls for these datasets are managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/config.py).  
 * The specified source datasets are copied and imported into memory.  Snapshots of each individual dataset are stored [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots).
