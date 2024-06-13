@@ -8,7 +8,6 @@ dirname = os.path.dirname(__file__)
 GOV_SOURCE_URL = 'https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv'
 PULSE_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv'
 DAP_SOURCE_URL = 'https://analytics.usa.gov/data/live/sites-extended.csv'
-OMB_SOURCE_URL = 'https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv'
 OMB_IDEA_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/omb_idea.csv'
 EOTW_2020_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/2020_eot.csv'
 USAGOV_DIRECTORY_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/usagov_directory.csv'
@@ -235,7 +234,7 @@ def merge_bureaus(df, bureau_df):
     df = df.drop(columns=['bureau_x', 'bureau_y'])
     return df
 
-def main():
+def build_target_url_list():
     # initialize analysis dict
     analysis = {}
 
@@ -397,30 +396,13 @@ def main():
     url_df = url_df.drop(columns=['branch_x'])
     url_df = url_df.drop(columns=['branch_y'])
 
-    # load agency and bureau code reference data
-    omb_df = csv_to_df(OMB_SOURCE_URL)
-    agency_codes = omb_df[['Agency Name', 'Agency Code']]
-    agency_codes = agency_codes.rename(columns={'Agency Name': 'agency', 'Agency Code': 'agency_code'}).drop_duplicates()
-    bureau_codes = omb_df[['Agency Code', 'Bureau Name', 'Bureau Code']]
-    bureau_codes = bureau_codes.rename(columns={'Agency Code': 'agency_code', 'Bureau Name': 'bureau', 'Bureau Code': 'bureau_code'}).drop_duplicates()
-
-    # add agency and bureau codes
-    url_df = url_df.merge(agency_codes, on='agency', how='left')
-    url_df = url_df.merge(bureau_codes, on=['agency_code', 'bureau'], how='left')
-    url_df = url_df.drop_duplicates()
-    url_df = url_df.fillna('')
-
-    # format agency and bureau codes
-    url_df['agency_code'] = url_df['agency_code'].map(lambda x: round_float(x))
-    url_df['bureau_code'] = url_df['bureau_code'].map(lambda x: round_float(x))
-
     # reorder columns, sort
-    url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'agency_code',
-                     'bureau', 'bureau_code', 'source_list_federal_domains',
-                     'source_list_dap', 'source_list_pulse', 'source_list_omb_idea',
-                     'source_list_eotw', 'source_list_usagov', 'source_list_gov_man',
-                     'source_list_uscourts', 'source_list_oira', 'source_list_other',
-                     'source_list_mil_1', 'source_list_mil_2', 'omb_idea_public']]
+    url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau',
+                     'source_list_federal_domains', 'source_list_dap', 'source_list_pulse',
+                     'source_list_omb_idea', 'source_list_eotw', 'source_list_usagov',
+                     'source_list_gov_man', 'source_list_uscourts', 'source_list_oira',
+                     'source_list_other', 'source_list_mil_1', 'source_list_mil_2',
+                     'omb_idea_public']]
     url_df = url_df.sort_values(by=['base_domain', 'target_url'])
 
     # remove all non-.gov and non-.mil urls
@@ -448,12 +430,12 @@ def main():
     analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
     # reorder columns
-    final_df = url_df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency', 'agency_code',
-                    'bureau', 'bureau_code', 'source_list_federal_domains',
-                    'source_list_dap', 'source_list_pulse', 'source_list_omb_idea',
-                    'source_list_eotw', 'source_list_usagov', 'source_list_gov_man',
-                    'source_list_uscourts', 'source_list_oira', 'source_list_other',
-                    'source_list_mil_1', 'source_list_mil_2', 'omb_idea_public']]
+    final_df = url_df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency',
+                    'bureau', 'source_list_federal_domains', 'source_list_dap',
+                    'source_list_pulse', 'source_list_omb_idea', 'source_list_eotw',
+                    'source_list_usagov', 'source_list_gov_man', 'source_list_uscourts',
+                    'source_list_oira', 'source_list_other', 'source_list_mil_1',
+                    'source_list_mil_2', 'omb_idea_public']]
 
     # write list to csv
     final_df.to_csv(TARGET_URL_LIST_PATH, index=False)
@@ -462,4 +444,4 @@ def main():
     dict_to_csv(ANALYSIS_CSV_PATH, analysis)
 
 if __name__ == '__main__':
-    main()
+    build_target_url_list()
