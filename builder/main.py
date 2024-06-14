@@ -6,7 +6,7 @@ from helpers import csv_to_df, round_float, dict_to_csv
 dirname = os.path.dirname(__file__)
 
 GOV_SOURCE_URL = 'https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv'
-PULSE_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv'
+PULSE_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/pulse.csv'
 DAP_SOURCE_URL = 'https://analytics.usa.gov/data/live/sites-extended.csv'
 OMB_IDEA_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/omb_idea.csv'
 EOTW_2020_SOURCE_URL = 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/2020_eot.csv'
