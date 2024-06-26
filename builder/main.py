@@ -429,6 +429,19 @@ def build_target_url_list():
     url_df = url_df.drop(columns=['is_mil'])
     analysis['url list length after non-federal urls removed'] = len(url_df.index)
 
+    # log omb_idea_public counts
+    true_count = url_df['omb_idea_public'].value_counts().get('TRUE', 0)
+    false_count = url_df['omb_idea_public'].value_counts().get('FALSE', 0)
+    analysis['Number of omb_idea_public fields = TRUE'] = true_count
+    analysis['Number of omb_idea_public fields = FALSE'] = false_count
+
+    blank_count = url_df['omb_idea_public'].isnull().sum() + (url_df['omb_idea_public'] == '').sum()
+    analysis['Number of omb_idea_public fields = blank'] = blank_count
+
+    other_count = len(url_df) - (true_count + false_count + blank_count)
+    analysis['Number of omb_idea_public fields that != TRUE FALSE or blank'] = other_count
+
+
     # reorder columns
     final_df = url_df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency',
                     'bureau', 'source_list_federal_domains', 'source_list_dap',
@@ -440,7 +453,7 @@ def build_target_url_list():
     # write list to csv
     final_df.to_csv(TARGET_URL_LIST_PATH, index=False)
 
-    # write analysis tocsv
+    # write analysis to csv
     dict_to_csv(ANALYSIS_CSV_PATH, analysis)
 
 if __name__ == '__main__':
