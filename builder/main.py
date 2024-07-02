@@ -443,12 +443,15 @@ def build_target_url_list():
 
 
     # reorder columns
-    final_df = url_df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency',
+    url_df = url_df[['target_url', 'base_domain', 'top_level_domain', 'branch', 'agency',
                     'bureau', 'source_list_federal_domains', 'source_list_dap',
                     'source_list_pulse', 'source_list_omb_idea', 'source_list_eotw',
                     'source_list_usagov', 'source_list_gov_man', 'source_list_uscourts',
                     'source_list_oira', 'source_list_other', 'source_list_mil_1',
                     'source_list_mil_2', 'omb_idea_public']]
+
+    # final deduplication
+    final_df = url_df.drop_duplicates(subset='target_url')
 
     # write list to csv
     final_df.to_csv(TARGET_URL_LIST_PATH, index=False)
