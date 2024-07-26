@@ -5,19 +5,6 @@
 This directory contains a Python script (`main.py`) that automates the process
 of building the federal website index.
 
-## Configuration
-
-`config.py` contains the following configuration variables used during the building process:
-
-- `gov_source_url`: the URL hosting the [list of Federal .Gov Domains](https://github.com/GSA/federal-website-index/blob/main/source-data/dotgov-registry-federal.md)
-- `pulse_source_url`: the URL hosting the [2020 pulse.cio.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/source-data/pulse-snapshot.md)
-- `dap_source_url`: the URL hosting the [list of Websites That Participate In The Digital Analytics Program](https://github.com/GSA/federal-website-index/blob/main/source-data/dap.md)
-- `omb_source_url`: the URL hosting [OMB Bureau/Agency Codes](https://github.com/GSA/federal-website-index/blob/main/source-data/omb-codes.md)
-- `additional_data_path`: a CSV file containing additional federal domains
-- `ignore_list_path`: a CSV file listing terms to ignore in the URL datasets
-- `todays_snapshot_path`: the directory for the current day's data snapshot
-- `target_url_list_path`: the location of the built federal website index produced by `main.py`
-
 ## Dependencies
 
 All dependencies are listed in `requirements.txt`.
@@ -33,14 +20,14 @@ federal website index.
 
 ## Snapshots
 
-`config.py` contains the following configuration variables used to document snapshots of data handled during the building process:
+`main.py` contains the following configuration variables used to document snapshots of data handled during the building process:
 
-- `gov_snapshot_path`: the state of the federal URL list at the time of build
-- `pulse_snapshot_path`: the state of the pulse URL list at the time of build
-- `dap_snapshot_path`: the state of the DAP URL list at the time of build
-- `combined_snapshot_path`: the combined list of all URLs from the three lists above
-- `deduped_snapshot_path`: the deduped list
-- `dedup_removed`: URLs removed during the deduplication process
-- `remove_ignore_path`: the list after URLs containing strings specified in `ignore-list-path` are removed
-- `ignored_removed`: URLs removed due to `ignore-list-path`
-- `nonfederal_removed`: URLs removed that do not contain `.gov`
+- `GOV_SNAPSHOT_PATH`: the state of the federal URL list at the time of build
+- `PULSE_SNAPSHOT_PATH`: the state of the pulse URL list at the time of build
+- `DAP_SNAPSHOT_PATH`: the state of the DAP URL list at the time of build
+- `COMBINED_SNAPSHOT_PATH`: the combined list of all URLs from the three lists above
+- `DEDUPED_SNAPSHOT_PATH`: the deduped list
+- `DEDUP_REMOVED_SNAPSHOT_PATH`: URLs removed during the deduplication process
+- `REMOVE_IGNORE_BEGINS_PATH` and `REMOVE_IGNORE_CONTAINS_PATH`: the list after URLs containing strings specified in `INGORE_LIST_BEGINS_PATH` and `IGNORE_LIST_CONTAINS_PATH` are removed
+- `INGORED_REMOVED_BEGINS_PATH` and `IGNORED_REMOVED_CONTAINS_PATH`: URLs removed during the prior step
+- `NONFEDERAL_REMOVED_PATH`: URLs removed that are not federal URLs
