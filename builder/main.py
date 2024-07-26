@@ -44,8 +44,6 @@ INGORED_REMOVED_BEGINS_PATH = os.path.join(dirname, '../data/snapshots/ignored-r
 IGNORED_REMOVED_CONTAINS_PATH = os.path.join(dirname, '../data/snapshots/ignored-removed-contains.csv')
 NONFEDERAL_REMOVED_PATH = os.path.join(dirname, '../data/snapshots/nonfederal-removed.csv')
 ANALYSIS_CSV_PATH = os.path.join(dirname, '../data/site-scanning-target-url-list-analysis.csv')
-URL_DF_PRE_BASE_DOMAINS_MERGED = os.path.join(dirname, '../data/test/url_df_pre_base_domains_merged.csv')
-URL_DF_POST_BASE_DOMAINS_MERGED = os.path.join(dirname, '../data/test/url_df_post_base_domains_merged.csv')
 
 def fetch_data(analysis):
     # import data
@@ -315,7 +313,6 @@ def build_target_url_list():
     url_df = url_df.merge(first_mil_df, on='target_url', how='left')
     url_df = url_df.merge(second_mil_df, on='target_url', how='left')
     url_df = url_df.fillna('')
-    url_df.to_csv(URL_DF_PRE_BASE_DOMAINS_MERGED, index=False)
 
     # populate base domain column
     url_df['base_domain'] = ''
@@ -326,7 +323,6 @@ def build_target_url_list():
             url_df.at[idx, 'base_domain'] = row['base_domain_pulse']
         else:
             url_df.at[idx, 'base_domain'] = '.'.join(row['target_url'].split('.')[-2:])
-    url_df.to_csv(URL_DF_POST_BASE_DOMAINS_MERGED, index=False)
 
     # get relevant subset
     url_df = url_df[['target_url', 'base_domain', 'branch', 'agency', 'bureau',
