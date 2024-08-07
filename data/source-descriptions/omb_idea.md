@@ -6,6 +6,6 @@ The process by which the data is prepared to become a seed list involves:
 4. Rename column headers to `Website` and `Public-Facing`
 5. Sort by the `Website` column alphabetically (and ensure that no sites have a leading space)
 
-There are about 8,400 websites in the file and it is located [here](https://github.com/GSA/federal-website-index/blob/main/data/dataset/omb_idea.csv). 
+There are about 9,600 websites in the file and it is located [here](https://github.com/GSA/federal-website-index/blob/main/data/dataset/omb_idea.csv). 
 
 
