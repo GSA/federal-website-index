@@ -12,14 +12,14 @@ oira url list length,7539
 .mil second url list length,275
 other website url list length,7
 combined url list length,53498
-deduped url list length,37101
-url list length after ignore list checking beginnning of urls processed,33595
-url list length after ignore list checking entire url,32566
+deduped url list length,37084
+url list length after ignore list checking beginnning of urls processed,33581
+url list length after ignore list checking entire url,32552
 number of .gov base domains,1370
 number of .mil base domains,77
-number of urls with non-.gov or non-.mil base domains removed,3780
-url list length after non-federal urls removed,29106
+number of urls with non-.gov or non-.mil base domains removed,3760
+url list length after non-federal urls removed,29112
 Number of omb_idea_public fields = TRUE,6791
 Number of omb_idea_public fields = FALSE,2602
-Number of omb_idea_public fields = blank,19713
+Number of omb_idea_public fields = blank,19719
 Number of omb_idea_public fields that != TRUE FALSE or blank,0
