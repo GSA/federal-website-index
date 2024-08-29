@@ -263,6 +263,7 @@ access.ginniemae.gov,Yes
 access.va.gov,Yes
 access1.bpa.gov,No
 accessclinicaldata.niaid.nih.gov,Yes
+accessdata.fda.gov,Yes
 accessgudid.nlm.nih.gov,Yes
 accessibility.18f.gov,Yes
 accessibility.digital.gov,Yes
@@ -388,6 +389,7 @@ aflcmc.af.mil,Yes
 afm.fmi.gov,No
 afmaa.af.mil,Yes
 afmc.af.mil,Yes
+afmss.blm.gov,Yes
 afni.nimh.nih.gov,Yes
 afnwc.af.mil,Yes
 afod.eur.army.mil,Yes
@@ -508,6 +510,7 @@ allaccess.lbl.gov,Yes
 allhands.navy.mil,Yes
 allofus.nih.gov,Yes
 allofus.nnlm.gov,Yes
+allofustec.nnlm.gov,Yes
 alpenacrtc.ang.af.mil,Yes
 alpha-api.urs.eosdis.nasa.gov,No
 alpha.cpars.gov,No
@@ -569,6 +572,7 @@ ams.usda.gov,Yes
 amspaces.state.gov,Yes
 amu.nemsis.org,Yes
 amview.japan.usembassy.gov,Yes
+anaalaska.org,Yes
 anaconda.jobcorps.gov,Yes
 anacostiabolling.tricare.mil,Yes
 anag-repo.lbl.gov,Yes
@@ -625,6 +629,7 @@ aphysics2.lanl.gov,Yes
 api-alpha.sam.gov,No
 api.abmc.gov,No
 api.benefits.gov,No
+api.bls.gov,Yes
 api.bluebutton.cms.gov,Yes
 api.data.gov,Yes
 api.digitalmedia.hhs.gov,No
@@ -1098,6 +1103,7 @@ blog.usaid.gov,No
 blogs.anl.gov,No
 blogs.cdc.gov,Yes
 blogs.nasa.gov,Yes
+bloodcell.transplant.hrsa.gov,Yes
 bloodstemcell.hrsa.gov,Yes
 bls.gov,Yes
 blsa.nih.gov,Yes
@@ -1162,6 +1168,7 @@ brand.18f.gov,Yes
 brb.nci.nih.gov,Yes
 brd.nci.nih.gov,Yes
 bremerton.tricare.mil,Yes
+brevo.com,No
 briandallgood.tricare.mil,Yes
 brics.cit.nih.gov,Yes
 brics.nei.nih.gov,No
@@ -1315,6 +1322,7 @@ care.va.gov,Yes
 careerpath.fema.gov,Yes
 careerpath.gsfc.nasa.gov,Yes
 careerpathstaging.fema.gov,No
+careers.cbp.gov,No
 careers.occ.gov,Yes
 careers.pnnl.gov,Yes
 careers.state.gov,Yes
@@ -1442,6 +1450,7 @@ cdsic.ahrq.gov,Yes
 cdsweb.gsfc.nasa.gov,No
 cdx.epa.gov,Yes
 ceac.state.gov,Yes
+ceal.nih.gov,Yes
 cearun.grc.nasa.gov,Yes
 ceb65-vip.nlm.nih.gov,No
 cebs.nci.nih.gov,Yes
@@ -1546,6 +1555,7 @@ choosework.ssa.gov,Yes
 chpl.healthit.gov,No
 chromatic.nci.nih.gov,No
 chronicdata.cdc.gov,Yes
+chtn.org,Yes
 chtn.sites.virginia.edu,Yes
 ci.noaa.gov,Yes
 ci.usembassy.gov,Yes
@@ -1773,6 +1783,7 @@ common.usembassy.gov,No
 commondataelements.ninds.nih.gov,Yes
 commonfund.nih.gov,Yes
 commonresearchmodel.larc.nasa.gov,Yes
+commons.era.nih.gov,Yes
 commons.lbl.gov,Yes
 communications.grants.gov,No
 communicationstrackingradar.jpl.nasa.gov,No
@@ -2011,6 +2022,7 @@ cts.pawg.cap.gov,Yes
 ctsa.ncats.nih.gov,Yes
 ctsedwweb.ee.doe.gov,No
 ctsportal.hud.gov,No
+ctsu.org,Yes
 cttso.gov,Yes
 ctuir.nsopw.gov,Yes
 ctwg.cap.gov,Yes
@@ -2119,6 +2131,7 @@ data-beta.usgs.gov,Yes
 data-science.usajobs.gov,Yes
 data.acl.gov,Yes
 data.af.mil,Yes
+data.bls.gov,Yes
 data.boem.gov,Yes
 data.bsee.gov,Yes
 data.canary.census.gov,No
@@ -2172,6 +2185,7 @@ datadashboard.fda.gov,Yes
 datadashboard.preprod.fda.gov,No
 datadiscovery.nlm.nih.gov,Yes
 dataentry.globe.gov,Yes
+dataentrydev.globe.gov,No
 datafiles.samhsa.gov,Yes
 datagateway.nrcs.usda.gov,No
 datagateway.sc.egov.usda.gov,No
@@ -2458,6 +2472,7 @@ docs.ahrq.gov,No
 docs.gdc.cancer.gov,Yes
 docs.nersc.gov,Yes
 docserver.gesdisc.eosdis.nasa.gov,No
+docsite.samhsa.gov,No
 doctrine.af.mil,Yes
 documentation.uts.nlm.nih.gov,Yes
 documentation.uts.wip.nlm.nih.gov,No
@@ -2488,6 +2503,7 @@ doi.sciencebase.gov,Yes
 doi.usajobs.gov,Yes
 doingbusiness.msfc.nasa.gov,Yes
 doioig.gov,Yes
+doitalent.ibc.doi.gov,No
 doiu.doi.gov,No
 doj.usajobs.gov,Yes
 doj.wta.nfc.usda.gov,No
@@ -2733,6 +2749,7 @@ edie-q.fdic.gov,No
 edie-s.fdic.gov,No
 edie.fdic.gov,Yes
 edis.usitc.gov,Yes
+edison.gov,Yes
 edison.jobcorps.gov,Yes
 editchecks.cdan.dot.gov,Yes
 editorials.voa.gov,Yes
@@ -3170,6 +3187,7 @@ eximonline.exim.gov,Yes
 exis.tsa.dhs.gov,Yes
 exoplanets.nasa.gov,Yes
 expeditionarycenter.af.mil,Yes
+experience.arcgis.com,No
 experimentalsites.ed.gov,Yes
 exploration.jsc.nasa.gov,Yes
 explorationscience.nasa.gov,Yes
@@ -3272,6 +3290,7 @@ fccdata.fcc.gov,Yes
 fccravpn.fcc.gov,Yes
 fcsic.gov,Yes
 fcsm.gov,Yes
+fda.gov,Yes
 fda.usajobs.gov,Yes
 fdanj.nlm.nih.gov,Yes
 fdatrackdashboard.fda.gov,No
@@ -3335,6 +3354,7 @@ fermi.gsfc.nasa.gov,Yes
 fermilinux.fnal.gov,No
 ferret.pmel.noaa.gov,Yes
 fers.tva.gov,No
+fertilitySCD.ctss.nih.gov,Yes
 fes.research.va.gov,Yes
 fess.fnal.gov,Yes
 fewarren.tricare.mil,Yes
@@ -3772,12 +3792,14 @@ glenmont.jobcorps.gov,Yes
 glerl.noaa.gov,Yes
 gliht.gsfc.nasa.gov,Yes
 glihtdata.gsfc.nasa.gov,Yes
+glioma-biodp.nci.nih.gov,Yes
 glmris.anl.gov,Yes
 GLOBALCHANGE.GOV,Yes
 globaldossier.uspto.gov,Yes
 globalocean.noaa.gov,Yes
 globalusers.ncjrs.gov,No
 globe.gov,Yes
+globus.org,Yes
 globus01.sdcc.bnl.gov,No
 glorecords.blm.gov,Yes
 glory.giss.nasa.gov,Yes
@@ -3822,6 +3844,7 @@ gosere.af.mil,Yes
 goto.jpl.nasa.gov,No
 gotowork-piv.ed.gov,No
 gotowork.ed.gov,No
+govdashboard.fda.gov,Yes
 government-shutdown.noaa.gov,No
 govloans.gov,Yes
 gpareviews.state.gov,No
@@ -4064,6 +4087,7 @@ helpwithmybank.gov,Yes
 henke.lbl.gov,Yes
 heo.nih.gov,Yes
 hepatitis.va.gov,Yes
+hepgis-usdot.hub.arcgis.com,Yes
 hepis.ed.gov,Yes
 herc.research.va.gov,Yes
 heritageabroad.gov,Yes
@@ -4146,6 +4170,7 @@ hnc.usace.army.mil,Yes
 holloman.af.mil,Yes
 holloman.tricare.mil,Yes
 holometer.fnal.gov,Yes
+home.grantsolutions.gov,Yes
 home.idm.cms.gov,No
 home.tei.treasury.gov,No
 home.treasury.gov,Yes
@@ -4413,6 +4438,7 @@ ids.usitc.gov,Yes
 idwg.cap.gov,Yes
 ie.usembassy.gov,Yes
 iea-annex60.lbl.gov,Yes
+iedison.gov,Yes
 iee.tva.gov,No
 ies.ed.gov,Yes
 iesreview.ed.gov,Yes
@@ -4429,6 +4455,7 @@ ihs.gov,Yes
 iiif.wip.nlm.nih.gov,No
 iiimef.marines.mil,Yes
 iimef.marines.mil,Yes
+iis.net,No
 ijarchive.org,Yes
 ikndata.insurekidsnow.gov,No
 il.ngb.army.mil,Yes
@@ -4747,6 +4774,7 @@ joaaccp.tva.com,No
 joahsts.tva.com,No
 jobcorps.gov,Yes
 jobs-origin.cdc.gov,Yes
+Jobs.cdc.gov,Yes
 jobs.irs.gov,Yes
 jobs.lbl.gov,Yes
 jobs.ornl.gov,Yes
@@ -4976,6 +5004,7 @@ leonawoodsbnl.phy.bnl.gov,Yes
 leonid.arc.nasa.gov,Yes
 lep-pds.gsfc.nasa.gov,Yes
 lep.gov,Yes
+lersearch.inl.gov,Yes
 letsmove.obamawhitehouse.archives.gov,No
 letterkenny.army.mil,Yes
 lew.epa.gov,Yes
@@ -5291,6 +5320,7 @@ mathematics.usajobs.gov,Yes
 matrix.bio.anl.gov,Yes
 maui.jobcorps.gov,Yes
 mawg.cap.gov,Yes
+max.gov,No
 maximo.bia.gov,No
 maxwell.af.mil,Yes
 maxwell.tricare.mil,Yes
@@ -5769,6 +5799,7 @@ naturalresources.usajobs.gov,Yes
 naturesnetwork.org,Yes
 natweb-r53.usgs.gov,No
 natweb.resolve.usgs.gov,No
+natweb.usgs.gov,No
 natwebcaas01.wr.usgs.gov,No
 nau.usace.army.mil,Yes
 nauticalcharts.noaa.gov,Yes
@@ -6138,6 +6169,7 @@ nomads.ncep.noaa.gov,Yes
 nomads.weather.gov,Yes
 nomercury.nih.gov,No
 nominate.noaa.gov,Yes
+nonb-abcc.ncifcrf.gov,Yes
 nonneutral.pppl.gov,Yes
 nooksack.nsopw.gov,Yes
 norad.mil,Yes
@@ -7144,6 +7176,7 @@ psmagazine.army.mil,Yes
 psnet.ahrq.gov,Yes
 pso.ahrq.gov,Yes
 psoportal.tva.com,No
+psoppc.org,Yes
 psp.fmcsa.dot.gov,Yes
 pspp.ninds.nih.gov,Yes
 psrs.arc.nasa.gov,Yes
@@ -7160,6 +7193,7 @@ ptcd.ornl.gov,No
 ptfcehs.niehs.nih.gov,Yes
 pts.ee.doe.gov,No
 ptsd.va.gov,Yes
+pub-lib.jpl.caltech.edu,No
 pub-lib.jpl.nasa.gov,No
 pubapps.usitc.gov,Yes
 pubchem.ncbi.nlm.nih.gov,Yes
@@ -7497,6 +7531,7 @@ rhy-hmis.acf.hhs.gov,Yes
 rhyclearinghouse.acf.hhs.gov,Yes
 ric.nrc.gov,Yes
 richard.tva.gov,No
+rid.cancer.gov,Yes
 ridb.recreation.gov,Yes
 rivers.gov,Yes
 riverstandards.tva.gov,No
@@ -8421,6 +8456,7 @@ swl.usace.army.mil,Yes
 swo.nsopw.gov,Yes
 sworm.gov,Yes
 swot.jpl.nasa.gov,Yes
+swpa.gov,Yes
 swpc.noaa.gov,Yes
 sws.nrel.gov,Yes
 sy.usembassy.gov,Yes
@@ -9143,6 +9179,7 @@ virtualdesk-vas.fdic.gov,Yes
 vis.globe.gov,Yes
 vis.lbl.gov,Yes
 visac.ornl.gov,Yes
+visdev.globe.gov,No
 visiblecement.nist.gov,Yes
 visibleearth.nasa.gov,Yes
 vision.research.va.gov,Yes
@@ -9271,6 +9308,7 @@ warren.af.mil,Yes
 warriorcare.dodlive.mil,Yes
 washoetribe.nsopw.gov,Yes
 wasteplan.epa.gov,Yes
+wasterservices.usgs.gov,No
 water.es.anl.gov,Yes
 water.i.ncep.noaa.gov,No
 water.noaa.gov,Yes
