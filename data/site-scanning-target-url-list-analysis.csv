@@ -1,5 +1,5 @@
 question,answer
-gov url list length,1375
+gov url list length,1371
 pulse url list length,24636
 dap url list length,10000
 omb idea url list length,9654
@@ -11,15 +11,15 @@ oira url list length,7539
 .mil first url list length,1034
 .mil second url list length,275
 other website url list length,8
-combined url list length,53547
-deduped url list length,37175
-url list length after ignore list checking beginnning of urls processed,33553
-url list length after ignore list checking entire url,32563
-number of .gov base domains,1375
+combined url list length,53539
+deduped url list length,37167
+url list length after ignore list checking beginnning of urls processed,33545
+url list length after ignore list checking entire url,32555
+number of .gov base domains,1371
 number of .mil base domains,77
 number of urls with non-.gov or non-.mil base domains removed,3796
-url list length after non-federal urls removed,29087
+url list length after non-federal urls removed,29079
 Number of omb_idea_public fields = TRUE,6809
 Number of omb_idea_public fields = FALSE,2610
-Number of omb_idea_public fields = blank,19668
+Number of omb_idea_public fields = blank,19660
 Number of omb_idea_public fields that != TRUE FALSE or blank,0
