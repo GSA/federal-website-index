@@ -4,4 +4,4 @@ If a federal .gov website is not included in any other dataset but is known to e
 
 The file [can be found here](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/other-websites.csv).  
 
-There are approximately 2 URLs in the dataset.  
+There are approximately 10 URLs in the dataset.  
