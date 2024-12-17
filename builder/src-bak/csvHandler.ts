@@ -4,6 +4,8 @@ import { type IDataFrame, DataFrame, fromCSV } from 'data-forge';
 import { CsvDataDefinition } from './components/csvDataDefinition';
 import { getSnapshotPath } from './utils';
 
+
+
 export function checkForUrl(path: string): boolean {
   return path.startsWith('http');
 }

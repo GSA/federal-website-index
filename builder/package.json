@@ -2,8 +2,7 @@
   "name": "federal-website-index",
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest",
-    "@types/papaparse": "^5.3.15"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -13,9 +12,7 @@
   },
   "type": "module",
   "dependencies": {
-    "data-forge": "^1.10.2",
-    "data-forge-fs": "^0.0.9",
-    "node-fetch": "^3.3.2",
-    "papaparse": "^5.4.1"
+    "@types/dataframe-js": "^1.4.3",
+    "dataframe-js": "^1.4.4",
   }
 }
