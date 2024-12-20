@@ -5,6 +5,12 @@ export type SourceListConfig = {
   hasHeaders: boolean;
 }
 
+export type AnalysisValue = {
+  name: string;
+  value: string;
+  count: number;
+}
+
 export enum SourceList {
   FEDERAL_DOMAINS = 'gov',
   PULSE = 'pulse',

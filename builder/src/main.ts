@@ -13,8 +13,19 @@ import { MilDomainsSourceList } from 'services/source-lists/MilDomainsSourceList
 import { OtherSourceList } from 'services/source-lists/OtherSourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
-import { SourceList } from "./types/config";
-import { deduplicateSiteList, extractBaseDomainFromUrl, extractTLDFromUrl, mergeUrlInfo, removeNonGovNonMilSites, tagIgnoreListSites } from "./utils/utilities";
+import { SourceList, AnalysisValue } from "./types/config";
+import { 
+  deduplicateSiteList,
+  extractBaseDomainFromUrl,
+  extractTLDFromUrl,
+  mergeUrlInfo, 
+  removeNonGovNonMilSites,
+  tagIgnoreListSites,
+  unionSourceLists,
+  ensureColumnNames,
+  fullColumnNameList,
+  generateAnalysisEntry,
+} from "./utils/utilities";
 import path from 'path';
 
 /**
@@ -35,19 +46,6 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     MilOneSourceList.loadData(),
     MilTwoSourceList.loadData(),
   ]);
-}
-
-/**
- * 
- * @param sourceLists The dataframes that you would like to union together. They must have the same columns.
- * @returns A dataframe that is the union of all the source lists.
- */
-function unionSourceLists(sourceLists: DataFrame[]): DataFrame {
-  let allSites = sourceLists[0];
-  for (let i = 1; i < sourceLists.length; i++) {
-    allSites = allSites.union(sourceLists[i]);
-  }
-  return allSites;
 }
 
 /**
@@ -73,36 +71,6 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
 }
 
 /**
- * 
- * @param sourceLists The DataFrames that you would like to ensure have the same column names.
- * @param columnNames The column names that you would like to ensure are in each DataFrame.
- * @returns The sourceList dataframes with consistent column names.
- */
-function ensureColumnNames(sourceLists: DataFrame[], columnNames: string[]): DataFrame[] {
-  for (let i = 0; i < sourceLists.length; i++) {
-    for (let j = 0; j < columnNames.length; j++) {
-      if (!sourceLists[i].listColumns().includes(columnNames[j])) {
-        sourceLists[i] = sourceLists[i].withColumn(columnNames[j], ()=>'');
-      }
-    }
-  }
-  return sourceLists;
-}
-
-/**
- * 
- * @param sourceLists The DataFrames that you would like to get the full column name list from.
- * @returns A list of all the column names from all the DataFrames.
- */
-function fullColumnNameList(sourceLists: DataFrame[]): string[] {
-  let columns: string[] = [];
-  for (let i = 0; i < sourceLists.length; i++) {
-    columns = columns.concat(sourceLists[i].listColumns());
-  }
-  return columns;
-}
-
-/**
  * The main entry point of the Federal Website Index Builder.
  */
 async function main() {
@@ -113,13 +81,22 @@ async function main() {
   console.log("Fetching source lists...");
   let sourceLists = await fetchAllSourceListData();
 
-  // build a rowcount for each source list and a running total
-  let rowCount = 0;
-  sourceLists.forEach((df, i) => {
-    rowCount += df.count();
-    console.log(`Source List ${i + 1} contains ${df.count()} rows and ${df.listColumns().length} columns.`);
-  });
-  console.log(`Total rows in all source lists: ${rowCount}`);
+  // Initialize our analysis object
+  let analysis: AnalysisValue[] = [];
+
+  // Generate analysis entries for each source list
+  analysis.push(generateAnalysisEntry('FederalDomainsSourceList', 'gov url list length', sourceLists[0].count()));
+  analysis.push(generateAnalysisEntry('PulseSourceList', 'pulse url list length', sourceLists[1].count()));
+  analysis.push(generateAnalysisEntry('DapSourceList', 'dap url list length', sourceLists[2].count()));
+  analysis.push(generateAnalysisEntry('OmbIdeaSourceList', 'omb idea url list length', sourceLists[3].count()));
+  analysis.push(generateAnalysisEntry('EotwSourceList', 'eotw url list length', sourceLists[4].count()));
+  analysis.push(generateAnalysisEntry('UsaGovSourceList', 'usagov url list length', sourceLists[5].count()));
+  analysis.push(generateAnalysisEntry('GovManSourceList', 'gov_man url list length', sourceLists[6].count()));
+  analysis.push(generateAnalysisEntry('UsCourtsSourceList', 'uscourts url list length', sourceLists[7].count()));
+  analysis.push(generateAnalysisEntry('OiraSourceList', 'oira url list length', sourceLists[8].count()));
+  analysis.push(generateAnalysisEntry('OtherSourceList', 'other website url list length', sourceLists[9].count()));
+  analysis.push(generateAnalysisEntry('MilOneSourceList', '.mil second url list length', sourceLists[10].count()));
+  analysis.push(generateAnalysisEntry('MilTwoSourceList', '.mil first url list length', sourceLists[11].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -134,10 +111,12 @@ async function main() {
   let allSites = unionSourceLists(sourceLists);
   allSites = setSourceListColumnDefaults(allSites);
   allSites.toCSV(true, path.join(__dirname, './testing/after-union.csv'));
+  analysis.push(generateAnalysisEntry('Combined', 'combined url list length', allSites.count()));
 
   // Drop duplicates
   console.log("Deduplicating target URLs...");
   allSites = deduplicateSiteList(allSites);
+  analysis.push(generateAnalysisEntry('Deduped', 'deduped url list length', allSites.count()));
   allSites.toCSV(true, path.join(__dirname, './testing/after-dedup.csv'));
 
   // Create/Populate base_domain and TLD columns
@@ -167,17 +146,23 @@ async function main() {
   allSites = mergeUrlInfo(allSites, milDomains);
   allSites.toCSV(true, path.join(__dirname, './testing/after-mergeMilSourceValues.csv'));
 
-  // Filter out all non .gov and .mil sites
-  console.log("Filtering out non .gov and .mil sites...");
-  allSites = removeNonGovNonMilSites(allSites, milDomains, sourceLists[0]);
-  allSites.toCSV(true, path.join(__dirname, './testing/after-gov_mil-filter.csv'));
-
   // Add filtered column based on if the url matches the starts_with or contains list
   console.log("Tagging sites based on ignore list...");
   const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
   allSites = tagIgnoreListSites(allSites, containsDf, beginsDf);
+  analysis.push(generateAnalysisEntry('Ignored', 'url list length after ignore list checking beginning/contains of urls processed', allSites.countValue(true, 'filtered') ));
   allSites.toCSV(true, path.join(__dirname, './testing/after-ignore-list.csv'));
+
+  // Filter out all non .gov and .mil sites
+  console.log("Filtering out non .gov and .mil sites...");
+  const countBefore = allSites.count();
+  allSites = removeNonGovNonMilSites(allSites, milDomains, sourceLists[0]);
+  analysis.push(generateAnalysisEntry('GovDomains', 'number of .gov base domains', sourceLists[0].count() ));
+  analysis.push(generateAnalysisEntry('MilDomains', 'number of .mil base domains', milDomains.count() ));
+  analysis.push(generateAnalysisEntry('GovMilNonMatching', 'number of urls with non-.gov or non-.mil base domains removed', countBefore-allSites.count() ));
+  analysis.push(generateAnalysisEntry('FinalList', 'url list length after non-federal urls removed', allSites.count() ));
+  allSites.toCSV(true, path.join(__dirname, './testing/after-gov_mil-filter.csv'));
 
   // Reorder the columns
   console.log("Reordering columns...");
@@ -211,6 +196,8 @@ async function main() {
   console.log("Sorting columns...");
   allSites = allSites.sortBy(['base_domain', 'target_url']);
   allSites.toCSV(true, path.join(__dirname, './testing/after-sort.csv'));
+
+  console.log("Analysis:", analysis);
 }
 
 main();

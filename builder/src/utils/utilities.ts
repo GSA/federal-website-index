@@ -1,7 +1,15 @@
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "../config/source-list.config";
-import { SourceList } from "../types/config";
+import { AnalysisValue, SourceList } from "../types/config";
 import { Data } from "ws";
+
+export function generateAnalysisEntry(name: string, value: string, count: number): AnalysisValue {
+  return {
+    name: name,
+    value: value,
+    count: count
+  };
+}
 
 /**
  * 
@@ -58,6 +66,49 @@ export function extractBaseDomainFromUrl(url: string): string {
 export function extractTLDFromUrl(url: string): string {
   const tld = url.split('.').slice(-1).join('.');
   return tld;
+}
+
+/**
+ * 
+ * @param sourceLists The DataFrames that you would like to ensure have the same column names.
+ * @param columnNames The column names that you would like to ensure are in each DataFrame.
+ * @returns The sourceList dataframes with consistent column names.
+ */
+export function ensureColumnNames(sourceLists: DataFrame[], columnNames: string[]): DataFrame[] {
+  for (let i = 0; i < sourceLists.length; i++) {
+    for (let j = 0; j < columnNames.length; j++) {
+      if (!sourceLists[i].listColumns().includes(columnNames[j])) {
+        sourceLists[i] = sourceLists[i].withColumn(columnNames[j], ()=>'');
+      }
+    }
+  }
+  return sourceLists;
+}
+
+/**
+ * 
+ * @param sourceLists The DataFrames that you would like to get the full column name list from.
+ * @returns A list of all the column names from all the DataFrames.
+ */
+export function fullColumnNameList(sourceLists: DataFrame[]): string[] {
+  let columns: string[] = [];
+  for (let i = 0; i < sourceLists.length; i++) {
+    columns = columns.concat(sourceLists[i].listColumns());
+  }
+  return columns;
+}
+
+/**
+ * 
+ * @param sourceLists The dataframes that you would like to union together. They must have the same columns.
+ * @returns A dataframe that is the union of all the source lists.
+ */
+export function unionSourceLists(sourceLists: DataFrame[]): DataFrame {
+  let allSites = sourceLists[0];
+  for (let i = 1; i < sourceLists.length; i++) {
+    allSites = allSites.union(sourceLists[i]);
+  }
+  return allSites;
 }
 
 /**
