@@ -31,6 +31,18 @@ export abstract class AbstractSourceList {
     // Add source list column
     data = this.addSourceListColumn(data);
 
+    // remove duplicates
+    // Doing this before clean to compare final record count to production
+    // Added in the lowercase for comparison. Can switch back
+    if (data.listColumns().includes("target_url")) {
+      //@ts-ignore
+      data = data.withColumn('target_url', (row) => {
+        let targetUrl = row.get('target_url');
+        return targetUrl.toLowerCase();;
+      });
+      data = data.dropDuplicates("target_url");
+    }
+
     // Clean the target URLs removing the protocol, path, www., and converting to lowercase.
     if (data.listColumns().includes("target_url")) {
       data = cleanTargetUrls(data);
