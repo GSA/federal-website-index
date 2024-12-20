@@ -56,6 +56,12 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: 'source_list_oira',
     hasHeaders: true,
   },
+  [SourceList.OTHER]: {
+    shortName: 'other',
+    sourceUrl: path.join(__dirname, '../../../data/dataset/other-websites.csv'),
+    sourceColumnName: 'source_list_other',
+    hasHeaders: true,
+  },
   [SourceList.MIL1]: {
     shortName: 'mil1',
     sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_websites.csv',
@@ -67,5 +73,23 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_websites-2.csv',
     sourceColumnName: 'source_list_mil_2',
     hasHeaders: false,
+  },
+  [SourceList.MIL_DOMAINS]: {
+    shortName: 'mil_domains',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_domains.csv',
+    sourceColumnName: '',
+    hasHeaders: true,
+  },
+  [SourceList.BEGINS_IGNORE]: {
+    shortName: 'begins_ignore',
+    sourceUrl: path.join(__dirname, '../../criteria/ignore-list-begins.csv'),
+    sourceColumnName: '',
+    hasHeaders: true,
+  },
+  [SourceList.CONTAINS_IGNORE]: {
+    shortName: 'contains_ignore',
+    sourceUrl: path.join(__dirname, '../../criteria/ignore-list-contains.csv'),
+    sourceColumnName: '',
+    hasHeaders: true,
   },
 }

@@ -15,8 +15,12 @@ export enum SourceList {
   GOV_MAN = 'gov_man',
   US_COURTS = 'us_courts',
   OIRA = 'oira',
+  OTHER = 'other',
   MIL1 = 'mil1',
   MIL2 = 'mil2',
+  MIL_DOMAINS = 'mil_domains',
+  BEGINS_IGNORE = 'beings_ignore',
+  CONTAINS_IGNORE = 'contains_ignore',
   // ... etc ..
 }
 

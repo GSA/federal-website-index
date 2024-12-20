@@ -1,6 +1,7 @@
 import { SourceListConfig } from "../../types/config";
 import DataFrame from "dataframe-js";
 import path from 'path';
+import { cleanTargetUrls } from "../../utils/utilities";
 
 export abstract class AbstractSourceList {
   public readonly shortName: string;
@@ -30,6 +31,12 @@ export abstract class AbstractSourceList {
     // Add source list column
     data = this.addSourceListColumn(data);
 
+    // Clean the target URLs removing the protocol, path, www., and converting to lowercase.
+    if (data.listColumns().includes("target_url")) {
+      data = cleanTargetUrls(data);
+    }
+
+    // Create a csv file of the loaded data in a testing folder.
     data.toCSV(true, path.join(__dirname, `../../testing/${this.shortName}.csv`));
 
     return data;

@@ -3,12 +3,12 @@ import { SourceList } from "../../types/config";
 import { AbstractSourceList } from "./AbstractSourceList";
 import DataFrame from "dataframe-js";
 
-export class MilOneSourceList extends AbstractSourceList {
+export class OtherSourceList extends AbstractSourceList {
   /**
    * Provides the entry point for loading data from this source list.
    */
   static async loadData(): Promise<DataFrame> {
-    const loader = new MilOneSourceList();
+    const loader = new OtherSourceList();
     return loader.load();
   }
 
@@ -16,7 +16,7 @@ export class MilOneSourceList extends AbstractSourceList {
    * Injects the configuration for this source list into the parent.
    */
   constructor() {
-    super(sourceListConfig[SourceList.MIL1]);
+    super(sourceListConfig[SourceList.OTHER]);
   }
 
   /**
@@ -29,10 +29,6 @@ export class MilOneSourceList extends AbstractSourceList {
     // Drop Unnecessary Columns
 
     // Rename Columns for Standardization
-    data = data.rename("Website", "target_url");
-    data = data.rename("Agency", "agency");
-    data = data.rename("Bureau", "bureau");
-    data = data.rename("Branch", "branch");
 
     return data;
   }

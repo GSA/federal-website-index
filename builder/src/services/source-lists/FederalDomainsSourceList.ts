@@ -37,6 +37,12 @@ export class FederalDomainsSourceList extends AbstractSourceList {
     data = data.rename("Agency", "agency");
     data = data.rename("Organization name", "bureau");
 
+    // Strip 'Federal - ' from the beginning of the branch names
+    //@ts-ignore
+    data = data.withColumn("branch", (row) => {
+      return row.get("branch").replace(/^Federal - /, "");
+    });
+
     return data;
   }
 
