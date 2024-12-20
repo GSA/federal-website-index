@@ -94,9 +94,9 @@ async function main() {
   analysis.push(generateAnalysisEntry('GovManSourceList', 'gov_man url list length', sourceLists[6].count()));
   analysis.push(generateAnalysisEntry('UsCourtsSourceList', 'uscourts url list length', sourceLists[7].count()));
   analysis.push(generateAnalysisEntry('OiraSourceList', 'oira url list length', sourceLists[8].count()));
-  analysis.push(generateAnalysisEntry('OtherSourceList', 'other website url list length', sourceLists[9].count()));
   analysis.push(generateAnalysisEntry('MilOneSourceList', '.mil second url list length', sourceLists[10].count()));
   analysis.push(generateAnalysisEntry('MilTwoSourceList', '.mil first url list length', sourceLists[11].count()));
+  analysis.push(generateAnalysisEntry('OtherSourceList', 'other website url list length', sourceLists[9].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -112,7 +112,7 @@ async function main() {
   allSites = setSourceListColumnDefaults(allSites);
   allSites.toCSV(true, path.join(__dirname, './testing/after-union.csv'));
   analysis.push(generateAnalysisEntry('Combined', 'combined url list length', allSites.count()));
-
+  
   // Drop duplicates
   console.log("Deduplicating target URLs...");
   allSites = deduplicateSiteList(allSites);
@@ -151,7 +151,7 @@ async function main() {
   const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
   allSites = tagIgnoreListSites(allSites, containsDf, beginsDf);
-  analysis.push(generateAnalysisEntry('Ignored', 'url list length after ignore list checking beginning/contains of urls processed', allSites.countValue(true, 'filtered') ));
+  analysis.push(generateAnalysisEntry('Ignored', 'url list length after ignore list checking beginning/contains of urls processed', allSites.count() - allSites.countValue(true, 'filtered') ));
   allSites.toCSV(true, path.join(__dirname, './testing/after-ignore-list.csv'));
 
   // Filter out all non .gov and .mil sites
