@@ -173,6 +173,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.OIRA].sourceColumnName,
     sourceListConfig[SourceList.MIL1].sourceColumnName,
     sourceListConfig[SourceList.MIL2].sourceColumnName,
+    'omb_idea_public',
   ];
   const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");;
 
@@ -185,9 +186,16 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   let groupedData: { [key: string]: AggregatedRow } = {};  // This will store the grouped data with target_url as key
 
   allSites.groupBy("target_url").aggregate((group: DataFrame) => {
-      let aggregated: { [key: string]: boolean } = {};  // Aggregating boolean values for source list columns
+      let aggregated: { [key: string]: string } = {};  // Aggregating boolean values for source list columns
       sourceListColumns.forEach(column => {
-        const isTrue = group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true');
+        //const isTrue = group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true');
+        let isTrue = '';
+        if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true')) {
+          isTrue = 'true';
+        }
+        if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'false')) {
+          isTrue = 'false';
+        }
         aggregated[column] = isTrue;
       });
       const targetUrl = group.toArray()[0][0];  // target_url is the first column in each group
@@ -197,7 +205,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   });
 
   // Step 2: Keep the other columns (non-source_list columns), and use the first occurrence
-  let otherColumns = allSites.select("target_url", "branch", "agency", "bureau", "base_domain_pulse", "omb_idea_public");
+  let otherColumns = allSites.select("target_url", "branch", "agency", "bureau", "base_domain_pulse");
   otherColumns = otherColumns.dropDuplicates("target_url");
 
   // Step 3: Manually combine the two dataframes (groupedData and otherColumns)
@@ -219,7 +227,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   });
 
   // Step 4: Create a new DataFrame from the combined data
-  let finalDf = new DataFrame(combinedData, ["target_url", "branch", "agency", "bureau", "base_domain_pulse", "omb_idea_public", ...sourceListColumns]);
+  let finalDf = new DataFrame(combinedData, ["target_url", "branch", "agency", "bureau", "base_domain_pulse", ...sourceListColumns]);
 
   return finalDf;
 }

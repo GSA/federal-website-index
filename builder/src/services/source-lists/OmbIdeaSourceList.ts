@@ -32,6 +32,20 @@ export class OmbIdeaSourceList extends AbstractSourceList {
     data = data.rename("Website", "target_url");
     data = data.rename("Public-Facing", "omb_idea_public");
 
+    // Map Yes/No to Boolean
+    //@ts-ignore
+    data = data.withColumn("omb_idea_public", (row) => {
+      if (row.get("omb_idea_public") === "Yes") {
+        return true;
+      }
+      if (row.get("omb_idea_public") === "No") {
+        return false;
+      }
+      if (row.get("omb_idea_public") !== "No" && row.get("omb_idea_public") !== "Yes") {
+        return '';
+      }
+    });
+
     return data;
   }
 
