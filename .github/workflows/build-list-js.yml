@@ -1,4 +1,4 @@
-name: Build target url list using Bun and TypeScript
+name: Build target url list using TypeScript
 
 # yamllint disable-line rule:truthy
 on:
@@ -13,10 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-      - working-directory: ./builder-js
 
-      - run: bun install
-      - run: bun src/main.ts
+      - name: Install dependencies
+        run: |
+          cd builder-js
+          bun install
+
+      - name: Run indexer application
+        run: |
+          cd builder-js
+          bun src/main.ts
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build target url list
