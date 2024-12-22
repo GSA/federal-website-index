@@ -4,7 +4,7 @@ name: Build target url list using Bun and TypeScript
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 25 * * *"
+    - cron: "15 20 * * *"
 
 jobs:
   my-job:
