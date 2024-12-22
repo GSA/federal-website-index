@@ -111,14 +111,14 @@ async function main() {
   console.log("Combining source lists...");
   let allSites = unionSourceLists(sourceLists);
   allSites = setSourceListColumnDefaults(allSites);
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-union.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-union.csv'));
   analysis.push(generateAnalysisEntry('Combined', 'combined url list length', allSites.count()));
   
   // Drop duplicates
   console.log("Deduplicating target URLs...");
   allSites = deduplicateSiteList(allSites);
   analysis.push(generateAnalysisEntry('Deduped', 'deduped url list length', allSites.count()));
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-dedup.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-dedup.csv'));
 
   // Create/Populate base_domain and TLD columns
   console.log("Adding base_domain and TLD columns...");
@@ -134,18 +134,18 @@ async function main() {
     let tld = extractTLDFromUrl(targetUrl);
     return tld;
   });
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-add-base_domain-tld.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-add-base_domain-tld.csv'));
 
   // Merge in agency, bureau, and branch for .gov sites
   console.log("Merging in agency, bureau, and branch for .gov sites...");
   allSites = mergeUrlInfo(allSites, sourceLists[0]);
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-GOV-agency-bureau-merge.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-GOV-agency-bureau-merge.csv'));
 
   // Merge in agency, bureau, and branch for .mil sites
   console.log("Merging in agency, bureau, and branch for .mil sites...");
   const milDomains = await MilDomainsSourceList.loadData();
   allSites = mergeUrlInfo(allSites, milDomains);
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-MIL-agency-bureau-merge.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-MIL-agency-bureau-merge.csv'));
 
   // Add filtered column based on if the url matches the starts_with or contains list
   console.log("Tagging sites based on ignore list...");
@@ -153,7 +153,7 @@ async function main() {
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
   allSites = tagIgnoreListSites(allSites, containsDf, beginsDf);
   analysis.push(generateAnalysisEntry('Ignored', 'url list length after ignore list checking beginning/contains of urls processed', allSites.count() - allSites.countValue(true, 'filtered') ));
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-starts_with-contains-filter.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-starts_with-contains-filter.csv'));
 
   // Filter out all non .gov and .mil sites
   console.log("Filtering out non .gov and .mil sites...");
@@ -163,7 +163,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('MilDomains', 'number of .mil base domains', milDomains.count() ));
   analysis.push(generateAnalysisEntry('GovMilNonMatching', 'number of urls with non-.gov or non-.mil base domains removed', countBefore-allSites.count() ));
   analysis.push(generateAnalysisEntry('FinalList', 'url list length after non-federal urls removed', allSites.count() ));
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-gov_mil-filter.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-gov_mil-filter.csv'));
 
   // Reorder the columns
   console.log("Reordering columns...");
@@ -191,7 +191,7 @@ async function main() {
       'filtered'
     ]
   );
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/snapshots/after-column-reorder.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-column-reorder.csv'));
 
   // Sort Columns
   console.log("Sorting columns...");
@@ -207,11 +207,12 @@ async function main() {
   analysis.push(generateAnalysisEntry('OMBBlank', 'Number of omb_idea_public fields = blank', ombBlank ));
   analysis.push(generateAnalysisEntry('OMBOther', 'Number of omb_idea_public fields that != TRUE FALSE or blank', ombOther ));
 
-  allSites.toCSV(true, path.join(__dirname, '../../data-2.0/site-scanning-target-url-list.csv'));
+  allSites.toCSV(true, path.join(__dirname, '../../data-js/site-scanning-target-url-list.csv'));
 
   const analysisCsv = new ObjectsToCsv(analysis);
-  await analysisCsv.toDisk(path.join(__dirname, '../../data-2.0/site-scanning-target-url-list-analysis.csv'));
+  await analysisCsv.toDisk(path.join(__dirname, '../../data-js/site-scanning-target-url-list-analysis.csv'));
 
+  console.log("Final Analysis:");
   analysis.forEach((entry) => {
     console.log(`${entry.value}: ${entry.count}`);
   });

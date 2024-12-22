@@ -49,7 +49,7 @@ export abstract class AbstractSourceList {
     }
 
     // Create a csv file of the loaded data in a testing folder.
-    data.toCSV(true, path.join(__dirname, `../../../../data-2.0/source-lists/${this.shortName}.csv`));
+    data.toCSV(true, path.join(__dirname, `../../../../data-js/source-lists/${this.shortName}.csv`));
 
     return data;
   }
