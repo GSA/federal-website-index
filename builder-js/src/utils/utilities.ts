@@ -1,8 +1,14 @@
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "../config/source-list.config";
 import { AnalysisValue, SourceList } from "../types/config";
-import { Data } from "ws";
 
+/**
+ * This function is used to generate an analysis entry for the analysis table.
+ * @param name The name of the analysis entry.
+ * @param value The value of the analysis entry.
+ * @param count The count of the analysis entry.
+ * @returns 
+ */
 export function generateAnalysisEntry(name: string, value: string, count: number): AnalysisValue {
   return {
     name: name,
@@ -129,7 +135,12 @@ export function cleanTargetUrls(sourceDataFrame: DataFrame): DataFrame {
   return sourceDataFrame;
 }
 
-
+/**
+ *
+ * @param allSites The DataFrame that you would like to merge the source data into.
+ * @param sourceDf The DataFrame that you would like to merge into the allSites DataFrame.
+ * @returns The allSites DataFrame with the source data merged in.
+ */
 export function mergeUrlInfo(allSites: DataFrame, sourceDf: DataFrame): DataFrame {
   // Convert source dataframe to an object for faster lookup
   const sourceData = sourceDf.toCollection(); // Convert to an array of rows
@@ -160,6 +171,11 @@ export function mergeUrlInfo(allSites: DataFrame, sourceDf: DataFrame): DataFram
   return new DataFrame(updatedData);
 };
 
+/**
+ * 
+ * @param allSites The DataFrame that you would like to deduplicate the site list for.
+ * @returns The DataFrame with the site list deduplicated.
+ */
 export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   const sourceListColumns = [
     sourceListConfig[SourceList.FEDERAL_DOMAINS].sourceColumnName,
@@ -183,10 +199,10 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   }
 
   // Step 1: Group by 'target_url' and aggregate the source list columns using OR logic
-  let groupedData: { [key: string]: AggregatedRow } = {};  // This will store the grouped data with target_url as key
+  let groupedData: { [key: string]: AggregatedRow } = {};
 
   allSites.groupBy("target_url").aggregate((group: DataFrame) => {
-      let aggregated: { [key: string]: string } = {};  // Aggregating boolean values for source list columns
+      let aggregated: { [key: string]: string } = {};
       sourceListColumns.forEach(column => {
         let isTrue = '';
         if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true')) {
@@ -198,7 +214,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
       });
       const targetUrl = group.toArray()[0][0];  // target_url is the first column in each group
       if (targetUrl) {
-        groupedData[targetUrl] = { target_url: targetUrl, ...aggregated };  // Store the aggregated data with target_url as key
+        groupedData[targetUrl] = { target_url: targetUrl, ...aggregated };
       }
   });
 
@@ -211,7 +227,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
 
   otherColumns.toArray().forEach(row => {
       const targetUrl = row[0];  // target_url is the first column in each row
-      const aggregatedRow = groupedData[targetUrl];  // Directly access the aggregated row by target_url
+      const aggregatedRow = groupedData[targetUrl];
       
       // Combine the non-source columns with the aggregated boolean columns
       // If we find a match in groupedData, combine the rows
@@ -230,6 +246,13 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   return finalDf;
 }
 
+/**
+ * 
+ * @param allSites The DataFrame that you would like to remove non-government and non-military sites from.
+ * @param milDomains The DataFrame that contains the military domains.
+ * @param govDomains The DataFrame that contains the government domains.
+ * @returns The DataFrame with non-government and non-military sites removed.
+ */
 export function removeNonGovNonMilSites(allSites: DataFrame, milDomains: DataFrame, govDomains: DataFrame): DataFrame {
   const milBaseUrls = new Set(milDomains.select("target_url").toArray().map(row => row[0]));
   const govBaseUrls = new Set(govDomains.select("target_url").toArray().map(row => row[0]));
@@ -251,11 +274,17 @@ export function removeNonGovNonMilSites(allSites: DataFrame, milDomains: DataFra
   return allSites;
 }
 
+/**
+ * 
+ * This function will check if the url contains any of the strings in the containsSet that are surrounded by non-word characters.
+ * @param url The URL that you would like to check for the presence of a string in.
+ * @param containsSet A set of strings that you would like to check for in the URL.
+ * @returns boolean indicating if the URL contains any of the strings in the containsSet.
+ */
 export function urlContainsCheck(url: string, containsSet: Set<any>): boolean {
   for (let pattern of containsSet) {
     const regex = new RegExp(`[^a-zA-Z0-9](?:${pattern})[^a-zA-Z0-9]`);
     if (regex.test(url)) {
-      //filterMatches.push(`contains, ${pattern}, ${url}`);
       return true;
     }
   }
@@ -263,6 +292,13 @@ export function urlContainsCheck(url: string, containsSet: Set<any>): boolean {
 
 }
 
+/**
+ * 
+ * This function will check if the url starts with any of the strings in the startsWithSet.
+ * @param url The URL that you would like to check for the presence of a string in.
+ * @param startsWithSet A set of strings that you would like to check for in the URL.
+ * @returns boolean indicating if the URL starts with any of the strings in the startsWithSet.
+ */
 export function startsWithCheck(url: string, startsWithSet: Set<any>): boolean {
   for (let prefix of startsWithSet) {
     if (url.startsWith(prefix)) {
@@ -273,6 +309,14 @@ export function startsWithCheck(url: string, startsWithSet: Set<any>): boolean {
   return false;
 }
 
+/**
+ * 
+ * This function will tag the sites in the allSites DataFrame based on the ignore lists.
+ * @param allSites The DataFrame that you would like to remove sites from based on the ignore lists.
+ * @param containsDf The DataFrame that contains the strings that the URL contains between non-word characters.
+ * @param startsWithDf The DataFrame that contains the strings that the URL starts with.
+ * @returns The DataFrame with the sites removed based on the ignore lists.
+ */
 export function tagIgnoreListSites(allSites: DataFrame, containsDf: DataFrame, startsWithDf: DataFrame): DataFrame {
   const startsWithStrings = new Set(startsWithDf.select("URL begins with:").toArray().map(row => row[0]));
   const containsStrings = new Set(containsDf.select("URL contains between non-word characters:").toArray().map(row => row[0]));
