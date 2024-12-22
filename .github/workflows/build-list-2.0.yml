@@ -1,0 +1,23 @@
+name: Build target url list using Bun and TypeScript
+
+# yamllint disable-line rule:truthy
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 22 * * *"
+
+jobs:
+  my-job:
+    name: Checkout, build, and run indexer application
+    runs-on: ubuntu-latest
+    steps:
+      # ...
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+
+      # run any `bun` or `bunx` command
+      - run: bun install
+      - run: bun builder/src/main.ts
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Build target url list
