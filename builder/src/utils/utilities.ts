@@ -188,12 +188,10 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   allSites.groupBy("target_url").aggregate((group: DataFrame) => {
       let aggregated: { [key: string]: string } = {};  // Aggregating boolean values for source list columns
       sourceListColumns.forEach(column => {
-        //const isTrue = group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true');
         let isTrue = '';
         if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'true')) {
           isTrue = 'true';
-        }
-        if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'false')) {
+        } else if (group.select(column).toArray().some(row => String(row[0]).toLowerCase() === 'false')) {
           isTrue = 'false';
         }
         aggregated[column] = isTrue;
@@ -233,22 +231,24 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
 }
 
 export function removeNonGovNonMilSites(allSites: DataFrame, milDomains: DataFrame, govDomains: DataFrame): DataFrame {
-  // Step 1: Extract base_domain columns from allSites, milDomains, and govDomains
-  const allSitesBaseUrls = allSites.select("base_domain");
   const milBaseUrls = new Set(milDomains.select("target_url").toArray().map(row => row[0]));
   const govBaseUrls = new Set(govDomains.select("target_url").toArray().map(row => row[0]));
 
-  // Step 2: Create a boolean mask for matching base_domains
-  const isInMilOrGov = allSitesBaseUrls.toArray().map(row => {
-    const baseUrl = row[0];  // Extract base_domain value
-    return milBaseUrls.has(baseUrl) || govBaseUrls.has(baseUrl);
+  //@ts-ignore
+  allSites = allSites.withColumn('is_gov', (row) => {
+    return govBaseUrls.has(row.get('base_domain').trim());
+  });
+  //@ts-ignore
+  allSites = allSites.withColumn('is_mil', (row) => {
+    return milBaseUrls.has(row.get('base_domain').trim());
   });
 
-  // Step 3: Use the boolean mask to retain rows with matching base_domains
-  const filteredRows = allSites.toArray().filter((_, index) => isInMilOrGov[index]);
+  //@ts-ignore
+  allSites = allSites.filter(row => row.get('is_gov') || row.get('is_mil'));
+  allSites = allSites.drop('is_gov');
+  allSites = allSites.drop('is_mil');
 
-  // Step 4: Create a new DataFrame with the filtered rows
-  return new DataFrame(filteredRows, allSites.listColumns());
+  return allSites;
 }
 
 export function urlContainsCheck(url: string, containsSet: Set<any>): boolean {
