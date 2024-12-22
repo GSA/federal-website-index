@@ -36,13 +36,13 @@ export class OmbIdeaSourceList extends AbstractSourceList {
     //@ts-ignore
     data = data.withColumn("omb_idea_public", (row) => {
       if (row.get("omb_idea_public") === "Yes") {
-        return true;
+        return "TRUE";
       }
       if (row.get("omb_idea_public") === "No") {
-        return false;
+        return "FALSE";
       }
       if (row.get("omb_idea_public") !== "No" && row.get("omb_idea_public") !== "Yes") {
-        return '';
+        return "";
       }
     });
 
