@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-        working-directory: ./builder-js
+      - working-directory: ./builder-js
 
       - run: bun install
       - run: bun src/main.ts
