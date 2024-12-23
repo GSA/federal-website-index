@@ -130,6 +130,7 @@ export function cleanTargetUrls(sourceDataFrame: DataFrame): DataFrame {
     targetUrl = removePathFromUrl(targetUrl);
     targetUrl = removeWwwFromUrl(targetUrl);
     targetUrl = urlToLowercase(targetUrl);
+    targetUrl = targetUrl.trim();
     return targetUrl;
   });
   return sourceDataFrame;
