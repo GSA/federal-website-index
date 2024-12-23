@@ -12,13 +12,13 @@ MilOneSourceList,.mil second url list length,994
 MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8
 Combined,combined url list length,52170
-Deduped,deduped url list length,34315
-Ignored,url list length after ignore list checking beginning/contains of urls processed,29706
+Deduped,deduped url list length,34153
+Ignored,url list length after ignore list checking beginning/contains of urls processed,29544
 GovDomains,number of .gov base domains,1373
 MilDomains,number of .mil base domains,77
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,4549
-FinalList,url list length after non-federal urls removed,29766
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,4546
+FinalList,url list length after non-federal urls removed,29607
 OMBTrue,Number of omb_idea_public fields = TRUE,6808
 OMBFalse,Number of omb_idea_public fields = FALSE,2610
-OMBBlank,Number of omb_idea_public fields = blank,20348
+OMBBlank,Number of omb_idea_public fields = blank,20189
 OMBOther,Number of omb_idea_public fields that != TRUE FALSE or blank,0
