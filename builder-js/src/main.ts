@@ -152,7 +152,7 @@ async function main() {
   const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
   allSites = tagIgnoreListSites(allSites, containsDf, beginsDf);
-  analysis.push(generateAnalysisEntry('Ignored', 'url list length after ignore list checking beginning/contains of urls processed', allSites.count() - allSites.countValue(true, 'filtered') ));
+  analysis.push(generateAnalysisEntry('Ignored', 'urls marked as filtered based on beginning/contains', allSites.countValue(true, 'filtered') ));
   allSites.toCSV(true, path.join(__dirname, '../../data-js/snapshots/after-starts_with-contains-filter.csv'));
 
   // Filter out all non .gov and .mil sites
