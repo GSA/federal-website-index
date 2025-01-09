@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd builder-js
+          cd builder
           bun install
 
       - name: Run indexer application
