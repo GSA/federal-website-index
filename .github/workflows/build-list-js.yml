@@ -21,7 +21,7 @@ jobs:
 
       - name: Run indexer application
         run: |
-          cd builder-js
+          cd builder
           bun src/main.ts
 
       - uses: stefanzweifel/git-auto-commit-action@v4
