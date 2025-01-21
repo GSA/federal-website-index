@@ -207,6 +207,10 @@ async function main() {
   analysis.push(generateAnalysisEntry('OMBBlank', 'Number of omb_idea_public fields = blank', ombBlank ));
   analysis.push(generateAnalysisEntry('OMBOther', 'Number of omb_idea_public fields that != TRUE FALSE or blank', ombOther ));
 
+  // Rename target_url to initial_url
+  console.log("Renaming target_url to initial_url...");
+  allSites = allSites.rename('target_url', 'initial_url');
+
   allSites.toCSV(true, path.join(__dirname, '../../data/site-scanning-target-url-list.csv'));
 
   const analysisCsv = new ObjectsToCsv(analysis);
