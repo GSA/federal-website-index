@@ -1,5 +1,5 @@
 name,value,count
-FederalDomainsSourceList,gov url list length,1376
+FederalDomainsSourceList,gov url list length,1358
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
 OmbIdeaSourceList,omb idea url list length,9654
@@ -11,14 +11,14 @@ OiraSourceList,oira url list length,477
 MilOneSourceList,.mil second url list length,994
 MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8
-Combined,combined url list length,52173
-Deduped,deduped url list length,34156
+Combined,combined url list length,52155
+Deduped,deduped url list length,34141
 Ignored,urls marked as filtered based on beginning/contains,4609
-GovDomains,number of .gov base domains,1376
+GovDomains,number of .gov base domains,1358
 MilDomains,number of .mil base domains,77
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,4546
-FinalList,url list length after non-federal urls removed,29610
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,4550
+FinalList,url list length after non-federal urls removed,29591
 OMBTrue,Number of omb_idea_public fields = TRUE,6808
 OMBFalse,Number of omb_idea_public fields = FALSE,2610
-OMBBlank,Number of omb_idea_public fields = blank,20192
+OMBBlank,Number of omb_idea_public fields = blank,20173
 OMBOther,Number of omb_idea_public fields that != TRUE FALSE or blank,0
