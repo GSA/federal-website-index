@@ -27,7 +27,13 @@ export enum SourceList {
   MIL_DOMAINS = 'mil_domains',
   BEGINS_IGNORE = 'beings_ignore',
   CONTAINS_IGNORE = 'contains_ignore',
-  // ... etc ..
+  DOD_PUBLIC = 'dod_public',
+  DOTMIL = 'dotmil',
+  FINAL_URL_WEBSITES = 'final_url_websites',
+  HOUSE_117th = 'house_117th',
+  SENATE_117th = 'senate_117th',
+  GPO_FDLP = 'gpo_fdlp',
+  CISA = 'cisa',
 }
 
 export type SourceListConfigMap = Record<SourceList, SourceListConfig>;

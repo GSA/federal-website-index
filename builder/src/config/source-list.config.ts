@@ -92,4 +92,46 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: '',
     hasHeaders: true,
   },
+  [SourceList.DOD_PUBLIC]: {
+    shortName: 'dod_public',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/dataset/dod_public.csv',
+    sourceColumnName: 'source_list_dod_public',
+    hasHeaders: true,
+  },
+  [SourceList.DOTMIL]: {
+    shortName: 'dotmil',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/dotmil_domains.csv',
+    sourceColumnName: 'source_list_dotmil',
+    hasHeaders: true,
+  },
+  [SourceList.FINAL_URL_WEBSITES]: {
+    shortName: 'final_url_websites',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/dataset/final_url_websites.csv',
+    sourceColumnName: 'source_list_final_url_websites',
+    hasHeaders: true,
+  },
+  [SourceList.HOUSE_117th]: {
+    shortName: 'house_117th',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/dataset/117th-house.csv',
+    sourceColumnName: 'source_list_house_117th',
+    hasHeaders: true,
+  },
+  [SourceList.SENATE_117th]: {
+    shortName: 'senate_117th',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/dataset/117th-senate.csv',
+    sourceColumnName: 'source_list_senate_117th',
+    hasHeaders: true,
+  },
+  [SourceList.GPO_FDLP]: {
+    shortName: 'gpo_fdlp',
+    sourceUrl: 'https://github.com/GSA/federal-website-index/blob/main/data/dataset/gpo-fdlp.csv',
+    sourceColumnName: 'source_list_gpo_fdlp',
+    hasHeaders: true,
+  },
+  [SourceList.CISA]: {
+    shortName: 'cisa',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/dataset/cisa_https.csv',
+    sourceColumnName: 'source_list_cisa',
+    hasHeaders: true,
+  },
 }
