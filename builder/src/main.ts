@@ -11,6 +11,13 @@ import { MilOneSourceList } from 'services/source-lists/MilOneSourceList';
 import { MilTwoSourceList } from 'services/source-lists/MilTwoSourceList';
 import { MilDomainsSourceList } from 'services/source-lists/MilDomainsSourceList';
 import { OtherSourceList } from 'services/source-lists/OtherSourceList';
+import { DodPublicSourceList } from 'services/source-lists/DodPublicSourceList';
+import { DotMilSourceList } from 'services/source-lists/DotMilSourceList';
+import { FinalUrlWebsitesSourceList } from 'services/source-lists/FinalUrlWebsitesSourceList';
+import { House117thSourceList } from 'services/source-lists/House117thSourceList';
+import { Senate117thSourceList } from 'services/source-lists/Senate117thSourceList';
+import { GpoFdlpSourceList } from 'services/source-lists/GpoFdlpSourceList';
+import { CisaSourceList } from 'services/source-lists/CisaSourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -46,6 +53,13 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     OtherSourceList.loadData(),
     MilOneSourceList.loadData(),
     MilTwoSourceList.loadData(),
+    DodPublicSourceList.loadData(),
+    DotMilSourceList.loadData(),
+    FinalUrlWebsitesSourceList.loadData(),
+    House117thSourceList.loadData(),
+    Senate117thSourceList.loadData(),
+    GpoFdlpSourceList.loadData(),
+    CisaSourceList.loadData(),
   ]);
 }
 
@@ -68,6 +82,13 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.OTHER].sourceColumnName,
     sourceListConfig[SourceList.MIL1].sourceColumnName,
     sourceListConfig[SourceList.MIL2].sourceColumnName,
+    sourceListConfig[SourceList.DOD_PUBLIC].sourceColumnName,
+    sourceListConfig[SourceList.DOTMIL].sourceColumnName,
+    sourceListConfig[SourceList.FINAL_URL_WEBSITES].sourceColumnName,
+    sourceListConfig[SourceList.HOUSE_117th].sourceColumnName,
+    sourceListConfig[SourceList.SENATE_117th].sourceColumnName,
+    sourceListConfig[SourceList.GPO_FDLP].sourceColumnName,
+    sourceListConfig[SourceList.CISA].sourceColumnName,
   ]);
 }
 
@@ -98,6 +119,13 @@ async function main() {
   analysis.push(generateAnalysisEntry('MilOneSourceList', '.mil second url list length', sourceLists[10].count()));
   analysis.push(generateAnalysisEntry('MilTwoSourceList', '.mil first url list length', sourceLists[11].count()));
   analysis.push(generateAnalysisEntry('OtherSourceList', 'other website url list length', sourceLists[9].count()));
+  analysis.push(generateAnalysisEntry('DodPublicSourceList', 'dod public url list length', sourceLists[12].count()));
+  analysis.push(generateAnalysisEntry('DotMilSourceList', 'dot mil url list length', sourceLists[13].count()));
+  analysis.push(generateAnalysisEntry('FinalUrlWebsiteSourceList', 'final url website list length', sourceLists[14].count()));
+  analysis.push(generateAnalysisEntry('House117thSourceList', 'House 117th url list length', sourceLists[15].count()));
+  analysis.push(generateAnalysisEntry('Senate117thSourceList', 'Senate 117th url list length', sourceLists[16].count()));
+  analysis.push(generateAnalysisEntry('GpoFdlpSourceList', 'GpoFdlp url list length', sourceLists[17].count()));
+  analysis.push(generateAnalysisEntry('CisaSourceList', 'CISA url list length', sourceLists[18].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -187,6 +215,13 @@ async function main() {
       'source_list_other',
       'source_list_mil_1',
       'source_list_mil_2',
+      'source_list_dod_public',
+      'source_list_dotmil',
+      'source_list_final_url_websites',
+      'source_list_house_117th',
+      'source_list_senate_117th',
+      'source_list_gpo_fdlp',
+      'source_list_cisa',
       'omb_idea_public',
       'filtered'
     ]
