@@ -2,7 +2,7 @@ import DataFrame from "dataframe-js";
 import path from 'path';
 
 const SNAPSHOT_ALL_URL = 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv';
-const FINAL_URL_WEBSITE_PATH = '../../data/dataset/final_url_websites.csv';
+const FINAL_URL_WEBSITE_PATH = '../../data/source-lists/final_url_websites.csv';
 
 /**
  * The main entry point of the Final URL Builder.
