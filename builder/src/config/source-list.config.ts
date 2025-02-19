@@ -124,7 +124,7 @@ export const sourceListConfig: SourceListConfigMap = {
   },
   [SourceList.GPO_FDLP]: {
     shortName: 'gpo_fdlp',
-    sourceUrl: 'https://github.com/GSA/federal-website-index/blob/main/data/source-lists/gpo-fdlp.csv',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/gpo-fdlp.csv',
     sourceColumnName: 'source_list_gpo_fdlp',
     hasHeaders: true,
   },
