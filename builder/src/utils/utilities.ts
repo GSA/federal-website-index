@@ -188,6 +188,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.GOV_MAN].sourceColumnName,
     sourceListConfig[SourceList.US_COURTS].sourceColumnName,
     sourceListConfig[SourceList.OIRA].sourceColumnName,
+    sourceListConfig[SourceList.OTHER].sourceColumnName,
     sourceListConfig[SourceList.MIL1].sourceColumnName,
     sourceListConfig[SourceList.MIL2].sourceColumnName,
     sourceListConfig[SourceList.DOD_PUBLIC].sourceColumnName,
