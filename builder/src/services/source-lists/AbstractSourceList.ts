@@ -25,7 +25,7 @@ export abstract class AbstractSourceList {
   public async load(): Promise<DataFrame> {
     let data = await this.fetchData();
     // Save the source for reference
-    data.toCSV(true, path.join(__dirname, `../../../../data/source-lists/${this.shortName}.csv`));
+    data.toCSV(true, path.join(__dirname, `../../../../data/source-list-snapshots/${this.shortName}.csv`));
 
     // Prepare the data
     data = await this.prepare(data);
