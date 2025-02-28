@@ -18,6 +18,7 @@ import { House117thSourceList } from 'services/source-lists/House117thSourceList
 import { Senate117thSourceList } from 'services/source-lists/Senate117thSourceList';
 import { GpoFdlpSourceList } from 'services/source-lists/GpoFdlpSourceList';
 import { CisaSourceList } from 'services/source-lists/CisaSourceList';
+import { Dod2025SourceList } from 'services/source-lists/Dod2025SourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -60,6 +61,7 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     Senate117thSourceList.loadData(),
     GpoFdlpSourceList.loadData(),
     CisaSourceList.loadData(),
+    Dod2025SourceList.loadData(),
   ]);
 }
 
@@ -89,6 +91,7 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.SENATE_117th].sourceColumnName,
     sourceListConfig[SourceList.GPO_FDLP].sourceColumnName,
     sourceListConfig[SourceList.CISA].sourceColumnName,
+    sourceListConfig[SourceList.DOD_2025].sourceColumnName,
   ]);
 }
 
@@ -126,6 +129,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('Senate117thSourceList', 'Senate 117th url list length', sourceLists[16].count()));
   analysis.push(generateAnalysisEntry('GpoFdlpSourceList', 'GpoFdlp url list length', sourceLists[17].count()));
   analysis.push(generateAnalysisEntry('CisaSourceList', 'CISA url list length', sourceLists[18].count()));
+  analysis.push(generateAnalysisEntry('Dod2025SourceList', 'DOD 2025 url list length', sourceLists[19].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -222,6 +226,7 @@ async function main() {
       'source_list_senate_117th',
       'source_list_gpo_fdlp',
       'source_list_cisa',
+      'source_list_dod_2025',
       'omb_idea_public',
       'filtered'
     ]
