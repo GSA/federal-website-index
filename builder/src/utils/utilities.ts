@@ -198,6 +198,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.SENATE_117th].sourceColumnName,
     sourceListConfig[SourceList.GPO_FDLP].sourceColumnName,
     sourceListConfig[SourceList.CISA].sourceColumnName,
+    sourceListConfig[SourceList.DOD_2025].sourceColumnName,
     'omb_idea_public',
   ];
   const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");;

@@ -134,4 +134,10 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: 'source_list_cisa',
     hasHeaders: true,
   },
+  [SourceList.DOD_2025]: {
+    shortName: 'dod_2025',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/dod_2025.csv',
+    sourceColumnName: 'source_list_dod_2025',
+    hasHeaders: true,
+  },
 }

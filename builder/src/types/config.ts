@@ -34,6 +34,7 @@ export enum SourceList {
   SENATE_117th = 'senate_117th',
   GPO_FDLP = 'gpo_fdlp',
   CISA = 'cisa',
+  DOD_2025 = 'dod_2025',
 }
 
 export type SourceListConfigMap = Record<SourceList, SourceListConfig>;
