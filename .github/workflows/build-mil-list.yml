@@ -1,0 +1,29 @@
+name: Build .mil Domain List
+
+# yamllint disable-line rule:truthy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 20 * * *"
+
+jobs:
+  my-job:
+    name: Checkout, build, and run .mil domain list builder
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: |
+          cd builder
+          bun install
+
+      - name: Run .mil list builder application
+        run: |
+          cd builder
+          bun src/milUrlListBuilder.ts
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Build final URL list
