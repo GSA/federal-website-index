@@ -1,5 +1,5 @@
 name,value,count
-FederalDomainsSourceList,gov url list length,1355
+FederalDomainsSourceList,gov url list length,1354
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
 OmbIdeaSourceList,omb idea url list length,9654
@@ -12,21 +12,21 @@ MilOneSourceList,.mil second url list length,994
 MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8
 DodPublicSourceList,dod public url list length,2948
-DotMilSourceList,dot mil url list length,77
-FinalUrlWebsiteSourceList,final url website list length,14609
+DotMilSourceList,dot mil url list length,177
+FinalUrlWebsiteSourceList,final url website list length,14818
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,22501
 Dod2025SourceList,DOD 2025 url list length,1887
-Combined,combined url list length,95821
-Deduped,deduped url list length,40506
-Ignored,urls marked as filtered based on beginning/contains,5512
-GovDomains,number of .gov base domains,1355
-MilDomains,number of .mil base domains,77
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5919
-FinalList,url list length after non-federal urls removed,34587
+Combined,combined url list length,96129
+Deduped,deduped url list length,40534
+Ignored,urls marked as filtered based on beginning/contains,5511
+GovDomains,number of .gov base domains,1354
+MilDomains,number of .mil base domains,177
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5522
+FinalList,url list length after non-federal urls removed,35012
 OMBTrue,Number of omb_idea_public fields = TRUE,6808
 OMBFalse,Number of omb_idea_public fields = FALSE,2610
-OMBBlank,Number of omb_idea_public fields = blank,25169
+OMBBlank,Number of omb_idea_public fields = blank,25594
 OMBOther,Number of omb_idea_public fields that != TRUE FALSE or blank,0
