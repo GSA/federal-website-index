@@ -26,4 +26,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Build final URL list
+          commit_message: Build .mil domain list
