@@ -7,7 +7,7 @@ const DOTMIL_WEBSITES_SOURCELIST = 'https://raw.githubusercontent.com/GSA/federa
 const DOTMIL_WEBSITES2_SOURCELIST = 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/dotmil_websites-2.csv';
 const DOTMIL_DOMAINS_SOURCELIST = 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/dotmil_domains.csv';
 
-const DOTMIL_DOMAINS_FINAL = '../../data/source-lists/TESTdotmil_domains.csv';
+const DOTMIL_DOMAINS_FINAL = '../../data/source-lists/dotmil_domains.csv';
 
 /**
  * The main entry point of the Mil Url List Builder.
