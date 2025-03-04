@@ -17,16 +17,16 @@ async function main() {
   // Load all source lists
   console.log('Loading and formatting source lists...');
   let sourceDod2025 = await loadSourceList(DOD_2025_SOURCELIST, true, 'Website');
-  sourceDod2025 = addTypeAndAgencyColumns(sourceDod2025);
+  sourceDod2025 = addRequiredColumns(sourceDod2025);
 
   let sourceDodPublic = await loadSourceList(DOD_PUBLIC_SOURCELIST, true, 'Website');
-  sourceDodPublic = addTypeAndAgencyColumns(sourceDodPublic);
+  sourceDodPublic = addRequiredColumns(sourceDodPublic);
 
   let sourceDotmilWebsites = await loadSourceList(DOTMIL_WEBSITES_SOURCELIST, true, 'Website');
-  sourceDotmilWebsites = addTypeAndAgencyColumns(sourceDotmilWebsites);
+  sourceDotmilWebsites = addRequiredColumns(sourceDotmilWebsites);
 
   let sourceDotmilWebsites2 = await loadSourceList(DOTMIL_WEBSITES2_SOURCELIST, false);
-  sourceDotmilWebsites2 = addTypeAndAgencyColumns(sourceDotmilWebsites2);
+  sourceDotmilWebsites2 = addRequiredColumns(sourceDotmilWebsites2);
 
   let sourceDotmilDomains = await loadSourceList(DOTMIL_DOMAINS_SOURCELIST, true, 'Domain name');
 
@@ -47,7 +47,7 @@ async function main() {
 
   // Union with the dotmil domains
   console.log('Combining with dotmil domains...');
-  domainList = domainList.union(sourceDotmilDomains);
+  domainList = sourceDotmilDomains.union(domainList);
 
   // Remove duplicates
   console.log('Removing duplicates...');
@@ -81,10 +81,11 @@ async function loadSourceList(url: string, hasHeaders: boolean, urlHeader?: stri
   }
 }
 
-function addTypeAndAgencyColumns(data: DataFrame): DataFrame {
+function addRequiredColumns(data: DataFrame): DataFrame {
   // Add the Branch and Agency columns based on the source list
   data = data.withColumn('Domain type', () => 'Federal - Executive');
   data = data.withColumn('Agency', () => 'Department of Defense');
+  data = data.withColumn('Organization name', () => '');
   return data;
 }
 
