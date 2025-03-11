@@ -33,6 +33,7 @@ import {
   ensureColumnNames,
   fullColumnNameList,
   generateAnalysisEntry,
+  mergeDapTopListDataframe,
 } from "./utils/utilities";
 import path from 'path';
 import ObjectsToCsv from 'objects-to-csv';
@@ -197,6 +198,12 @@ async function main() {
   analysis.push(generateAnalysisEntry('FinalList', 'url list length after non-federal urls removed', allSites.count() ));
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter.csv'));
 
+  // Merge in DAP top list data
+  console.log("Merging in DAP top list data...");
+  const dapTopDf = await DataFrame.fromCSV(path.join(__dirname, '../../data/source-lists/dap_top_100000_domains_30_days.csv'));
+  allSites = mergeDapTopListDataframe(allSites, dapTopDf);
+  allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-dap_top_100000_merge.csv'));
+
   // Reorder the columns
   console.log("Reordering columns...");
   allSites = allSites.restructure(
@@ -228,7 +235,9 @@ async function main() {
       'source_list_cisa',
       'source_list_dod_2025',
       'omb_idea_public',
-      'filtered'
+      'filtered',
+      'pageviews',
+      'visits'
     ]
   );
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-column-reorder.csv'));
