@@ -1,0 +1,27 @@
+name: Build DAP Top 100,000 List
+
+# yamllint disable-line rule:truthy
+on:
+  schedule:
+    - cron: "00 21 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - run: pip install -r ./dapDataCollapse/requirements.txt
+      - run: python3 ./dapDataCollapse/main.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Build DAP Top 100000 List
