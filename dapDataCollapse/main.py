@@ -4,7 +4,7 @@ import os
 dirname = os.path.dirname(__file__)
 
 TOP_DOMAIN_LIST_URL = 'https://analytics.usa.gov/data/live/top-100000-domains-30-days.csv'
-DAP_TOP_DOMAIN_LIST_PATH = os.path.join(dirname, '../data/source-lists/TESTdap_top_100000_domains_30_days.csv')
+DAP_TOP_DOMAIN_LIST_PATH = os.path.join(dirname, '../data/source-lists/dap_top_100000_domains_30_days.csv')
 
 print('Downloading top 100000 domains from DAP')
 df = pd.read_csv(TOP_DOMAIN_LIST_URL)
