@@ -174,6 +174,38 @@ export function mergeUrlInfo(allSites: DataFrame, sourceDf: DataFrame): DataFram
 
 /**
  * 
+ * @param allSites The DataFrame that you would like to merge the DapTopList data into.
+ * @param dapTopList The DataFrame that contains the DapTopList data.
+ * @returns The allSites DataFrame with the DapTopList data merged in.
+ */
+export function mergeDapTopListDataframe(allSites: DataFrame, dapTopList: DataFrame): DataFrame {
+  // Merge in the pageviews and visits values from the DapTopList dataframe
+  const dapTopListData = dapTopList.toCollection();
+  const updatedData = allSites.toCollection().map((row) => {
+      // Extract the base_domain from the combined dataframe row
+      const baseUrl = row.base_domain;
+
+      // Find the matching row from the source dataframe based on base_domain
+      const matchedSource = dapTopListData.find(sourceRow => sourceRow.hostname === baseUrl);
+
+      // If a match is found, update the row with values from the source dataframe
+      if (matchedSource) {
+          return {
+              ...row, // Keep the existing fields
+              pageviews: matchedSource.pageviews, // Update with the source data
+              visits: matchedSource.visits, // Update with the source data
+          };
+      } else {
+          // If no match, return the row as is
+          return row;
+      }
+  });
+  // Convert the updated data back into a dataframe
+  return new DataFrame(updatedData);
+}
+
+/**
+ * 
  * @param allSites The DataFrame that you would like to deduplicate the site list for.
  * @returns The DataFrame with the site list deduplicated.
  */
