@@ -182,11 +182,11 @@ export function mergeDapTopListDataframe(allSites: DataFrame, dapTopList: DataFr
   // Merge in the pageviews and visits values from the DapTopList dataframe
   const dapTopListData = dapTopList.toCollection();
   const updatedData = allSites.toCollection().map((row) => {
-      // Extract the base_domain from the combined dataframe row
-      const baseUrl = row.base_domain;
+      // Extract the url from the combined dataframe row
+      const targetUrl = row.target_url;
 
-      // Find the matching row from the source dataframe based on base_domain
-      const matchedSource = dapTopListData.find(sourceRow => sourceRow.hostname === baseUrl);
+      // Find the matching row from the source dataframe based on target_url
+      const matchedSource = dapTopListData.find(sourceRow => sourceRow.hostname === targetUrl);
 
       // If a match is found, update the row with values from the source dataframe
       if (matchedSource) {
