@@ -1,5 +1,5 @@
 name,value,count
-FederalDomainsSourceList,gov url list length,1355
+FederalDomainsSourceList,gov url list length,1354
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
 OmbIdeaSourceList,omb idea url list length,9654
@@ -10,23 +10,23 @@ UsCourtsSourceList,uscourts url list length,310
 OiraSourceList,oira url list length,477
 MilOneSourceList,.mil second url list length,994
 MilTwoSourceList,.mil first url list length,274
-OtherSourceList,other website url list length,8018
+OtherSourceList,other website url list length,8061
 DodPublicSourceList,dod public url list length,2948
 DotMilSourceList,dot mil url list length,177
-FinalUrlWebsiteSourceList,final url website list length,15285
+FinalUrlWebsiteSourceList,final url website list length,15301
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,0
-Dod2025SourceList,DOD 2025 url list length,1887
-Combined,combined url list length,82106
-Deduped,deduped url list length,38728
-Ignored,urls marked as filtered based on beginning/contains,5191
-GovDomains,number of .gov base domains,1355
+Dod2025SourceList,DOD 2025 url list length,1928
+Combined,combined url list length,82205
+Deduped,deduped url list length,38722
+Ignored,urls marked as filtered based on beginning/contains,5182
+GovDomains,number of .gov base domains,1354
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5271
-FinalList,url list length after non-federal urls removed,33457
-OMBTrue,Number of omb_idea_public fields = TRUE,6808
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5258
+FinalList,url list length after non-federal urls removed,33464
+OMBTrue,Number of omb_idea_public fields = TRUE,6807
 OMBFalse,Number of omb_idea_public fields = FALSE,2610
-OMBBlank,Number of omb_idea_public fields = blank,24039
+OMBBlank,Number of omb_idea_public fields = blank,24047
 OMBOther,Number of omb_idea_public fields that != TRUE FALSE or blank,0
