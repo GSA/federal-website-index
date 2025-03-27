@@ -2073,6 +2073,7 @@ secnav.navy.mil,TRUE
 aim-ctx.ncdc.navy.mil,TRUE
 a-pes.mmrp.usmc.mil,TRUE
 webapps.mcieast.usmc.mil,TRUE
+www1.mcieast.usmc.mil,TRUE
 bcnr.navy.mil,TRUE
 cosmos.navy.mil,TRUE
 cyber.ncis.navy.mil,TRUE
@@ -2085,8 +2086,8 @@ geoint.nrlssc.navy.smil.ml,TRUE
 hcs.usmc.mil,TRUE
 admacs.navy.mil,TRUE
 citrixwi.nasjax.navy.mil,TRUE
-draix01.usmc-mccs.org:7780,TRUE
-draix14.usmc-mccs.org:7060,TRUE
+draix01.usmc-mccs.org,TRUE
+draix14.usmc-mccs.org,TRUE
 ncors.navy.mil,TRUE
 rcx.usmc-mccs.org,TRUE
 ca.usff.navy.mil,TRUE
@@ -2319,8 +2320,8 @@ niris.navfac.navy.mil,TRUE
 nitep.navfac.navy.mil,TRUE
 nitra.navair.navy.smil.mil,TRUE
 nitrex.nmci.navy.mil,TRUE
-niweb05.nadepni.navy.mil:1443,TRUE
-niwp01.nadepni.navy.mil:2443,TRUE
+niweb05.nadepni.navy.mil,TRUE
+niwp01.nadepni.navy.mil,TRUE
 njis.navy.mil,TRUE
 nll.navsup.navy.mil,TRUE
 nmci-wny.nmci.navy.mil,TRUE
@@ -2524,7 +2525,6 @@ wdts.supshipgc.navy.mil,TRUE
 web.ports.navy.mil,TRUE
 web.salts.navy.mil,TRUE
 web2.cpa.navy.mil,TRUE
-webapps.mcieast.usmc.mil,TRUE
 webapps.nnsy.navy.mil,TRUE
 webapps.trfkb.navy.mil,TRUE
 webappshr.nrl.navy.mil,TRUE
@@ -2616,7 +2616,6 @@ uarnoc.cas.navy.smil.mil,TRUE
 usmc.hmms.mil,TRUE
 usmcobmt.com,TRUE
 vamosc.navy.mil,TRUE
-www1.mcieast.usmc.mil,TRUE
 www1.trfkb.navy.mil,TRUE
 www2.mccll.usmc.mil,TRUE
 www2.navfac.navy.mil,TRUE
@@ -2654,7 +2653,7 @@ nserc.nswc.navy.mil,TRUE
 portal.onr.spawar-chas.navy.smil.mil,TRUE
 ppicss.hqi.usmc.mil,TRUE
 prismsweb.nmci.navy.mil,TRUE
-production c27cfmscnlap61a.ncdc.navy.mil,TRUE
+c27cfmscnlap61a.ncdc.navy.mil,TRUE
 raven.navy.smil.mil,TRUE
 safetycenter.navy.mil,TRUE
 sailor.navy.mil,TRUE

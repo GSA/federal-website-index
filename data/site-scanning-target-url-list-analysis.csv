@@ -11,20 +11,20 @@ OiraSourceList,oira url list length,477
 MilOneSourceList,.mil second url list length,994
 MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8061
-DodPublicSourceList,dod public url list length,2948
+DodPublicSourceList,dod public url list length,2947
 DotMilSourceList,dot mil url list length,177
-FinalUrlWebsiteSourceList,final url website list length,15158
+FinalUrlWebsiteSourceList,final url website list length,15160
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,0
-Dod2025SourceList,DOD 2025 url list length,1928
-Combined,combined url list length,83312
-Deduped,deduped url list length,38618
-Ignored,urls marked as filtered based on beginning/contains,5167
+Dod2025SourceList,DOD 2025 url list length,1924
+Combined,combined url list length,83309
+Deduped,deduped url list length,38611
+Ignored,urls marked as filtered based on beginning/contains,5166
 GovDomains,number of .gov base domains,1356
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5255
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5248
 FinalList,url list length after non-federal urls removed,33363
 OMBTrue,Number of omb_idea_public fields = TRUE,7854
 OMBFalse,Number of omb_idea_public fields = FALSE,2610

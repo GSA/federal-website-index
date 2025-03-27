@@ -40,15 +40,12 @@ target_url,source_list_dod_2025
 anacostiabolling.tricare.mil,TRUE
 barstow.usmc-mccs.org,TRUE
 elmendorfrichardson.tricare.mil,TRUE
-internalnetwork,TRUE
-thereisanourl,TRUE
 lfsapps.mceits.usmc.mil,TRUE
 langleyeustis.tricare.mil,TRUE
 lewismcchord.tricare.mil,TRUE
 mcguiredixlakehurst.tricare.mil,TRUE
 mymsctfm.dc3n.navy.mil,TRUE
 nsips.cloud.navy.mil,TRUE
-pki-enabledurl,TRUE
 pearlharborhickam.tricare.mil,TRUE
 peterson.tricare.mil,TRUE
 stripes.com,TRUE
@@ -528,7 +525,6 @@ elisa.dtsa.mil,TRUE
 elliottes.dodea.edu,TRUE
 ellsworthfss.com,TRUE
 emh.housing.navy.mil,TRUE
-emh.housing.navy.milandhttps:,TRUE
 emrrp.el.erdc.dren.mil,TRUE
 ems.logcom.usmc.mil,TRUE
 emss.pac.disa.mil,TRUE
@@ -1217,8 +1213,8 @@ nitra.navair.navy.smil.mil,TRUE
 nitrex.nmci.navy.mil,TRUE
 niwcatlantic.navy.mil,TRUE
 niwcpacific.navy.mil,TRUE
-niweb05.nadepni.navy.mil:1443,TRUE
-niwp01.nadepni.navy.mil:2443,TRUE
+niweb05.nadepni.navy.mil,TRUE
+niwp01.nadepni.navy.mil,TRUE
 njis.navy.mil,TRUE
 nko.navy.mil,TRUE
 nll.navsup.navy.mil,TRUE
@@ -1257,7 +1253,7 @@ nslcweb32.nslc.navy.mil\nslcportal\main\welcome.do,TRUE
 nslcweb37.nslc.navy.mil,TRUE
 nslcweb53.nslc.navy.mil,TRUE
 nssa.nmci.navy.mil,TRUE
-https:nst.navair.navy.smil.mil,TRUE
+nst.navair.navy.smil.mil,TRUE
 nswapps.navsoc.socom.smil.mil,TRUE
 nswcpcweb.dc3n.navy.mil,TRUE
 ntims.nrre.navy.smil.mil,TRUE
@@ -1435,8 +1431,8 @@ quanticomhs.dodea.edu,TRUE
 quartermaster.army.mil,TRUE
 rabbithole.dc3n.navy.mil,TRUE
 rai.tradewindai.com,TRUE
-raix01.usmc-mccs.org:7780,TRUE
-raix14.usmc-mccs.org:7060,TRUE
+raix01.usmc-mccs.org,TRUE
+raix14.usmc-mccs.org,TRUE
 ram.navair.navy.mil,TRUE
 ramey.dodea.edu,TRUE
 ramp.navair.navy.mil,TRUE
@@ -1696,7 +1692,7 @@ test.militarychildcare.csd.disa.mil,TRUE
 tf612.marines.mil,TRUE
 tf763.marines.mil,TRUE
 tfars.spawaritc.navy.mil,TRUE
-tfdw-web.mceits.usmc.mil<https:,TRUE
+tfdw-web.mceits.usmc.mil,TRUE
 tfmms.dc3n.navy.mil,TRUE
 tfrs.mceits.usmc.mil,TRUE
 tfrtools.navair.navy.mil,TRUE
