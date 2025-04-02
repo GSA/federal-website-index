@@ -13,20 +13,20 @@ MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8061
 DodPublicSourceList,dod public url list length,2947
 DotMilSourceList,dot mil url list length,177
-FinalUrlWebsiteSourceList,final url website list length,15093
+FinalUrlWebsiteSourceList,final url website list length,15101
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,0
 Dod2025SourceList,DOD 2025 url list length,1924
-Combined,combined url list length,83243
-Deduped,deduped url list length,38591
-Ignored,urls marked as filtered based on beginning/contains,5163
+Combined,combined url list length,83251
+Deduped,deduped url list length,38573
+Ignored,urls marked as filtered based on beginning/contains,5160
 GovDomains,number of .gov base domains,1357
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5250
-FinalList,url list length after non-federal urls removed,33341
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,5246
+FinalList,url list length after non-federal urls removed,33327
 OMBTrue,Number of omb_idea_public fields = TRUE,7854
 OMBFalse,Number of omb_idea_public fields = FALSE,2610
-OMBBlank,Number of omb_idea_public fields = blank,22877
+OMBBlank,Number of omb_idea_public fields = blank,22863
 OMBOther,Number of omb_idea_public fields that != TRUE FALSE or blank,0
