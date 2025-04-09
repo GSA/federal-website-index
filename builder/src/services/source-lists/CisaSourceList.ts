@@ -46,9 +46,21 @@ export class CisaSourceList extends AbstractSourceList {
     data = data.drop("hsts_base_domain_preloaded");
     data = data.drop("domain_enforces_https");
     data = data.drop("domain_uses_strong_hsts");
-    data = data.drop("oscp_crl_domain");
     data = data.drop("unknown_error");
-    data = data.drop("scan_date");
+
+    data = data.drop("is_base_domain");
+    data = data.drop("https_live");
+    data = data.drop("https_full_connection");
+    data = data.drop("https_client_auth_required");
+    data = data.drop("valid_https");
+    data = data.drop("defaults_https");
+    data = data.drop("strictly_forces_https");
+    data = data.drop("https_bad_chain");
+    data = data.drop("hsts");
+    data = data.drop("hsts_preload_ready");
+    data = data.drop("hsts_preload_pending");
+    data = data.drop("hsts_preloaded");
+    data = data.drop("domain_supports_https");
 
 
     // Rename Columns for Standardization

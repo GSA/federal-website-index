@@ -35,6 +35,11 @@ export enum SourceList {
   GPO_FDLP = 'gpo_fdlp',
   CISA = 'cisa',
   DOD_2025 = 'dod_2025',
+  DAP2 = 'dap_2',
+  USAGOV_CLICKS = 'usagov_clicks',
+  USAGOV_CLICKS_MIL = 'usagov_clicks_mil',
+  SEARCH_GOV = 'search_gov',
+  SEARCH_GOV_MIL = 'search_gov_mil',
 }
 
 export type SourceListConfigMap = Record<SourceList, SourceListConfig>;

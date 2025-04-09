@@ -140,4 +140,34 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: 'source_list_dod_2025',
     hasHeaders: true,
   },
+  [SourceList.DAP2]: {
+    shortName: 'dap_2',
+    sourceUrl: 'https://analytics.usa.gov/data/live/top-100000-domains-30-days.csv',
+    sourceColumnName: 'source_list_dap_2',
+    hasHeaders: true,
+  },
+  [SourceList.USAGOV_CLICKS]: {
+    shortName: 'usagov_clicks',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/usagov-search-clicks.csv',
+    sourceColumnName: 'source_list_usagov_clicks',
+    hasHeaders: true,
+  },
+  [SourceList.USAGOV_CLICKS_MIL]: {
+    shortName: 'usagov_clicks_mil',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/usagov-search-clicks-mil.csv',
+    sourceColumnName: 'source_list_usagov_clicks_mil',
+    hasHeaders: true,
+  },
+  [SourceList.SEARCH_GOV]: {
+    shortName: 'search_gov',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/searchgov_domains.csv',
+    sourceColumnName: 'source_list_search_gov',
+    hasHeaders: true,
+  },
+  [SourceList.SEARCH_GOV_MIL]: {
+    shortName: 'search_gov_mil',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/searchgov_domains-mil.csv',
+    sourceColumnName: 'source_list_search_gov_mil',
+    hasHeaders: true,
+  },
 }
