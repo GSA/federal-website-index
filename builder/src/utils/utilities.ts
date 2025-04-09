@@ -231,6 +231,11 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.GPO_FDLP].sourceColumnName,
     sourceListConfig[SourceList.CISA].sourceColumnName,
     sourceListConfig[SourceList.DOD_2025].sourceColumnName,
+    sourceListConfig[SourceList.DAP2].sourceColumnName,
+    sourceListConfig[SourceList.USAGOV_CLICKS].sourceColumnName,
+    sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
+    sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
+    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
     'omb_idea_public',
   ];
   const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");;

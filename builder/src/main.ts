@@ -19,6 +19,11 @@ import { Senate117thSourceList } from 'services/source-lists/Senate117thSourceLi
 import { GpoFdlpSourceList } from 'services/source-lists/GpoFdlpSourceList';
 import { CisaSourceList } from 'services/source-lists/CisaSourceList';
 import { Dod2025SourceList } from 'services/source-lists/Dod2025SourceList';
+import { Dap2SourceList } from 'services/source-lists/Dap2SourceList';
+import { UsaGovClicksSourceList } from 'services/source-lists/UsaGovClicksSourceList';
+import { UsaGovClicksMilSourceList } from 'services/source-lists/UsaGovClicksMilSourceList';
+import { SearchGovSourceList } from 'services/source-lists/SearchGovSourceList';
+import { SearchGovMilSourceList } from 'services/source-lists/SearchGovMilSourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -63,6 +68,11 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     GpoFdlpSourceList.loadData(),
     CisaSourceList.loadData(),
     Dod2025SourceList.loadData(),
+    Dap2SourceList.loadData(),
+    UsaGovClicksSourceList.loadData(),
+    UsaGovClicksMilSourceList.loadData(),
+    SearchGovSourceList.loadData(),
+    SearchGovMilSourceList.loadData()
   ]);
 }
 
@@ -93,6 +103,11 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.GPO_FDLP].sourceColumnName,
     sourceListConfig[SourceList.CISA].sourceColumnName,
     sourceListConfig[SourceList.DOD_2025].sourceColumnName,
+    sourceListConfig[SourceList.DAP2].sourceColumnName,
+    sourceListConfig[SourceList.USAGOV_CLICKS].sourceColumnName,
+    sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
+    sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
+    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName
   ]);
 }
 
@@ -131,6 +146,11 @@ async function main() {
   analysis.push(generateAnalysisEntry('GpoFdlpSourceList', 'GpoFdlp url list length', sourceLists[17].count()));
   analysis.push(generateAnalysisEntry('CisaSourceList', 'CISA url list length', sourceLists[18].count()));
   analysis.push(generateAnalysisEntry('Dod2025SourceList', 'DOD 2025 url list length', sourceLists[19].count()));
+  analysis.push(generateAnalysisEntry('Dap2SourceList', 'dap2 url list length', sourceLists[20].count()));
+  analysis.push(generateAnalysisEntry('UsaGovClicksSourceList', 'usagov clicks url list length', sourceLists[21].count()));
+  analysis.push(generateAnalysisEntry('UsaGovClicksMilSourceList', 'usagov clicks mil url list length', sourceLists[22].count()));
+  analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
+  analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -234,6 +254,11 @@ async function main() {
       'source_list_gpo_fdlp',
       'source_list_cisa',
       'source_list_dod_2025',
+      'source_list_dap_2',
+      'source_list_usagov_clicks',
+      'source_list_usagov_clicks_mil',
+      'source_list_search_gov',
+      'source_list_search_gov_mil',
       'omb_idea_public',
       'filtered',
       'pageviews',
