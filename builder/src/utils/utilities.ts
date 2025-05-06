@@ -173,6 +173,42 @@ export function mergeUrlInfo(allSites: DataFrame, sourceDf: DataFrame): DataFram
 };
 
 /**
+ *
+ * @param allSites The DataFrame that you would like to merge the source data into.
+ * @param sourceDf The DataFrame that you would like to merge into the allSites DataFrame.
+ * @returns The allSites DataFrame with the source data merged in.
+ */
+export function mergeOmbIdeaInfo(allSites: DataFrame, sourceDf: DataFrame): DataFrame {
+  // Convert source dataframe to an object for faster lookup
+  const sourceData = sourceDf.toCollection(); // Convert to an array of rows
+
+  // Loop through each row of the combined dataframe
+  const updatedData = allSites.toCollection().map((row) => {
+      // Extract the target_url from the combined dataframe row
+      const targetUrl = row.target_url;
+      const source_list_omb_idea = row.source_list_omb_idea;
+
+      // Find the matching row from the source dataframe based on base_domain
+      const matchedSource = sourceData.find(sourceRow => sourceRow.website === targetUrl && source_list_omb_idea === true);
+
+      // If a match is found, update the row with values from the source dataframe
+      if (matchedSource) {
+          return {
+              ...row, // Keep the existing fields
+              agency: matchedSource.agency, // Update with the source data
+              bureau: matchedSource.bureau, // Update with the source data
+          };
+      } else {
+          // If no match, return the row as is
+          return row;
+      }
+  });
+
+  // Convert the updated data back into a dataframe
+  return new DataFrame(updatedData);
+};
+
+/**
  * 
  * @param allSites The DataFrame that you would like to merge the DapTopList data into.
  * @param dapTopList The DataFrame that contains the DapTopList data.

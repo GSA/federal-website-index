@@ -39,6 +39,7 @@ import {
   fullColumnNameList,
   generateAnalysisEntry,
   mergeDapTopListDataframe,
+  mergeOmbIdeaInfo,
 } from "./utils/utilities";
 import path from 'path';
 import ObjectsToCsv from 'objects-to-csv';
@@ -199,6 +200,12 @@ async function main() {
   const milDomains = await MilDomainsSourceList.loadData();
   allSites = mergeUrlInfo(allSites, milDomains);
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-MIL-agency-bureau-merge.csv'));
+
+  // Ensure that the agency and bureau columns from the omb_idea source list are the default values for the urls from that same list
+  console.log("Ensuring OMB IDEA agency and bureau columns are the default values...");
+  const ombIdeaDf  = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv', true);
+  allSites = mergeOmbIdeaInfo(allSites, ombIdeaDf);
+  allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-OMB-agency-bureau-merge.csv'));
 
   // Add filtered column based on if the url matches the starts_with or contains list
   console.log("Tagging sites based on ignore list...");
