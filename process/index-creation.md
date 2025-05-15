@@ -5,7 +5,7 @@ Below is a description of the process used to create the Federal Website Index, 
 * Snapshots of the index at each step of processing are [here](https://github.com/GSA/federal-website-index/tree/main/data/process-snapshots).  
   
   
-_[Under Construction... Needs new links]_
+_[Under Construction... Below needs new links]_
 
 * The various source datasets are combined.  A snapshot of this combined list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined.csv).  
 * The combined list of websites is then deduplicated.  A snapshot of the dedupped list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined-dedup.csv).  A list of the website that are removed in this step is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/dedup-removed.csv).
