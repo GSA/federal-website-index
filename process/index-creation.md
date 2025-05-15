@@ -1,11 +1,11 @@
 Below is a description of the process used to create the Federal Website Index, which is then used as the target URL list for the Site Scanning engine to scan. The actual code that does this is [here](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts).   
 
-* The Federal Website Index is created by combining and processing a number of [individual source datasets](https://github.com/GSA/federal-website-index/tree/main/data/source-descriptions#readme).  The list of datasets is managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/main.py) (in the `fetchAllSourceListData` function), and the urls for these datasets are managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts).  
-* The specified source datasets are copied and imported into memory.  Snapshots of each individual dataset are stored [here](https://github.com/GSA/federal-website-index/tree/main/data/source-lists).
-
-
-
-
+* The Federal Website Index is created by combining and processing a number of [individual source datasets](https://github.com/GSA/federal-website-index/tree/main/data/source-descriptions#readme).  The list of datasets is managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts#L50-L77) (in the `fetchAllSourceListData` function), and the urls for these datasets are managed [here](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts).  
+* The specified source datasets are copied and imported into memory.  Snapshots of each individual dataset are stored [here](https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots).
+* Snapshots of the index at each step of processing are [here](https://github.com/GSA/federal-website-index/tree/main/data/process-snapshots).  
+  
+  
+_[Under Construction... Needs new links]_
 
 * The various source datasets are combined.  A snapshot of this combined list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined.csv).  
 * The combined list of websites is then deduplicated.  A snapshot of the dedupped list is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined-dedup.csv).  A list of the website that are removed in this step is stored [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/dedup-removed.csv).
