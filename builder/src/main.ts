@@ -266,7 +266,6 @@ async function main() {
       'source_list_usagov_clicks_mil',
       'source_list_search_gov',
       'source_list_search_gov_mil',
-      'omb_idea_public',
       'filtered',
       'pageviews',
       'visits'
@@ -277,16 +276,6 @@ async function main() {
   // Sort Columns
   console.log("Sorting columns...");
   allSites = allSites.sortBy(['base_domain', 'target_url']);
-
-  // Collect omb_idea_public counts allSites.countValue(true, 'filtered')
-  const ombTrue = allSites.countValue('true', 'omb_idea_public');
-  const ombFalse = allSites.countValue('false', 'omb_idea_public');
-  const ombBlank = allSites.countValue('', 'omb_idea_public');
-  const ombOther = allSites.count() - ombTrue - ombFalse - ombBlank;
-  analysis.push(generateAnalysisEntry('OMBTrue', 'Number of omb_idea_public fields = TRUE', ombTrue ));
-  analysis.push(generateAnalysisEntry('OMBFalse', 'Number of omb_idea_public fields = FALSE', ombFalse ));
-  analysis.push(generateAnalysisEntry('OMBBlank', 'Number of omb_idea_public fields = blank', ombBlank ));
-  analysis.push(generateAnalysisEntry('OMBOther', 'Number of omb_idea_public fields that != TRUE FALSE or blank', ombOther ));
 
   // Rename target_url to initial_url
   console.log("Renaming target_url to initial_url...");
