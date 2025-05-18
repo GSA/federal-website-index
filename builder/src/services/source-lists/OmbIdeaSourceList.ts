@@ -31,25 +31,7 @@ export class OmbIdeaSourceList extends AbstractSourceList {
     data = data.drop("bureau");
 
     // Rename Columns for Standardization
-    //data = data.rename("Website", "target_url");
-    //data = data.rename("Public-Facing", "omb_idea_public");
-
     data = data.rename("domain", "target_url");
-    data = data.withColumn("omb_idea_public", () => "");
-
-    // Map Yes/No to Boolean
-    //@ts-ignore
-    // data = data.withColumn("omb_idea_public", (row) => {
-    //   if (row.get("omb_idea_public") === "Yes") {
-    //     return "TRUE";
-    //   }
-    //   if (row.get("omb_idea_public") === "No") {
-    //     return "FALSE";
-    //   }
-    //   if (row.get("omb_idea_public") !== "No" && row.get("omb_idea_public") !== "Yes") {
-    //     return "";
-    //   }
-    // });
 
     return data;
   }
