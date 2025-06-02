@@ -143,7 +143,6 @@ ahrq.gov,TRUE
 accounts.ahrq.gov,TRUE
 accountstest.ahrq.gov,TRUE
 acts.ahrq.gov,TRUE
-id.ahrq.gov,TRUE
 ahrq-stage.ahrq.gov,TRUE
 archive.ahrq.gov,TRUE
 arrs.ahrq.gov,TRUE
@@ -153,6 +152,7 @@ cdp.ahrq.gov,TRUE
 digital.ahrq.gov,TRUE
 cds-authoring.ahrq.gov,TRUE
 cdsic.ahrq.gov,TRUE
+id.ahrq.gov,TRUE
 cmext.ahrq.gov,TRUE
 dam.ahrq.gov,TRUE
 datatools.ahrq.gov,TRUE
@@ -1057,7 +1057,6 @@ caninecommons.cancer.gov,TRUE
 seer.cancer.gov,TRUE
 ccdi.cancer.gov,TRUE
 ccdi-stage.cancer.gov,TRUE
-iam.cancer.gov,TRUE
 ccr2.cancer.gov,TRUE
 ccr.cancer.gov,TRUE
 ccrisktool.cancer.gov,TRUE
@@ -1102,6 +1101,7 @@ datacommons.cancer.gov,TRUE
 datascience.cancer.gov,TRUE
 general.datacommons.cancer.gov,TRUE
 dceg2.cancer.gov,TRUE
+iam.cancer.gov,TRUE
 dceg-prod-acsf.cancer.gov,TRUE
 dcptools.cancer.gov,TRUE
 dctd.cancer.gov,TRUE
@@ -1778,9 +1778,7 @@ atf-eregs-demo.app.cloud.gov,TRUE
 calc-dev.app.cloud.gov,TRUE
 calc-staging.app.cloud.gov,TRUE
 campd-stg.app.cloud.gov,TRUE
-catalog-dev.data.gov,TRUE
 catalog-next-dev-datagov.app.cloud.gov,TRUE
-catalog.data.gov,TRUE
 cg-06ab120d-836f-49a2-bc22-9dfb1585c3c6.app.cloud.gov,TRUE
 cg-4ade7cd3-a036-4fb7-b1d5-bcef64cb3ddf.app.cloud.gov,TRUE
 cg-4ade7cd3-a036-4fb7-b1d5-bcef64cb3ddf.sites.pages.cloud.gov,TRUE
@@ -2408,6 +2406,8 @@ leh-vaultc.darpa.mil,TRUE
 miprdelivery.darpa.mil,TRUE
 sbir.darpa.mil,TRUE
 triagechallenge.darpa.mil,TRUE
+catalog.data.gov,TRUE
+catalog-dev.data.gov,TRUE
 data.gov,TRUE
 inventory.data.gov,TRUE
 stage.api.data.gov,TRUE
@@ -3504,7 +3504,7 @@ testcape.nationalblueribbonschools.ed.gov,TRUE
 testfsaesb.ed.gov,TRUE
 testliaison.nationalblueribbonschools.ed.gov,TRUE
 test.msix.ed.gov,TRUE
-studentaid.gov,TRUE
+testnslds.ed.gov,TRUE
 testportal.nationalblueribbonschools.ed.gov,TRUE
 testscreening.nationalblueribbonschools.ed.gov,TRUE
 tfa-auth.ed.gov,TRUE
@@ -4093,6 +4093,7 @@ facadatabase.gov,TRUE
 gsa.gov,TRUE
 app.fac.gov,TRUE
 support.fac.gov,TRUE
+studentaid.gov,TRUE
 fai.gov,TRUE
 login.fai.gov,TRUE
 familyplanning.gov,TRUE
@@ -5170,7 +5171,6 @@ disposal.gsa.gov,TRUE
 ebuy.gsa.gov,TRUE
 ebuy-test.fas.gsa.gov,TRUE
 ectran.fas.gsa.gov,TRUE
-nhc-dev.oktapreview.com,TRUE
 eis-public-pricer.eos.gsa.gov,TRUE
 eis-public-pricer.test-eos.gsa.gov,TRUE
 usda-nsobs-preview.oktapreview.com,TRUE
@@ -6146,7 +6146,6 @@ millerforms.house.gov,TRUE
 miller.house.gov,TRUE
 millermeeks.house.gov,TRUE
 moolenaar.house.gov,TRUE
-moran.house.gov,TRUE
 morelle.house.gov,TRUE
 moulton.house.gov,TRUE
 mrvan.house.gov,TRUE
@@ -6725,7 +6724,6 @@ cass.jobcorps.gov,TRUE
 centennial.jobcorps.gov,TRUE
 charleston.jobcorps.gov,TRUE
 cincinnati.jobcorps.gov,TRUE
-clearfield.jobcorps.gov,TRUE
 cleveland.jobcorps.gov,TRUE
 collbran.jobcorps.gov,TRUE
 columbiabasin.jobcorps.gov,TRUE
@@ -10492,6 +10490,7 @@ trials.nci.nih.gov,TRUE
 trials-staging.nci.nih.gov,TRUE
 ts.nlm.nih.gov,TRUE
 ts.wip.nlm.nih.gov,TRUE
+uat-vsac.nlm.nih.gov,TRUE
 ucum.nlm.nih.gov,TRUE
 usrds-adr.niddk.nih.gov,TRUE
 uts.awsint.nlm.nih.gov,TRUE

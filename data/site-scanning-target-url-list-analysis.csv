@@ -13,21 +13,21 @@ MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8061
 DodPublicSourceList,dod public url list length,2947
 DotMilSourceList,dot mil url list length,177
-FinalUrlWebsiteSourceList,final url website list length,15694
+FinalUrlWebsiteSourceList,final url website list length,15693
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,21915
 Dod2025SourceList,DOD 2025 url list length,1924
-Dap2SourceList,dap2 url list length,7508
+Dap2SourceList,dap2 url list length,7484
 UsaGovClicksSourceList,usagov clicks url list length,8460
 UsaGovClicksMilSourceList,usagov clicks mil url list length,1281
 SearchGovSourceList,search gov url list length,1075
 SearchGovMilSourceList,search gov mil url list length,394
-Combined,combined url list length,120905
-Deduped,deduped url list length,45889
-Ignored,urls marked as filtered based on beginning/contains,5813
+Combined,combined url list length,120880
+Deduped,deduped url list length,45882
+Ignored,urls marked as filtered based on beginning/contains,5810
 GovDomains,number of .gov base domains,1353
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,9814
-FinalList,url list length after non-federal urls removed,36075
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,9813
+FinalList,url list length after non-federal urls removed,36069
