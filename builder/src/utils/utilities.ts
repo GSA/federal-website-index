@@ -358,6 +358,27 @@ export function removeNonGovNonMilSites(allSites: DataFrame, milDomains: DataFra
 
 /**
  * 
+ * @param allSites The DataFrame that you would like to remove dead sites from.
+ * @param deadSites The DataFrame that contains the dead sites.
+ * @returns The DataFrame with the dead sites removed.
+ */
+export function removeDeadSites(allSites: DataFrame, deadSites: DataFrame): DataFrame {
+  const deadUrls = new Set(deadSites.select("initial_domain").toArray().map(row => row[0]));
+
+  //@ts-ignore
+  allSites = allSites.withColumn('is_dead', (row) => {
+    return deadUrls.has(row.get('target_url').trim());
+  });
+
+  //@ts-ignore
+  allSites = allSites.filter(row => !row.get('is_dead'));
+  allSites = allSites.drop('is_dead');
+
+  return allSites;
+}
+
+/**
+ * 
  * This function will check if the url contains any of the strings in the containsSet that are surrounded by non-word characters.
  * @param url The URL that you would like to check for the presence of a string in.
  * @param containsSet A set of strings that you would like to check for in the URL.
