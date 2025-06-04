@@ -40,6 +40,7 @@ import {
   generateAnalysisEntry,
   mergeDapTopListDataframe,
   mergeOmbIdeaInfo,
+  removeDeadSites,
 } from "./utils/utilities";
 import path from 'path';
 import ObjectsToCsv from 'objects-to-csv';
@@ -230,6 +231,13 @@ async function main() {
   const dapTopDf = await DataFrame.fromCSV(path.join(__dirname, '../../data/source-lists/dap_top_100000_domains_30_days.csv'));
   allSites = mergeDapTopListDataframe(allSites, dapTopDf);
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-dap_top_100000_merge.csv'));
+
+  // Remove sites from the dead-sites list
+  console.log("Removing dead sites...");
+  const deadSitesDf = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/criteria/suspected-dead-sites.csv');
+  allSites = removeDeadSites(allSites, deadSitesDf);
+  analysis.push(generateAnalysisEntry('DeadSites', 'number of urls after dead sites removed', allSites.count() ));
+  allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-dead-sites-filter.csv'));
 
   // Reorder the columns
   console.log("Reordering columns...");
