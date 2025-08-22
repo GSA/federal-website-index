@@ -24,6 +24,7 @@ import { UsaGovClicksSourceList } from 'services/source-lists/UsaGovClicksSource
 import { UsaGovClicksMilSourceList } from 'services/source-lists/UsaGovClicksMilSourceList';
 import { SearchGovSourceList } from 'services/source-lists/SearchGovSourceList';
 import { SearchGovMilSourceList } from 'services/source-lists/SearchGovMilSourceList';
+import { PublicInventorySourceList } from 'services/source-lists/PublicInventorySourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -74,7 +75,8 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     UsaGovClicksSourceList.loadData(),
     UsaGovClicksMilSourceList.loadData(),
     SearchGovSourceList.loadData(),
-    SearchGovMilSourceList.loadData()
+    SearchGovMilSourceList.loadData(),
+    PublicInventorySourceList.loadData()
   ]);
 }
 
@@ -109,7 +111,8 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.USAGOV_CLICKS].sourceColumnName,
     sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
-    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName
+    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
+    sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName
   ]);
 }
 
@@ -153,6 +156,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('UsaGovClicksMilSourceList', 'usagov clicks mil url list length', sourceLists[22].count()));
   analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
   analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
+  analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -204,7 +208,7 @@ async function main() {
 
   // Ensure that the agency and bureau columns from the omb_idea source list are the default values for the urls from that same list
   console.log("Ensuring OMB IDEA agency and bureau columns are the default values...");
-  const ombIdeaDf  = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv', true);
+  const ombIdeaDf  = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/us-government-website-directory.csv', true);
   allSites = mergeOmbIdeaInfo(allSites, ombIdeaDf);
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-OMB-agency-bureau-merge.csv'));
 
@@ -274,6 +278,7 @@ async function main() {
       'source_list_usagov_clicks_mil',
       'source_list_search_gov',
       'source_list_search_gov_mil',
+      'source_list_public_inventory',
       'filtered',
       'pageviews',
       'visits'

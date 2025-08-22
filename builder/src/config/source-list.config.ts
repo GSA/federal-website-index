@@ -22,8 +22,9 @@ export const sourceListConfig: SourceListConfigMap = {
   },
   [SourceList.OMB_IDEA]: {
     shortName: 'omb_idea',
-    //sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/omb_idea.csv',
-    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv',
+    // sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/omb_idea.csv',
+    // sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/us-government-website-directory.csv',
     sourceColumnName: 'source_list_omb_idea',
     hasHeaders: true,
   },
@@ -169,6 +170,12 @@ export const sourceListConfig: SourceListConfigMap = {
     shortName: 'search_gov_mil',
     sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/searchgov_domains-mil.csv',
     sourceColumnName: 'source_list_search_gov_mil',
+    hasHeaders: true,
+  },
+  [SourceList.PUBLIC_INVENTORY]: {
+    shortName: 'public_inventory',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/public-website-inventory/refs/heads/main/us-gov-public-website-inventory.csv',
+    sourceColumnName: 'source_list_public_inventory',
     hasHeaders: true,
   },
 }
