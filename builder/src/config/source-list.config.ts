@@ -22,8 +22,9 @@ export const sourceListConfig: SourceListConfigMap = {
   },
   [SourceList.OMB_IDEA]: {
     shortName: 'omb_idea',
-    //sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/omb_idea.csv',
-    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv',
+    // sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/omb_idea.csv',
+    // sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-directory/refs/heads/main/us-government-website-directory.csv',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/data/source-lists/us-government-website-directory.csv',
     sourceColumnName: 'source_list_omb_idea',
     hasHeaders: true,
   },
