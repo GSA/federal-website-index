@@ -4,13 +4,15 @@ URL begins with:, Rational
 access., internal collaboration tool
 access-, internal collaboration tool
 access_,internal collaboration 
-accessdev, staging and development
+accessdev,staging and development
+accesstest,staging and development
 accounts.,authentication
 accountshpc.,authentication
 accountstest.,authentication
 acquia., admin panel
 adfs.,
-admin., admin panel
+admin-,admin panel
+admin.,admin panel
 adobeconnect., internal collaboration tool
 aka-,staging and development
 akaprod-,staging and development
@@ -78,6 +80,8 @@ nfiles.nacp-files.,authentication
 owa., webmail
 piv., authentication
 preprod,staging and development
+preview,staging and development
+preview-,staging and development
 preview.,staging and development
 prod., staging and development
 qa-,staging and development
@@ -276,6 +280,7 @@ fdic-wwwdev.,staging and development
 fs-www-avi-lb-pz.,staging and development
 gen4www.,staging and development
 hothdev-www.,staging and development
+lehdtest,staging and development
 lheawww.,staging and development
 lib-www.,staging and development
 live-www-goesr.,staging and development
