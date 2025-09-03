@@ -27,11 +27,11 @@ export class OmbIdeaSourceList extends AbstractSourceList {
    */
   protected async prepare(data: DataFrame): Promise<DataFrame> {
     // Drop Unnecessary Columns
-    data = data.drop("agency");
-    data = data.drop("bureau");
+    data = data.drop("Agency");
+    data = data.drop("Bureau");
 
     // Rename Columns for Standardization
-    data = data.rename("domain", "target_url");
+    data = data.rename("Website", "target_url");
 
     return data;
   }
