@@ -273,6 +273,9 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
     sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName,
+    // [SOURCE-ADD-POINT]
+    // Add new source list configuration here
+    // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName,
   ];
   const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");;
 

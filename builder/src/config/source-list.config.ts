@@ -178,4 +178,12 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: 'source_list_public_inventory',
     hasHeaders: true,
   },
+  // [SOURCE-ADD-POINT]
+  // Add new source list configuration here
+  // [SourceList.SOURCE_NAME]: {
+  //   shortName: 'source_name',
+  //   sourceUrl: 'https://example.com/source-list.csv',
+  //   sourceColumnName: 'source_list_source_name',
+  //   hasHeaders: true,
+  // },
 }
