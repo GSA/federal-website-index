@@ -75,7 +75,8 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     UsaGovClicksSourceList.loadData(),
     UsaGovClicksMilSourceList.loadData(),
     SearchGovSourceList.loadData(),
-    SearchGovMilSourceList.loadData()
+    SearchGovMilSourceList.loadData(),
+    PublicInventorySourceList.loadData()
   ]);
 }
 
@@ -110,7 +111,8 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.USAGOV_CLICKS].sourceColumnName,
     sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
-    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName
+    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
+    sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName
   ]);
 }
 
@@ -154,7 +156,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('UsaGovClicksMilSourceList', 'usagov clicks mil url list length', sourceLists[22].count()));
   analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
   analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
-  // analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
+  analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -276,6 +278,7 @@ async function main() {
       'source_list_usagov_clicks_mil',
       'source_list_search_gov',
       'source_list_search_gov_mil',
+      'source_list_public_inventory',
       'filtered',
       'pageviews',
       'visits'
