@@ -77,6 +77,10 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     SearchGovSourceList.loadData(),
     SearchGovMilSourceList.loadData(),
     PublicInventorySourceList.loadData()
+    // [SOURCE-ADD-POINT]
+    // Add new source list configuration here
+    // SourceNameSourceList.loadData(),
+    // Make sure you create the corresponding import at the top of this file and the class in the services/source-lists directory
   ]);
 }
 
@@ -113,6 +117,9 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
     sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName
+    // [SOURCE-ADD-POINT]
+    // Add new source list configuration here
+    // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName
   ]);
 }
 
@@ -157,6 +164,9 @@ async function main() {
   analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
   analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
   analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
+  // [SOURCE-ADD-POINT]
+  // Add new source list configuration here
+  // analysis.push(generateAnalysisEntry('SourceNameSourceList', 'source_name url list length', sourceLists[INDEX].count()));
 
   // Get a list of all column names
   console.log("Ensuring column names are consistent...");
@@ -279,6 +289,9 @@ async function main() {
       'source_list_search_gov',
       'source_list_search_gov_mil',
       'source_list_public_inventory',
+      // [SOURCE-ADD-POINT]
+      // Add new source list configuration here
+      // 'source_list_source_name',
       'filtered',
       'pageviews',
       'visits'
