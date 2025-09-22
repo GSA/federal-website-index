@@ -2,7 +2,7 @@ name,value,count
 FederalDomainsSourceList,gov url list length,1338
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
-OmbIdeaSourceList,omb idea url list length,1289
+OmbIdeaSourceList,omb idea url list length,1301
 EotwSourceList,eotw url list length,3118
 UsaGovSourceList,usagov url list length,486
 GovManSourceList,gov_man url list length,840
@@ -19,16 +19,16 @@ Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,21915
 Dod2025SourceList,DOD 2025 url list length,1924
-Dap2SourceList,dap2 url list length,11405
+Dap2SourceList,dap2 url list length,11359
 UsaGovClicksSourceList,usagov clicks url list length,8460
 UsaGovClicksMilSourceList,usagov clicks mil url list length,1281
 SearchGovSourceList,search gov url list length,1075
 SearchGovMilSourceList,search gov mil url list length,394
-Combined,combined url list length,118669
-Deduped,deduped url list length,48224
-Ignored,urls marked as filtered based on beginning/contains,6055
+Combined,combined url list length,118635
+Deduped,deduped url list length,48201
+Ignored,urls marked as filtered based on beginning/contains,6042
 GovDomains,number of .gov base domains,1338
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,11709
-FinalList,url list length after non-federal urls removed,36515
-DeadSites,number of urls after dead sites removed,31111
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,11698
+FinalList,url list length after non-federal urls removed,36503
+DeadSites,number of urls after dead sites removed,31099
