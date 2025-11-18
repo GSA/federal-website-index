@@ -70,8 +70,8 @@ calnet.nist.gov,,TRUE
 cccbdb.nist.gov,,TRUE
 cda-validation.nist.gov,,TRUE
 cdcs.registry.nist.gov,,TRUE
-cfreds-archive.nist.gov,,TRUE
 cfreds.nist.gov,,TRUE
+cfreds-archive.nist.gov,,TRUE
 chemdata.nist.gov,,TRUE
 circular.nist.gov,,TRUE
 code.nist.gov,,TRUE
@@ -98,8 +98,8 @@ hit-dev.nist.gov,,TRUE
 hit-nexus.nist.gov,,TRUE
 hl7v2-elr-testing.nist.gov,,TRUE
 hl7v2-gvt.nist.gov,,TRUE
-hl7v2-igamt-2.nist.gov,,TRUE
 hl7v2-igamt.nist.gov,,TRUE
+hl7v2-igamt-2.nist.gov,,TRUE
 hl7v2-iz-cdc-testing.nist.gov,,TRUE
 hl7v2-iz-r1-5-testing.nist.gov,,TRUE
 hl7v2-lab-r2-testing.nist.gov,,TRUE
@@ -185,8 +185,8 @@ adios.orr.noaa.gov,,TRUE
 adp.noaa.gov,,TRUE
 airquality.weather.gov,,TRUE
 alaskafisheries.noaa.gov,,TRUE
-alerts-v2.weather.gov,,TRUE
 alerts.weather.gov,,TRUE
+alerts-v2.weather.gov,,TRUE
 alpha.ngs.noaa.gov,,TRUE
 amdar.ncep.noaa.gov,,TRUE
 amdar.noaa.gov,,TRUE
@@ -194,13 +194,13 @@ americansamoa.noaa.gov,,TRUE
 aocground.omao.noaa.gov,,TRUE
 aoml.noaa.gov,,TRUE
 app.coastalscience.noaa.gov,,TRUE
+apps.arl.noaa.gov,,TRUE
+apps.nmfs.noaa.gov,,TRUE
+apps.nssl.noaa.gov,,TRUE
 apps-afsc.fisheries.noaa.gov,,TRUE
 apps-garfo.fisheries.noaa.gov,,TRUE
 apps-pifsc.fisheries.noaa.gov,,TRUE
 apps-sefsc.fisheries.noaa.gov,,TRUE
-apps.arl.noaa.gov,,TRUE
-apps.nmfs.noaa.gov,,TRUE
-apps.nssl.noaa.gov,,TRUE
 archive.fisheries.noaa.gov,,TRUE
 archive.oceanexplorer.noaa.gov,,TRUE
 arctic.noaa.gov,,TRUE
@@ -305,9 +305,9 @@ glerl.noaa.gov,,TRUE
 globalocean.noaa.gov,,TRUE
 gml.noaa.gov,,TRUE
 gnome.orr.noaa.gov,,TRUE
+goes.noaa.gov,,TRUE
 goes-r.gov,,TRUE
 goes-r.noaa.gov,,TRUE
-goes.noaa.gov,,TRUE
 graphical.mdl.nws.noaa.gov,,TRUE
 graphical.weather.gov,,TRUE
 graphing.cbex.noaa.gov,,TRUE
@@ -482,10 +482,10 @@ tidesandcurrents.noaa.gov,,TRUE
 token.gfdl.noaa.gov,,TRUE
 toolkit.climate.gov,,TRUE
 training.weather.gov,,TRUE
-tsunami-cp.ncep.noaa.gov,,TRUE
 tsunami.coast.noaa.gov,,TRUE
 tsunami.gov,,TRUE
 tsunami.noaa.gov,,TRUE
+tsunami-cp.ncep.noaa.gov,,TRUE
 usicecenter.gov,,TRUE
 vdatum.noaa.gov,,TRUE
 videos.fisheries.noaa.gov,,TRUE
@@ -552,736 +552,108 @@ tsdr.uspto.gov,,TRUE
 ttabvue.uspto.gov,,TRUE
 uspto.gov,,TRUE
 www-search.uspto.gov,,TRUE
+dhs.gov,Office of Public Affairs,TRUE
 cisa.gov,Office of External Affairs,TRUE
+fema.gov,Office of External Affairs,TRUE
+fletc.gov,Office of Public Affairs,TRUE
+tsa.gov,Strategic Communications and Public Affairs,TRUE
+uscis.gov,Office of Access and Information Services,TRUE
+uscg.mil,Office of Public Affairs,TRUE
+cbp.gov,Office of Public Affairs,TRUE
+ice.gov,Office of Public Affairs,TRUE
+secretservice.gov,Communication and Media Relations,TRUE
 get.gov,,TRUE
 niccs.cisa.gov,,TRUE
 schoolsafety.gov,,TRUE
-tripwire.dhs.gov,,TRUE
-zerotrust.cyber.gov,,TRUE
-agents.floodsmart.gov,National Flood Insurance Program,TRUE
 apps.usfa.fema.gov,U.S. Fire Administration,TRUE
-cdp.dhs.gov,,TRUE
 disasterassistance.gov,,TRUE
-fema.gov,Office of External Affairs,TRUE
-firstrespondertraining.gov,,TRUE
-floodmaps.fema.gov,National Flood Insurance Program,TRUE
 floodsmart.gov,National Flood Insurance Program,TRUE
-go.fema.gov,,TRUE
 hazards.fema.gov,,TRUE
 msc.fema.gov,,TRUE
-nfipdirect.fema.gov,National Flood Insurance Program,TRUE
-preptoolkit.fema.gov,,TRUE
 ready.gov,Office of External Affairs,TRUE
 training.fema.gov,,TRUE
 usfa.fema.gov,U.S. Fire Administration,TRUE
 fleta.gov,Office of Public Affairs,TRUE
-fletc.gov,Office of Public Affairs,TRUE
+ohss.dhs.gov,Office of Homeland Security Statistics,TRUE
+oig.dhs.gov,Office of Public Affairs,TRUE
+tsaenrollmentbyidemia.tsa.dhs.gov,,TRUE
+egov.uscis.gov,Office of Access and Information Services,TRUE
+e-verify.gov,Immigration Records and Identity Services,TRUE
+my.uscis.gov,Office of Access and Information Services,TRUE
+myeverify.uscis.gov,Immigration Records and Identity Services,TRUE
+bwt.cbp.gov,Office of Field Operations,TRUE
+careers.cbp.gov,Office of Human Resources Management,TRUE
+dtops.cbp.dhs.gov,Office of Field Operations,TRUE
+esta.cbp.dhs.gov,Office of Field Operations,TRUE
+evus.gov,Office of Field Operations,TRUE
+help.cbp.gov,Office of Public Affairs,TRUE
+i94.cbp.dhs.gov,Office of Field Operations,TRUE
+rulings.cbp.gov,Office of Field Operations,TRUE
+ttp.dhs.gov,Office of International Affairs,TRUE
+portal.ice.gov,,TRUE
+studyinthestates.dhs.gov,,TRUE
+tripwire.dhs.gov,,TRUE
+zerotrust.cyber.gov,,TRUE
+agents.floodsmart.gov,National Flood Insurance Program,TRUE
+cdp.dhs.gov,,TRUE
+firstrespondertraining.gov,,TRUE
+floodmaps.fema.gov,National Flood Insurance Program,TRUE
+go.fema.gov,,TRUE
+nfipdirect.fema.gov,National Flood Insurance Program,TRUE
+preptoolkit.fema.gov,,TRUE
 apfs-cloud.dhs.gov,Office of the Chief Procurement Officer,TRUE
-dhs.gov,Office of Public Affairs,TRUE
 go.dhs.gov,Office of Public Affairs,TRUE
 juntos.gov,Office of the Chief Informaton Officer,TRUE
 myoido.dhs.gov,Office of the Immigration Detention Ombudsman,TRUE
 niem.gov,Science and Technology Directorate,TRUE
-ohss.dhs.gov,Office of Homeland Security Statistics,TRUE
 release.niem.gov,Science and Technology Directorate,TRUE
 together.gov,Office of the Chief Informaton Officer,TRUE
 tools.niem.gov,Science and Technology Directorate,TRUE
 hotline.oig.dhs.gov,Office of Public Affairs,TRUE
-oig.dhs.gov,Office of Public Affairs,TRUE
 safetyact.gov,Office of Innovation and Collaboration,TRUE
 exis.tsa.dhs.gov,,TRUE
 trip.dhs.gov,,TRUE
-tsa.gov,Strategic Communications and Public Affairs,TRUE
-tsaenrollmentbyidemia.tsa.dhs.gov,,TRUE
-e-verify.gov,Immigration Records and Identity Services,TRUE
-egov.uscis.gov,Office of Access and Information Services,TRUE
 immvets.dhs.gov,Office of Access and Information Services,TRUE
-my.uscis.gov,Office of Access and Information Services,TRUE
-myeverify.uscis.gov,Immigration Records and Identity Services,TRUE
 save.uscis.gov,Immigration Records and Identity Services,TRUE
-uscis.gov,Office of Access and Information Services,TRUE
 developer.nvmc.uscg.gov,,TRUE
 dhssans.nvmc.uscg.gov,,TRUE
 enoad.nvmc.uscg.gov,,TRUE
 navcen.uscg.gov,,TRUE
-uscg.mil,Office of Public Affairs,TRUE
 awt.cbp.gov,Office of Field Operations,TRUE
-bwt.cbp.gov,Office of Field Operations,TRUE
-careers.cbp.gov,Office of Human Resources Management,TRUE
-cbp.gov,Office of Public Affairs,TRUE
-dtops.cbp.dhs.gov,Office of Field Operations,TRUE
-e-safe.cbp.dhs.gov,Office of Field Operations,TRUE
 e.cbp.dhs.gov,Office of Finance,TRUE
 eallegations.cbp.gov,Office of Professional Responsibility,TRUE
 erulings.cbp.gov,Office of Field Operations,TRUE
-esta.cbp.dhs.gov,Office of Field Operations,TRUE
-evus.gov,Office of Field Operations,TRUE
+e-safe.cbp.dhs.gov,Office of Field Operations,TRUE
 fincen105.cbp.dhs.gov,Office of Field Operations,TRUE
-help.cbp.gov,Office of Public Affairs,TRUE
-i94.cbp.dhs.gov,Office of Field Operations,TRUE
 iprr.cbp.gov,Office of Trade,TRUE
 iprs.cbp.gov,Office of Trade,TRUE
 rsp.cbp.gov,Office of Field Operations,TRUE
-rulings.cbp.gov,Office of Field Operations,TRUE
-ttp.dhs.gov,Office of International Affairs,TRUE
 eserviceregistration.ice.gov,,TRUE
-ice.gov,Office of Public Affairs,TRUE
 join.ice.gov,,TRUE
 locator.ice.gov,,TRUE
-portal.ice.gov,,TRUE
-studyinthestates.dhs.gov,,TRUE
 vinelink.dhs.gov,,TRUE
-secretservice.gov,Communication and Media Relations,TRUE
-cpd2.hud.gov,,TRUE
-drgr.hud.gov,,TRUE
-esnaps.hud.gov,,TRUE
-heros.hud.gov,,TRUE
-idis.hud.gov,,TRUE
-access.ginniemae.gov,,TRUE
-ginniemae.gov,,TRUE
-my.ginniemae.gov,,TRUE
-answers.hud.gov,,TRUE
-apps.hud.gov,,TRUE
-entp.hud.gov,,TRUE
-hudhomestore.gov,,TRUE
-hudhousingcounselors.hud.gov,,TRUE
-hudoig.gov,,TRUE
-hudapps.hud.gov,,TRUE
-hudapps2.hud.gov,,TRUE
-okta.hud.gov,,TRUE
-portalapps.hud.gov,,TRUE
-archives.huduser.gov,,TRUE
-data.hud.gov,,TRUE
-egis.hud.gov,,TRUE
-huduser.gov,,TRUE
-resources.hud.gov,,TRUE
-archives.hud.gov,,TRUE
 hud.gov,,TRUE
-akama.arc.nasa.gov,,TRUE
-asrs.arc.nasa.gov,,TRUE
-c3.ndc.nasa.gov,,TRUE
-c3rs.arc.nasa.gov,,TRUE
-ifem.larc.nasa.gov,,TRUE
-lbpw.larc.nasa.gov,,TRUE
-nari.arc.nasa.gov,,TRUE
-narwhal.arc.nasa.gov,,TRUE
-psrs.arc.nasa.gov,,TRUE
-rotorcraft.arc.nasa.gov,,TRUE
-asapdata.arc.nasa.gov,,TRUE
-asp-archive.arc.nasa.gov,,TRUE
-atcsim.nasa.gov,,TRUE
-aviationsystems.arc.nasa.gov,,TRUE
-environment.arc.nasa.gov,,TRUE
-hamradio.arc.nasa.gov,,TRUE
-historicproperties.arc.nasa.gov,,TRUE
-hsi.arc.nasa.gov,,TRUE
-human-factors.arc.nasa.gov,,TRUE
-leonid.arc.nasa.gov,,TRUE
-marsoweb.nas.nasa.gov,,TRUE
-nas.nasa.gov,,TRUE
-phenomorph.arc.nasa.gov,,TRUE
-procure.arc.nasa.gov,,TRUE
-reentry.arc.nasa.gov,,TRUE
-ti.arc.nasa.gov,,TRUE
-tpsx.arc.nasa.gov,,TRUE
-trajbrowser.arc.nasa.gov,,TRUE
-worldwind.arc.nasa.gov,,TRUE
-ftsdb.grc.nasa.gov,,TRUE
-weather.dfrc.nasa.gov,,TRUE
-aircrafticing.grc.nasa.gov,,TRUE
-cearun.grc.nasa.gov,,TRUE
-gipoc.grc.nasa.gov,,TRUE
-grc.nasa.gov,,TRUE
-netspublic.grc.nasa.gov,,TRUE
-outreachevents.grc.nasa.gov,,TRUE
-sams.grc.nasa.gov,,TRUE
-shapememory.grc.nasa.gov,,TRUE
-strs.grc.nasa.gov,,TRUE
-tfaws.nasa.gov,,TRUE
-www1.grc.nasa.gov,,TRUE
-acd-ext.gsfc.nasa.gov,,TRUE
-acd-pub.gsfc.nasa.gov,,TRUE
-ccmpp.gsfc.nasa.gov,,TRUE
-ecolloq.gsfc.nasa.gov,,TRUE
-ehpd.gsfc.nasa.gov,,TRUE
-emac.gsfc.nasa.gov,,TRUE
-etd.gsfc.nasa.gov,,TRUE
-explorers.gsfc.nasa.gov,,TRUE
-gewa.gsfc.nasa.gov,,TRUE
-giss.nasa.gov,,TRUE
-har.gsfc.nasa.gov,,TRUE
-iris.gsfc.nasa.gov,,TRUE
-istcolloq.gsfc.nasa.gov,,TRUE
-jpssmis.gsfc.nasa.gov,,TRUE
-lws-set.gsfc.nasa.gov,,TRUE
-lws.gsfc.nasa.gov,,TRUE
-mms.gsfc.nasa.gov,,TRUE
-nepp.nasa.gov,,TRUE
-partnerships.gsfc.nasa.gov,,TRUE
-rscience.gsfc.nasa.gov,,TRUE
-sbuv.gsfc.nasa.gov,,TRUE
-scicolloq.gsfc.nasa.gov,,TRUE
-science.gsfc.nasa.gov,,TRUE
-seniorfellows.gsfc.nasa.gov,,TRUE
-sites.wff.nasa.gov,,TRUE
-sma.gsfc.nasa.gov,,TRUE
-smallsat.wff.nasa.gov,,TRUE
-stp.gsfc.nasa.gov,,TRUE
-toastmasters.gsfc.nasa.gov,,TRUE
-vefi.gsfc.nasa.gov,,TRUE
-acquisition.jpl.nasa.gov,,TRUE
-ai.jpl.nasa.gov,,TRUE
-airsea.jpl.nasa.gov,,TRUE
-ao.jpl.nasa.gov,,TRUE
-atmos.jpl.nasa.gov,,TRUE
-costar.jpl.nasa.gov,,TRUE
-dartslab.jpl.nasa.gov,,TRUE
-datascience.jpl.nasa.gov,,TRUE
-dataverse.jpl.nasa.gov,,TRUE
-download.jpl.nasa.gov,,TRUE
-dst.jpl.nasa.gov,,TRUE
-earth-highlights.jpl.nasa.gov,,TRUE
-earth.jpl.nasa.gov,,TRUE
-echo.jpl.nasa.gov,,TRUE
-edrn-labcas.jpl.nasa.gov,,TRUE
-edrn.jpl.nasa.gov,,TRUE
-electrochem.jpl.nasa.gov,,TRUE
-emergency.jpl.nasa.gov,,TRUE
-explore.jpl.nasa.gov,,TRUE
-explorer1.jpl.nasa.gov,,TRUE
-gates.jpl.nasa.gov,,TRUE
-gipsyx.jpl.nasa.gov,,TRUE
-guardian.jpl.nasa.gov,,TRUE
-healpix.jpl.nasa.gov,,TRUE
-insidedlab.jpl.nasa.gov,,TRUE
-iono.jpl.nasa.gov,,TRUE
-issm.jpl.nasa.gov,,TRUE
-its-live.jpl.nasa.gov,,TRUE
-jpl.nasa.gov,,TRUE
-mark4sun.jpl.nasa.gov,,TRUE
-mcl-labcas.jpl.nasa.gov,,TRUE
-mds.jpl.nasa.gov,,TRUE
-medeng.jpl.nasa.gov,,TRUE
-mesa.jpl.nasa.gov,,TRUE
-microdevices.jpl.nasa.gov,,TRUE
-ml.jpl.nasa.gov,,TRUE
-mttc.jpl.nasa.gov,,TRUE
-mysteries.jpl.nasa.gov,,TRUE
-ndeaa.jpl.nasa.gov,,TRUE
-ott.jpl.nasa.gov,,TRUE
-parts.jpl.nasa.gov,,TRUE
-planetaryprotection.jpl.nasa.gov,,TRUE
-postdocs.jpl.nasa.gov,,TRUE
-qaexternal.jpl.nasa.gov,,TRUE
-robotics.jpl.nasa.gov,,TRUE
-science.jpl.nasa.gov,,TRUE
-sciencetalks.jpl.nasa.gov,,TRUE
-scijinks.gov,,TRUE
-sec353ext.jpl.nasa.gov,,TRUE
-space.jpl.nasa.gov,,TRUE
-spsweb.fltops.jpl.nasa.gov,,TRUE
-supplierportal.jpl.nasa.gov,,TRUE
-tmf.jpl.nasa.gov,,TRUE
-tours.jpl.nasa.gov,,TRUE
-uq.jpl.nasa.gov,,TRUE
-urban.jpl.nasa.gov,,TRUE
-voyager.jpl.nasa.gov,,TRUE
-webdisks.jpl.nasa.gov,,TRUE
-wetlands.jpl.nasa.gov,,TRUE
-women.jpl.nasa.gov,,TRUE
-analogstudies.jsc.nasa.gov,,TRUE
-ares.jsc.nasa.gov,,TRUE
-astronautappearances.nasa.gov,,TRUE
-chapea.nasa.gov,,TRUE
-curator.jsc.nasa.gov,,TRUE
-eol.jsc.nasa.gov,,TRUE
-esrs.jsc.nasa.gov,,TRUE
-frc-grants.arc.nasa.gov,,TRUE
-hvit.jsc.nasa.gov,,TRUE
-orbitaldebris.jsc.nasa.gov,,TRUE
-robotics.nasa.gov,,TRUE
-srag-msrem.jsc.nasa.gov,,TRUE
-srag.jsc.nasa.gov,,TRUE
-tsc.jsc.nasa.gov,,TRUE
-elvperf.ksc.nasa.gov,,TRUE
-extapps.ksc.nasa.gov,,TRUE
-kscweather.ksc.nasa.gov,,TRUE
-lspcountdown.ndc.nasa.gov,,TRUE
-media.ksc.nasa.gov,,TRUE
-mescforyou.ksc.nasa.gov,,TRUE
-nek.ksc.nasa.gov,,TRUE
-public.ksc.nasa.gov,,TRUE
-rocketsciencec2e.ksc.nasa.gov,,TRUE
-tdglobal.ksc.nasa.gov,,TRUE
-3dmaggs.larc.nasa.gov,,TRUE
-aab.larc.nasa.gov,,TRUE
-adt.larc.nasa.gov,,TRUE
-aero.larc.nasa.gov,,TRUE
-aeroelasticity.larc.nasa.gov,,TRUE
-aiaa-dpw.larc.nasa.gov,,TRUE
-amdsb.larc.nasa.gov,,TRUE
-ampb.larc.nasa.gov,,TRUE
-artcontest.larc.nasa.gov,,TRUE
-cloudsgate2.larc.nasa.gov,,TRUE
-colloqsigma.larc.nasa.gov,,TRUE
-commonresearchmodel.larc.nasa.gov,,TRUE
-csaob.larc.nasa.gov,,TRUE
-ddtrb.larc.nasa.gov,,TRUE
-eds.larc.nasa.gov,,TRUE
-engineering.larc.nasa.gov,,TRUE
-environmental.larc.nasa.gov,,TRUE
-eve.larc.nasa.gov,,TRUE
-flightsimulation.larc.nasa.gov,,TRUE
-fun3d.larc.nasa.gov,,TRUE
-hiliftpw.larc.nasa.gov,,TRUE
-larc-exchange.larc.nasa.gov,,TRUE
-lms.larc.nasa.gov,,TRUE
-lmse.larc.nasa.gov,,TRUE
-matb.larc.nasa.gov,,TRUE
-nbi.larc.nasa.gov,,TRUE
-nde.larc.nasa.gov,,TRUE
-nga.larc.nasa.gov,,TRUE
-odeo.larc.nasa.gov,,TRUE
-oh.larc.nasa.gov,,TRUE
-oltaris.nasa.gov,,TRUE
-overflow.larc.nasa.gov,,TRUE
-paw.larc.nasa.gov,,TRUE
-plot3dout.larc.nasa.gov,,TRUE
-researchdirectorate.larc.nasa.gov,,TRUE
-sacd.larc.nasa.gov,,TRUE
-science.larc.nasa.gov,,TRUE
-scifli.larc.nasa.gov,,TRUE
-shemesh.larc.nasa.gov,,TRUE
-spaceradiation.larc.nasa.gov,,TRUE
-stab.larc.nasa.gov,,TRUE
-stabserv.larc.nasa.gov,,TRUE
-survey.larc.nasa.gov,,TRUE
-sw-eng.larc.nasa.gov,,TRUE
-tetruss.larc.nasa.gov,,TRUE
-transitionmodeling.larc.nasa.gov,,TRUE
-turbmodels.larc.nasa.gov,,TRUE
-uqtools.larc.nasa.gov,,TRUE
-vgm.larc.nasa.gov,,TRUE
-vspu.larc.nasa.gov,,TRUE
-vulcan-cfd.larc.nasa.gov,,TRUE
-dml.msfc.nasa.gov,,TRUE
-doingbusiness.msfc.nasa.gov,,TRUE
-foia.msfc.nasa.gov,,TRUE
-hic.msfc.nasa.gov,,TRUE
-magnetograph.msfc.nasa.gov,,TRUE
-maptis.nasa.gov,,TRUE
-planetary.msfc.nasa.gov,,TRUE
-plasmasphere.nasa.gov,,TRUE
-spacescience.msfc.nasa.gov,,TRUE
-spacesounds.msfc.nasa.gov,,TRUE
-ssfl.msfc.nasa.gov,,TRUE
-swehb.nasa.gov,,TRUE
-trek.msfc.nasa.gov,,TRUE
-weather.ndc.nasa.gov,,TRUE
-xanth.nsstc.nasa.gov,,TRUE
-history.arc.nasa.gov,,TRUE
-historycollection.jsc.nasa.gov,,TRUE
-mcdc.msfc.nasa.gov,,TRUE
-my.nasa.gov,,TRUE
-plus.nasa.gov,,TRUE
-socialforms.nasa.gov,,TRUE
-oiir.hq.nasa.gov,,TRUE
-sewp.nasa.gov,,TRUE
-fireballs.ndc.nasa.gov,,TRUE
-sma.nasa.gov,,TRUE
-informal.jpl.nasa.gov,,TRUE
-msiexchange.nasa.gov,,TRUE
-stemgateway.nasa.gov,,TRUE
-jplwater.nasa.gov,,TRUE
-nodis3.gsfc.nasa.gov,,TRUE
-appel.nasa.gov,,TRUE
-llis.nasa.gov,,TRUE
-nescacademy.nasa.gov,,TRUE
-standards.nasa.gov,,TRUE
-eirb.jsc.nasa.gov,,TRUE
-satern.nasa.gov,,TRUE
-api.nasa.gov,,TRUE
-apps.nasa.gov,,TRUE
-artifacts.nasa.gov,,TRUE
-code.nasa.gov,,TRUE
-data.nasa.gov,,TRUE
-external.jsc.nasa.gov,,TRUE
-guest.nasa.gov,,TRUE
-hq.nasa.gov,,TRUE
-images.nasa.gov,,TRUE
-nasa.gov,,TRUE
-nef.nasa.gov,,TRUE
-ntrs.nasa.gov,,TRUE
-sti.nasa.gov,,TRUE
-www3.nasa.gov,,TRUE
-oig.nasa.gov,,TRUE
-above.nasa.gov,,TRUE
-access.earthdata.nasa.gov,,TRUE
-aerocenter.gsfc.nasa.gov,,TRUE
-aeronet.gsfc.nasa.gov,,TRUE
-ahed.nasa.gov,,TRUE
-airbornescience.nasa.gov,,TRUE
-airmoss.jpl.nasa.gov,,TRUE
-airquality.gsfc.nasa.gov,,TRUE
-airs.jpl.nasa.gov,,TRUE
-airsar.jpl.nasa.gov,,TRUE
-airsnrt.jpl.nasa.gov,,TRUE
-ammos.nasa.gov,,TRUE
-aos.gsfc.nasa.gov,,TRUE
-apod.nasa.gov,,TRUE
-appeears.earthdatacloud.nasa.gov,,TRUE
-appliedsciences.nasa.gov,,TRUE
-aqua.nasa.gov,,TRUE
-aria-share.jpl.nasa.gov,,TRUE
-aria.jpl.nasa.gov,,TRUE
-arthurhou.pps.eosdis.nasa.gov,,TRUE
-asd.gsfc.nasa.gov,,TRUE
-asdc.larc.nasa.gov,,TRUE
-asterweb.jpl.nasa.gov,,TRUE
-astrobiology.gsfc.nasa.gov,,TRUE
-astrobiology.nasa.gov,,TRUE
-atmosphere-imager.gsfc.nasa.gov,,TRUE
-atrain.nasa.gov,,TRUE
-aura.gsfc.nasa.gov,,TRUE
-ava.jpl.nasa.gov,,TRUE
-avdc.gsfc.nasa.gov,,TRUE
-aviris.jpl.nasa.gov,,TRUE
-avirisng.jpl.nasa.gov,,TRUE
-blackmarble.gsfc.nasa.gov,,TRUE
-bocachica.arc.nasa.gov,,TRUE
-calval.jpl.nasa.gov,,TRUE
-camp2ex.jpl.nasa.gov,,TRUE
-caps.gsfc.nasa.gov,,TRUE
-carbon.nasa.gov,,TRUE
-cats.gsfc.nasa.gov,,TRUE
-cce-datasharing.gsfc.nasa.gov,,TRUE
-cce-signin.gsfc.nasa.gov,,TRUE
-cce.nasa.gov,,TRUE
-ccmc.gsfc.nasa.gov,,TRUE
-cdaw.gsfc.nasa.gov,,TRUE
-cdaweb.gsfc.nasa.gov,,TRUE
-cddis.nasa.gov,,TRUE
-cdf.gsfc.nasa.gov,,TRUE
-ceres.larc.nasa.gov,,TRUE
-ciencia.nasa.gov,,TRUE
-cilab.gsfc.nasa.gov,,TRUE
-cl.gsfc.nasa.gov,,TRUE
-clarreo-pathfinder.larc.nasa.gov,,TRUE
-climate.nasa.gov,,TRUE
-climatekids.nasa.gov,,TRUE
-cloud-object.larc.nasa.gov,,TRUE
-cmr.earthdata.nasa.gov,,TRUE
-cmsflux.jpl.nasa.gov,,TRUE
-cneos.jpl.nasa.gov,,TRUE
-coldatomlab.jpl.nasa.gov,,TRUE
-cor.gsfc.nasa.gov,,TRUE
-cor1.gsfc.nasa.gov,,TRUE
-core2.gsfc.nasa.gov,,TRUE
-cosmicopia.gsfc.nasa.gov,,TRUE
-cpex-aw.jpl.nasa.gov,,TRUE
-cpex.jpl.nasa.gov,,TRUE
-cpl.gsfc.nasa.gov,,TRUE
-csbf.nasa.gov,,TRUE
-csdap.earthdata.nasa.gov,,TRUE
-darktarget.gsfc.nasa.gov,,TRUE
-data.giss.nasa.gov,,TRUE
-data.globe.gov,,TRUE
-data.nas.nasa.gov,,TRUE
-dataentry.globe.gov,,TRUE
-datasearch.globe.gov,,TRUE
-deltax.jpl.nasa.gov,,TRUE
-directreadout.sci.gsfc.nasa.gov,,TRUE
-disc.gsfc.nasa.gov,,TRUE
-discovery.larc.nasa.gov,,TRUE
-ds.nccs.nasa.gov,,TRUE
-earth.gov,,TRUE
-earth.gsfc.nasa.gov,,TRUE
-earthdata.nasa.gov,,TRUE
-earthobservatory.nasa.gov,,TRUE
-eclipse.gsfc.nasa.gov,,TRUE
-ecostress.jpl.nasa.gov,,TRUE
-emissivity.jpl.nasa.gov,,TRUE
-eonet.gsfc.nasa.gov,,TRUE
-eop-external.jpl.nasa.gov,,TRUE
-eospso.nasa.gov,,TRUE
-epact2.gsfc.nasa.gov,,TRUE
-epic.gsfc.nasa.gov,,TRUE
-esdpubs.nasa.gov,,TRUE
-espo.nasa.gov,,TRUE
-espoarchive.nasa.gov,,TRUE
-essp.larc.nasa.gov,,TRUE
-essp.nasa.gov,,TRUE
-esto.nasa.gov,,TRUE
-exoplanets.nasa.gov,,TRUE
-explorers.larc.nasa.gov,,TRUE
-eyes.nasa.gov,,TRUE
-fermi.gsfc.nasa.gov,,TRUE
-firms.modaps.eosdis.nasa.gov,,TRUE
-fits.gsfc.nasa.gov,,TRUE
-flightplanning.jpl.nasa.gov,,TRUE
-fluid.nccs.nasa.gov,,TRUE
-forum.earthdata.nasa.gov,,TRUE
-gammaray.nsstc.nasa.gov,,TRUE
-gcmd.earthdata.nasa.gov,,TRUE
-gcn.gsfc.nasa.gov,,TRUE
-genesis.jpl.nasa.gov,,TRUE
-giovanni.gsfc.nasa.gov,,TRUE
-gis.earthdata.nasa.gov,,TRUE
-glam1.gsfc.nasa.gov,,TRUE
-glamr.gsfc.nasa.gov,,TRUE
-gliht.gsfc.nasa.gov,,TRUE
-glihtdata.gsfc.nasa.gov,,TRUE
-globe.gov,,TRUE
-gmao.gsfc.nasa.gov,,TRUE
-gms.gsfc.nasa.gov,,TRUE
-goes-r.nsstc.nasa.gov,,TRUE
-gpm-gv.gsfc.nasa.gov,,TRUE
-gpm.nasa.gov,,TRUE
-grace.jpl.nasa.gov,,TRUE
-gracefo.jpl.nasa.gov,,TRUE
-gs671-suske.ndc.nasa.gov,,TRUE
-gulfoilspill.jpl.nasa.gov,,TRUE
-hamsr.jpl.nasa.gov,,TRUE
-harmony.earthdata.nasa.gov,,TRUE
-hdrl.gsfc.nasa.gov,,TRUE
-heasarc.gsfc.nasa.gov,,TRUE
-hec.nasa.gov,,TRUE
-heliophysicsdata.gsfc.nasa.gov,,TRUE
-herschel.jpl.nasa.gov,,TRUE
-hesl.jpl.nasa.gov,,TRUE
-hesperia.gsfc.nasa.gov,,TRUE
-hinode.msfc.nasa.gov,,TRUE
-hires.gsfc.nasa.gov,,TRUE
-hitide.podaac.earthdatacloud.nasa.gov,,TRUE
-hls.gsfc.nasa.gov,,TRUE
-honeybeenet.gsfc.nasa.gov,,TRUE
-hydronews.jpl.nasa.gov,,TRUE
-hyspiri.jpl.nasa.gov,,TRUE
-hytes.jpl.nasa.gov,,TRUE
-ice.nasa.gov,,TRUE
-icebridge.gsfc.nasa.gov,,TRUE
-icesat-2.gsfc.nasa.gov,,TRUE
-icesat.gsfc.nasa.gov,,TRUE
-ideas-digitaltwin.jpl.nasa.gov,,TRUE
-ilrs.gsfc.nasa.gov,,TRUE
-image.gsfc.nasa.gov,,TRUE
-imagine.gsfc.nasa.gov,,TRUE
-impact.earthdata.nasa.gov,,TRUE
-ipda.jpl.nasa.gov,,TRUE
-isccp.giss.nasa.gov,,TRUE
-iswa.ccmc.gsfc.nasa.gov,,TRUE
-ivscc.gsfc.nasa.gov,,TRUE
-ixpe.msfc.nasa.gov,,TRUE
-jpldataeval.jpl.nasa.gov,,TRUE
-junomag.gsfc.nasa.gov,,TRUE
-keof.jpl.nasa.gov,,TRUE
-l0dup05.larc.nasa.gov,,TRUE
-ladsweb.modaps.eosdis.nasa.gov,,TRUE
-lageos.gsfc.nasa.gov,,TRUE
-laketahoe.jpl.nasa.gov,,TRUE
-lambda.gsfc.nasa.gov,,TRUE
-lance.modaps.eosdis.nasa.gov,,TRUE
-lance.nsstc.nasa.gov,,TRUE
-landsat.gsfc.nasa.gov,,TRUE
-landsat.visibleearth.nasa.gov,,TRUE
-landscape.jpl.nasa.gov,,TRUE
-landweb.modaps.eosdis.nasa.gov,,TRUE
-largelakes.jpl.nasa.gov,,TRUE
-ldas.gsfc.nasa.gov,,TRUE
-lep-pds.gsfc.nasa.gov,,TRUE
-lidar.jpl.nasa.gov,,TRUE
-lis.gsfc.nasa.gov,,TRUE
-lisa.nasa.gov,,TRUE
-lpo-mager.gsfc.nasa.gov,,TRUE
-lpvs.gsfc.nasa.gov,,TRUE
-lst.jpl.nasa.gov,,TRUE
-lunarvolatiles.nasa.gov,,TRUE
-lvis.gsfc.nasa.gov,,TRUE
-lws.larc.nasa.gov,,TRUE
-maia-mmgis.jpl.nasa.gov,,TRUE
-maia.jpl.nasa.gov,,TRUE
-map.gsfc.nasa.gov,,TRUE
-maps.disasters.nasa.gov,,TRUE
-maps.nccs.nasa.gov,,TRUE
-mars.nasa.gov,,TRUE
-masterprojects.jpl.nasa.gov,,TRUE
-mcst.gsfc.nasa.gov,,TRUE
-methane.jpl.nasa.gov,,TRUE
-mgs-mager.gsfc.nasa.gov,,TRUE
-misr.jpl.nasa.gov,,TRUE
-mls.jpl.nasa.gov,,TRUE
-mmsvis.gsfc.nasa.gov,,TRUE
-modaps.modaps.eosdis.nasa.gov,,TRUE
-modis-images.gsfc.nasa.gov,,TRUE
-modis-land.gsfc.nasa.gov,,TRUE
-modis-snow-ice.gsfc.nasa.gov,,TRUE
-modis.gsfc.nasa.gov,,TRUE
-montepy.jpl.nasa.gov,,TRUE
-moon.nasa.gov,,TRUE
-mplnet.gsfc.nasa.gov,,TRUE
-msqs.gsfc.nasa.gov,,TRUE
-mwsci.jpl.nasa.gov,,TRUE
-mynasadata.larc.nasa.gov,,TRUE
-nahw.jpl.nasa.gov,,TRUE
-naif.jpl.nasa.gov,,TRUE
-nasaeclips.arc.nasa.gov,,TRUE
-nccs.nasa.gov,,TRUE
-ndacc.larc.nasa.gov,,TRUE
-neo-bolide.ndc.nasa.gov,,TRUE
-neo.gsfc.nasa.gov,,TRUE
-neoproperties.arc.nasa.gov,,TRUE
-newfrontiers.larc.nasa.gov,,TRUE
-nightsky.jpl.nasa.gov,,TRUE
-nssdc.gsfc.nasa.gov,,TRUE
-nuwrf.gsfc.nasa.gov,,TRUE
-observer.globe.gov,,TRUE
-ocdb.smce.nasa.gov,,TRUE
-oceancolor.gsfc.nasa.gov,,TRUE
-oceandata.sci.gsfc.nasa.gov,,TRUE
-ocov2.jpl.nasa.gov,,TRUE
-ocov3.jpl.nasa.gov,,TRUE
-omg.jpl.nasa.gov,,TRUE
-omniweb.gsfc.nasa.gov,,TRUE
-opendap.larc.nasa.gov,,TRUE
-origins-habitability.jpl.nasa.gov,,TRUE
-osdr.nasa.gov,,TRUE
-ozoneaq.gsfc.nasa.gov,,TRUE
-ozonewatch.gsfc.nasa.gov,,TRUE
-pace.gsfc.nasa.gov,,TRUE
-pandora.gsfc.nasa.gov,,TRUE
-parker.gsfc.nasa.gov,,TRUE
-pcos.gsfc.nasa.gov,,TRUE
-pds-engineering.jpl.nasa.gov,,TRUE
-pds-imaging.jpl.nasa.gov,,TRUE
-pds.nasa.gov,,TRUE
-pgda.gsfc.nasa.gov,,TRUE
-photojournal.jpl.nasa.gov,,TRUE
-phytir.jpl.nasa.gov,,TRUE
-planetary.data.nasa.gov,,TRUE
-planetarydata.jpl.nasa.gov,,TRUE
-pmmpublisher.pps.eosdis.nasa.gov,,TRUE
-podaac.jpl.nasa.gov,,TRUE
-power.larc.nasa.gov,,TRUE
-prism.jpl.nasa.gov,,TRUE
-psg.gsfc.nasa.gov,,TRUE
-psiuserregistration.ndc.nasa.gov,,TRUE
-psss.jpl.nasa.gov,,TRUE
-pwg.gsfc.nasa.gov,,TRUE
-radiojove.gsfc.nasa.gov,,TRUE
-rcmes.jpl.nasa.gov,,TRUE
-registration.pps.eosdis.nasa.gov,,TRUE
-request.hec.nasa.gov,,TRUE
-roman.gsfc.nasa.gov,,TRUE
-russellranch.jpl.nasa.gov,,TRUE
-sage.nasa.gov,,TRUE
-saltonsea.jpl.nasa.gov,,TRUE
-sbg.jpl.nasa.gov,,TRUE
-science-data.larc.nasa.gov,,TRUE
-science.data.nasa.gov,,TRUE
-science.nasa.gov,,TRUE
-sciencecareers.apps.nasa.gov,,TRUE
-sciencediscoveryengine.nasa.gov,,TRUE
-scool.larc.nasa.gov,,TRUE
-sdo.gsfc.nasa.gov,,TRUE
-seabass.gsfc.nasa.gov,,TRUE
-seadas.gsfc.nasa.gov,,TRUE
-sealevel-nexus.jpl.nasa.gov,,TRUE
-sealevel.jpl.nasa.gov,,TRUE
-sealevel.nasa.gov,,TRUE
-search.earthdata.nasa.gov,,TRUE
-seawifs.gsfc.nasa.gov,,TRUE
-seec.gsfc.nasa.gov,,TRUE
-sep.ccmc.gsfc.nasa.gov,,TRUE
-simplex.giss.nasa.gov,,TRUE
-skyview.gsfc.nasa.gov,,TRUE
-smap.jpl.nasa.gov,,TRUE
-snow.nasa.gov,,TRUE
-so2.gsfc.nasa.gov,,TRUE
-soho.nascom.nasa.gov,,TRUE
-solarscience.msfc.nasa.gov,,TRUE
-solarsystem.nasa.gov,,TRUE
-solc.gsfc.nasa.gov,,TRUE
-soma.larc.nasa.gov,,TRUE
-soto.podaac.earthdatacloud.nasa.gov,,TRUE
-space-geodesy.nasa.gov,,TRUE
-spacemath.gsfc.nasa.gov,,TRUE
-spaceplace.nasa.gov,,TRUE
-spdf.gsfc.nasa.gov,,TRUE
-spec.jpl.nasa.gov,,TRUE
-speclib.jpl.nasa.gov,,TRUE
-sscweb.gsfc.nasa.gov,,TRUE
-ssd.jpl.nasa.gov,,TRUE
-ssed.gsfc.nasa.gov,,TRUE
-sservi.nasa.gov,,TRUE
-starchild.gsfc.nasa.gov,,TRUE
-status.earthdata.nasa.gov,,TRUE
-stereo-ssc.nascom.nasa.gov,,TRUE
-stereo.gsfc.nasa.gov,,TRUE
-storm.pps.eosdis.nasa.gov,,TRUE
-subset.larc.nasa.gov,,TRUE
-sunclimate.gsfc.nasa.gov,,TRUE
-svs.gsfc.nasa.gov,,TRUE
-swift.gsfc.nasa.gov,,TRUE
-swot.jpl.nasa.gov,,TRUE
-terra.nasa.gov,,TRUE
-tes.jpl.nasa.gov,,TRUE
-thunder.jpl.nasa.gov,,TRUE
-tolnet.larc.nasa.gov,,TRUE
-towerfts.csbf.nasa.gov,,TRUE
-trek.nasa.gov,,TRUE
-trmm-fc.gsfc.nasa.gov,,TRUE
-tropicalcyclone.jpl.nasa.gov,,TRUE
-tropo.gsfc.nasa.gov,,TRUE
-uars.gsfc.nasa.gov,,TRUE
-uavsar.jpl.nasa.gov,,TRUE
-umbra.nascom.nasa.gov,,TRUE
-urs.earthdata.nasa.gov,,TRUE
-usgeo.gov,,TRUE
-vesl.jpl.nasa.gov,,TRUE
-viirsland.gsfc.nasa.gov,,TRUE
-vis.globe.gov,,TRUE
-visibleearth.nasa.gov,,TRUE
-voyager.gsfc.nasa.gov,,TRUE
-vso.nascom.nasa.gov,,TRUE
-wallops-prf.gsfc.nasa.gov,,TRUE
-webb.nasa.gov,,TRUE
-webtools.ccmc.gsfc.nasa.gov,,TRUE
-wfc3.gsfc.nasa.gov,,TRUE
-wgc.jpl.nasa.gov,,TRUE
-wgc2.jpl.nasa.gov,,TRUE
-wind.nasa.gov,,TRUE
-winvicar.jpl.nasa.gov,,TRUE
-worldview.earthdata.nasa.gov,,TRUE
-wow.jpl.nasa.gov,,TRUE
-wvs.earthdata.nasa.gov,,TRUE
-wwao.jpl.nasa.gov,,TRUE
-www-air.larc.nasa.gov,,TRUE
-www-calipso.larc.nasa.gov,,TRUE
-www-gte.larc.nasa.gov,,TRUE
-cdscc.nasa.gov,,TRUE
-deepspace.jpl.nasa.gov,,TRUE
-descanso.jpl.nasa.gov,,TRUE
-esc.gsfc.nasa.gov,,TRUE
-gdscc.nasa.gov,,TRUE
-gssr.jpl.nasa.gov,,TRUE
-humanresearchroadmap.nasa.gov,,TRUE
-ipnpr.jpl.nasa.gov,,TRUE
-mdscc.nasa.gov,,TRUE
-nlsp.nasa.gov,,TRUE
-scan-now.gsfc.nasa.gov,,TRUE
-sfa.jsc.nasa.gov,,TRUE
-three.jsc.nasa.gov,,TRUE
-homeandcity.nasa.gov,,TRUE
-invention.nasa.gov,,TRUE
-misse1.larc.nasa.gov,,TRUE
-s3vi.ndc.nasa.gov,,TRUE
-software.nasa.gov,,TRUE
-spinoff.nasa.gov,,TRUE
-technology-api.ndc.nasa.gov,,TRUE
-technology.nasa.gov,,TRUE
-techport.nasa.gov,,TRUE
-airrange.ssc.nasa.gov,,TRUE
-constructionsafety.ssc.nasa.gov,,TRUE
-searchpub.nssc.nasa.gov,,TRUE
-ssctdpub.ssc.nasa.gov,,TRUE
-sscwebpub.ssc.nasa.gov,,TRUE
+hudhomestore.gov,,TRUE
+huduser.gov,,TRUE
+answers.hud.gov,,TRUE
+hudoig.gov,,TRUE
+ginniemae.gov,,TRUE
+resources.hud.gov,,TRUE
+my.ginniemae.gov,,TRUE
+archives.huduser.gov,,TRUE
+archives.hud.gov,,TRUE
+cpd2.hud.gov,,TRUE
+data.hud.gov,,TRUE
+entp.hud.gov,,TRUE
+okta.hud.gov,,TRUE
+drgr.hud.gov,,TRUE
+hudapps.hud.gov,,TRUE
+idis.hud.gov,,TRUE
+esnaps.hud.gov,,TRUE
+portalapps.hud.gov,,TRUE
+heros.hud.gov,,TRUE
+apps.hud.gov,,TRUE
+egis.hud.gov,,TRUE
+hudapps2.hud.gov,,TRUE
+hudhousingcounselors.hud.gov,,TRUE
+access.ginniemae.gov,,TRUE
