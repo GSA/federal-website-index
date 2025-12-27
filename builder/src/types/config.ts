@@ -40,6 +40,7 @@ export enum SourceList {
   USAGOV_CLICKS_MIL = 'usagov_clicks_mil',
   SEARCH_GOV = 'search_gov',
   SEARCH_GOV_MIL = 'search_gov_mil',
+  PUBLIC_INVENTORY = 'public_inventory',
   // [SOURCE-ADD-POINT]
   // Add new source list enum here
   // SOURCE_NAME = 'source_name',
