@@ -26,6 +26,11 @@ export class PublicInventorySourceList extends AbstractSourceList {
    * @protected The updated data, with initial data mutations applied.
    */
   protected async prepare(data: DataFrame): Promise<DataFrame> {
+
+    data = data.rename("Website", "target_url");
+    data = data.rename("Agency", "agency");
+    data = data.rename("Bureau", "bureau");
+
     return data;
   }
 
