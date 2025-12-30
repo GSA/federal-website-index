@@ -75,7 +75,8 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     UsaGovClicksSourceList.loadData(),
     UsaGovClicksMilSourceList.loadData(),
     SearchGovSourceList.loadData(),
-    SearchGovMilSourceList.loadData()
+    SearchGovMilSourceList.loadData(),
+    PublicInventorySourceList.loadData(),
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // SourceNameSourceList.loadData(),
@@ -114,7 +115,8 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.USAGOV_CLICKS].sourceColumnName,
     sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
-    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName
+    sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
+    sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName
@@ -161,6 +163,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('UsaGovClicksMilSourceList', 'usagov clicks mil url list length', sourceLists[22].count()));
   analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
   analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
+  analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // analysis.push(generateAnalysisEntry('SourceNameSourceList', 'source_name url list length', sourceLists[INDEX].count()));
@@ -285,6 +288,7 @@ async function main() {
       'source_list_usagov_clicks_mil',
       'source_list_search_gov',
       'source_list_search_gov_mil',
+      'source_list_public_inventory',
       // [SOURCE-ADD-POINT]
       // Add new source list configuration here
       // 'source_list_source_name',

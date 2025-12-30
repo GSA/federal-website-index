@@ -172,6 +172,12 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: 'source_list_search_gov_mil',
     hasHeaders: true,
   },
+  [SourceList.PUBLIC_INVENTORY]: {
+    shortName: 'public_inventory',
+    sourceUrl: 'https://raw.githubusercontent.com/GSA/public-website-inventory/refs/heads/main/us-gov-public-website-inventory.csv',
+    sourceColumnName: 'source_list_public_inventory',
+    hasHeaders: true,
+  },
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // [SourceList.SOURCE_NAME]: {
