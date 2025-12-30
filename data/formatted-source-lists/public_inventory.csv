@@ -1,4 +1,4 @@
-Website,Agency,Bureau,Office,source_list_public_inventory
+target_url,agency,bureau,Office,source_list_public_inventory
 apps.bea.gov,Department of Commerce,BEA,,TRUE
 bea.gov,Department of Commerce,BEA,,TRUE
 acmt.bis.doc.gov,Department of Commerce,BIS,,TRUE
@@ -391,7 +391,7 @@ nssl.noaa.gov,Department of Commerce,NOAA,,TRUE
 ntwc.arh.noaa.gov,Department of Commerce,NOAA,,TRUE
 ntwc.ncep.noaa.gov,Department of Commerce,NOAA,,TRUE
 nweb.ngs.noaa.gov,Department of Commerce,NOAA,,TRUE
-nwrfc.noaa.gov/rfc,Department of Commerce,NOAA,,TRUE
+nwrfc.noaa.gov,Department of Commerce,NOAA,,TRUE
 nws.weather.gov,Department of Commerce,NOAA,,TRUE
 ocean.weather.gov,Department of Commerce,NOAA,,TRUE
 oceanacidification.noaa.gov,Department of Commerce,NOAA,,TRUE
@@ -552,6 +552,86 @@ tsdr.uspto.gov,Department of Commerce,USPTO,,TRUE
 ttabvue.uspto.gov,Department of Commerce,USPTO,,TRUE
 uspto.gov,Department of Commerce,USPTO,,TRUE
 www-search.uspto.gov,Department of Commerce,USPTO,,TRUE
+dhs.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of Public Affairs,TRUE
+cisa.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),Office of External Affairs,TRUE
+fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),Office of External Affairs,TRUE
+fletc.gov,Department of Homeland Security,Federal Law Enforcement Training Center (FLETC),Office of Public Affairs,TRUE
+tsa.gov,Department of Homeland Security,Transportation Security Administration (TSA),Strategic Communications and Public Affairs,TRUE
+uscis.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Office of Access and Information Services,TRUE
+uscg.mil,Department of Homeland Security,U.S. Coast Guard (USCG),Office of Public Affairs,TRUE
+cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Public Affairs,TRUE
+ice.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),Office of Public Affairs,TRUE
+secretservice.gov,Department of Homeland Security,United States Secret Service (USSS),Communication and Media Relations,TRUE
+get.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
+niccs.cisa.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
+schoolsafety.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
+apps.usfa.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),U.S. Fire Administration,TRUE
+disasterassistance.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+floodsmart.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),National Flood Insurance Program,TRUE
+hazards.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+msc.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+ready.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),Office of External Affairs,TRUE
+training.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+usfa.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),U.S. Fire Administration,TRUE
+fleta.gov,Department of Homeland Security,Federal Law Enforcement Training Accreditation (FLETA),Office of Public Affairs,TRUE
+ohss.dhs.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of Homeland Security Statistics,TRUE
+oig.dhs.gov,Department of Homeland Security,Office of Inspector General (OIG),Office of Public Affairs,TRUE
+tsaenrollmentbyidemia.tsa.dhs.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
+egov.uscis.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Office of Access and Information Services,TRUE
+e-verify.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Immigration Records and Identity Services,TRUE
+my.uscis.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Office of Access and Information Services,TRUE
+myeverify.uscis.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Immigration Records and Identity Services,TRUE
+bwt.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+careers.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Human Resources Management,TRUE
+dtops.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+esta.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+evus.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+help.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Public Affairs,TRUE
+i94.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+rulings.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+ttp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of International Affairs,TRUE
+portal.ice.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
+studyinthestates.dhs.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
+tripwire.dhs.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
+zerotrust.cyber.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
+agents.floodsmart.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),National Flood Insurance Program,TRUE
+cdp.dhs.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+firstrespondertraining.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+floodmaps.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),National Flood Insurance Program,TRUE
+go.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+nfipdirect.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),National Flood Insurance Program,TRUE
+preptoolkit.fema.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
+apfs-cloud.dhs.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of the Chief Procurement Officer,TRUE
+go.dhs.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of Public Affairs,TRUE
+juntos.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of the Chief Informaton Officer,TRUE
+myoido.dhs.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of the Immigration Detention Ombudsman,TRUE
+niem.gov,Department of Homeland Security,Headquarters (DHS HQ),Science and Technology Directorate,TRUE
+release.niem.gov,Department of Homeland Security,Headquarters (DHS HQ),Science and Technology Directorate,TRUE
+together.gov,Department of Homeland Security,Headquarters (DHS HQ),Office of the Chief Informaton Officer,TRUE
+tools.niem.gov,Department of Homeland Security,Headquarters (DHS HQ),Science and Technology Directorate,TRUE
+hotline.oig.dhs.gov,Department of Homeland Security,Office of Inspector General (OIG),Office of Public Affairs,TRUE
+safetyact.gov,Department of Homeland Security,Science and Technology (S&T),Office of Innovation and Collaboration,TRUE
+exis.tsa.dhs.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
+trip.dhs.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
+immvets.dhs.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Office of Access and Information Services,TRUE
+save.uscis.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),Immigration Records and Identity Services,TRUE
+developer.nvmc.uscg.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
+dhssans.nvmc.uscg.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
+enoad.nvmc.uscg.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
+navcen.uscg.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
+awt.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+e.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Finance,TRUE
+eallegations.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Professional Responsibility,TRUE
+erulings.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+e-safe.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+fincen105.cbp.dhs.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+iprr.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Trade,TRUE
+iprs.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Trade,TRUE
+rsp.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),Office of Field Operations,TRUE
+eserviceregistration.ice.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
+join.ice.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
+locator.ice.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
+vinelink.dhs.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
 hud.gov,Department of Housing and Urban Development,Public Affairs,,TRUE
 hudhomestore.gov,Department of Housing and Urban Development,Office of Housing,,TRUE
 huduser.gov,Department of Housing and Urban Development,Policy Development and Research,,TRUE
@@ -577,21 +657,17 @@ egis.hud.gov,Department of Housing and Urban Development,Policy Development and 
 hudapps2.hud.gov,Department of Housing and Urban Development,Office of the Chief Information Officer,,TRUE
 hudhousingcounselors.hud.gov,Department of Housing and Urban Development,Office of Housing,,TRUE
 access.ginniemae.gov,Department of Housing and Urban Development,Government National Mortgage Association,,TRUE
-3dmaggs.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 aab.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 above.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 access.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 acd-ext.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
-acd-pub.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 acquisition.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
-adt.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 aero.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 aerocenter.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 aeroelasticity.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 aeronet.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ahed.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ai.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
-aiaa-dpw.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 airbornescience.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 aircrafticing.grc.nasa.gov,National Aeronautics and Space Administration,NASA Glenn Research Center,,TRUE
 airmoss.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -602,9 +678,7 @@ airsar.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science M
 airsea.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 airsnrt.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 akama.arc.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
-amdsb.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 ammos.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-ampb.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 analogstudies.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
 ao.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 aos.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -618,7 +692,6 @@ aqua.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission
 ares.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
 aria.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 aria-share.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-artcontest.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 arthurhou.pps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 artifacts.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
 asapdata.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
@@ -633,10 +706,7 @@ astronautappearances.nasa.gov,National Aeronautics and Space Administration,NASA
 atcsim.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 atmos.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 atmosphere-imager.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-atrain.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-aura.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ava.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-avdc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 aviationsystems.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 aviris.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 avirisng.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -666,8 +736,6 @@ ciencia.nasa.gov,National Aeronautics and Space Administration,NASA Science Miss
 cilab.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 cl.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 clarreo-pathfinder.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-climate.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-climatekids.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 cloud-object.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 cloudsgate2.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 cmr.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -675,7 +743,6 @@ cmsflux.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science 
 cneos.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 code.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
 coldatomlab.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-colloqsigma.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 commonresearchmodel.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 constructionsafety.ssc.nasa.gov,National Aeronautics and Space Administration,NASA Stennis Space Center,,TRUE
 cor.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -711,7 +778,6 @@ dml.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Sp
 doingbusiness.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 download.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 ds.nccs.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-dst.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 earth.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 earth.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 earth.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
@@ -729,7 +795,6 @@ ehpd.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Sp
 eirb.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Health and Medical Officer,,TRUE
 electrochem.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 elvperf.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
-emac.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 emergency.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 emissivity.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 engineering.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
@@ -751,13 +816,10 @@ essp.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission
 esto.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 etd.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 eve.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
-exoplanets.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-explore.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 explorer1.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 explorers.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 explorers.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 extapps.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
-external.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
 eyes.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 fermi.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 fireballs.ndc.nasa.gov,National Aeronautics and Space Administration,NASA Office of Safety and Mission Assurance,,TRUE
@@ -766,8 +828,8 @@ fits.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mi
 flightplanning.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 flightsimulation.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 fluid.nccs.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-foia.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 forum.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+mmsvis.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 frc-grants.arc.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
 ftsdb.grc.nasa.gov,National Aeronautics and Space Administration,NASA Armstrong Flight Research Center,,TRUE
 fun3d.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
@@ -789,7 +851,6 @@ gliht.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science M
 glihtdata.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 globe.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 gmao.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-gms.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 goes-r.nsstc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 gpm.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 gpm-gv.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -801,36 +862,28 @@ gssr.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Space Opera
 guardian.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 guest.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
 gulfoilspill.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-hamradio.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 hamsr.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 har.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 harmony.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hdrl.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-healpix.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 heasarc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hec.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 heliophysicsdata.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-herschel.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-hesl.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hesperia.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hic.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
-hiliftpw.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 hinode.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hires.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 historicproperties.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 history.arc.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
-historycollection.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
 hitide.podaac.earthdatacloud.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hls.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 homeandcity.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
 honeybeenet.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hq.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
-hsi.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 human-factors.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 humanresearchroadmap.nasa.gov,National Aeronautics and Space Administration,NASA Space Operations Mission Directorate,,TRUE
 hvit.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
 hydronews.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-hyspiri.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 hytes.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ice.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 icebridge.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -843,11 +896,8 @@ image.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science M
 images.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,,TRUE
 imagine.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 impact.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-informal.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Office of STEM Engagement,,TRUE
 insidedlab.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 invention.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
-iono.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
-ipda.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ipnpr.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Space Operations Mission Directorate,,TRUE
 iris.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 isccp.giss.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -861,18 +911,14 @@ jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion L
 jpldataeval.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 jplwater.nasa.gov,National Aeronautics and Space Administration,NASA Office of Strategic Infrastructure,,TRUE
 jpssmis.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
-junomag.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 keof.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 kscweather.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
 l0dup05.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ladsweb.modaps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-lageos.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 laketahoe.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 lambda.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 lance.modaps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-lance.nsstc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 landsat.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-landsat.visibleearth.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 landscape.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 landweb.modaps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 larc-exchange.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
@@ -894,7 +940,6 @@ lst.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Miss
 lunarvolatiles.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 lvis.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 lws.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
-lws.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 lws-set.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 magnetograph.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 maia.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -907,7 +952,6 @@ mark4sun.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Pro
 mars.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 marsoweb.nas.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
 masterprojects.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-matb.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 mcdc.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
 mcl-labcas.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 mcst.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -915,7 +959,6 @@ mds.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsi
 mdscc.nasa.gov,National Aeronautics and Space Administration,NASA Space Operations Mission Directorate,,TRUE
 medeng.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 media.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
-mesa.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 mescforyou.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
 methane.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 mgs-mager.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -925,7 +968,6 @@ misse1.larc.nasa.gov,National Aeronautics and Space Administration,NASA Space Te
 ml.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 mls.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 mms.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
-mmsvis.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 modaps.modaps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 modis.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 modis-images.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -938,7 +980,6 @@ msiexchange.nasa.gov,National Aeronautics and Space Administration,NASA Office o
 msqs.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 mttc.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 mwsci.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-my.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
 mynasadata.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 mysteries.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 nahw.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -962,7 +1003,6 @@ nepp.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space F
 nescacademy.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Chief Engineer,,TRUE
 netspublic.grc.nasa.gov,National Aeronautics and Space Administration,NASA Glenn Research Center,,TRUE
 newfrontiers.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-nga.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 nightsky.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 nlsp.nasa.gov,National Aeronautics and Space Administration,NASA Space Operations Mission Directorate,,TRUE
 nodis3.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Administrator,,TRUE
@@ -975,7 +1015,6 @@ oceancolor.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Scie
 oceandata.sci.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ocov2.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ocov3.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-odeo.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 oh.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 oig.nasa.gov,National Aeronautics and Space Administration,NASA Office of the Inspector General,,TRUE
 oiir.hq.nasa.gov,National Aeronautics and Space Administration,NASA Office of International and Interagency Relations,,TRUE
@@ -996,32 +1035,25 @@ pandora.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science
 parker.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 partnerships.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 parts.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
-paw.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 pcos.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 pds.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 pds-engineering.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 pds-imaging.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 pgda.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 phenomorph.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
-photojournal.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-phytir.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-planetary.data.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 planetary.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 planetarydata.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 planetaryprotection.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 plasmasphere.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
-plot3dout.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 plus.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
 pmmpublisher.pps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 podaac.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 postdocs.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 power.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-prism.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-procure.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
+psss.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 psg.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 psiuserregistration.ndc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 psrs.arc.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
-psss.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 public.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
 pwg.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 qaexternal.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
@@ -1033,7 +1065,6 @@ request.hec.nasa.gov,National Aeronautics and Space Administration,NASA Science 
 researchdirectorate.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 robotics.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 robotics.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
-rocketsciencec2e.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
 roman.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 rotorcraft.arc.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
 rscience.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
@@ -1058,7 +1089,6 @@ science-data.larc.nasa.gov,National Aeronautics and Space Administration,NASA Sc
 sciencediscoveryengine.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sciencetalks.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 scifli.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
-scijinks.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 scool.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sdo.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 seabass.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -1071,7 +1101,6 @@ searchpub.nssc.nasa.gov,National Aeronautics and Space Administration,NASA Stenn
 seawifs.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sec353ext.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 seec.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-seniorfellows.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 sep.ccmc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sewp.nasa.gov,National Aeronautics and Space Administration,NASA Office of Procurement,,TRUE
 sfa.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Space Operations Mission Directorate,,TRUE
@@ -1086,20 +1115,17 @@ smallsat.wff.nasa.gov,National Aeronautics and Space Administration,NASA Goddard
 smap.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 snow.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 so2.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-socialforms.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
 software.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
 soho.nascom.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 solarscience.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 solarsystem.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 solc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 soma.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-soto.podaac.earthdatacloud.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 space.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 space-geodesy.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 spacemath.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 spaceplace.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 spaceradiation.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
-spacescience.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 spacesounds.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 spdf.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 spec.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -1112,7 +1138,6 @@ ssctdpub.ssc.nasa.gov,National Aeronautics and Space Administration,NASA Stennis
 sscweb.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sscwebpub.ssc.nasa.gov,National Aeronautics and Space Administration,NASA Stennis Space Center,,TRUE
 ssd.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-ssed.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 sservi.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 ssfl.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 stab.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
@@ -1128,7 +1153,6 @@ storm.pps.eosdis.nasa.gov,National Aeronautics and Space Administration,NASA Sci
 stp.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 strs.grc.nasa.gov,National Aeronautics and Space Administration,NASA Glenn Research Center,,TRUE
 subset.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-sunclimate.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 supplierportal.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 survey.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 svs.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -1138,7 +1162,6 @@ swift.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science M
 swot.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 tdglobal.ksc.nasa.gov,National Aeronautics and Space Administration,NASA Kennedy Space Center,,TRUE
 technology.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
-technology-api.ndc.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
 techport.nasa.gov,National Aeronautics and Space Administration,NASA Space Technology Mission Directorate,,TRUE
 terra.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 tes.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -1157,6 +1180,7 @@ trajbrowser.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames
 transitionmodeling.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 trek.msfc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
 trek.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+trmm.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 trmm-fc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 tropicalcyclone.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 tropo.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
@@ -1172,12 +1196,10 @@ urs.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Scienc
 usgeo.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 vefi.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Goddard Space Flight Center,,TRUE
 vesl.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-vgm.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 viirsland.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 vis.globe.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 visibleearth.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 voyager.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-voyager.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 vso.nascom.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 vspu.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
 vulcan-cfd.larc.nasa.gov,National Aeronautics and Space Administration,NASA Langley Research Center,,TRUE
@@ -1187,12 +1209,9 @@ weather.ndc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall
 webb.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 webdisks.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 webtools.ccmc.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-wetlands.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
-wfc3.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 wgc.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 wgc2.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 wind.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-winvicar.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 women.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Jet Propulsion Laboratory,,TRUE
 worldview.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 worldwind.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
@@ -1204,87 +1223,36 @@ www3.nasa.gov,National Aeronautics and Space Administration,NASA Office of the C
 www-air.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 www-calipso.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
 www-gte.larc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
-xanth.nsstc.nasa.gov,National Aeronautics and Space Administration,NASA Marshall Space Flight Center,,TRUE
-DHS.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-CISA.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-FLETC.gov,Department of Homeland Security,Federal Law Enforcement Training Center (FLETC),,TRUE
-TSA.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
-USCIS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-USCG.mil,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
-CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-ICE.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-SecretService.gov,Department of Homeland Security,United States Secret Service (USSS),,TRUE
-Get.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-niccs.CISA.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-SchoolSafety.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-apps.USFA.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-DisasterAssistance.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-FloodSmart.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-hazards.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-msc.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-Ready.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-training.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-USFA.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-FLETA.gov,Department of Homeland Security,Federal Law Enforcement Training Accreditation (FLETA),,TRUE
-OHSS.DHS.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-OIG.DHS.gov,Department of Homeland Security,Office of Inspector General (OIG),,TRUE
-tsaenrollmentbyidemia.TSA.DHS.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
-eGov.USCIS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-E-Verify.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-my.USCIS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-myEVerify.USCIS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-BWT.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-careers.cbp.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-DTOPS.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-ESTA.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-EVUS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-help.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-i94.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-rulings.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-TTP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-portal.ICE.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-StudyintheStates.DHS.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-TRIPWire.DHS.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-ZeroTrust.Cyber.gov,Department of Homeland Security,Cybersecurity and Infrastructure Security Agency (CISA),,TRUE
-agents.FloodSmart.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-CDP.DHS.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-FirstResponderTraining.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-FloodMaps.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-GO.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-NFIPDirect.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-PrepToolkit.FEMA.gov,Department of Homeland Security,Federal Emergency Management Agency (FEMA),,TRUE
-sass.FLETC.DHS.gov,Department of Homeland Security,Federal Law Enforcement Training Center (FLETC),,TRUE
-APFS-Cloud.DHS.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-go.DHS.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-Juntos.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-myOIDO.DHS.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-NIEM.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-release.NIEM.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-Together.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-tools.NIEM.gov,Department of Homeland Security,Headquarters (DHS HQ),,TRUE
-Hotline.OIG.DHS.gov,Department of Homeland Security,Office of Inspector General (OIG),,TRUE
-SAFETYAct.gov,Department of Homeland Security,Science and Technology (S&T),,TRUE
-EXIS.TSA.DHS.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
-TRIP.DHS.gov,Department of Homeland Security,Transportation Security Administration (TSA),,TRUE
-immvets.DHS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-SAVE.USCIS.gov,Department of Homeland Security,U.S. Citizenship and Immigration Services (USCIS),,TRUE
-developer.NVMC.USCG.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
-dhssans.NVMC.USCG.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
-enoad.NVMC.USCG.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
-NavCen.USCG.gov,Department of Homeland Security,U.S. Coast Guard (USCG),,TRUE
-awt.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-e.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-eAllegations.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-eRulings.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-e-safe.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-FinCEN105.CBP.DHS.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-IPRR.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-IPRS.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-rsp.CBP.gov,Department of Homeland Security,U.S. Customs and Border Protection (CBP),,TRUE
-eServiceRegistration.ICE.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-IPRCenter.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-join.ICE.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-locator.ICE.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-VINELink.DHS.gov,Department of Homeland Security,U.S. Immigration and Customs Enforcement (ICE),,TRUE
-CPNIReporting.gov,Department of Homeland Security,United States Secret Service (USSS),,TRUE
+planetary.data.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+my.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
+soto.podaac.earthdatacloud.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+ipda.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+astrogeo.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+gdc.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+hesto.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+satcorps.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+fire.eis.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+freshwater.eis.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+sealevel.eis.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+power.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+czbast.czdt.smce.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+pal.hq.nasa.gov,National Aeronautics and Space Administration,NASA Office of Communications,,TRUE
+taskbook.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+asrsdbol.arc.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
+drf.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
+services.drf.nasa.gov,National Aeronautics and Space Administration,NASA Aeronautics Research Mission Directorate,,TRUE
+els2020.arc.nasa.gov,National Aeronautics and Space Administration,NASA Ames Research Center,,TRUE
+eroteamdirectory.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
+handbook.appdat.jsc.nasa.gov,National Aeronautics and Space Administration,NASA Johnson Space Center,,TRUE
+floodmapping.gsfc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+gcn.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+graphql.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+helio.data.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+openaltimetry.earthdatacloud.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+opendap.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+pub.earthdata.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+sealevel-dataservices.jpl.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+sservi-apollo.arc.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+visualization.genelab.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
+visualization.osdr.nasa.gov,National Aeronautics and Space Administration,NASA Science Mission Directorate,,TRUE
