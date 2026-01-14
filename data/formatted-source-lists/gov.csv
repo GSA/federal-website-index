@@ -1,20 +1,20 @@
 target_url,branch,bureau,Suborganization name,source_list_federal_domains
-acus.gov,Executive,Administrative Conference of the United States,Administrative Conference of the United States,TRUE
-achp.gov,Executive,Advisory Council on Historic Preservation,Advisory Council on Historic Preservation,TRUE
-preserveamerica.gov,Executive,Advisory Council on Historic Preservation,Advisory Council on Historic Preservation,TRUE
+acus.gov,Executive,Administrative Conference of the United States,,TRUE
+achp.gov,Executive,Advisory Council on Historic Preservation,,TRUE
+preserveamerica.gov,Executive,Advisory Council on Historic Preservation,,TRUE
 abmc.gov,Executive,American Battle Monuments Commission,,TRUE
 amtrakoig.gov,Executive,AMTRAK,Office of Inspector General,TRUE
-arc.gov,Executive,Appalachian Regional Commission,Appalachian Regional Commission,TRUE
+arc.gov,Executive,Appalachian Regional Commission,,TRUE
 asc.gov,Executive,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,Appraisal Subcommittee,TRUE
-afrh.gov,Executive,Armed Forces Retirement Home,Armed Forces Retirement Home,TRUE
+afrh.gov,Executive,Armed Forces Retirement Home,,TRUE
 goldwaterscholarship.gov,Executive,Barry Goldwater Scholarship and Excellence in Education Foundation,,TRUE
-cia.gov,Executive,Central Intelligence Agency*,,TRUE
-ic.gov,Executive,Central Intelligence Agency*,,TRUE
-istac.gov,Executive,Central Intelligence Agency*,,TRUE
-odci.gov,Executive,Central Intelligence Agency*,,TRUE
-opensource.gov,Executive,Central Intelligence Agency*,,TRUE
-osde.gov,Executive,Central Intelligence Agency*,,TRUE
-ucia.gov,Executive,Central Intelligence Agency*,,TRUE
+cia.gov,Executive,Central Intelligence Agency,,TRUE
+ic.gov,Executive,Central Intelligence Agency,,TRUE
+istac.gov,Executive,Central Intelligence Agency,,TRUE
+odci.gov,Executive,Central Intelligence Agency,,TRUE
+opensource.gov,Executive,Central Intelligence Agency,,TRUE
+osde.gov,Executive,Central Intelligence Agency,,TRUE
+ucia.gov,Executive,Central Intelligence Agency,,TRUE
 coldcaserecords.gov,Executive,Civil Rights Cold Case Records Review Board,Civil Rights Cold Case Records Review Board,TRUE
 cftc.gov,Executive,Commodity Futures Trading Commission,,TRUE
 devcftc.gov,Executive,Commodity Futures Trading Commission,,TRUE
@@ -62,8 +62,8 @@ csosa.gov,Executive,Court Services and Offender Supervision Agency,Office of inf
 pretrialservices.gov,Executive,Court Services and Offender Supervision Agency,Pretrial Services Agency for the District of Columbia,TRUE
 psa.gov,Executive,Court Services and Offender Supervision Agency,Court Services and Offender Supervision Agency,TRUE
 dnfsb.gov,Executive,Defense Nuclear Facilities Safety Board,Defense Nuclear Facilities Safety Board,TRUE
-dra.gov,Executive,Delta Regional Authority,Delta Regional Authority,TRUE
-denali.gov,Executive,Denali Commission,Denali Commission,TRUE
+dra.gov,Executive,Delta Regional Authority,,TRUE
+denali.gov,Executive,Denali Commission,,TRUE
 aiexports.gov,Executive,Department of Commerce,,TRUE
 ap.gov,Executive,Department of Commerce,Bureau of Industry and Security,TRUE
 aviationweather.gov,Executive,Department of Commerce,National Oceanic and Atmospheric Administration,TRUE
@@ -772,6 +772,7 @@ deregulation.gov,Executive,Executive Office of the President,Department of Gover
 doge.gov,Executive,Executive Office of the President,Department of Government Efficiency,TRUE
 earmarks.gov,Executive,Executive Office of the President,Office of Management and Budget,TRUE
 eop.gov,Executive,Executive Office of the President,Office of Administration,TRUE
+greathealthcare.gov,Executive,Executive Office of the President,White House Office,TRUE
 itrd.gov,Executive,Executive Office of the President,Office of Science and Technology Policy,TRUE
 maha.gov,Executive,Executive Office of the President,White House Office,TRUE
 max.gov,Executive,Executive Office of the President,Office of Management and Budget,TRUE
@@ -780,6 +781,7 @@ nano.gov,Executive,Executive Office of the President,Office of Science and Techn
 nds.gov,Executive,Executive Office of the President,White House Office,TRUE
 ndstudio.gov,Executive,Executive Office of the President,White House Office,TRUE
 nepa.gov,Executive,Executive Office of the President,Council on Environmental Quality,TRUE
+nitrd.gov,Executive,Executive Office of the President,Office of Science and Technology Policy,TRUE
 omb.gov,Executive,Executive Office of the President,Office of Management and Budget,TRUE
 ondcp.gov,Executive,Executive Office of the President,Office of National Drug Control Policy,TRUE
 ostp.gov,Executive,Executive Office of the President,Office of Science and Technology Policy,TRUE
@@ -801,7 +803,7 @@ whes.gov,Executive,Executive Office of the President,,TRUE
 wh.gov,Executive,Executive Office of the President,White House Office,TRUE
 whitehouse.gov,Executive,Executive Office of the President,White House Office,TRUE
 whms.gov,Executive,Executive Office of the President,,TRUE
-exim.gov,Executive,Export-Import Bank of the United States,Export-Import Bank of the United States,TRUE
+exim.gov,Executive,Export-Import Bank of the United States,,TRUE
 fca.gov,Executive,Farm Credit Administration,Office of Information Technology,TRUE
 fcsic.gov,Executive,Farm Credit Administration,Farm Credit System Insurance Corporation,TRUE
 accedeainternet.gov,Executive,Federal Communications Commission,,TRUE
@@ -1040,7 +1042,7 @@ arts.gov,Executive,National Endowment for the Arts,Office of Information and Tec
 nea.gov,Executive,National Endowment for the Arts,Office of Information and Technology Management,TRUE
 humanities.gov,Executive,National Endowment for the Humanities,Office of Information Resources Management,TRUE
 neh.gov,Executive,National Endowment for the Humanities,Office of Information Resources Management,TRUE
-nga.gov,Executive,National Gallery of Art,National Gallery of Art,TRUE
+nga.gov,Executive,National Gallery of Art,,TRUE
 nigc.gov,Executive,National Indian Gaming Commission,National Indian Gaming Commision,TRUE
 nlrb.gov,Executive,National Labor Relations Board,National Labor Relations Board,TRUE
 nmb.gov,Executive,National Mediation Board,National Mediation Board,TRUE
@@ -1051,7 +1053,6 @@ sac.gov,Executive,National Science Foundation,Small Agency Council,TRUE
 usap.gov,Executive,National Science Foundation,"National Science Foundation, Office of Polar Programs",TRUE
 nscai.gov,Executive,National Security Commission on Artificial Intelligence,National Security Commission on Artificial Intelligence,TRUE
 ntsb.gov,Executive,National Transportation Safety Board,National Transportation Safety Board,TRUE
-nitrd.gov,Executive,Executive Office of the President,Office of Science and Technology Policy,TRUE
 nbrc.gov,Executive,Northern Border Regional Commission,Northern Border Regional Commission,TRUE
 nrc-gateway.gov,Executive,Nuclear Regulatory Commission,Nuclear Regulatory Commission,TRUE
 nrc.gov,Executive,Nuclear Regulatory Commission,Nuclear Regulatory Commission,TRUE
@@ -1311,7 +1312,7 @@ lda.gov,Legislative,United States Senate,,TRUE
 senate.gov,Legislative,United States Senate,,TRUE
 sen.gov,Legislative,United States Senate,,TRUE
 whdpc.gov,Legislative,Western Hemisphere Drug Policy Commission,Western Hemisphere Drug Policy Commission,TRUE
-adams.gov,Legislative,Adams Memorial Commission,Adams Memorial Commission,TRUE
+adams.gov,Legislative,Adams Memorial Commission,,TRUE
 assistantdemocraticleader.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
 cecc.gov,Legislative,United States House of Representatives,Congressional-Executive Commission on China,TRUE
 china-commission.gov,Legislative,United States House of Representatives,Congressional-Executive Commission on China,TRUE
