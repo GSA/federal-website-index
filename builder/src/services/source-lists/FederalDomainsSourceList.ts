@@ -34,8 +34,8 @@ export class FederalDomainsSourceList extends AbstractSourceList {
     // Rename Columns for Standardization
     data = data.rename("Domain name", "target_url");
     data = data.rename("Domain type", "branch");
-    data = data.rename("Agency", "agency");
-    data = data.rename("Organization name", "bureau");
+    data = data.rename("Organization name", "agency");
+    data = data.rename("Suborganization name", "bureau");
 
     // Strip 'Federal - ' from the beginning of the branch names
     //@ts-ignore
@@ -45,5 +45,4 @@ export class FederalDomainsSourceList extends AbstractSourceList {
 
     return data;
   }
-
 }
