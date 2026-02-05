@@ -19,17 +19,17 @@ Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,21915
 Dod2025SourceList,DOD 2025 url list length,1924
-Dap2SourceList,dap2 url list length,11070
+Dap2SourceList,dap2 url list length,10993
 UsaGovClicksSourceList,usagov clicks url list length,8460
 UsaGovClicksMilSourceList,usagov clicks mil url list length,1281
 SearchGovSourceList,search gov url list length,1075
 SearchGovMilSourceList,search gov mil url list length,394
 PublicInventorySourceList,public inventory url list length,1257
-Combined,combined url list length,129212
-Deduped,deduped url list length,48064
-Ignored,urls marked as filtered based on beginning/contains,6072
+Combined,combined url list length,129135
+Deduped,deduped url list length,48031
+Ignored,urls marked as filtered based on beginning/contains,6069
 GovDomains,number of .gov base domains,1344
 MilDomains,number of .mil base domains,177
-GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,11357
-FinalList,url list length after non-federal urls removed,36707
-DeadSites,number of urls after dead sites removed,31303
+GovMilNonMatching,number of urls with non-.gov or non-.mil base domains removed,11333
+FinalList,url list length after non-federal urls removed,36698
+DeadSites,number of urls after dead sites removed,31294
