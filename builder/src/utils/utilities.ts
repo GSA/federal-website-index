@@ -7,7 +7,7 @@ import { AnalysisValue, SourceList } from "../types/config";
  * @param name The name of the analysis entry.
  * @param value The value of the analysis entry.
  * @param count The count of the analysis entry.
- * @returns 
+ * @returns
  */
 export function generateAnalysisEntry(name: string, value: string, count: number): AnalysisValue {
   return {
@@ -18,17 +18,17 @@ export function generateAnalysisEntry(name: string, value: string, count: number
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to remove the www from.
  * @returns The URL with the www removed.
  */
 function removeWwwFromUrl(url: string): string {
   // remove www. from the beginning of the url
-  return url.replace(/^www\./, '');  
+  return url.replace(/^www\./, '');
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to remove the protocol from.
  * @returns The URL with the protocol removed.
  */
@@ -37,7 +37,7 @@ function removeProtocolFromUrl(url: string): string {
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to remove the path from.
  * @returns The URL with the path removed.
  */
@@ -46,7 +46,7 @@ function removePathFromUrl(url: string): string {
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to convert to lowercase.
  * @returns The URL in lowercase.
  */
@@ -55,7 +55,7 @@ function urlToLowercase(url: string): string {
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to extract the base domain from.
  * @returns The base domain extracted from the URL.
  */
@@ -65,7 +65,7 @@ export function extractBaseDomainFromUrl(url: string): string {
 }
 
 /**
- * 
+ *
  * @param url The URL that you would like to extract the TLD from.
  * @returns The TLD extracted from the URL.
  */
@@ -75,7 +75,7 @@ export function extractTLDFromUrl(url: string): string {
 }
 
 /**
- * 
+ *
  * @param sourceLists The DataFrames that you would like to ensure have the same column names.
  * @param columnNames The column names that you would like to ensure are in each DataFrame.
  * @returns The sourceList dataframes with consistent column names.
@@ -92,7 +92,7 @@ export function ensureColumnNames(sourceLists: DataFrame[], columnNames: string[
 }
 
 /**
- * 
+ *
  * @param sourceLists The DataFrames that you would like to get the full column name list from.
  * @returns A list of all the column names from all the DataFrames.
  */
@@ -105,7 +105,7 @@ export function fullColumnNameList(sourceLists: DataFrame[]): string[] {
 }
 
 /**
- * 
+ *
  * @param sourceLists The dataframes that you would like to union together. They must have the same columns.
  * @returns A dataframe that is the union of all the source lists.
  */
@@ -118,7 +118,7 @@ export function unionSourceLists(sourceLists: DataFrame[]): DataFrame {
 }
 
 /**
- * 
+ *
  * @param sourceDataFrame The DataFrame that you would like to clean the target URLs for.
  * @returns The DataFrame with the target URLs cleaned.
  */
@@ -209,7 +209,7 @@ export function mergeOmbIdeaInfo(allSites: DataFrame, sourceDf: DataFrame): Data
 };
 
 /**
- * 
+ *
  * @param allSites The DataFrame that you would like to merge the DapTopList data into.
  * @param dapTopList The DataFrame that contains the DapTopList data.
  * @returns The allSites DataFrame with the DapTopList data merged in.
@@ -241,7 +241,7 @@ export function mergeDapTopListDataframe(allSites: DataFrame, dapTopList: DataFr
 }
 
 /**
- * 
+ *
  * @param allSites The DataFrame that you would like to deduplicate the site list for.
  * @returns The DataFrame with the site list deduplicated.
  */
@@ -314,7 +314,7 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
   otherColumns.toArray().forEach(row => {
       const targetUrl = row[0];  // target_url is the first column in each row
       const aggregatedRow = groupedData[targetUrl];
-      
+
       // Combine the non-source columns with the aggregated boolean columns
       // If we find a match in groupedData, combine the rows
       if (aggregatedRow) {
@@ -333,56 +333,71 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
 }
 
 /**
- * 
- * @param allSites The DataFrame that you would like to remove non-government and non-military sites from.
+ * This function will tag government and military sites in the allSites DataFrame
+ * and return both the gov/mil sites and the non-gov/non-mil sites that were filtered out.
+ * @param allSites The DataFrame that you would like to filter for government and military sites.
  * @param milDomains The DataFrame that contains the military domains.
  * @param govDomains The DataFrame that contains the government domains.
- * @returns The DataFrame with non-government and non-military sites removed.
+ * @returns An object containing two DataFrames: validSites (gov/mil sites) and filteredOutSites (non-gov/non-mil sites).
  */
-export function removeNonGovNonMilSites(allSites: DataFrame, milDomains: DataFrame, govDomains: DataFrame): DataFrame {
+export function removeNonGovNonMilSites(
+  allSites: DataFrame,
+  milDomains: DataFrame,
+  govDomains: DataFrame
+): { validSites: DataFrame; filteredOutSites: DataFrame } {
   const milBaseUrls = new Set(milDomains.select("target_url").toArray().map(row => row[0]));
   const govBaseUrls = new Set(govDomains.select("target_url").toArray().map(row => row[0]));
 
   //@ts-ignore
-  allSites = allSites.withColumn('is_gov', (row) => {
+  let taggedSites = allSites.withColumn('is_gov', (row) => {
     return govBaseUrls.has(row.get('base_domain').trim());
   });
   //@ts-ignore
-  allSites = allSites.withColumn('is_mil', (row) => {
+  taggedSites = taggedSites.withColumn('is_mil', (row) => {
     return milBaseUrls.has(row.get('base_domain').trim());
   });
 
   //@ts-ignore
-  allSites = allSites.filter(row => row.get('is_gov') || row.get('is_mil'));
-  allSites = allSites.drop('is_gov');
-  allSites = allSites.drop('is_mil');
+  const validSites = taggedSites.filter((row) => row.get('is_gov') || row.get('is_mil'))
+    .drop('is_gov')
+    .drop('is_mil');
 
-  return allSites;
+  //@ts-ignore
+  const filteredOutSites = taggedSites.filter((row) => !row.get('is_gov') && !row.get('is_mil'))
+    .drop('is_gov')
+    .drop('is_mil');
+
+  return { validSites, filteredOutSites };
 }
 
 /**
- * 
- * @param allSites The DataFrame that you would like to remove dead sites from.
+ * This function will tag dead sites in the allSites DataFrame and return both
+ * the valid sites and the dead sites that were filtered out.
+ * @param allSites The DataFrame that you would like to filter dead sites from.
  * @param deadSites The DataFrame that contains the dead sites.
- * @returns The DataFrame with the dead sites removed.
+ * @returns An object containing two DataFrames: validSites (live sites) and deadSites (filtered dead sites).
  */
-export function removeDeadSites(allSites: DataFrame, deadSites: DataFrame): DataFrame {
-  const deadUrls = new Set(deadSites.select("initial_domain").toArray().map(row => row[0]));
+export function removeDeadSites(
+  allSites: DataFrame,
+  deadSitesList: DataFrame
+): { validSites: DataFrame; filteredOutSites: DataFrame } {
+  const deadUrls = new Set(deadSitesList.select("initial_domain").toArray().map(row => row[0]));
 
   //@ts-ignore
-  allSites = allSites.withColumn('is_dead', (row) => {
+  const taggedSites = allSites.withColumn('is_dead', (row) => {
     return deadUrls.has(row.get('target_url').trim());
   });
 
   //@ts-ignore
-  allSites = allSites.filter(row => !row.get('is_dead'));
-  allSites = allSites.drop('is_dead');
+  const validSites = taggedSites.filter((row) => !row.get('is_dead')).drop('is_dead');
+  //@ts-ignore
+  const filteredOutSites = taggedSites.filter((row) => row.get('is_dead')).drop('is_dead');
 
-  return allSites;
+  return { validSites, filteredOutSites };
 }
 
 /**
- * 
+ *
  * This function will check if the url contains any of the strings in the containsSet that are surrounded by non-word characters.
  * @param url The URL that you would like to check for the presence of a string in.
  * @param containsSet A set of strings that you would like to check for in the URL.
@@ -400,7 +415,7 @@ export function urlContainsCheck(url: string, containsSet: Set<any>): boolean {
 }
 
 /**
- * 
+ *
  * This function will check if the url starts with any of the strings in the startsWithSet.
  * @param url The URL that you would like to check for the presence of a string in.
  * @param startsWithSet A set of strings that you would like to check for in the URL.
@@ -416,23 +431,34 @@ export function startsWithCheck(url: string, startsWithSet: Set<any>): boolean {
   return false;
 }
 
+
 /**
- * 
- * This function will tag the sites in the allSites DataFrame based on the ignore lists.
- * @param allSites The DataFrame that you would like to remove sites from based on the ignore lists.
+ * This function will tag the sites in the allSites DataFrame based on the ignore lists
+ * and return both the filtered results and the excluded results.
+ * @param allSites The DataFrame that you would like to filter based on the ignore lists.
  * @param containsDf The DataFrame that contains the strings that the URL contains between non-word characters.
  * @param startsWithDf The DataFrame that contains the strings that the URL starts with.
- * @returns The DataFrame with the sites removed based on the ignore lists.
+ * @returns An object containing two DataFrames: validSites (passed filters) and filteredOutSites (failed filters).
  */
-export function tagIgnoreListSites(allSites: DataFrame, containsDf: DataFrame, startsWithDf: DataFrame): DataFrame {
+export function tagIgnoreListSites(
+  allSites: DataFrame,
+  containsDf: DataFrame,
+  startsWithDf: DataFrame
+): { validSites: DataFrame; filteredOutSites: DataFrame } {
   const startsWithStrings = new Set(startsWithDf.select("URL begins with:").toArray().map(row => row[0]));
   const containsStrings = new Set(containsDf.select("URL contains between non-word characters:").toArray().map(row => row[0]));
+
   //@ts-ignore
-  allSites = allSites.withColumn('filtered', (row) => {
+  const taggedSites = allSites.withColumn('filtered', (row) => {
     const startsWithMatch = startsWithCheck(row.get('target_url'), startsWithStrings);
     const containsMatch = urlContainsCheck(row.get('target_url'), containsStrings);
     return startsWithMatch || containsMatch;
   });
-  
-  return allSites;
+
+  //@ts-ignore
+  const validSites = taggedSites.filter((row) => !row.get('filtered'));
+  //@ts-ignore
+  const filteredOutSites = taggedSites.filter((row) => row.get('filtered'));
+
+  return { validSites, filteredOutSites };
 }

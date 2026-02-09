@@ -28,11 +28,11 @@ import { PublicInventorySourceList } from 'services/source-lists/PublicInventory
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
-import { 
+import {
   deduplicateSiteList,
   extractBaseDomainFromUrl,
   extractTLDFromUrl,
-  mergeUrlInfo, 
+  mergeUrlInfo,
   removeNonGovNonMilSites,
   tagIgnoreListSites,
   unionSourceLists,
@@ -85,7 +85,7 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
 }
 
 /**
- * 
+ *
  * @param allSites The DataFrame that you would like to set the default values for the source list columns.
  * @returns A DataFrame with the default values set for the source list columns.
  */
@@ -182,7 +182,7 @@ async function main() {
   allSites = setSourceListColumnDefaults(allSites);
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-union.csv'));
   analysis.push(generateAnalysisEntry('Combined', 'combined url list length', allSites.count()));
-  
+
   // Drop duplicates
   console.log("Deduplicating target URLs...");
   allSites = deduplicateSiteList(allSites);
@@ -226,19 +226,23 @@ async function main() {
   console.log("Tagging sites based on ignore list...");
   const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
-  allSites = tagIgnoreListSites(allSites, containsDf, beginsDf);
-  analysis.push(generateAnalysisEntry('Ignored', 'urls marked as filtered based on beginning/contains', allSites.countValue(true, 'filtered') ));
+  const { validSites: sitesAfterIgnoreList, filteredOutSites: ignoredSites } = tagIgnoreListSites(allSites, containsDf, beginsDf);
+  analysis.push(generateAnalysisEntry('Ignored', 'urls marked as filtered based on beginning/contains', ignoredSites.count()));
+  allSites = sitesAfterIgnoreList;
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter.csv'));
+  ignoredSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter-removed.csv'));
 
   // Filter out all non .gov and .mil sites
   console.log("Filtering out non .gov and .mil sites...");
   const countBefore = allSites.count();
-  allSites = removeNonGovNonMilSites(allSites, milDomains, sourceLists[0]);
+  const { validSites: govMilSites, filteredOutSites: nonGovMilSites } = removeNonGovNonMilSites(allSites, milDomains, sourceLists[0]);
+  allSites = govMilSites;
   analysis.push(generateAnalysisEntry('GovDomains', 'number of .gov base domains', sourceLists[0].count() ));
   analysis.push(generateAnalysisEntry('MilDomains', 'number of .mil base domains', milDomains.count() ));
   analysis.push(generateAnalysisEntry('GovMilNonMatching', 'number of urls with non-.gov or non-.mil base domains removed', countBefore-allSites.count() ));
   analysis.push(generateAnalysisEntry('FinalList', 'url list length after non-federal urls removed', allSites.count() ));
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter.csv'));
+  nonGovMilSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter-removed.csv'));
 
   // Merge in DAP top list data
   console.log("Merging in DAP top list data...");
@@ -249,9 +253,11 @@ async function main() {
   // Remove sites from the dead-sites list
   console.log("Removing dead sites...");
   const deadSitesDf = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/federal-website-index/refs/heads/main/criteria/suspected-dead-sites.csv');
-  allSites = removeDeadSites(allSites, deadSitesDf);
+  const {validSites: liveSites, filteredOutSites: deadSites } = removeDeadSites(allSites, deadSitesDf);
+  allSites = liveSites;
   analysis.push(generateAnalysisEntry('DeadSites', 'number of urls after dead sites removed', allSites.count() ));
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-dead-sites-filter.csv'));
+  deadSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-dead-sites-filter-removed.csv'));
 
   // Reorder the columns
   console.log("Reordering columns...");
@@ -292,7 +298,6 @@ async function main() {
       // [SOURCE-ADD-POINT]
       // Add new source list configuration here
       // 'source_list_source_name',
-      'filtered',
       'pageviews',
       'visits'
     ]
