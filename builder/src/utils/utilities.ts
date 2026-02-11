@@ -442,32 +442,24 @@ export function startsWithCheck(url: string, startsWithSet: Set<any>): boolean {
 
 
 /**
- * This function will tag the sites in the allSites DataFrame based on the ignore lists
- * and return both the filtered results and the excluded results.
+ * This function will tag the sites in the allSites DataFrame based on the ignore lists.
  * @param allSites The DataFrame that you would like to filter based on the ignore lists.
  * @param containsDf The DataFrame that contains the strings that the URL contains between non-word characters.
  * @param startsWithDf The DataFrame that contains the strings that the URL starts with.
- * @returns An object containing two DataFrames: validSites (passed filters) and filteredOutSites (failed filters).
+ * @returns A DataFrame containing the tagged sites.
  */
 export function tagIgnoreListSites(
   allSites: DataFrame,
   containsDf: DataFrame,
   startsWithDf: DataFrame
-): { validSites: DataFrame; filteredOutSites: DataFrame } {
+): DataFrame {
   const startsWithStrings = new Set(startsWithDf.select("URL begins with:").toArray().map(row => row[0]));
   const containsStrings = new Set(containsDf.select("URL contains between non-word characters:").toArray().map(row => row[0]));
 
   //@ts-ignore
-  const taggedSites = allSites.withColumn('filtered', (row) => {
+  return allSites.withColumn('filtered', (row) => {
     const startsWithMatch = startsWithCheck(row.get('target_url'), startsWithStrings);
     const containsMatch = urlContainsCheck(row.get('target_url'), containsStrings);
     return startsWithMatch || containsMatch;
   });
-
-  //@ts-ignore
-  const validSites = taggedSites.filter((row) => !row.get('filtered'));
-  //@ts-ignore
-  const filteredOutSites = taggedSites.filter((row) => row.get('filtered'));
-
-  return { validSites, filteredOutSites };
 }
