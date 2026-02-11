@@ -333,20 +333,23 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
 }
 
 /**
- * This function will tag government and military sites in the allSites DataFrame
- * and return both the gov/mil sites and the non-gov/non-mil sites that were filtered out.
+ * This function will tag government, military, and non-.gov/.mil federal sites in the allSites DataFrame
+ * and return both the gov/mil/federal sites and the non-gov/non-mil/no-federal sites that were filtered out.
  * @param allSites The DataFrame that you would like to filter for government and military sites.
  * @param milDomains The DataFrame that contains the military domains.
  * @param govDomains The DataFrame that contains the government domains.
- * @returns An object containing two DataFrames: validSites (gov/mil sites) and filteredOutSites (non-gov/non-mil sites).
+ * @param nonDotGovMilDomains The DataFrame that contains the non-.gov/.mil federal domains.
+ * @returns An object containing two DataFrames: validSites (gov/mil/federal sites) and filteredOutSites (non-gov/non-mil/non-federal sites).
  */
-export function removeNonGovNonMilSites(
+export function removeNonFederalSites(
   allSites: DataFrame,
   milDomains: DataFrame,
-  govDomains: DataFrame
+  govDomains: DataFrame,
+  nonDotGovMilDomains: DataFrame,
 ): { validSites: DataFrame; filteredOutSites: DataFrame } {
   const milBaseUrls = new Set(milDomains.select("target_url").toArray().map(row => row[0]));
   const govBaseUrls = new Set(govDomains.select("target_url").toArray().map(row => row[0]));
+  const nonDotGovMilBaseUrls = new Set(nonDotGovMilDomains.select("target_url").toArray().map(row => row[0]));
 
   //@ts-ignore
   let taggedSites = allSites.withColumn('is_gov', (row) => {
@@ -356,16 +359,22 @@ export function removeNonGovNonMilSites(
   taggedSites = taggedSites.withColumn('is_mil', (row) => {
     return milBaseUrls.has(row.get('base_domain').trim());
   });
+  //@ts-ignore
+  taggedSites = taggedSites.withColumn('is_other_federal', (row) => {
+    return nonDotGovMilBaseUrls.has(row.get('base_domain').trim());
+  });
 
   //@ts-ignore
-  const validSites = taggedSites.filter((row) => row.get('is_gov') || row.get('is_mil'))
+  const validSites = taggedSites.filter((row) => row.get('is_gov') || row.get('is_mil') || row.get('is_other_federal'))
     .drop('is_gov')
-    .drop('is_mil');
+    .drop('is_mil')
+    .drop('is_other_federal');
 
   //@ts-ignore
-  const filteredOutSites = taggedSites.filter((row) => !row.get('is_gov') && !row.get('is_mil'))
+  const filteredOutSites = taggedSites.filter((row) => !row.get('is_gov') && !row.get('is_mil') && !row.get('is_other_federal'))
     .drop('is_gov')
-    .drop('is_mil');
+    .drop('is_mil')
+    .drop('is_other_federal');
 
   return { validSites, filteredOutSites };
 }

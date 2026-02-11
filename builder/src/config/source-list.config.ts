@@ -204,6 +204,13 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: "source_list_public_inventory",
     hasHeaders: true,
   },
+  [SourceList.NON_GOV_MIL_FEDERAL]: {
+    shortName: "non_gov_mil_federal",
+    sourceUrl:
+      "https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/non-dotgovdotmil-domains.csv",
+    sourceColumnName: "source_list_public_inventory",
+    hasHeaders: true,
+  }
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // [SourceList.SOURCE_NAME]: {
