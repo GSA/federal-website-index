@@ -236,11 +236,9 @@ async function main() {
   console.log("Tagging sites based on ignore list...");
   const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
   const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
-  const { validSites: sitesAfterIgnoreList, filteredOutSites: ignoredSites } = tagIgnoreListSites(allSites, containsDf, beginsDf);
-  analysis.push(generateAnalysisEntry('Ignored', 'urls marked as filtered based on beginning/contains', ignoredSites.count()));
-  allSites = sitesAfterIgnoreList;
+  const sitesAfterIgnoreTagging = tagIgnoreListSites(allSites, containsDf, beginsDf);
+  allSites = sitesAfterIgnoreTagging;
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter.csv'));
-  ignoredSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter-removed.csv'));
 
   // Filter out all non .gov and .mil sites
   console.log("Filtering out non-federal sites...");
