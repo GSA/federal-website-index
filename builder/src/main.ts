@@ -25,6 +25,7 @@ import { UsaGovClicksMilSourceList } from 'services/source-lists/UsaGovClicksMil
 import { SearchGovSourceList } from 'services/source-lists/SearchGovSourceList';
 import { SearchGovMilSourceList } from 'services/source-lists/SearchGovMilSourceList';
 import { PublicInventorySourceList } from 'services/source-lists/PublicInventorySourceList';
+import { NonGovMilFederalSourceList } from 'services/source-lists/NonGovMilFederalSourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -33,7 +34,7 @@ import {
   extractBaseDomainFromUrl,
   extractTLDFromUrl,
   mergeUrlInfo,
-  removeNonGovNonMilSites,
+  removeNonFederalSites,
   tagIgnoreListSites,
   unionSourceLists,
   ensureColumnNames,
@@ -77,6 +78,7 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     SearchGovSourceList.loadData(),
     SearchGovMilSourceList.loadData(),
     PublicInventorySourceList.loadData(),
+    NonGovMilFederalSourceList.loadData(),
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // SourceNameSourceList.loadData(),
@@ -116,7 +118,8 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.USAGOV_CLICKS_MIL].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV].sourceColumnName,
     sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
-    sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName
+    sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName,
+    sourceListConfig[SourceList.NON_GOV_MIL_FEDERAL].sourceColumnName
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName
@@ -164,6 +167,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('SearchGovSourceList', 'search gov url list length', sourceLists[23].count()));
   analysis.push(generateAnalysisEntry('SearchGovMilSourceList', 'search gov mil url list length', sourceLists[24].count()));
   analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
+  analysis.push(generateAnalysisEntry('NonGovMilFederalSourceList', 'non .gov/.mil federal url list length', sourceLists[26].count()));
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // analysis.push(generateAnalysisEntry('SourceNameSourceList', 'source_name url list length', sourceLists[INDEX].count()));
@@ -216,6 +220,12 @@ async function main() {
   allSites = mergeUrlInfo(allSites, milDomains);
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-MIL-agency-bureau-merge.csv'));
 
+  // Merge in agency, bureau, and branch for non-.gov/.mil federal sites
+  console.log("Merging in agency, bureau, and branch for non-.gov/.mil federal sites...");
+  const nonMilGovFederalDomains = await NonGovMilFederalSourceList.loadData();
+  allSites = mergeUrlInfo(allSites, nonMilGovFederalDomains);
+  allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-OTHER-FEDERAL-agency-bureau-merge.csv'));
+
   // Ensure that the agency and bureau columns from the omb_idea source list are the default values for the urls from that same list
   console.log("Ensuring OMB IDEA agency and bureau columns are the default values...");
   const ombIdeaDf  = await DataFrame.fromCSV('https://raw.githubusercontent.com/GSA/public-website-inventory/refs/heads/main/us-gov-public-website-inventory.csv', true);
@@ -233,16 +243,17 @@ async function main() {
   ignoredSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter-removed.csv'));
 
   // Filter out all non .gov and .mil sites
-  console.log("Filtering out non .gov and .mil sites...");
+  console.log("Filtering out non-federal sites...");
   const countBefore = allSites.count();
-  const { validSites: govMilSites, filteredOutSites: nonGovMilSites } = removeNonGovNonMilSites(allSites, milDomains, sourceLists[0]);
-  allSites = govMilSites;
+  const { validSites: federalSites, filteredOutSites: nonFederalSites } = removeNonFederalSites(allSites, milDomains, sourceLists[0], nonMilGovFederalDomains);
+  allSites = federalSites;
   analysis.push(generateAnalysisEntry('GovDomains', 'number of .gov base domains', sourceLists[0].count() ));
   analysis.push(generateAnalysisEntry('MilDomains', 'number of .mil base domains', milDomains.count() ));
-  analysis.push(generateAnalysisEntry('GovMilNonMatching', 'number of urls with non-.gov or non-.mil base domains removed', countBefore-allSites.count() ));
+  analysis.push(generateAnalysisEntry('OtherFederalDomains', 'number of other federal domains', nonMilGovFederalDomains.count()));
+  analysis.push(generateAnalysisEntry('GovMilNonMatching', 'number of urls with non-federal base domains removed', countBefore-allSites.count() ));
   analysis.push(generateAnalysisEntry('FinalList', 'url list length after non-federal urls removed', allSites.count() ));
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter.csv'));
-  nonGovMilSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter-removed.csv'));
+  nonFederalSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter-removed.csv'));
 
   // Merge in DAP top list data
   console.log("Merging in DAP top list data...");
