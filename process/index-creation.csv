@@ -1,0 +1,16 @@
+Step,Activity,Notes,Artifacts
+1,Fetch source lists,Copies of each source are snapshotted,https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots
+2,Analyze each source list,Length of each source list is noted,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv
+3,Combine domains from all source lists and note source origin,Populates `source` field,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-union.csv
+4,Deduplicate domains,Deduplicates by `initial_url` while preserving all source data,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dedup.csv
+5,Extrapolate base and top level domains,Populates `base_domain` and `top_level_domain` fields,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-add-base_domain-tld.csv
+6,"Merge agency,bureau,branch information - .gov","Uses the .gov domain list to cross-reference `base_domain` and populates `agency`, `bureau`, and `branch` fields",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-GOV-agency-bureau-merge.csv
+7,"Merge agency,bureau,branch information - .mil","Uses the .mil domain list to cross-reference `base_domain` and populates `agency`, `bureau`, and `branch` fields",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-MIL-agency-bureau-merge.csv
+8,"Merge agency,bureau,branch information - .non-govmil","Uses the .non-govmil domain list to cross-reference `base_domain` and populates `agency`, `bureau`, and `branch` fields",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-OTHER-FEDERAL-agency-bureau-merge.csv
+9,"Update agency,bureau information from omb_idea source list",Overwrites any `agency` or `bureau` values with information in the omb_idea source list,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-OMB-agency-bureau-merge.csv
+10,Compares each domain to ignore criteria,"Uses several filters to look for probably non-public websites (e.g. intranets, staff login pages) and populates `filter` field",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-starts_with-contains-filter.csv
+11,Remove unregistered or non-federal sites,"Compares `base_domain` to 3x domain lists to remove any that are not on currently-registered, federal domains",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-gov_mil-filter.csv
+12,Adds analytics data,Populates `visits` and `sessions`,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dap_top_100000_merge.csv
+13,Reorders columns,Synchronizes with column order of Site Scanning data,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-column-reorder.csv
+14,Sorts data,Alphabetically by `base_domain` then `initial_url`,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv
+,Process completed,,
