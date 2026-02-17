@@ -15,6 +15,20 @@ This section provides details about each of the original datasets that are used 
 * [List of URLs in US Government Manual](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/us_government_manual-2022.md)
 * [List of URLs in OIRA's Inventory Report of information collections](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/oira.md)
 * [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/site-scanning-final-websites.md)
+* [National Archives House Seed List for 117th Congress](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/117th_house.md)
+* [National Archives Senate Seed List for 117th Congress](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/117th_senate.md)
+* [Cybersecurity and Infrastructure Security Agency HTTPS Scans](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/cisa.md)
+* [Department of Defense Public Websites](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dod_public.md)
+* [List of .mil Domains](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dotmil_domains.md)
+* [Federal Depository Library Program Web Archive](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/gpo-fdlp.md)
+* [Search.gov Snapshot - .mil](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/searchgov-domains-mil.md)
+* [Search.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/searchgov_domains.md)
+* [USA.gov Search Clicks - .mil](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/usagov-search-clicks-mil.md)
+* [USA.gov Search Clicks](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/usagov-search-clicks.md)
+
+
+
+
 
 #### Other Candidates
 
@@ -22,10 +36,11 @@ Candidates for other datasets that are not currently used but could be are liste
 
 
 * [End of Term 2016 Crawl](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/eot2016.md)
+* [Library of Congress .gov Crawl](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/loc_gov_crawl.md)
+* [Government Publishing Office PURL server](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/gpo_purl.md)
 * [Censys](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/censys.md)
 * [Search.gov's Gov't-URLs project](https://github.com/GSA/govt-urls)
 * [Defense.gov List of Websites](https://www.defense.gov/Resources/Military-Departments/)
-* [CISA security scan list](https://drive.google.com/drive/u/1/folders/1cD71mrR1mKK4ckpji5xYdZqyVn4s5qAh)
 * [Query Wayback Machine's index](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 * [Federal Register Agency List](https://www.federalregister.gov/api/v1/agencies)
 * [Federal Register Bulk Data](https://www.govinfo.gov/bulkdata/FR/2023)
