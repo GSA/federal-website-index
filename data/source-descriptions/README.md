@@ -1,6 +1,6 @@
 ## Source Data
 
-This section provides details about each of the original datasets that are used to create the website index.  The actual data itself is [stored in the `/data` folder](https://github.com/GSA/federal-website-index/tree/main/data).  
+This section provides details about each of the original datasets that are used to create the website index.  
 
 * [Digital Analytics Program](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dap.md)
 * [List of Federal .gov Domains](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dotgov-registry-federal.md)
@@ -14,12 +14,13 @@ This section provides details about each of the original datasets that are used 
 * [List of US Courts websites](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/uscourts.md)
 * [List of URLs in US Government Manual](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/us_government_manual-2022.md)
 * [List of URLs in OIRA's Inventory Report of information collections](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/oira.md)
+* [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/site-scanning-final-websites.md)
 
 #### Other Candidates
 
 Candidates for other datasets that are not currently used but could be are listed below. To suggest other datasets, comment on [this issue](https://github.com/GSA/federal-website-index/issues/5) or [email the Site Scanning team](mailto:site-scanning@gsa.gov).  
 
-* [List of Site Scanning Final URL websites](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/site-scanning-final-websites.md)
+
 * [End of Term 2016 Crawl](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/eot2016.md)
 * [Censys](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/censys.md)
 * [Search.gov's Gov't-URLs project](https://github.com/GSA/govt-urls)
