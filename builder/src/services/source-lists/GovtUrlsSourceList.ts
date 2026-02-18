@@ -3,12 +3,12 @@ import { SourceList } from "../../types/config";
 import { AbstractSourceList } from "./AbstractSourceList";
 import DataFrame from "dataframe-js";
 
-export class NonGovMilFederalSourceList extends AbstractSourceList {
+export class GovtUrlsSourceList extends AbstractSourceList {
   /**
    * Provides the entry point for loading data from this source list.
    */
   static async loadData(): Promise<DataFrame> {
-    const loader = new NonGovMilFederalSourceList();
+    const loader = new GovtUrlsSourceList();
     return loader.load();
   }
 
@@ -16,7 +16,7 @@ export class NonGovMilFederalSourceList extends AbstractSourceList {
    * Injects the configuration for this source list into the parent.
    */
   constructor() {
-    super(sourceListConfig[SourceList.NON_GOV_MIL_FEDERAL]);
+    super(sourceListConfig[SourceList.GOVT_URLS]);
   }
 
   /**
@@ -27,21 +27,14 @@ export class NonGovMilFederalSourceList extends AbstractSourceList {
    */
   protected async prepare(data: DataFrame): Promise<DataFrame> {
     // Drop Unnecessary Columns
-    data = data.drop("Agency");
-    data = data.drop("Organization name");
+    data = data.drop("Location");
+    data = data.drop("Status");
+    data = data.drop("Note");
+    data = data.drop("Link");
+    data = data.drop("Date Added");
 
     // Rename Columns for Standardization
-    data = data.rename("Domain name", "target_url");
-    data = data.rename("Domain type", "branch");
-
-    console.log(data.listColumns());
-
-    // Strip 'Federal - ' from the beginning of the branch names
-    //@ts-ignore
-    data = data.withColumn("branch", (row) => {
-      const val = row.get("branch");
-      return val ? val.replace(/^Federal - /, "") : val;
-    });
+    data = data.rename('Domain', 'target_url');
 
     return data;
   }
