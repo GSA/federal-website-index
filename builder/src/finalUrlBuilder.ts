@@ -1,7 +1,7 @@
 import DataFrame from "dataframe-js";
 import path from 'path';
 
-const SNAPSHOT_ALL_URL = 'https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv';
+const SNAPSHOT_ALL_URL = 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv';
 const FINAL_URL_WEBSITE_PATH = '../../data/source-lists/final_url_websites.csv';
 
 /**
