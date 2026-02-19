@@ -311,6 +311,7 @@ async function main() {
       // [SOURCE-ADD-POINT]
       // Add new source list configuration here
       // 'source_list_source_name',
+      'filtered',
       'pageviews',
       'visits'
     ]
