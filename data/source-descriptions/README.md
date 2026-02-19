@@ -28,8 +28,8 @@ This section provides details about each of the original datasets that are used 
 * [Department of Defense - Websites - 2025](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dod_2025.md)
 * [Digital Analytics Program - hostnames](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dap2.md)
 * [Public Website Inventory Pilot](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/public_inventory.md)
-
-
+* [List of Non-.Gov/.Mil Domains](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/non_dotgovdotmil_domains.md)
+* [Govt-urls Project](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/govt-urls.md)
 
 
 #### Other Candidates
