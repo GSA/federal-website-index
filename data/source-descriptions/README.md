@@ -25,6 +25,8 @@ This section provides details about each of the original datasets that are used 
 * [Search.gov Snapshot](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/searchgov_domains.md)
 * [USA.gov Search Clicks - .mil](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/usagov-search-clicks-mil.md)
 * [USA.gov Search Clicks](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/usagov-search-clicks.md)
+* [Department of Defense - Websites - 2025](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dod_2025.md)
+* [Digital Analytics Program - hostnames](https://github.com/GSA/federal-website-index/blob/main/data/source-descriptions/dap2.md)
 
 
 
