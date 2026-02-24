@@ -308,6 +308,8 @@ async function main() {
       'source_list_search_gov',
       'source_list_search_gov_mil',
       'source_list_public_inventory',
+      'source_list_non_gov_mil',
+      'source_list_govt_urls',
       // [SOURCE-ADD-POINT]
       // Add new source list configuration here
       // 'source_list_source_name',
