@@ -41,7 +41,7 @@ export enum SourceList {
   SEARCH_GOV = 'search_gov',
   SEARCH_GOV_MIL = 'search_gov_mil',
   PUBLIC_INVENTORY = 'public_inventory',
-  NON_GOV_MIL_FEDERAL = 'non_gov_mil',
+  NON_GOV_MIL_FEDERAL = 'non_govmil',
   GOVT_URLS = 'govt_urls'
   // [SOURCE-ADD-POINT]
   // Add new source list enum here
