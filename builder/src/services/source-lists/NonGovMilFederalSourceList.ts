@@ -34,8 +34,6 @@ export class NonGovMilFederalSourceList extends AbstractSourceList {
     data = data.rename("Domain name", "target_url");
     data = data.rename("Domain type", "branch");
 
-    console.log(data.listColumns());
-
     // Strip 'Federal - ' from the beginning of the branch names
     //@ts-ignore
     data = data.withColumn("branch", (row) => {
