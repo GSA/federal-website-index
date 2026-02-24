@@ -205,10 +205,10 @@ export const sourceListConfig: SourceListConfigMap = {
     hasHeaders: true,
   },
   [SourceList.NON_GOV_MIL_FEDERAL]: {
-    shortName: "non_gov_mil_federal",
+    shortName: "non_govmil",
     sourceUrl:
       "https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/non-dotgovdotmil-domains.csv",
-    sourceColumnName: "source_list_public_inventory",
+    sourceColumnName: "source_list_non_gov_mil",
     hasHeaders: true,
   },
   [SourceList.GOVT_URLS]: {
