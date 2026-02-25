@@ -1,5 +1,5 @@
 Step,Activity,Notes,Artifacts
-1,Fetch source lists,Copies of each source are snapshotted,https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots
+1,Fetch source lists,"URLs are cleaned in flight (e.g. protocol, www, and paths are removed); Copies of each source are snapshotted",https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots
 2,Analyze each source list,Length of each source list is noted,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv
 3,Combine domains from all source lists and note source origin,Populates `source` field,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-union.csv
 4,Deduplicate domains,Deduplicates by `initial_url` while preserving all source data,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dedup.csv
