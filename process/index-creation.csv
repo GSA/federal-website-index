@@ -11,6 +11,7 @@ Step,Activity,Notes,Artifacts
 10,Compares each domain to ignore criteria,"Uses several filters to look for probably non-public websites (e.g. intranets, staff login pages) and populates `filter` field",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-starts_with-contains-filter.csv
 11,Remove unregistered or non-federal sites,"Compares `base_domain` to 3x domain lists to remove any that are not on currently-registered, federal domains",https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-gov_mil-filter.csv
 12,Adds analytics data,Populates `visits` and `sessions`,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dap_top_100000_merge.csv
-13,Reorders columns,Synchronizes with column order of Site Scanning data,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-column-reorder.csv
-14,Sorts data,Alphabetically by `base_domain` then `initial_url`,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv
+13,Remove suspected dead sites,Removes any websites that are listed in a file that contains those websites which consistently had failed DNS resolution,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dead-sites-filter.csv
+14,Reorders columns,Synchronizes with column order of Site Scanning data,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-column-reorder.csv
+15,Sorts data,Alphabetically by `base_domain` then `initial_url`,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv
 ,Process completed,,
