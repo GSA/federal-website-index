@@ -17,7 +17,11 @@ export abstract class AbstractSourceList {
   }
 
   protected async fetchData(): Promise<DataFrame> {
-    return DataFrame.fromCSV(this.sourceUrl, this.hasHeaders);
+    const data = await DataFrame.fromCSV(this.sourceUrl, this.hasHeaders);
+    // Strip BOM character that some CSV sources prepend to the first column header
+    return data.renameAll(
+        data.listColumns().map(col => col.replace(/^\uFEFF/, ''))
+    );
   }
 
   protected abstract prepare(data: DataFrame): Promise<DataFrame>;
