@@ -94,18 +94,6 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: "",
     hasHeaders: true,
   },
-  [SourceList.BEGINS_IGNORE]: {
-    shortName: "begins_ignore",
-    sourceUrl: path.join(__dirname, "../../criteria/ignore-list-begins.csv"),
-    sourceColumnName: "",
-    hasHeaders: true,
-  },
-  [SourceList.CONTAINS_IGNORE]: {
-    shortName: "contains_ignore",
-    sourceUrl: path.join(__dirname, "../../criteria/ignore-list-contains.csv"),
-    sourceColumnName: "",
-    hasHeaders: true,
-  },
   [SourceList.DOD_PUBLIC]: {
     shortName: "dod_public",
     sourceUrl:

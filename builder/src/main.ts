@@ -238,13 +238,14 @@ async function main() {
 
   // Add filtered column based on if the url matches the starts_with or contains list
   console.log("Tagging sites based on ignore list...");
-  const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-contains.csv'));
-  const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../criteria/ignore-list-begins.csv'));
-  const sitesAfterIgnoreTagging = tagIgnoreListSites(allSites, containsDf, beginsDf);
+  const containsDf = await DataFrame.fromCSV(path.join(__dirname, '../../criteria/ignore-list-contains.csv'));
+  const beginsDf = await DataFrame.fromCSV(path.join(__dirname, '../../criteria/ignore-list-begins.csv'));
+  const ignoreListExceptionsDf = await DataFrame.fromCSV(path.join(__dirname, '../../criteria/ignore-except.csv'));
+  const sitesAfterIgnoreTagging = tagIgnoreListSites(allSites, containsDf, beginsDf, ignoreListExceptionsDf);
   allSites = sitesAfterIgnoreTagging;
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-starts_with-contains-filter.csv'));
 
-  // Filter out all non .gov and .mil sites
+  // Filter out all non-federal sites
   console.log("Filtering out non-federal sites...");
   const countBefore = allSites.count();
   const { validSites: federalSites, filteredOutSites: nonFederalSites } = removeNonFederalSites(allSites, milDomains, sourceLists[0], nonMilGovFederalDomains);
@@ -257,6 +258,7 @@ async function main() {
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter.csv'));
   nonFederalSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter-removed.csv'));
 
+  // Reincorporate
   // Merge in DAP top list data
   console.log("Merging in DAP top list data...");
   const dapTopDf = await DataFrame.fromCSV(path.join(__dirname, '../../data/source-lists/dap_top_100000_domains_30_days.csv'));
