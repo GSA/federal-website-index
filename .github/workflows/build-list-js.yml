@@ -37,6 +37,6 @@ jobs:
             await github.rest.issues.create({
               owner: 'gsatts-sitescan',
               repo: 'site-scanning',
-              title: `Build failed: ${context.workflow}`,
+              title: `Workflow failed: ${context.workflow}`,
               body: `Workflow **${context.workflow}** failed in [${context.repo.owner}/${context.repo.repo}](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}).\n\nRef: \`${context.ref}\`\nSHA: \`${context.sha}\``
             });
