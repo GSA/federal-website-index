@@ -258,7 +258,6 @@ async function main() {
   allSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter.csv'));
   nonFederalSites.toCSV(true, path.join(__dirname, '../../data/process-snapshots/after-gov_mil-filter-removed.csv'));
 
-  // Reincorporate
   // Merge in DAP top list data
   console.log("Merging in DAP top list data...");
   const dapTopDf = await DataFrame.fromCSV(path.join(__dirname, '../../data/source-lists/dap_top_100000_domains_30_days.csv'));
