@@ -1,4 +1,5 @@
 target_url,branch,agency,bureau,source_list_federal_domains
+access-board.gov,Executive,United States Access Board,,TRUE
 acus.gov,Executive,Administrative Conference of the United States,,TRUE
 achp.gov,Executive,Advisory Council on Historic Preservation,,TRUE
 preserveamerica.gov,Executive,Advisory Council on Historic Preservation,,TRUE
@@ -204,15 +205,15 @@ ukraineoversight.gov,Executive,Department of Defense,Office of the Inspector Gen
 usandc.gov,Executive,Department of Defense,Air Force,TRUE
 usgovdod.gov,Executive,Department of Defense,Office of the Secretary of Defense,TRUE
 war.gov,Executive,Department of Defense,,TRUE
-budgetlob.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-childstats.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-collegenavigator.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-ed.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
+budgetlob.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+childstats.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+collegenavigator.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+ed.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
 fafsa.gov,Executive,Department of Education,,TRUE
-foreignfundinghighered.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-g5.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-nagb.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
-nationsreportcard.gov,Executive,Department of Education,Office of Chief Information Officer,TRUE
+foreignfundinghighered.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+g5.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+nagb.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
+nationsreportcard.gov,Executive,Department of Education,Office of the Chief Information Officer,TRUE
 studentaid.gov,Executive,Department of Education,,TRUE
 studentloans.gov,Executive,Department of Education,,TRUE
 ameslab.gov,Executive,Department of Energy,Ames National Laboratory,TRUE
@@ -446,7 +447,7 @@ usss.gov,Executive,Department of Homeland Security,United States Secret Service,
 disasterhousing.gov,Executive,Department of Housing and Urban Development,,TRUE
 fha.gov,Executive,Department of Housing and Urban Development,,TRUE
 ginniemae.gov,Executive,Department of Housing and Urban Development,Government National Mortgage Association,TRUE
-hud.gov,Executive,Department of Housing and Urban Development,Web Master Public Affairs,TRUE
+hud.gov,Executive,Department of Housing and Urban Development,Assistant Secretary for Public Affairs,TRUE
 hudhomestore.gov,Executive,Department of Housing and Urban Development,,TRUE
 hudoig.gov,Executive,Department of Housing and Urban Development,,TRUE
 huduser.gov,Executive,Department of Housing and Urban Development,Assistant Secretary for Policy Development and Research,TRUE
@@ -611,7 +612,6 @@ jem.gov,Executive,Department of the Interior,USGS-NWRC,TRUE
 lacoast.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 landfire.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 landimaging.gov,Executive,Department of the Interior,,TRUE
-lca.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 lcrmscp.gov,Executive,Department of the Interior,Bureau of Reclamation,TRUE
 lmvsci.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 mitigationcommission.gov,Executive,Department of the Interior,Bureau of Reclamation,TRUE
@@ -640,7 +640,6 @@ usgs.gov,Executive,Department of the Interior,United States Geological Survey,TR
 utahfireinfo.gov,Executive,Department of the Interior,Bureau of Land Management,TRUE
 volcano.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 volunteer.gov,Executive,Department of the Interior,National Park Service,TRUE
-watermonitor.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 wlci.gov,Executive,Department of the Interior,United States Geological Survey,TRUE
 ama.gov,Executive,Department of the Treasury,Bureau of the Fiscal Service,TRUE
 asap.gov,Executive,Department of the Treasury,Bureau of the Fiscal Service,TRUE
@@ -845,7 +844,7 @@ ofia.gov,Executive,Federal Deposit Insurance Corporation,,TRUE
 fec.gov,Executive,Federal Election Commission,,TRUE
 ferc.gov,Executive,Federal Energy Regulatory Commission,,TRUE
 fhfa.gov,Executive,Federal Housing Finance Agency,,TRUE
-fhfaoig.gov,Executive,Federal Housing Finance Agency,Federal Housing Finance Agency Office of Inspector General,TRUE
+fhfaoig.gov,Executive,Federal Housing Finance Agency,Office of Inspector General,TRUE
 mortgagetranslations.gov,Executive,Federal Housing Finance Agency,,TRUE
 flra.gov,Executive,Federal Labor Relations Authority,,TRUE
 fmc.gov,Executive,Federal Maritime Commission,,TRUE
@@ -868,25 +867,25 @@ newmoney.gov,Executive,Federal Reserve Board of Governors,,TRUE
 oasis.gov,Executive,Federal Reserve Board of Governors,,TRUE
 supervisioncentral.gov,Executive,Federal Reserve Board of Governors,Division of Information Technology,TRUE
 uscurrency.gov,Executive,Federal Reserve Board of Governors,,TRUE
-exploretsp.gov,Executive,Federal Retirement Thrift Investment Board,Office of Technology Services,TRUE
-frtib.gov,Executive,Federal Retirement Thrift Investment Board,Office of Technology Services,TRUE
-frtibtest.gov,Executive,Federal Retirement Thrift Investment Board,Office of Technology Services,TRUE
-tsp.gov,Executive,Federal Retirement Thrift Investment Board,Office of Technology Services,TRUE
-tsptest.gov,Executive,Federal Retirement Thrift Investment Board,Office of Technology Services,TRUE
-alertaenlinea.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-consumer.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-consumersentinel.gov,Executive,Federal Trade Commission,Division of Consumer Response & Operations (DCRO),TRUE
-consumidor.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-donotcall.gov,Executive,Federal Trade Commission,Division of Consumer Response & Operations (DCRO),TRUE
-dontserveteens.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-econsumer.gov,Executive,Federal Trade Commission,Office of Internal Affairs (OIA),TRUE
-ftc.gov,Executive,Federal Trade Commission,Office of Public Affairs (OPA),TRUE
-hsr.gov,Executive,Federal Trade Commission,Premerger Notification Office (PNO),TRUE
-identitytheft.gov,Executive,Federal Trade Commission,Division of Consumer Response & Operations (DCRO),TRUE
-militaryconsumer.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-onguardonline.gov,Executive,Federal Trade Commission,Division of Consumer & Business Education (DCBE),TRUE
-robodeidentidad.gov,Executive,Federal Trade Commission,Division of Consumer Response & Operations (DCRO),TRUE
-sentinel.gov,Executive,Federal Trade Commission,Division of Consumer Response & Operations (DCRO),TRUE
+exploretsp.gov,Executive,Federal Retirement Thrift Investment Board,,TRUE
+frtib.gov,Executive,Federal Retirement Thrift Investment Board,,TRUE
+frtibtest.gov,Executive,Federal Retirement Thrift Investment Board,,TRUE
+tsp.gov,Executive,Federal Retirement Thrift Investment Board,,TRUE
+tsptest.gov,Executive,Federal Retirement Thrift Investment Board,,TRUE
+alertaenlinea.gov,Executive,Federal Trade Commission,,TRUE
+consumer.gov,Executive,Federal Trade Commission,,TRUE
+consumersentinel.gov,Executive,Federal Trade Commission,,TRUE
+consumidor.gov,Executive,Federal Trade Commission,,TRUE
+donotcall.gov,Executive,Federal Trade Commission,,TRUE
+dontserveteens.gov,Executive,Federal Trade Commission,,TRUE
+econsumer.gov,Executive,Federal Trade Commission,,TRUE
+ftc.gov,Executive,Federal Trade Commission,,TRUE
+hsr.gov,Executive,Federal Trade Commission,,TRUE
+identitytheft.gov,Executive,Federal Trade Commission,,TRUE
+militaryconsumer.gov,Executive,Federal Trade Commission,,TRUE
+onguardonline.gov,Executive,Federal Trade Commission,,TRUE
+robodeidentidad.gov,Executive,Federal Trade Commission,,TRUE
+sentinel.gov,Executive,Federal Trade Commission,,TRUE
 18f.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 400yaahc.gov,Executive,General Services Administration,400 Years of African American History Commission,TRUE
 accessibility.gov,Executive,General Services Administration,Office of GSA IT,TRUE
@@ -918,38 +917,38 @@ digitalgov.gov,Executive,General Services Administration,Federal Acquisition Ser
 ecpic.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 esrs.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 evaluation.gov,Executive,General Services Administration,Office of Governmentwide Policy,TRUE
-facadatabase.gov,Executive,General Services Administration,"GSA, IDI, Enterprise Application Services",TRUE
-faca.gov,Executive,General Services Administration,"GSA, IDI, ECAS II",TRUE
+facadatabase.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+faca.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fac.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fai.gov,Executive,General Services Administration,Office of GSA IT,TRUE
-fapiis.gov,Executive,General Services Administration,"GSA, IQ, IAE",TRUE
-fbf.gov,Executive,General Services Administration,"GSA, IQ-CAP",TRUE
+fapiis.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fbf.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fbo.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fcsm.gov,Executive,General Services Administration,,TRUE
-fdms.gov,Executive,General Services Administration,"GSA, IQ, eRulemaking",TRUE
-fedidcard.gov,Executive,General Services Administration,"GSA, IQ, CAT",TRUE
+fdms.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fedidcard.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fedinfo.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fedramp.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
-fedrooms.gov,Executive,General Services Administration,"GSA, IDI, ECAS II",TRUE
+fedrooms.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 firstgov.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fleet.gov,Executive,General Services Administration,,TRUE
 fmi.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 forms.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fpc.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
-fpds.gov,Executive,General Services Administration,"GSA, IQ-FPDS-FPDS Portal",TRUE
-fpki.gov,Executive,General Services Administration,"GSA, Q-FPKI",TRUE
-fpki-lab.gov,Executive,General Services Administration,"GSA, Q-FPKI",TRUE
-fsd.gov,Executive,General Services Administration,"GSA, IQ-FSD-FSD Portal",TRUE
-fsrs.gov,Executive,General Services Administration,"GSA, IQ-ESRS-FSRS",TRUE
+fpds.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fpki.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fpki-lab.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fsd.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+fsrs.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 gobiernousa.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 go.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 govloans.gov,Executive,General Services Administration,,TRUE
-gsaadvantage.gov,Executive,General Services Administration,"GSA, IQ-GSAAdvantage-Main",TRUE
-gsaauctions.gov,Executive,General Services Administration,"GSA, IQ-SASy-GSAAuctions",TRUE
+gsaadvantage.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+gsaauctions.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 gsafleet.gov,Executive,General Services Administration,,TRUE
-gsa.gov,Executive,General Services Administration,"GSA, IDI, ECAS II",TRUE
+gsa.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 gsaig.gov,Executive,General Services Administration,Office of Inspector General,TRUE
-gsatest2.gov,Executive,General Services Administration,"GSA, IDI, ECAS II",TRUE
+gsatest2.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 identitysandbox.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 idmanagement.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 info.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
@@ -969,13 +968,13 @@ pki-lab.gov,Executive,General Services Administration,Federal Acquisition Servic
 plainlanguage.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 ppms.gov,Executive,General Services Administration,,TRUE
 presidentialinnovationfellows.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
-ptt.gov,Executive,General Services Administration,"GSA, IDI, Presidential Transition Team",TRUE
+ptt.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 realestatesales.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
-realpropertyprofile.gov,Executive,General Services Administration,"GSA, IDI,EAS",TRUE
-reginfo.gov,Executive,General Services Administration,"GSA, IC, ROCIS",TRUE
-regulations.gov,Executive,General Services Administration,"GSA, IQ, eRulemaking",TRUE
-reporting.gov,Executive,General Services Administration,"GSA, IDI, EAS-SF",TRUE
-rocis.gov,Executive,General Services Administration,"GSA, IC, ROCIS",TRUE
+realpropertyprofile.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+reginfo.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+regulations.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+reporting.gov,Executive,General Services Administration,Office of GSA IT,TRUE
+rocis.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 rpa.gov,Executive,General Services Administration,,TRUE
 sam.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 sbst.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
@@ -1017,7 +1016,7 @@ pcah.gov,Executive,Institute of Museum and Library Services,Institute of Museum 
 iaf.gov,Executive,Inter-American Foundation,,TRUE
 jamesmadison.gov,Executive,James Madison Memorial Fellowship Foundation,,TRUE
 jusfc.gov,Executive,Japan-U.S. Friendship Commission,,TRUE
-kennedy-center.gov,Executive,John F. Kennedy Center for the Performing Arts,John F Kennedy Center for Performing Arts,TRUE
+kennedy-center.gov,Executive,John F. Kennedy Center for the Performing Arts,,TRUE
 lsc.gov,Executive,Legal Services Corporation,,TRUE
 mmc.gov,Executive,Marine Mammal Commission,,TRUE
 mspb.gov,Executive,Merit Systems Protection Board,,TRUE
@@ -1029,33 +1028,33 @@ earth.gov,Executive,National Aeronautics and Space Administration,NASA Earth Sci
 globe.gov,Executive,National Aeronautics and Space Administration,NASA Science Data Systems Branch,TRUE
 nasa.gov,Executive,National Aeronautics and Space Administration,NASA Office of the Chief Information Officer,TRUE
 scijinks.gov,Executive,National Aeronautics and Space Administration,Jet Propulsion Lab Communications and Education Directorate,TRUE
-usgeo.gov,Executive,National Aeronautics and Space Administration,NASA Langley Research Center,TRUE
+usgeo.gov,Executive,National Aeronautics and Space Administration,Langley Research Center,TRUE
 9-11commission.gov,Executive,National Archives and Records Administration,,TRUE
 911commission.gov,Executive,National Archives and Records Administration,,TRUE
 archives.gov,Executive,National Archives and Records Administration,,TRUE
 bidenlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 bidenwhitehouse.gov,Executive,National Archives and Records Administration,,TRUE
 bush41library.gov,Executive,National Archives and Records Administration,,TRUE
-clintonlibrary.gov,Executive,National Archives and Records Administration,William Clinton Presidential Library,TRUE
+clintonlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 d250.gov,Executive,National Archives and Records Administration,,TRUE
 dd214.gov,Executive,National Archives and Records Administration,,TRUE
 declaration250.gov,Executive,National Archives and Records Administration,,TRUE
 eisenhowerlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 emergency-federal-register.gov,Executive,National Archives and Records Administration,,TRUE
 fcic.gov,Executive,National Archives and Records Administration,,TRUE
-fordlibrarymuseum.gov,Executive,National Archives and Records Administration,Gerald R. Ford Library and Museum,TRUE
+fordlibrarymuseum.gov,Executive,National Archives and Records Administration,,TRUE
 frc.gov,Executive,National Archives and Records Administration,,TRUE
 georgewbushlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 history.gov,Executive,National Archives and Records Administration,,TRUE
 jfklibrary.gov,Executive,National Archives and Records Administration,,TRUE
-jimmycarterlibrary.gov,Executive,National Archives and Records Administration,Jimmy Carter Library & Museum,TRUE
+jimmycarterlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 lbjlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 nara.gov,Executive,National Archives and Records Administration,,TRUE
-nixonlibrary.gov,Executive,National Archives and Records Administration,NPOL,TRUE
+nixonlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 obamalibrary.gov,Executive,National Archives and Records Administration,,TRUE
 obamawhitehouse.gov,Executive,National Archives and Records Administration,,TRUE
 ourdocuments.gov,Executive,National Archives and Records Administration,,TRUE
-reaganlibrary.gov,Executive,National Archives and Records Administration,Policy and Planning,TRUE
+reaganlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 recordsmanagement.gov,Executive,National Archives and Records Administration,,TRUE
 trumanlibrary.gov,Executive,National Archives and Records Administration,,TRUE
 trumplibrary.gov,Executive,National Archives and Records Administration,,TRUE
@@ -1077,8 +1076,8 @@ nmb.gov,Executive,National Mediation Board,,TRUE
 arctic.gov,Executive,National Science Foundation,U.S. Arctic Research Commission,TRUE
 nsf.gov,Executive,National Science Foundation,,TRUE
 research.gov,Executive,National Science Foundation,,TRUE
-sac.gov,Executive,National Science Foundation,Small Agency Council,TRUE
-usap.gov,Executive,National Science Foundation,"National Science Foundation, Office of Polar Programs",TRUE
+sac.gov,Executive,National Science Foundation,,TRUE
+usap.gov,Executive,National Science Foundation,,TRUE
 nscai.gov,Executive,National Security Commission on Artificial Intelligence,National Security Commission on Artificial Intelligence,TRUE
 ntsb.gov,Executive,National Transportation Safety Board,,TRUE
 nbrc.gov,Executive,Northern Border Regional Commission,,TRUE
@@ -1087,48 +1086,50 @@ nrc.gov,Executive,Nuclear Regulatory Commission,,TRUE
 oshrc.gov,Executive,Occupational Safety and Health Review Commission,,TRUE
 integrity.gov,Executive,Office of Government Ethics,,TRUE
 oge.gov,Executive,Office of Government Ethics,,TRUE
-applicationmanager.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
+applicationmanager.gov,Executive,Office of Personnel Management,,TRUE
 benefeds.gov,Executive,Office of Personnel Management,,TRUE
-chcoc.gov,Executive,Office of Personnel Management,Chief Human Capital Officers Council,TRUE
-cybercareers.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
-employeeexpress.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
+chcoc.gov,Executive,Office of Personnel Management,,TRUE
+cybercareers.gov,Executive,Office of Personnel Management,,TRUE
+employeeexpress.gov,Executive,Office of Personnel Management,,TRUE
 e-qip.gov,Executive,Office of Personnel Management,,TRUE
-feb.gov,Executive,Office of Personnel Management,Employee Services (ES),TRUE
-federaljobs.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
-fedjobs.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
-fedshirevets.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
-fegli.gov,Executive,Office of Personnel Management,Healthcare and Insurance (HI),TRUE
-fsafeds.gov,Executive,Office of Personnel Management,Healthcare and Insurance (HI),TRUE
+feb.gov,Executive,Office of Personnel Management,,TRUE
+federaljobs.gov,Executive,Office of Personnel Management,,TRUE
+fedjobs.gov,Executive,Office of Personnel Management,,TRUE
+fedshirevets.gov,Executive,Office of Personnel Management,,TRUE
+fegli.gov,Executive,Office of Personnel Management,,TRUE
+fsafeds.gov,Executive,Office of Personnel Management,,TRUE
 givecfc.gov,Executive,Office of Personnel Management,,TRUE
 golearn.gov,Executive,Office of Personnel Management,,TRUE
-governmentjobs.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
+governmentjobs.gov,Executive,Office of Personnel Management,,TRUE
 ltcfeds.gov,Executive,Office of Personnel Management,,TRUE
 opm.gov,Executive,Office of Personnel Management,,TRUE
-pac.gov,Executive,Office of Personnel Management,"Security, Suitability, and Credentialing Line of Business (SSCLoB)",TRUE
+pac.gov,Executive,Office of Personnel Management,,TRUE
 pmf.gov,Executive,Office of Personnel Management,,TRUE
 telework.gov,Executive,Office of Personnel Management,,TRUE
-unlocktalent.gov,Executive,Office of Personnel Management,Human Capital Data Management and Modernization (HCDMM),TRUE
-usajobs.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
+unlocktalent.gov,Executive,Office of Personnel Management,,TRUE
+usajobs.gov,Executive,Office of Personnel Management,,TRUE
 usalearning.gov,Executive,Office of Personnel Management,,TRUE
-usastaffing.gov,Executive,Office of Personnel Management,Human Resource Solutions (HRS),TRUE
+usastaffing.gov,Executive,Office of Personnel Management,,TRUE
+osc.gov,Executive,U.S. Office of Special Counsel,,TRUE
+oscnet.gov,Executive,U.S. Office of Special Counsel,,TRUE
 ce-ncsc.gov,Executive,Office of the Director of National Intelligence,,TRUE
-dni.gov,Executive,Office of the Director of National Intelligence,Office of Directorate of National Intelligence,TRUE
-iarpa.gov,Executive,Office of the Director of National Intelligence,ODNI - IARPA,TRUE
+dni.gov,Executive,Office of the Director of National Intelligence,,TRUE
+iarpa.gov,Executive,Office of the Director of National Intelligence,,TRUE
 iarpa-ideas.gov,Executive,Office of the Director of National Intelligence,,TRUE
 icjointduty.gov,Executive,Office of the Director of National Intelligence,,TRUE
 intel.gov,Executive,Office of the Director of National Intelligence,,TRUE
-intelink.gov,Executive,Office of the Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),TRUE
-intelligence.gov,Executive,Office of the Director of National Intelligence,Office of Director of National Intelligence - Public Affairs Office,TRUE
-ise.gov,Executive,Office of the Director of National Intelligence,"Office of the Program Manager, Information Sharing Environment, Office of the DNI",TRUE
-ncix.gov,Executive,Office of the Director of National Intelligence,Office of the National Counterintelligence Executive - NCIX,TRUE
-ncsc.gov,Executive,Office of the Director of National Intelligence,National Counterintelligence and Security Center,TRUE
-nctc.gov,Executive,Office of the Director of National Intelligence,National Counterterrorism Center,TRUE
-odni.gov,Executive,Office of the Director of National Intelligence,Office of Director of National Intelligence - Public Affairs Office,TRUE
-osis.gov,Executive,Office of the Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),TRUE
-ugov.gov,Executive,Office of the Director of National Intelligence,Office of Director of National Intelligence - CIO (ICES),TRUE
+intelink.gov,Executive,Office of the Director of National Intelligence,,TRUE
+intelligence.gov,Executive,Office of the Director of National Intelligence,,TRUE
+ise.gov,Executive,Office of the Director of National Intelligence,,TRUE
+ncix.gov,Executive,Office of the Director of National Intelligence,,TRUE
+ncsc.gov,Executive,Office of the Director of National Intelligence,,TRUE
+nctc.gov,Executive,Office of the Director of National Intelligence,,TRUE
+odni.gov,Executive,Office of the Director of National Intelligence,,TRUE
+osis.gov,Executive,Office of the Director of National Intelligence,,TRUE
+ugov.gov,Executive,Office of the Director of National Intelligence,,TRUE
 peacecorps.gov,Executive,Peace Corps,,TRUE
 peacecorpsoig.gov,Executive,Peace Corps,,TRUE
-techcorps.gov,Executive,Peace Corps,Office of the CIO,TRUE
+techcorps.gov,Executive,Peace Corps,,TRUE
 pbgc.gov,Executive,Pension Benefit Guaranty Corporation,,TRUE
 prc.gov,Executive,Postal Regulatory Commission,,TRUE
 presidiocommercial.gov,Executive,Presidio Trust,Presidio Trust,TRUE
@@ -1137,34 +1138,34 @@ presidiotrust.gov,Executive,Presidio Trust,Presidio Trust,TRUE
 presidiotunneltops.gov,Executive,Presidio Trust,Presidio Trust,TRUE
 pclob.gov,Executive,Privacy and Civil Liberties Oversight Board,,TRUE
 pbrb.gov,Executive,Public Buildings Reform Board,,TRUE
-rrb.gov,Executive,Railroad Retirement Board,Bureau of Information Services,TRUE
+rrb.gov,Executive,Railroad Retirement Board,,TRUE
 investor.gov,Executive,Securities and Exchange Commission,Network Operations Branch,TRUE
 sec.gov,Executive,Securities and Exchange Commission,Network Operations Branch,TRUE
 sss.gov,Executive,Selective Service System,,TRUE
 business.gov,Executive,Small Business Administration,,TRUE
 nwbc.gov,Executive,Small Business Administration,,TRUE
 sba.gov,Executive,Small Business Administration,,TRUE
-sbir.gov,Executive,Small Business Administration,Office of Innovation & Technology,TRUE
-segurosocial.gov,Executive,Social Security Administration,SSA/OSOHE/Division of Network Engineering,TRUE
-socialsecurity.gov,Executive,Social Security Administration,SSA/OSOHE/Division of Network Engineering,TRUE
-ssa.gov,Executive,Social Security Administration,SSA/OSOHE/Division of Network Engineering,TRUE
+sbir.gov,Executive,Small Business Administration,,TRUE
+segurosocial.gov,Executive,Social Security Administration,,TRUE
+socialsecurity.gov,Executive,Social Security Administration,,TRUE
+ssa.gov,Executive,Social Security Administration,,TRUE
 ssab.gov,Executive,Social Security Advisory Board,,TRUE
 scrc.gov,Executive,Southeast Crescent Regional Commission,,TRUE
 sbrc.gov,Executive,Southwest Border Regional Commission,,TRUE
 sji.gov,Executive,State Justice Institute,,TRUE
 stb.gov,Executive,Surface Transportation Board,,TRUE
-tva.gov,Executive,Tennessee Valley Authority,TVA IT,TRUE
+tva.gov,Executive,Tennessee Valley Authority,,TRUE
 tvaoig.gov,Executive,Tennessee Valley Authority,Tennessee Valley Authority Office of Inspector General,TRUE
+ustda.gov,Executive,U.S. Trade and Development Agency,,TRUE
 abilityone.gov,Executive,United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,TRUE
 jwod.gov,Executive,United States AbilityOne Commission,Committee for Purchase From People Who Are Blind or Severely Disabled,TRUE
-access-board.gov,Executive,United States Access Board,,TRUE
 adf.gov,Executive,United States African Development Foundation,African Development Foundation,TRUE
 usadf.gov,Executive,United States African Development Foundation,African Development Foundation,TRUE
-bbg.gov,Executive,United States Agency for Global Media,IBB/VOA/BBG,TRUE
-ibab.gov,Executive,United States Agency for Global Media,International Broadcasting Advisory Board,TRUE
-ibb.gov,Executive,United States Agency for Global Media,Broadcasting Board of Governors,TRUE
-ocb.gov,Executive,United States Agency for Global Media,Office of Cuba Broadcasting,TRUE
-usagm.gov,Executive,United States Agency for Global Media,Broadcasting Board of Governors,TRUE
+bbg.gov,Executive,United States Agency for Global Media,,TRUE
+ibab.gov,Executive,United States Agency for Global Media,,TRUE
+ibb.gov,Executive,United States Agency for Global Media,,TRUE
+ocb.gov,Executive,United States Agency for Global Media,,TRUE
+usagm.gov,Executive,United States Agency for Global Media,,TRUE
 voa.gov,Executive,United States Agency for Global Media,VOA,TRUE
 globalchange.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,TRUE
 ipcc-wg3.gov,Executive,United States Global Change Research Program,U.S. Global Change Research Program,TRUE
@@ -1187,7 +1188,7 @@ uspis.gov,Executive,United States Postal Service,,TRUE
 usps.gov,Executive,United States Postal Service,,TRUE
 uspsinformeddelivery.gov,Executive,United States Postal Service,,TRUE
 uspsinnovates.gov,Executive,United States Postal Service,,TRUE
-uspsoig.gov,Executive,United States Postal Service,Office of Inspector General,TRUE
+uspsoig.gov,Executive,United States Postal Service,,TRUE
 heritageabroad.gov,Executive,U.S. Commission for the Preservation of Americas Heritage Abroad,USCPAHA,TRUE
 cfa.gov,Executive,U.S. Commission of Fine Arts,U.S. Commission of Fine Arts,TRUE
 civilrightsusa.gov,Executive,U.S. Commission on Civil Rights,ASCD-CIO,TRUE
@@ -1196,9 +1197,6 @@ usccr.gov,Executive,U.S. Commission on Civil Rights,ASCD-CIO,TRUE
 ich.gov,Executive,U.S. Interagency Council on Homelessness,United States Interagency Council on Homelessness,TRUE
 usich.gov,Executive,U.S. Interagency Council on Homelessness,United States Interagency Council on Homelessness,TRUE
 nwtrb.gov,Executive,U.S. Nuclear Waste Technical Review Board,Nuclear Waste Technical Review Board,TRUE
-osc.gov,Executive,U.S. Office of Special Counsel,,TRUE
-oscnet.gov,Executive,U.S. Office of Special Counsel,,TRUE
-ustda.gov,Executive,U.S. Trade and Development Agency,US Trade and Development Agency,TRUE
 bankruptcy.gov,Judicial,Administrative Office of the United States Courts,Administrative Office of the U.S. Courts,TRUE
 cavc.gov,Judicial,Administrative Office of the United States Courts,US Court of Appeals for Veterans Claims,TRUE
 fd.gov,Judicial,Administrative Office of the United States Courts,Defender Services Office,TRUE
@@ -1219,7 +1217,7 @@ scinet.gov,Judicial,Supreme Court of the United States,,TRUE
 scinet-test.gov,Judicial,Supreme Court of the United States,,TRUE
 sc-us.gov,Judicial,Supreme Court of the United States,,TRUE
 scus.gov,Judicial,Supreme Court of the United States,,TRUE
-scuspd.gov,Judicial,Supreme Court of the United States,Supreme Court Police,TRUE
+scuspd.gov,Judicial,Supreme Court of the United States,,TRUE
 supreme-court.gov,Judicial,Supreme Court of the United States,,TRUE
 supremecourt.gov,Judicial,Supreme Court of the United States,,TRUE
 supremecourtus.gov,Judicial,Supreme Court of the United States,,TRUE
@@ -1237,11 +1235,13 @@ uscapitolgiftstore.gov,Legislative,Architect of the Capitol,Architect of the Cap
 uscapitol.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
 visitthecapital.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
 visitthecapitol.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
+uscapitolpolice.gov,Legislative,U.S. Capitol Police,,TRUE
+uscp.gov,Legislative,U.S. Capitol Police,,TRUE
 cbo.gov,Legislative,Congressional Budget Office,,TRUE
 cbonews.gov,Legislative,Congressional Budget Office,,TRUE
 solarium.gov,Legislative,Cyberspace Solarium Commission,Cyberspace Solarium Commission,TRUE
 eseclab.gov,Legislative,Government Accountability Office,,TRUE
-fasab.gov,Legislative,Government Accountability Office,FASAB,TRUE
+fasab.gov,Legislative,Government Accountability Office,,TRUE
 gao.gov,Legislative,Government Accountability Office,,TRUE
 gaoinnovation.gov,Legislative,Government Accountability Office,,TRUE
 gaoinnovationlab.gov,Legislative,Government Accountability Office,,TRUE
@@ -1262,7 +1262,7 @@ ofr.gov,Legislative,Government Publishing Office,,TRUE
 presidentialdocuments.gov,Legislative,Government Publishing Office,,TRUE
 senatecalendar.gov,Legislative,Government Publishing Office,,TRUE
 uscode.gov,Legislative,Government Publishing Office,,TRUE
-usgovernmentmanual.gov,Legislative,Government Publishing Office,Office of Federal Register (NF),TRUE
+usgovernmentmanual.gov,Legislative,Government Publishing Office,,TRUE
 africanamericanhistorymonth.gov,Legislative,Library of Congress,,TRUE
 americanmemory.gov,Legislative,Library of Congress,,TRUE
 americaslibrary.gov,Legislative,Library of Congress,,TRUE
@@ -1272,8 +1272,8 @@ ccb.gov,Legislative,Library of Congress,,TRUE
 congress.gov,Legislative,Library of Congress,,TRUE
 copyrightclaimsboard.gov,Legislative,Library of Congress,,TRUE
 copyright.gov,Legislative,Library of Congress,,TRUE
-crb.gov,Legislative,Library of Congress,Copyright Royalty Board,TRUE
-crs.gov,Legislative,Library of Congress,Congressional Research Service,TRUE
+crb.gov,Legislative,Library of Congress,,TRUE
+crs.gov,Legislative,Library of Congress,,TRUE
 currencyreaderapplication.gov,Legislative,Library of Congress,,TRUE
 currencyreader.gov,Legislative,Library of Congress,,TRUE
 digitalpreservation.gov,Legislative,Library of Congress,,TRUE
@@ -1339,8 +1339,6 @@ ushr.gov,Legislative,United States House of Representatives,House of Representat
 lda.gov,Legislative,United States Senate,,TRUE
 senate.gov,Legislative,United States Senate,,TRUE
 sen.gov,Legislative,United States Senate,,TRUE
-uscapitolpolice.gov,Legislative,U.S. Capitol Police,,TRUE
-uscp.gov,Legislative,U.S. Capitol Police,,TRUE
 uscc.gov,Legislative,U.S.-China Economic and Security Review Commission,U.S.-China Economic and Security Review Commission,TRUE
 uscirf.gov,Legislative,U.S. Commission on International Religious Freedom,U.S. Commission on International Religious Freedom,TRUE
 america250.gov,Legislative,U.S. Semiquincentennial Commission,United States Semiquincentennial Commission,TRUE
