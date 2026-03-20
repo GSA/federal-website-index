@@ -6,6 +6,7 @@ preserveamerica.gov,Executive,Advisory Council on Historic Preservation,,TRUE
 abmc.gov,Executive,American Battle Monuments Commission,,TRUE
 arc.gov,Executive,Appalachian Regional Commission,,TRUE
 asc.gov,Executive,Appraisal Subcommittee of the Federal Financial Institutions Examination Council,,TRUE
+arctic.gov,Executive,Arctic Research Commission,,TRUE
 afrh.gov,Executive,Armed Forces Retirement Home,,TRUE
 goldwaterscholarship.gov,Executive,Barry Goldwater Scholarship and Excellence in Education Foundation,,TRUE
 billetes.gov,Executive,Board of Governors of the Federal Reserve,,TRUE
@@ -102,6 +103,7 @@ myplate.gov,Executive,Department of Agriculture,Food and Nutrition Service,TRUE
 nafri.gov,Executive,Department of Agriculture,Forest Service,TRUE
 nutrition.gov,Executive,Department of Agriculture,Office of Communications,TRUE
 nwcg.gov,Executive,Department of Agriculture,,TRUE
+productofusa.gov,Executive,Department of Agriculture,Office of Communications,TRUE
 rec.gov,Executive,Department of Agriculture,Forest Service,TRUE
 recreation.gov,Executive,Department of Agriculture,Forest Service,TRUE
 rural.gov,Executive,Department of Agriculture,Rural Development,TRUE
@@ -931,7 +933,6 @@ fdms.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fedidcard.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 fedinfo.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fedramp.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
-fedrooms.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 firstgov.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 fleet.gov,Executive,General Services Administration,,TRUE
 fmi.gov,Executive,General Services Administration,Office of GSA IT,TRUE
@@ -950,7 +951,6 @@ gsaauctions.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 gsafleet.gov,Executive,General Services Administration,,TRUE
 gsa.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 gsaig.gov,Executive,General Services Administration,Office of Inspector General,TRUE
-gsatest2.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 identitysandbox.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
 idmanagement.gov,Executive,General Services Administration,Office of GSA IT,TRUE
 info.gov,Executive,General Services Administration,Federal Acquisition Service,TRUE
@@ -1077,7 +1077,6 @@ nga.gov,Executive,National Gallery of Art,,TRUE
 nlrb.gov,Executive,National Labor Relations Board,,TRUE
 nmb.gov,Executive,National Mediation Board,,TRUE
 amtrakoig.gov,Executive,"National Railroad Passenger Corporation, Office of Inspector General",,TRUE
-arctic.gov,Executive,National Science Foundation,U.S. Arctic Research Commission,TRUE
 nsf.gov,Executive,National Science Foundation,,TRUE
 research.gov,Executive,National Science Foundation,,TRUE
 sac.gov,Executive,National Science Foundation,,TRUE
@@ -1205,7 +1204,6 @@ fd.gov,Judicial,Administrative Office of the United States Courts,Defender Servi
 federalcourts.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 federalprobation.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 federalrules.gov,Judicial,Administrative Office of the United States Courts,,TRUE
-fjc.gov,Judicial,Administrative Office of the United States Courts,Federal Judicial Center,TRUE
 judicialconference.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 pacer.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 usbankruptcy.gov,Judicial,Administrative Office of the United States Courts,,TRUE
@@ -1213,8 +1211,7 @@ uscavc.gov,Judicial,Administrative Office of the United States Courts,United Sta
 usc.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 uscourts.gov,Judicial,Administrative Office of the United States Courts,,TRUE
 usprobation.gov,Judicial,Administrative Office of the United States Courts,,TRUE
-ussc.gov,Judicial,Administrative Office of the United States Courts,United States Sentencing Commission,TRUE
-ustaxcourt.gov,Judicial,Administrative Office of the United States Courts,United States Tax Court,TRUE
+fjc.gov,Judicial,Federal Judicial Center,,TRUE
 scinet.gov,Judicial,Supreme Court of the United States,,TRUE
 scinet-test.gov,Judicial,Supreme Court of the United States,,TRUE
 sc-us.gov,Judicial,Supreme Court of the United States,,TRUE
@@ -1223,20 +1220,22 @@ scuspd.gov,Judicial,Supreme Court of the United States,,TRUE
 supreme-court.gov,Judicial,Supreme Court of the United States,,TRUE
 supremecourt.gov,Judicial,Supreme Court of the United States,,TRUE
 supremecourtus.gov,Judicial,Supreme Court of the United States,,TRUE
+ussc.gov,Judicial,United States Sentencing Commission,,TRUE
+ustaxcourt.gov,Judicial,United States Tax Court,,TRUE
 adams.gov,Legislative,Adams Memorial Commission,,TRUE
-aoc.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-capitalgiftshop.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-capital.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-capitolgiftshop.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-capitol.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-usbg.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-uscapitalgiftshop.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-uscapital.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-uscapitolgiftshop.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-uscapitolgiftstore.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-uscapitol.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-visitthecapital.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
-visitthecapitol.gov,Legislative,Architect of the Capitol,Architect of the Capitol,TRUE
+aoc.gov,Legislative,Architect of the Capitol,,TRUE
+capitalgiftshop.gov,Legislative,Architect of the Capitol,,TRUE
+capital.gov,Legislative,Architect of the Capitol,,TRUE
+capitolgiftshop.gov,Legislative,Architect of the Capitol,,TRUE
+capitol.gov,Legislative,Architect of the Capitol,,TRUE
+usbg.gov,Legislative,Architect of the Capitol,,TRUE
+uscapitalgiftshop.gov,Legislative,Architect of the Capitol,,TRUE
+uscapital.gov,Legislative,Architect of the Capitol,,TRUE
+uscapitolgiftshop.gov,Legislative,Architect of the Capitol,,TRUE
+uscapitolgiftstore.gov,Legislative,Architect of the Capitol,,TRUE
+uscapitol.gov,Legislative,Architect of the Capitol,,TRUE
+visitthecapital.gov,Legislative,Architect of the Capitol,,TRUE
+visitthecapitol.gov,Legislative,Architect of the Capitol,,TRUE
 uscapitolpolice.gov,Legislative,Capitol Police,,TRUE
 uscp.gov,Legislative,Capitol Police,,TRUE
 cbo.gov,Legislative,Congressional Budget Office,,TRUE
@@ -1335,7 +1334,6 @@ republicans.gov,Legislative,United States House of Representatives,House Republi
 republicanwhip.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
 speaker.gov,Legislative,United States House of Representatives,Office of the Speaker,TRUE
 taxreform.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
-tmdbhouse.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
 ushouse.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
 ushr.gov,Legislative,United States House of Representatives,House of Representatives,TRUE
 lda.gov,Legislative,United States Senate,,TRUE
