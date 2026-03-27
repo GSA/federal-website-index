@@ -43,9 +43,20 @@ There's 204 entries that contain (but don't start with) `api`.
 - Some sites that begin with `app.` are legitimate and shouldn't be filtered out.  Therefore, I think the move is to add individual websites that we want to remove to the ignore list.  
 - I've started doing ^^^ but there's a bunch that are already getting filtered out for not being live, so I'm not going to worry about those and just look at the ones that are live with 200 codes. 
 
+
+### Begins with `archive`
+- 42 results
+- Spot-checking these, the appear to often be archived websites, which may not be updated anymore or considered part of an agency's active web presence, but do still represent the agency's public web presence in total.
+- I think the move is to not add this filter.
+
 ### Contains `auth`
 - 127 contain the string, many of which should stay.
 - adding a bunch of begins with `auth...` 
+
+### Begins with `beta`
+- 61 records
+- This is a difficult one to decide on because there's a wide range of quasi-staging sites, but also a number of early-release-but-intended-for-the-public sites.  I think the move is not to filter all of these but to look for other strings that correlate more often with the quasi-staging sites and add those filters in.  
+
 
 ### Contains `cdn`
 - 5 records contain the string
@@ -98,6 +109,7 @@ It seems safe and appropriate to filter all of these out by adding `gp.` to the 
 - 28 records, all but 2 of which begin with `idp.` or `idp-`.
 - Filtering those 26 should be good for now.
 
+
 ### Contains `preprod`
 - There's 74 records.
 - Looking through them, I think all can and should be filtered.
@@ -134,6 +146,10 @@ We are already filtering out sites that begin with `sharepoint.`.  After that, 6
 - The third needs to be removed (telework.ojp.usdoj.gov).
 - To address the issue, I'm going to remove `telework.` from the `begins with` ignore list but add in `telework.ojp.usdoj.gov`
 
+### Begins with `test`
+- There's 126 that begin with `test` that are not already being filtered.
+- There's at least a few though, which are legitimate.  testbed.aviationweather.gov, testicular.cancer.gov, tester.senate.gov.
+- The best bet is to add more specific filters like test1., test2., test3., testdomain.  
 
 
 ### Begins with `tools.`
