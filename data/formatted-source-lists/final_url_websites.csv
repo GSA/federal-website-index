@@ -701,7 +701,6 @@ hrc.army.mil,TRUE
 ig.army.mil,TRUE
 innovation.army.mil,TRUE
 ipps-a.army.mil,TRUE
-iwrlibrary.sec.usace.army.mil,TRUE
 jalbtcx.usace.army.mil,TRUE
 jpeoaa.army.mil,TRUE
 jtfncr.mdw.army.mil,TRUE
@@ -1091,11 +1090,14 @@ www3.fed.bop.gov,TRUE
 access1.bpa.gov,TRUE
 access2.bpa.gov,TRUE
 access.test.bpa.gov,TRUE
+bpacomments.bpa.gov,TRUE
 bpa.gov,TRUE
 go.bpa.gov,TRUE
 mypcpiv.bpa.gov,TRUE
 pisces.bpa.gov,TRUE
 qa.cbfish.org,TRUE
+proceedings.bpa.gov,TRUE
+publiccomments.bpa.gov,TRUE
 publiccommentsmaintenance.bpa.gov,TRUE
 ratecase.bpa.gov,TRUE
 rtu.bpa.gov,TRUE
@@ -1577,7 +1579,6 @@ nppt.cdc.gov,TRUE
 nyts.cdc.gov,TRUE
 o365.cdc.gov,TRUE
 oasis.cdc.gov,TRUE
-onemap.cdc.gov,TRUE
 origin.glb.cdc.gov,TRUE
 origin.int-f5.cdc.gov,TRUE
 pecat.cdc.gov,TRUE
@@ -2849,6 +2850,7 @@ n3b-aw-idm.em-la.doe.gov,TRUE
 n3b-aw-seg.em-la.doe.gov,TRUE
 ndesproxy.doe.gov,TRUE
 ne.doe.gov,TRUE
+netl.doe.gov,TRUE
 nnaccess.doe.gov,TRUE
 nncams.doe.gov,TRUE
 nola.spr.doe.gov,TRUE
@@ -3450,6 +3452,7 @@ trn.dmcseddebt.ed.gov,TRUE
 trn.myeddebt.ed.gov,TRUE
 trnvipssp.dmcseddebt.ed.gov,TRUE
 tsa.ed.gov,TRUE
+uat.dmcseddebt.ed.gov,TRUE
 uat.myeddebt.ed.gov,TRUE
 uatvipssp.dmcseddebt.ed.gov,TRUE
 vipssp.dmcseddebt.ed.gov,TRUE
@@ -3566,7 +3569,6 @@ learningnucleusdev.energy.gov,TRUE
 learningnucleus.energy.gov,TRUE
 learningnucleustest.energy.gov,TRUE
 listserv.energy.gov,TRUE
-teams.microsoft.com,TRUE
 livewire.energy.gov,TRUE
 nationalcoalcouncil.energy.gov,TRUE
 navalnuclearlab.energy.gov,TRUE
@@ -3660,7 +3662,6 @@ cyan.epa.gov,TRUE
 data.epa.gov,TRUE
 dis.epa.gov,TRUE
 echo.epa.gov,TRUE
-edap.epa.gov,TRUE
 efile.epa.gov,TRUE
 egret.epa.gov,TRUE
 emts.epa.gov,TRUE
@@ -3694,6 +3695,7 @@ gispub.epa.gov,TRUE
 globalchange.epa.gov,TRUE
 gpdashboard.epa.gov,TRUE
 guideme.epa.gov,TRUE
+hawc.epa.gov,TRUE
 hero.epa.gov,TRUE
 heronetnext.epa.gov,TRUE
 heronext.epa.gov,TRUE
@@ -4151,7 +4153,6 @@ imvpn-svc-w1.fda.gov,TRUE
 imvpn-svc-w2.fda.gov,TRUE
 access.fda.gov,TRUE
 labels.preprod.fda.gov,TRUE
-mdsap.fda.gov,TRUE
 medsun.fda.gov,TRUE
 medsun.preprod.fda.gov,TRUE
 mprisacrdr.fda.gov,TRUE
@@ -4192,10 +4193,10 @@ trlm-ng-rlsite.preprod.fda.gov,TRUE
 trlm-ng-scan.fda.gov,TRUE
 trlm-ng-scan.preprod.fda.gov,TRUE
 ufsapology.fda.gov,TRUE
-ufsp1.preprod.fda.gov,TRUE
 ufsp2.preprod.fda.gov,TRUE
 upload-api-esgng-uat.preprod.fda.gov,TRUE
 userfees.fda.gov,TRUE
+virulence.fda.gov,TRUE
 wvpn-svc-a1.fda.gov,TRUE
 wvpn-svc-a2.fda.gov,TRUE
 wvpn-svc-w1.fda.gov,TRUE
@@ -4301,7 +4302,6 @@ api-stage.open.fec.gov,TRUE
 docquery.fec.gov,TRUE
 efilingapps.fec.gov,TRUE
 efoservices.fec.gov,TRUE
-efoservices.stage.efo.fec.gov,TRUE
 fecload-update.fec.gov,TRUE
 fecnotify.fec.gov,TRUE
 sers.fec.gov,TRUE
@@ -4447,7 +4447,6 @@ embargo.fhfa.gov,TRUE
 fhfa.gov,TRUE
 gpvpn.fhfa.gov,TRUE
 remotesupport.fhfa.gov,TRUE
-va025.fhfa.gov,TRUE
 va056.fhfa.gov,TRUE
 vavpn.fhfa.gov,TRUE
 fhfaoig.gov,TRUE
@@ -8321,6 +8320,7 @@ issgsess4.hosc.msfc.nasa.gov,TRUE
 issm.jpl.nasa.gov,TRUE
 istcolloq.gsfc.nasa.gov,TRUE
 pwg.gsfc.nasa.gov,TRUE
+its-live.jpl.nasa.gov,TRUE
 ivscc.gsfc.nasa.gov,TRUE
 ixpe.msfc.nasa.gov,TRUE
 sealevel.jpl.nasa.gov,TRUE
@@ -8469,6 +8469,7 @@ mspwss01.hadm.msfc.nasa.gov,TRUE
 mttc.jpl.nasa.gov,TRUE
 muscle16.jpl.nasa.gov,TRUE
 mwsci.jpl.nasa.gov,TRUE
+mynasadata.larc.nasa.gov,TRUE
 my.nasa.gov,TRUE
 my.prosams.nasa.gov,TRUE
 mysteries.jpl.nasa.gov,TRUE
@@ -8783,7 +8784,7 @@ strs.grc.nasa.gov,TRUE
 subset.larc.nasa.gov,TRUE
 supplierportal.jpl.nasa.gov,TRUE
 support.earthdata.nasa.gov,TRUE
-support.sewp.nasa.gov,TRUE
+sewpprod.servicenowservices.com,TRUE
 support.sit.earthdata.nasa.gov,TRUE
 survey.larc.nasa.gov,TRUE
 svcp.jpl.nasa.gov,TRUE
@@ -8841,7 +8842,6 @@ uat.lpdaac.earthdata.nasa.gov,TRUE
 uat.urs.earthdata.nasa.gov,TRUE
 uavdb.jpl.nasa.gov,TRUE
 umbra.gsfc.nasa.gov,TRUE
-umbra.nascom.nasa.gov,TRUE
 uq.jpl.nasa.gov,TRUE
 uqtools.larc.nasa.gov,TRUE
 urban.jpl.nasa.gov,TRUE
@@ -9725,7 +9725,6 @@ medlineplus.awsprod.nlm.nih.gov,TRUE
 medlineplus.awsqa.nlm.nih.gov,TRUE
 meshb-prev.nlm.nih.gov,TRUE
 meshb.wip.nlm.nih.gov,TRUE
-meshondemand.nlm.nih.gov,TRUE
 metabolomics-sig.nih.gov,TRUE
 mfa.globe.nih.gov,TRUE
 profiles.nlm.nih.gov,TRUE
@@ -9851,6 +9850,7 @@ ofacp.nih.gov,TRUE
 officewebapp.cit.nih.gov,TRUE
 ofm.od.nih.gov,TRUE
 ohrp.cit.nih.gov,TRUE
+oitecareersblog.od.nih.gov,TRUE
 olao.od.nih.gov,TRUE
 olaw.nih.gov,TRUE
 policymanual.nih.gov,TRUE
@@ -9973,7 +9973,6 @@ search.grants.nih.gov,TRUE
 search.nih.gov,TRUE
 vsearch.nlm.nih.gov,TRUE
 securedev.ncbi.nlm.nih.gov,TRUE
-secureemail.nih.gov,TRUE
 secure.ncbi.nlm.nih.gov,TRUE
 security.nih.gov,TRUE
 sedfitsedphat.nibib.nih.gov,TRUE
@@ -10437,6 +10436,7 @@ cpvpn.ncep.noaa.gov,TRUE
 creek.atdd.noaa.gov,TRUE
 csl.noaa.gov,TRUE
 cwcaribbean.aoml.noaa.gov,TRUE
+cwcgom.aoml.noaa.gov,TRUE
 darrp.noaa.gov,TRUE
 data1.gfdl.noaa.gov,TRUE
 data7.erh.noaa.gov,TRUE
@@ -10700,6 +10700,7 @@ prod-west-spc.woc.noaa.gov,TRUE
 psl.noaa.gov,TRUE
 pss.swpc.noaa.gov,TRUE
 pub-data.diver.orr.noaa.gov,TRUE
+publications.gsl.noaa.gov,TRUE
 purchaseknob.atdd.noaa.gov,TRUE
 qa.coast.noaa.gov,TRUE
 qa.coralreef.noaa.gov,TRUE
@@ -11122,6 +11123,7 @@ dmfcert.ntis.gov,TRUE
 dmf.ntis.gov,TRUE
 ladmf.ntis.gov,TRUE
 ntis.gov,TRUE
+ntrl.ntis.gov,TRUE
 srs.ntis.gov,TRUE
 app.ntsb.gov,TRUE
 carol.ntsb.gov,TRUE
@@ -11422,7 +11424,9 @@ energybootcamp.ornl.gov,TRUE
 energyefficiency.ornl.gov,TRUE
 energy.ornl.gov,TRUE
 epa-bdcc.ornl.gov,TRUE
+epa-bprg.ornl.gov,TRUE
 epa-cpm.ornl.gov,TRUE
+epa-dccs.ornl.gov,TRUE
 epa-heast.ornl.gov,TRUE
 epa-prgs.ornl.gov,TRUE
 epa-sdcc.ornl.gov,TRUE
@@ -11464,6 +11468,7 @@ guesthouse.ornl.gov,TRUE
 gutenpress.ornl.gov,TRUE
 gw-spl-vpn.ornl.gov,TRUE
 helpme.ornl.gov,TRUE
+hhpprtv.ornl.gov,TRUE
 honyung.ornl.gov,TRUE
 householder.ornl.gov,TRUE
 hpdmflex.ornl.gov,TRUE
@@ -12165,6 +12170,7 @@ snacregister.samhsa.gov,TRUE
 soartrack.samhsa.gov,TRUE
 soarworks.samhsa.gov,TRUE
 spars-cmhs.samhsa.gov,TRUE
+spars-csap.samhsa.gov,TRUE
 spars-signin.samhsa.gov,TRUE
 spars-lc.samhsa.gov,TRUE
 spars-rpt.samhsa.gov,TRUE
@@ -12179,6 +12185,7 @@ anywhere.sandia.gov,TRUE
 autonomy.sandia.gov,TRUE
 gcbs.sandia.gov,TRUE
 casa.sandia.gov,TRUE
+sjplimp.github.io,TRUE
 cint.sandia.gov,TRUE
 sandia.gov,TRUE
 crf.sandia.gov,TRUE
@@ -12207,6 +12214,7 @@ inside-q.sandia.gov,TRUE
 ip.sandia.gov,TRUE
 jastoolbox.sandia.gov,TRUE
 ldesconsortium.sandia.gov,TRUE
+lsimaging.sandia.gov,TRUE
 maccs.sandia.gov,TRUE
 mapreduce.sandia.gov,TRUE
 met-eoc.sandia.gov,TRUE
@@ -12236,7 +12244,6 @@ s3c.sandia.gov,TRUE
 sgtt.sandia.gov,TRUE
 snlweather.sandia.gov,TRUE
 sandialabs.github.io,TRUE
-tracktable.sandia.gov,TRUE
 ttr.sandia.gov,TRUE
 umbra.sandia.gov,TRUE
 university.sandia.gov,TRUE
@@ -12247,6 +12254,7 @@ vorocrust.sandia.gov,TRUE
 xraytoolkit.sandia.gov,TRUE
 xtk-recon.sandia.gov,TRUE
 xyce.sandia.gov,TRUE
+z-beamlet.sandia.gov,TRUE
 savingsbond.gov,TRUE
 advocacy.sba.gov,TRUE
 api.sba.gov,TRUE
@@ -12288,7 +12296,6 @@ edit-staging.schoolsafety.gov,TRUE
 edit-testint.schoolsafety.gov,TRUE
 schoolsafety.gov,TRUE
 dev.scidac.gov,TRUE
-scidac.gov,TRUE
 blm.sciencebase.gov,TRUE
 doi.sciencebase.gov,TRUE
 sciencebase.gov,TRUE
@@ -12488,6 +12495,7 @@ spaceweather.gov,TRUE
 spd15revision.gov,TRUE
 srnl.gov,TRUE
 cab.srs.gov,TRUE
+cat.srs.gov,TRUE
 ctxsfcb01.srs.gov,TRUE
 fs.srs.gov,TRUE
 ra.srs.gov,TRUE
@@ -13031,7 +13039,7 @@ usadf.gov,TRUE
 direct.usagm.gov,TRUE
 analytics.usa.gov,TRUE
 api.usa.gov,TRUE
-cm-jira.usa.gov,TRUE
+id.atlassian-us-gov-mod.com,TRUE
 go.usa.gov,TRUE
 i14y.search.usa.gov,TRUE
 i14y.usa.gov,TRUE
@@ -13046,6 +13054,7 @@ ssouat.usaid.gov,TRUE
 sso.usaid.gov,TRUE
 usaid.gov,TRUE
 usaidlibraryguides.usaid.gov,TRUE
+vdieast.usaid.gov,TRUE
 vpn.usaid.gov,TRUE
 usai.gov,TRUE
 263.usajobs.gov,TRUE
@@ -13592,6 +13601,7 @@ ecf-ciao.cacb.uscourts.gov,TRUE
 ecf.cofc.uscourts.gov,TRUE
 ecf.ctd.uscourts.gov,TRUE
 ecf.dcd.uscourts.gov,TRUE
+ecf.flmd.uscourts.gov,TRUE
 ecf.gand.uscourts.gov,TRUE
 ecf.insd.uscourts.gov,TRUE
 ecf.ksd.uscourts.gov,TRUE
@@ -13707,7 +13717,6 @@ cuat.nfc.usda.gov,TRUE
 cvbpv-as2-prod.aphis.usda.gov,TRUE
 dam-fns.usda.gov,TRUE
 ers.usda.gov,TRUE
-datagateway.nrcs.usda.gov,TRUE
 data.nass.usda.gov,TRUE
 dguat.fns.edc.usda.gov,TRUE
 directives.nrcs.usda.gov,TRUE
@@ -13737,8 +13746,6 @@ ffavors.edc.usda.gov,TRUE
 ffavors.fns.usda.gov,TRUE
 ffavorsrpt.edc.usda.gov,TRUE
 ffavors.tst.fns.usda.gov,TRUE
-fgisonline.ams.usda.gov,TRUE
-fgist.ams.usda.gov,TRUE
 foodbuyingguide.fns.usda.gov,TRUE
 foodcomplaint.fsis.usda.gov,TRUE
 forms.cert.sc.egov.usda.gov,TRUE
@@ -13857,7 +13864,7 @@ quickstats.nass.usda.gov,TRUE
 usdachcgildtras2fp1.usda.gov,TRUE
 usdaenwecoaxras2fp1.usda.gov,TRUE
 usdachcgildtrasfp3.usda.gov,TRUE
-usdaenwecoaxrasfp2.usda.gov,TRUE
+usdaenwecoaxrasfp3.usda.gov,TRUE
 rdgdwe.cert.sc.egov.usda.gov,TRUE
 rdgdwe.sc.egov.usda.gov,TRUE
 rdmfhrentals.sc.egov.usda.gov,TRUE
@@ -13905,7 +13912,7 @@ usdacc.stg.platform.usda.gov,TRUE
 usdachcgildtrasfp1.usda.gov,TRUE
 usdachcgildtrasfp2.usda.gov,TRUE
 usdaenwecoaxrasfp1.usda.gov,TRUE
-usdaenwecoaxrasfp3.usda.gov,TRUE
+usdaenwecoaxrasfp2.usda.gov,TRUE
 usdalinc-le.cert.sc.egov.usda.gov,TRUE
 usdalinc.sc.egov.usda.gov,TRUE
 usdaminc.sc.egov.usda.gov,TRUE
@@ -13960,7 +13967,6 @@ psob1.ojp.usdoj.gov,TRUE
 relativity.tax.usdoj.gov,TRUE
 search.deadiversion.usdoj.gov,TRUE
 search.nflis.deadiversion.usdoj.gov,TRUE
-secureemail.usdoj.gov,TRUE
 stage-diamd.usdoj.gov,TRUE
 stage-justgrants.usdoj.gov,TRUE
 tfrgs.ustp.usdoj.gov,TRUE
@@ -14230,7 +14236,6 @@ geonarrative.usgs.gov,TRUE
 geo-nsdi.er.usgs.gov,TRUE
 gfl.usgs.gov,TRUE
 ghsc.code-pages.usgs.gov,TRUE
-gis1.usgs.gov,TRUE
 gis.usgs.gov,TRUE
 glovis-cloud.usgs.gov,TRUE
 glovis.usgs.gov,TRUE
@@ -14293,6 +14298,7 @@ mrdata.usgs.gov,TRUE
 ms.waterdata.usgs.gov,TRUE
 mt.waterdata.usgs.gov,TRUE
 m.waterdata.usgs.gov,TRUE
+my-beta.usgs.gov,TRUE
 my.usgs.gov,TRUE
 nas.er.usgs.gov,TRUE
 natwebcaas01.wr.usgs.gov,TRUE
@@ -14348,6 +14354,7 @@ rmgsc-haws2.cr.usgs.gov,TRUE
 rockyweb.usgs.gov,TRUE
 r-training.code-pages.usgs.gov,TRUE
 rt.waterdata.usgs.gov,TRUE
+sabdata.cr.usgs.gov,TRUE
 sc.waterdata.usgs.gov,TRUE
 sd.waterdata.usgs.gov,TRUE
 services.isis.astrogeology.usgs.gov,TRUE
@@ -14367,6 +14374,7 @@ stellwagen.er.usgs.gov,TRUE
 stg-warcapps.usgs.gov,TRUE
 stn.wim.usgs.gov,TRUE
 store.usgs.gov,TRUE
+tableau.usgs.gov,TRUE
 tadp.astrogeology.usgs.gov,TRUE
 tahoe.usgs.gov,TRUE
 test-mp1.usgs.gov,TRUE
@@ -14480,6 +14488,7 @@ usunrome.usmission.gov,TRUE
 vienna.usmission.gov,TRUE
 usphs.gov,TRUE
 iras.uspis.gov,TRUE
+ns-cat-elsah.uspis.gov,TRUE
 origin-tst-mailtheft.uspis.gov,TRUE
 uspis.gov,TRUE
 tst-ehome.uspis.gov,TRUE
@@ -14508,7 +14517,6 @@ ibcalcea.usps.com,TRUE
 ibcalcsm.usps.com,TRUE
 ivs-sign.usps.com,TRUE
 news.usps.com,TRUE
-mdxcat.usps.com,TRUE
 mdx.usps.com,TRUE
 media.usps.com,TRUE
 moversguide.usps.com,TRUE
@@ -15279,6 +15287,7 @@ preview.weather.gov,TRUE
 ra4-gifs.weather.gov,TRUE
 radar.weather.gov,TRUE
 spot.weather.gov,TRUE
+webharvest.gov,TRUE
 whistleblower.gov,TRUE
 edit.whistleblowers.gov,TRUE
 staging.whistleblowers.gov,TRUE
@@ -15300,6 +15309,7 @@ worker.gov,TRUE
 wwtg.gov,TRUE
 ai-toolkit.xd.gov,TRUE
 xd.gov,TRUE
+yellowribbon.mil,TRUE
 engage.youth.gov,TRUE
 evidence-innovation.youth.gov,TRUE
 youth.gov,TRUE
