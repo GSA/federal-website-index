@@ -1,3 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 URL begins with:, Rational
 *,
 [5 or more numerals],
@@ -26,6 +48,8 @@ alphawww.,staging and development
 analytics-develop,staging and development
 api-alpha.,staging and development
 app-,application
+armweb0-cms,staging and authentication
+asrweb0-cms,staging and authentication
 assets., website components
 assets-, website components
 assets1., website components
@@ -39,9 +63,11 @@ authstage,authentication
 authstaging,authentication
 authtest,authentication
 autodiscover., webmail
+blog-cms,staging and authentication
 cdn., website components
 cdnstage,website component
 certevpn,authentication
+chemm-cms,staging and authentication
 citrix., internal collaboration tool
 cloudfiles.,website components
 cms.,admin panel
@@ -52,6 +78,8 @@ connect., internal collaboration tool
 content-drupal,staging and development
 ctprs-,staging and development
 ctxdev-,staging and development
+dceg-cms,staging and authentication
+dctd-cms,staging and authentication
 demo., staging and development
 demo-,staging and development
 dev., staging and development
@@ -65,10 +93,13 @@ edit., admin panel
 email., webmail
 evpn,authentication
 extranet., internal collaboration tool
+fec-feature-cms,staging and authentication
+fec-prod-cms,staging and authentication
 fedramp-develop,staging and development
 files.,website components
 ftp,website components
 ftp2,website components
+grace-cms,staging and authentication
 gp., internal collaboration tool
 hpcaccounts.,authentication
 idp.,authentication
@@ -79,20 +110,26 @@ itoadev-,staging and development
 local-,staging and development
 lyncdiscover., internal collaboration tool
 mail., webmail
+marinedebris-cms,staging and authentication
 marsstaticcdn,website component
 mesharepoint., internal collaboration tool
 mdm., other
 meet., internal collaboration tool
-origin-,staging and development
-origin.,staging and development
+ms-cms,staging and authentication
+mypart-cms,staging and authentication
 nag.,authentication
+nano-cms,staging and authentication
 nasatvfiles.,website components
+nciconnect-cms,staging and authentication
 nfiles.nacp-files.,authentication
 nhtsdev-,staging and development
 nsegrantadev-,staging and development
+origin-,staging and development
+origin.,staging and development
 owa., webmail
 piv., authentication
 portaldev-,staging and development
+prescancerpanel-cms,staging and authentication
 preprod,staging and development
 preview,staging and development
 preview-,staging and development
@@ -102,13 +139,16 @@ ps-development,staging and development
 qa-,staging and development
 qa.,staging and development
 remote., authentication
+sbir-cms,staging and authentication
 sbx,staging and development
+sealevel-cms,staging and authentication
 secure., authentication
 sedwebdev-,staging and development
 sfiles.,website components
 sftp,website components
 sharepoint., internal collaboration tool
 sharepointx., internal collaboration tool
+smd-cms,staging and authentication
 smtp., webmail
 ssl., authentication
 sslvpn., authentication
@@ -123,6 +163,7 @@ static., staging and development
 stg., staging and development
 stormscdn,website component
 sts., other
+swot-cms,staging and authentication
 svn., staging and development
 tdl., other
 test., staging and development
@@ -145,7 +186,8 @@ uat-, staging and development
 vdi., internal collaboration tool
 vdi-, internal collaboration tool
 vdilab, internal collaboration tool 
-vpn., authentication
+vpn.,authentication
+vpn-,authentication
 vtrcks., other
 webadmin., admin panel
 webapp., admin panel
