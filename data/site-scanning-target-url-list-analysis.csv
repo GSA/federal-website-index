@@ -1,5 +1,5 @@
 name,value,count
-FederalDomainsSourceList,gov url list length,1340
+FederalDomainsSourceList,gov url list length,1338
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
 OmbIdeaSourceList,omb idea url list length,10904
@@ -13,13 +13,13 @@ MilTwoSourceList,.mil first url list length,274
 OtherSourceList,other website url list length,8118
 DodPublicSourceList,dod public url list length,2947
 DotMilSourceList,dot mil url list length,177
-FinalUrlWebsiteSourceList,final url website list length,15315
+FinalUrlWebsiteSourceList,final url website list length,15336
 House117thSourceList,House 117th url list length,588
 Senate117thSourceList,Senate 117th url list length,144
 GpoFdlpSourceList,GpoFdlp url list length,915
 CisaSourceList,CISA url list length,21915
 Dod2025SourceList,DOD 2025 url list length,1924
-Dap2SourceList,dap2 url list length,10558
+Dap2SourceList,dap2 url list length,10828
 UsaGovClicksSourceList,usagov clicks url list length,8460
 UsaGovClicksMilSourceList,usagov clicks mil url list length,1281
 SearchGovSourceList,search gov url list length,1128
@@ -27,11 +27,11 @@ SearchGovMilSourceList,search gov mil url list length,407
 PublicInventorySourceList,public inventory url list length,1257
 NonGovMilFederalSourceList,non .gov/.mil federal url list length,8
 GovtUrlsSourceList,govt url list length,401
-Combined,combined url list length,128922
-Deduped,deduped url list length,48347
-GovDomains,number of .gov base domains,1340
+Combined,combined url list length,129211
+Deduped,deduped url list length,48562
+GovDomains,number of .gov base domains,1338
 MilDomains,number of .mil base domains,177
 OtherFederalDomains,number of other federal domains,8
-GovMilNonMatching,number of urls with non-federal base domains removed,11204
-FinalList,url list length after non-federal urls removed,37143
-DeadSites,number of urls after dead sites removed,31747
+GovMilNonMatching,number of urls with non-federal base domains removed,11394
+FinalList,url list length after non-federal urls removed,37168
+DeadSites,number of urls after dead sites removed,31772
