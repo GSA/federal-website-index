@@ -1,5 +1,5 @@
 name,value,count
-FederalDomainsSourceList,gov url list length,1341
+FederalDomainsSourceList,gov url list length,1339
 PulseSourceList,pulse url list length,24636
 DapSourceList,dap url list length,10000
 OmbIdeaSourceList,omb idea url list length,10904
@@ -27,11 +27,11 @@ SearchGovMilSourceList,search gov mil url list length,407
 PublicInventorySourceList,public inventory url list length,1257
 NonGovMilFederalSourceList,non .gov/.mil federal url list length,8
 GovtUrlsSourceList,govt url list length,401
-Combined,combined url list length,128875
-Deduped,deduped url list length,48548
-GovDomains,number of .gov base domains,1341
+Combined,combined url list length,128873
+Deduped,deduped url list length,48546
+GovDomains,number of .gov base domains,1339
 MilDomains,number of .mil base domains,177
 OtherFederalDomains,number of other federal domains,8
 GovMilNonMatching,number of urls with non-federal base domains removed,11322
-FinalList,url list length after non-federal urls removed,37226
-DeadSites,number of urls after dead sites removed,31830
+FinalList,url list length after non-federal urls removed,37224
+DeadSites,number of urls after dead sites removed,31829
