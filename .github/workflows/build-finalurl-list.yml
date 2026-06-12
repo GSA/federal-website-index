@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "30 20 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   my-job:
     name: Checkout, build, and run final URL list builder
