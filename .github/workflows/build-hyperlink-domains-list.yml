@@ -4,6 +4,7 @@ name: Build hyperlink domains source list
 on:
   workflow_dispatch:
   schedule:
+    # Note: This schedule may need to be adjusted if other workflows depend on this artifact
     - cron: "30 20 * * *"
 
 jobs:

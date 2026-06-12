@@ -18,10 +18,25 @@ function validateAndNormalizeDomain(domain: string): string | null {
         const normalized = trimmed.toLowerCase();
         const url = new URL(`https://${normalized}`);
         const hostname = url.hostname;
-        const isIP = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(hostname);
 
-        // Must contain a dot and not be an IP address
-        if (hostname.includes('.') && !isIP) {
+        // Check for IPv4 (with proper octet validation)
+        const ipv4Match = hostname.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/);
+        if (ipv4Match) {
+            const octets = [ipv4Match[1], ipv4Match[2], ipv4Match[3], ipv4Match[4]];
+            const isValidIPv4 = octets.every(octet => {
+                const num = parseInt(octet, 10);
+                return num >= 0 && num <= 255;
+            });
+            if (isValidIPv4) return null; // Valid IPv4, reject
+        }
+
+        // Check for IPv6 (starts with [ or contains multiple colons)
+        if (hostname.startsWith('[') || (hostname.match(/:/g) || []).length > 1) {
+            return null; // IPv6, reject
+        }
+
+        // Must contain a dot to be a valid domain
+        if (hostname.includes('.')) {
             return hostname;
         }
     } catch (e) {
@@ -44,16 +59,20 @@ function extractDomainsFromCell(cellValue: string, domainSet: Set<string>): numb
 
     try {
         const parsed = JSON.parse(trimmedCellValue);
-        if (Array.isArray(parsed)) {
-            for (const item of parsed) {
-                if (typeof item === 'string' && item.trim() !== '') {
-                    const validatedHostname = validateAndNormalizeDomain(item);
-                    if (validatedHostname) {
-                        domainSet.add(validatedHostname);
-                    } else {
-                        invalidCount++;
-                    }
-                }
+        if (!Array.isArray(parsed)) {
+            return invalidCount;
+        }
+
+        for (const item of parsed) {
+            if (typeof item !== 'string' || item.trim() === '') {
+                continue;
+            }
+
+            const validatedHostname = validateAndNormalizeDomain(item);
+            if (validatedHostname) {
+                domainSet.add(validatedHostname);
+            } else {
+                invalidCount++;
             }
         }
     } catch (e) {
@@ -87,7 +106,6 @@ async function main() {
 
     console.log(`Filtered out ${totalInvalidCount} invalid entries (IPs, phone numbers, protocols, etc.)`);
 
-    // Sort alphabetically for consistency
     console.log(`Found ${domainSet.size} unique domains. Sorting...`);
     const sortedDomains = Array.from(domainSet).sort();
 
