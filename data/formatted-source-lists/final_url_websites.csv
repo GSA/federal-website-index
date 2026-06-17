@@ -2530,6 +2530,7 @@ g-cnmi-eta.cbp.dhs.gov,TRUE
 genealogy.uscis.dhs.gov,TRUE
 geo-dev.dtect.dhs.gov,TRUE
 gii.dhs.gov,TRUE
+giitest.dhs.gov,TRUE
 go.dhs.gov,TRUE
 hayes.tsa.dhs.gov,TRUE
 hotline.oig.dhs.gov,TRUE
@@ -4805,6 +4806,7 @@ search.ftc.gov,TRUE
 staging.ftc.gov,TRUE
 takeitdown.ftc.gov,TRUE
 video.ftc.gov,TRUE
+fueleconomy.gov,TRUE
 fvap.gov,TRUE
 apps.fws.gov,TRUE
 migbirdapps.fws.gov,TRUE
@@ -5473,6 +5475,7 @@ fysbdms.acf.hhs.gov,TRUE
 gis.hhs.gov,TRUE
 hclsig.thinkculturalhealth.hhs.gov,TRUE
 hclsig-thinkculturalhealth-qc.thinkculturalhealth.hhs.gov,TRUE
+hhh-i2-hybrid1.hhs.gov,TRUE
 hhh-i2-hybrid2.hhs.gov,TRUE
 hhscap.hhs.gov,TRUE
 hhscyber.hhs.gov,TRUE
@@ -7529,6 +7532,7 @@ staging.medicaid.gov,TRUE
 test.edit.medicaid.gov,TRUE
 test.medicaid.gov,TRUE
 ftp.medicalcountermeasures.gov,TRUE
+medicalcountermeasures.gov,TRUE
 api.medicare.gov,TRUE
 bsi.medicare.gov,TRUE
 dev1.edit.medicare.gov,TRUE
@@ -7786,7 +7790,6 @@ idfs.sit.earthdatacloud.nasa.gov,TRUE
 worldwind.arc.nasa.gov,TRUE
 c3rs.arc.nasa.gov,TRUE
 calval.jpl.nasa.gov,TRUE
-camp2ex.jpl.nasa.gov,TRUE
 cancer.jpl.nasa.gov,TRUE
 caps.gsfc.nasa.gov,TRUE
 carbon.nasa.gov,TRUE
@@ -7797,6 +7800,7 @@ cce.nasa.gov,TRUE
 ccmcftp.ccmc.gsfc.nasa.gov,TRUE
 ccmc.gsfc.nasa.gov,TRUE
 ccmpp.gsfc.nasa.gov,TRUE
+cdaweb.gsfc.nasa.gov,TRUE
 cdaw.gsfc.nasa.gov,TRUE
 cddis.nasa.gov,TRUE
 cdf.gsfc.nasa.gov,TRUE
@@ -9636,6 +9640,7 @@ medlineplus.awsprod.nlm.nih.gov,TRUE
 medlineplus.awsqa.nlm.nih.gov,TRUE
 meshb-prev.nlm.nih.gov,TRUE
 meshb.wip.nlm.nih.gov,TRUE
+meshondemand.nlm.nih.gov,TRUE
 metabolomics-sig.nih.gov,TRUE
 mfa.globe.nih.gov,TRUE
 profiles.nlm.nih.gov,TRUE
@@ -10275,7 +10280,6 @@ adp.noaa.gov,TRUE
 boulder.noaa.gov,TRUE
 sso.noaa.gov,TRUE
 diver.orr.noaa.gov,TRUE
-amberjackb.nmfs.noaa.gov,TRUE
 amberjackm.nmfs.noaa.gov,TRUE
 amdar.ncep.noaa.gov,TRUE
 amdar.noaa.gov,TRUE
@@ -10725,7 +10729,6 @@ test-01-east-alb-www-spc.woc.noaa.gov,TRUE
 test-apps-st.fisheries.noaa.gov,TRUE
 testbeds.noaa.gov,TRUE
 testbed.swpc.noaa.gov,TRUE
-test-fts-ospo.woc.noaa.gov,TRUE
 test.goes.woc.noaa.gov,TRUE
 test.ospo.woc.noaa.gov,TRUE
 test-sos.woc.noaa.gov,TRUE
@@ -13576,6 +13579,7 @@ fdc.nal.usda.gov,TRUE
 fedsfeedfamilies.ocio.usda.gov,TRUE
 ffavors.fns.usda.gov,TRUE
 ffavors.tst.fns.usda.gov,TRUE
+fgisonline.ams.usda.gov,TRUE
 foodbuyingguide.fns.usda.gov,TRUE
 foodcomplaint.fsis.usda.gov,TRUE
 forms.cert.sc.egov.usda.gov,TRUE
@@ -13880,7 +13884,6 @@ iq.usembassy.gov,TRUE
 ir.usembassy.gov,TRUE
 is.usembassy.gov,TRUE
 it.usembassy.gov,TRUE
-jm.edit.usembassy.gov,TRUE
 jm.usembassy.gov,TRUE
 jo.usembassy.gov,TRUE
 jp.usembassy.gov,TRUE
@@ -13890,7 +13893,6 @@ kh.usembassy.gov,TRUE
 km.usembassy.gov,TRUE
 kr.usembassy.gov,TRUE
 kw.usembassy.gov,TRUE
-kz.edit.usembassy.gov,TRUE
 kz.usembassy.gov,TRUE
 la.usembassy.gov,TRUE
 lb.usembassy.gov,TRUE
@@ -13984,7 +13986,6 @@ xk.usembassy.gov,TRUE
 ye.usembassy.gov,TRUE
 za.usembassy.gov,TRUE
 zm.usembassy.gov,TRUE
-zw.edit.usembassy.gov,TRUE
 zw.usembassy.gov,TRUE
 usgeo.gov,TRUE
 usgovdod.mil,TRUE
@@ -14215,7 +14216,6 @@ tahoe.usgs.gov,TRUE
 test.natweb.usgs.gov,TRUE
 test-resn1.usgs.gov,TRUE
 test.wim.usgs.gov,TRUE
-thor-f5.er.usgs.gov,TRUE
 time.er.usgs.gov,TRUE
 tin.er.usgs.gov,TRUE
 tnawra.org,TRUE
@@ -14290,9 +14290,9 @@ ems.logcom.usmc.mil,TRUE
 mcicomportal.usmc.mil,TRUE
 lfsapps.mceits.usmc.mil,TRUE
 mctims.usmc.mil,TRUE
+sso.tfs.usmc.mil,TRUE
 mcele.usmc.mil,TRUE
 rtam.tecom.usmc.mil,TRUE
-sso.tfs.usmc.mil,TRUE
 tfdw-web.mceits.usmc.mil,TRUE
 tfrs.mceits.usmc.mil,TRUE
 tmde.logcom.usmc.mil,TRUE
