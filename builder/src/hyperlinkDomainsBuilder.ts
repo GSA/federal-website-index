@@ -4,7 +4,7 @@ import fs from 'fs';
 import {URL} from 'url';
 
 const SNAPSHOT_ALL_URL = 'https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv';
-const OUTPUT_PATH = '../../data/source-lists/hyperlink_domains.csv';
+const OUTPUT_PATH = path.resolve(process.cwd(), '../data/source-lists/hyperlink_domains.csv');
 
 /**
  * Validates a domain string using the Node URL API and ensures it is not an IP address.
@@ -86,34 +86,53 @@ function extractDomainsFromCell(cellValue: string, domainSet: Set<string>): numb
  * The main entry point of the Hyperlink Domains Builder.
  */
 async function main() {
-    // Load the snapshot data
-    console.log('Loading snapshot data...');
-    const sourceSnapshot = await DataFrame.fromCSV(SNAPSHOT_ALL_URL, true);
+    try {
+        // Load the snapshot data
+        console.log('Loading snapshot data...');
+        const sourceSnapshot = await DataFrame.fromCSV(SNAPSHOT_ALL_URL, true);
 
-    // Extract the hyperlink_domains column
-    console.log('Extracting hyperlink_domains column...');
-    const hyperlinkDomainsColumn = sourceSnapshot.select("hyperlink_domains");
+        // Extract the hyperlink_domains column
+        console.log('Extracting hyperlink_domains column...');
+        const columns = sourceSnapshot.listColumns();
+        if (!columns.includes("hyperlink_domains")) {
+            throw new Error(`Column 'hyperlink_domains' not found in snapshot. Available columns: ${columns.join(', ')}`);
+        }
+        const hyperlinkDomainsColumn = sourceSnapshot.select("hyperlink_domains");
 
-    // Parse JSON arrays and flatten into a single domain set
-    console.log('Parsing and flattening domain arrays...');
-    const domainSet = new Set<string>();
-    let totalInvalidCount = 0;
+        // Parse JSON arrays and flatten into a single domain set
+        console.log('Parsing and flattening domain arrays...');
+        const domainSet = new Set<string>();
+        let totalInvalidCount = 0;
 
-    hyperlinkDomainsColumn.toArray().forEach((rowData: string[]) => {
-        const cellValue = rowData[0]; // single column, so index 0
-        totalInvalidCount += extractDomainsFromCell(cellValue, domainSet);
-    });
+        hyperlinkDomainsColumn.toArray().forEach((rowData: string[]) => {
+            const cellValue = rowData[0]; // single column, so index 0
+            totalInvalidCount += extractDomainsFromCell(cellValue, domainSet);
+        });
 
-    console.log(`Filtered out ${totalInvalidCount} invalid entries (IPs, phone numbers, protocols, etc.)`);
+        console.log(`Filtered out ${totalInvalidCount} invalid entries (IPs, malformed URLs)`);
 
-    console.log(`Found ${domainSet.size} unique domains. Sorting...`);
-    const sortedDomains = Array.from(domainSet).sort();
+        console.log(`Found ${domainSet.size} unique domains. Sorting...`);
+        const sortedDomains = Array.from(domainSet).sort();
 
-    // Write to CSV with header "domains"
-    console.log('Saving hyperlink domains list to CSV...');
-    const csvContent = 'domains\n' + sortedDomains.join('\n') + '\n';
-    fs.writeFileSync(path.join(__dirname, OUTPUT_PATH), csvContent);
-    console.log(`Done. Wrote ${sortedDomains.length} domains to hyperlink_domains.csv`);
+        // Write to CSV with header "domains"
+        console.log('Saving hyperlink domains list to CSV...');
+        const csvContent = 'domains\n' + sortedDomains.join('\n') + '\n';
+        fs.writeFileSync(OUTPUT_PATH, csvContent);
+        console.log(`Done. Wrote ${sortedDomains.length} domains to hyperlink_domains.csv`);
+    } catch (error) {
+        console.error('Error building hyperlink domains list:');
+        if (error instanceof Error) {
+            console.error(`  ${error.message}`);
+        } else {
+            console.error(`  ${error}`);
+        }
+        console.error('\nPossible causes:');
+        console.error('  - Site Scanning API is down or unreachable');
+        console.error('  - Network connectivity issues');
+        console.error('  - CSV format has changed');
+        console.error(`  - API URL: ${SNAPSHOT_ALL_URL}`);
+        process.exit(1);
+    }
 }
 
 main();
