@@ -27,6 +27,7 @@ import { SearchGovMilSourceList } from 'services/source-lists/SearchGovMilSource
 import { PublicInventorySourceList } from 'services/source-lists/PublicInventorySourceList';
 import { NonGovMilFederalSourceList } from 'services/source-lists/NonGovMilFederalSourceList';
 import { GovtUrlsSourceList } from 'services/source-lists/GovtUrlsSourceList';
+import { HyperlinkDomainsSourceList } from 'services/source-lists/HyperlinkDomainsSourceList';
 import DataFrame from "dataframe-js";
 import { sourceListConfig } from "./config/source-list.config";
 import { SourceList, AnalysisValue } from "./types/config";
@@ -81,6 +82,7 @@ async function fetchAllSourceListData(): Promise<DataFrame[]> {
     PublicInventorySourceList.loadData(),
     NonGovMilFederalSourceList.loadData(),
     GovtUrlsSourceList.loadData(),
+    HyperlinkDomainsSourceList.loadData(),
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // SourceNameSourceList.loadData(),
@@ -122,7 +124,8 @@ function setSourceListColumnDefaults(allSites: DataFrame) {
     sourceListConfig[SourceList.SEARCH_GOV_MIL].sourceColumnName,
     sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName,
     sourceListConfig[SourceList.NON_GOV_MIL_FEDERAL].sourceColumnName,
-    sourceListConfig[SourceList.GOVT_URLS].sourceColumnName
+    sourceListConfig[SourceList.GOVT_URLS].sourceColumnName,
+    sourceListConfig[SourceList.HYPERLINK_DOMAINS].sourceColumnName
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName
@@ -172,6 +175,7 @@ async function main() {
   analysis.push(generateAnalysisEntry('PublicInventorySourceList', 'public inventory url list length', sourceLists[25].count()));
   analysis.push(generateAnalysisEntry('NonGovMilFederalSourceList', 'non .gov/.mil federal url list length', sourceLists[26].count()));
   analysis.push(generateAnalysisEntry('GovtUrlsSourceList', 'govt url list length', sourceLists[27].count()));
+  analysis.push(generateAnalysisEntry('HyperlinkDomainsSourceList', 'hyperlink domains url list length', sourceLists[28].count()));
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // analysis.push(generateAnalysisEntry('SourceNameSourceList', 'source_name url list length', sourceLists[INDEX].count()));
@@ -311,6 +315,7 @@ async function main() {
       'source_list_public_inventory',
       'source_list_non_gov_mil',
       'source_list_govt_urls',
+      'source_list_hyperlink_domains',
       // [SOURCE-ADD-POINT]
       // Add new source list configuration here
       // 'source_list_source_name',
