@@ -22,6 +22,8 @@ jobs:
           python-version: "3.9"
       - run: pip install -r ./dapDataCollapse/requirements.txt
       - run: python3 ./dapDataCollapse/main.py
+      - name: Sync with remote main
+        run: git pull --rebase --autostash origin ${{ github.ref_name }}
       - uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: Build DAP Top 100000 List

@@ -40,7 +40,8 @@ export enum SourceList {
   SEARCH_GOV_MIL = 'search_gov_mil',
   PUBLIC_INVENTORY = 'public_inventory',
   NON_GOV_MIL_FEDERAL = 'non_govmil',
-  GOVT_URLS = 'govt_urls'
+  GOVT_URLS = 'govt_urls',
+  HYPERLINK_DOMAINS = 'hyperlink_domains'
   // [SOURCE-ADD-POINT]
   // Add new source list enum here
   // SOURCE_NAME = 'source_name',

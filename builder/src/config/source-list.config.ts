@@ -206,6 +206,13 @@ export const sourceListConfig: SourceListConfigMap = {
     sourceColumnName: "source_list_govt_urls",
     hasHeaders: true,
   },
+  [SourceList.HYPERLINK_DOMAINS]: {
+    shortName: "hyperlink_domains",
+    sourceUrl:
+      "https://raw.githubusercontent.com/GSA/federal-website-index/main/data/source-lists/hyperlink_domains.csv",
+    sourceColumnName: "source_list_hyperlink_domains",
+    hasHeaders: true,
+  },
   // [SOURCE-ADD-POINT]
   // Add new source list configuration here
   // [SourceList.SOURCE_NAME]: {
