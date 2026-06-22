@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     # Note: This schedule may need to be adjusted if other workflows depend on this artifact
-    - cron: "30 20 * * *"
+    - cron: "50 20 * * *"
 
 jobs:
   build-hyperlinks:
@@ -26,6 +26,9 @@ jobs:
         run: |
           cd builder
           bun src/hyperlinkDomainsBuilder.ts
+
+      - name: Sync with remote main
+        run: git pull --rebase --autostash origin ${{ github.ref_name }}
 
       - uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
