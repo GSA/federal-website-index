@@ -27,12 +27,12 @@ SearchGovMilSourceList,search gov mil url list length,407
 PublicInventorySourceList,public inventory url list length,1257
 NonGovMilFederalSourceList,non .gov/.mil federal url list length,8
 GovtUrlsSourceList,govt url list length,401
-HyperlinkDomainsSourceList,hyperlink domains url list length,16830
-Combined,combined url list length,122190
-Deduped,deduped url list length,50745
+HyperlinkDomainsSourceList,hyperlink domains url list length,16823
+Combined,combined url list length,122183
+Deduped,deduped url list length,50743
 GovDomains,number of .gov base domains,1342
 MilDomains,number of .mil base domains,177
 OtherFederalDomains,number of other federal domains,8
-GovMilNonMatching,number of urls with non-federal base domains removed,15810
-FinalList,url list length after non-federal urls removed,34935
-DeadSites,number of urls after dead sites removed,29542
+GovMilNonMatching,number of urls with non-federal base domains removed,15807
+FinalList,url list length after non-federal urls removed,34936
+DeadSites,number of urls after dead sites removed,29543
