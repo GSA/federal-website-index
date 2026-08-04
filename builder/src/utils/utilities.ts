@@ -280,7 +280,6 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     // Add new source list configuration here
     // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName,
   ].filter(column => allSites.listColumns().includes(column));
-  const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");
 
   interface AggregatedRow {
     target_url: string;
