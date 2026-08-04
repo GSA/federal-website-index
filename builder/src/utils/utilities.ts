@@ -22,9 +22,9 @@ export function generateAnalysisEntry(name: string, value: string, count: number
  * @param url The URL that you would like to remove the www from.
  * @returns The URL with the www removed.
  */
-function removeWwwFromUrl(url: string): string {
+export function removeWwwFromUrl(url: string): string {
   // remove www. from the beginning of the url
-  return url.replace(/^www\./, '');
+  return url.replace(/^www\./i, '');
 }
 
 /**
@@ -32,7 +32,7 @@ function removeWwwFromUrl(url: string): string {
  * @param url The URL that you would like to remove the protocol from.
  * @returns The URL with the protocol removed.
  */
-function removeProtocolFromUrl(url: string): string {
+export function removeProtocolFromUrl(url: string): string {
   return url.replace(/(^\w+:|^)\/\//, '');
 }
 
@@ -41,7 +41,7 @@ function removeProtocolFromUrl(url: string): string {
  * @param url The URL that you would like to remove the path from.
  * @returns The URL with the path removed.
  */
-function removePathFromUrl(url: string): string {
+export function removePathFromUrl(url: string): string {
   return url.split('/')[0];
 }
 
@@ -50,7 +50,7 @@ function removePathFromUrl(url: string): string {
  * @param url The URL that you would like to convert to lowercase.
  * @returns The URL in lowercase.
  */
-function urlToLowercase(url: string): string {
+export function urlToLowercase(url: string): string {
   return url.toLowerCase();
 }
 
@@ -275,11 +275,11 @@ export function deduplicateSiteList(allSites: DataFrame): DataFrame {
     sourceListConfig[SourceList.PUBLIC_INVENTORY].sourceColumnName,
     sourceListConfig[SourceList.NON_GOV_MIL_FEDERAL].sourceColumnName,
     sourceListConfig[SourceList.GOVT_URLS].sourceColumnName,
+    sourceListConfig[SourceList.HYPERLINK_DOMAINS].sourceColumnName,
     // [SOURCE-ADD-POINT]
     // Add new source list configuration here
     // sourceListConfig[SourceList.SOURCE_NAME].sourceColumnName,
-  ];
-  const columnNames = allSites.listColumns().filter(column => !column.startsWith('source_list_')).map(column => `"${column}"`).join(", ");;
+  ].filter(column => allSites.listColumns().includes(column));
 
   interface AggregatedRow {
     target_url: string;
