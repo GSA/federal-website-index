@@ -10,38 +10,47 @@ const OUTPUT_PATH = path.resolve(process.cwd(), '../data/source-lists/hyperlink_
  * Validates a domain string using the Node URL API and ensures it is not an IP address.
  * Returns the normalized hostname if valid, otherwise null.
  */
-function validateAndNormalizeDomain(domain: string): string | null {
+export function validateAndNormalizeDomain(domain: string): string | null {
     const trimmed = domain.trim();
     if (trimmed === '') return null;
 
+    let hostname: string;
     try {
         const normalized = trimmed.toLowerCase();
         const url = new URL(`https://${normalized}`);
-        const hostname = url.hostname;
-
-        // Check for IPv4 (with proper octet validation)
-        const ipv4Match = hostname.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/);
-        if (ipv4Match) {
-            const octets = [ipv4Match[1], ipv4Match[2], ipv4Match[3], ipv4Match[4]];
-            const isValidIPv4 = octets.every(octet => {
-                const num = parseInt(octet, 10);
-                return num >= 0 && num <= 255;
-            });
-            if (isValidIPv4) return null; // Valid IPv4, reject
-        }
-
-        // Check for IPv6 (starts with [ or contains multiple colons)
-        if (hostname.startsWith('[') || (hostname.match(/:/g) || []).length > 1) {
-            return null; // IPv6, reject
-        }
-
-        // Must contain a dot to be a valid domain
-        if (hostname.includes('.')) {
-            return hostname;
-        }
+        hostname = url.hostname;
     } catch (e) {
-        // Ignore invalid URL parse errors
+        // Fallback for cases that URL constructor rejects but might be non-IP domains
+        // e.g. "999.1.1.1" or other strings with dots that URL thinks are bad IPs
+        const normalized = trimmed.toLowerCase();
+        if (normalized.includes('.') && !normalized.includes(' ') && !normalized.includes(':') && !normalized.includes('/') && !normalized.includes('@')) {
+            hostname = normalized;
+        } else {
+            return null;
+        }
     }
+
+    // Check for IPv4 (with proper octet validation)
+    const ipv4Match = hostname.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/);
+    if (ipv4Match) {
+        const octets = [ipv4Match[1], ipv4Match[2], ipv4Match[3], ipv4Match[4]];
+        const isValidIPv4 = octets.every(octet => {
+            const num = parseInt(octet, 10);
+            return num >= 0 && num <= 255;
+        });
+        if (isValidIPv4) return null; // Valid IPv4, reject
+    }
+
+    // Check for IPv6 (starts with [ or contains multiple colons)
+    if (hostname.startsWith('[') || (hostname.match(/:/g) || []).length > 1) {
+        return null; // IPv6, reject
+    }
+
+    // Must contain a dot to be a valid domain
+    if (hostname.includes('.')) {
+        return hostname;
+    }
+
     return null;
 }
 
@@ -49,7 +58,7 @@ function validateAndNormalizeDomain(domain: string): string | null {
  * Parses the raw cell value (which is expected to be a JSON string array of domains)
  * and populates the domain set, returning the number of invalid domains encountered.
  */
-function extractDomainsFromCell(cellValue: string, domainSet: Set<string>): number {
+export function extractDomainsFromCell(cellValue: string, domainSet: Set<string>): number {
     let invalidCount = 0;
     const trimmedCellValue = cellValue?.trim();
 
@@ -64,7 +73,12 @@ function extractDomainsFromCell(cellValue: string, domainSet: Set<string>): numb
         }
 
         for (const item of parsed) {
-            if (typeof item !== 'string' || item.trim() === '') {
+            if (typeof item !== 'string') {
+                invalidCount++;
+                continue;
+            }
+            if (item.trim() === '') {
+                invalidCount++;
                 continue;
             }
 
@@ -135,4 +149,4 @@ async function main() {
     }
 }
 
-main();
+if (import.meta.main) main();
