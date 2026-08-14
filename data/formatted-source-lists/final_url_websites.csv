@@ -504,7 +504,6 @@ forms.osi.apps.mil,TRUE
 sts1.auth.nduf.deas.mil,TRUE
 login.microsoftonline.us,TRUE
 safe.apps.mil,TRUE
-webmail.apps.mil,TRUE
 arc.gov,TRUE
 arcnet.arc.gov,TRUE
 data.arc.gov,TRUE
@@ -699,6 +698,7 @@ oe.t2com.army.mil,TRUE
 dvidshub.net,TRUE
 peoc3t.army.mil,TRUE
 cpeisw.army.mil,TRUE
+peosoldier.army.mil,TRUE
 permits.ops.usace.army.mil,TRUE
 pit.army.mil,TRUE
 platform.chra.army.mil,TRUE
@@ -706,6 +706,7 @@ portal.chra.army.mil,TRUE
 publibrary.sec.usace.army.mil,TRUE
 publications.usace.army.mil,TRUE
 recruiting.army.mil,TRUE
+redriver.army.mil,TRUE
 regulatory.ops.usace.army.mil,TRUE
 research.ari.army.mil,TRUE
 resreg.spl.usace.army.mil,TRUE
@@ -720,6 +721,7 @@ soldierforlife.army.mil,TRUE
 soldiersolutions.swf.army.mil,TRUE
 srleaders.army.mil,TRUE
 tacom.army.mil,TRUE
+talent.army.mil,TRUE
 tioh.army.mil,TRUE
 tjaglcs.army.mil,TRUE
 transportation.army.mil,TRUE
@@ -1029,6 +1031,7 @@ access.test.bpa.gov,TRUE
 bpa.gov,TRUE
 cbfish.org,TRUE
 qa.cbfish.org,TRUE
+storefront.bpa.gov,TRUE
 nih.gov,TRUE
 broadbandmap.fcc.gov,TRUE
 bsee.gov,TRUE
@@ -1269,7 +1272,6 @@ arlingtonflyin.wawg.cap.gov,TRUE
 arwg.cap.gov,TRUE
 azwg.cap.gov,TRUE
 bayshore.cap.gov,TRUE
-bellingham.cap.gov,TRUE
 burkehs.cap.gov,TRUE
 butte.cap.gov,TRUE
 gocivilairpatrol.com,TRUE
@@ -1530,7 +1532,6 @@ icd10cmtool.cdc.gov,TRUE
 im.cdc.gov,TRUE
 im-stg.cdc.gov,TRUE
 int-ddt-vehss.cdc.gov,TRUE
-jobs.cdc.gov,TRUE
 jobs-origin.cdc.gov,TRUE
 mets.cdc.gov,TRUE
 microbenet.cdc.gov,TRUE
@@ -1538,6 +1539,8 @@ mpoxvaccine.cdc.gov,TRUE
 mvpiccs-viz.cdc.gov,TRUE
 mvpiccs-viz.glb.cdc.gov,TRUE
 mvpsportaluat.cdc.gov,TRUE
+mvpsstg.cdc.gov,TRUE
+mvpsuat.cdc.gov,TRUE
 nationaldppcsc.cdc.gov,TRUE
 nccd.cdc.gov,TRUE
 nchsdata.cdc.gov,TRUE
@@ -1582,9 +1585,11 @@ staging-noaa.cdc.gov,TRUE
 static.prototype.cdc.gov,TRUE
 streaming.cdc.gov,TRUE
 tools.cdc.gov,TRUE
+test-vaccinecodeset.cdc.gov,TRUE
 tools-origin.cdc.gov,TRUE
 t-origin.cdc.gov,TRUE
 vaccinecodeset.cdc.gov,TRUE
+vaxvizapp.cdc.gov,TRUE
 vetoviolence.cdc.gov,TRUE
 webappx.cdc.gov,TRUE
 etdabtechlabas.azurewebsites.net,TRUE
@@ -1608,7 +1613,6 @@ cecc.gov,TRUE
 cendi.gov,TRUE
 access.census.gov,TRUE
 census.gov,TRUE
-ask.census.gov,TRUE
 auth-dev.census.gov,TRUE
 bds.explorer.ces.census.gov,TRUE
 bhs.econ.census.gov,TRUE
@@ -2169,7 +2173,6 @@ ac.cto.mil,TRUE
 stib.cto.mil,TRUE
 rt.cto.mil,TRUE
 bids.cttso.gov,TRUE
-cttso.gov,TRUE
 events.cttso.gov,TRUE
 specs.cttso.gov,TRUE
 vendor.cttso.gov,TRUE
@@ -2584,13 +2587,11 @@ ascr-discovery.org,TRUE
 atlas.doe.gov,TRUE
 ats.doe.gov,TRUE
 au-piv-registration.doe.gov,TRUE
-auth.jgi.doe.gov,TRUE
 c2m2.doe.gov,TRUE
 cairstrain.doe.gov,TRUE
 cards.ntc.doe.gov,TRUE
 nepa.gov,TRUE
 cid.doe.gov,TRUE
-citrixpgh-rs.netl.doe.gov,TRUE
 contacts.jgi.doe.gov,TRUE
 cpsweb.ee.doe.gov,TRUE
 ctsedwweb.ee.doe.gov,TRUE
@@ -3824,7 +3825,6 @@ userfees.fda.gov,TRUE
 virulence.fda.gov,TRUE
 wvpn-svc-a1.fda.gov,TRUE
 wvpn-svc-w1.fda.gov,TRUE
-wvpn-svc-w2.fda.gov,TRUE
 nbk.fdicconnect.gov,TRUE
 survey.fdicconnect.gov,TRUE
 archive.fdic.gov,TRUE
@@ -4024,7 +4024,6 @@ bsaefiling-sandbox.fincen.gov,TRUE
 fincen.gov,TRUE
 fincenid.fincen.gov,TRUE
 findtreatment.gov,TRUE
-firecode.gov,TRUE
 firenet.gov,TRUE
 fmsf2.firenet.gov,TRUE
 iftdss.firenet.gov,TRUE
@@ -5014,6 +5013,7 @@ respondere-learn.hhs.gov,TRUE
 resources.rhyttac.org,TRUE
 rhy-hmis.acf.hhs.gov,TRUE
 safetyreporting.hhs.gov,TRUE
+sandbox.accelerate.hhs.gov,TRUE
 search1.hhs.gov,TRUE
 search.betobaccofree.hhs.gov,TRUE
 search.hhs.gov,TRUE
@@ -5047,6 +5047,7 @@ tanfdata.acf.hhs.gov,TRUE
 tech.hhs.gov,TRUE
 teenpregnancy.acf.hhs.gov,TRUE
 telehealth.hhs.gov,TRUE
+test.accelerate.hhs.gov,TRUE
 test.learning.hhs.gov,TRUE
 therealcost.betobaccofree.hhs.gov,TRUE
 thinkculturalhealth-qc.thinkculturalhealth.hhs.gov,TRUE
@@ -5111,12 +5112,10 @@ baird.house.gov,TRUE
 balderson.house.gov,TRUE
 balint.house.gov,TRUE
 barragan.house.gov,TRUE
-barrett.house.gov,TRUE
 barr.house.gov,TRUE
 barrymoore.house.gov,TRUE
 bean.house.gov,TRUE
 beatty.house.gov,TRUE
-begich.house.gov,TRUE
 bell.house.gov,TRUE
 benniethompson.house.gov,TRUE
 bentz.house.gov,TRUE
@@ -8116,6 +8115,7 @@ harps.dc3n.navy.mil,TRUE
 hqdssmenu.adss.navsea.cloud.navy.mil,TRUE
 httds.dc3n.navy.mil,TRUE
 ibpesprod02.navy.mil,TRUE
+iefacman.navfac.navy.mil,TRUE
 ipdm.navy.mil,TRUE
 jag.navy.mil,TRUE
 jobs.navair.navy.mil,TRUE
@@ -8165,6 +8165,7 @@ sas.ncdc.navy.mil,TRUE
 secchi.nrl.navy.mil,TRUE
 sms.dc3n.navy.mil,TRUE
 solohi.nrl.navy.mil,TRUE
+spiders.navfac.navy.mil,TRUE
 sungrazer.nrl.navy.mil,TRUE
 supsalv.navy.mil,TRUE
 swms.dc3n.navy.mil,TRUE
@@ -8391,7 +8392,6 @@ alzped.nia.nih.gov,TRUE
 amri.ninds.nih.gov,TRUE
 analysistools.nci.nih.gov,TRUE
 analytics.nih.gov,TRUE
-animalresearch.nih.gov,TRUE
 annualreport.nichd.nih.gov,TRUE
 api.ncbi.nlm.nih.gov,TRUE
 api.ods.od.nih.gov,TRUE
@@ -8761,6 +8761,7 @@ medlineplus.awsprod.nlm.nih.gov,TRUE
 medlineplus.awsqa.nlm.nih.gov,TRUE
 meshb-prev.nlm.nih.gov,TRUE
 meshb.wip.nlm.nih.gov,TRUE
+meshondemand.nlm.nih.gov,TRUE
 metabolomics-sig.nih.gov,TRUE
 profiles.nlm.nih.gov,TRUE
 mipav.cit.nih.gov,TRUE
@@ -8907,6 +8908,7 @@ pivauthtest.ha.nih.gov,TRUE
 pivauthtest.nih.gov,TRUE
 pmc-d.ncbi.nlm.nih.gov,TRUE
 pmc.ncbi.nlm.nih.gov,TRUE
+policymanual.nih.gov,TRUE
 postdoc.niaid.nih.gov,TRUE
 powerapps.nhlbi.nih.gov,TRUE
 prevention.nih.gov,TRUE
@@ -10293,7 +10295,6 @@ fact-efrc.ornl.gov,TRUE
 bts.gov,TRUE
 fankangli.ornl.gov,TRUE
 fds.ornl.gov,TRUE
-femi.ornl.gov,TRUE
 foundationhandbook-qa.ornl.gov,TRUE
 gaxis.ornl.gov,TRUE
 geoai.ornl.gov,TRUE
@@ -10850,6 +10851,7 @@ otp-extranet.samhsa.gov,TRUE
 pathpdx-learning.samhsa.gov,TRUE
 pathpdx.samhsa.gov,TRUE
 pepc.samhsa.gov,TRUE
+samhsa.gov,TRUE
 snacregister.samhsa.gov,TRUE
 spars-cmhs.samhsa.gov,TRUE
 spars-signin.samhsa.gov,TRUE
@@ -10875,6 +10877,7 @@ cto.sandia.gov,TRUE
 digitalops.sandia.gov,TRUE
 doepeerreview.sandia.gov,TRUE
 password-tools-ecn.sandia.gov,TRUE
+energy.sandia.gov,TRUE
 farm.sandia.gov,TRUE
 fuelcell.sandia.gov,TRUE
 gadras.sandia.gov,TRUE
@@ -10885,13 +10888,13 @@ icet.sandia.gov,TRUE
 ifsaconf.sandia.gov,TRUE
 infoexchange.sandia.gov,TRUE
 inside-q.sandia.gov,TRUE
+jastoolbox.sandia.gov,TRUE
 ldes-tool.sandia.gov,TRUE
 lsimaging.sandia.gov,TRUE
 maccs.sandia.gov,TRUE
 mapreduce.sandia.gov,TRUE
 modsimtoolsdownloads.sandia.gov,TRUE
 modsimtools.sandia.gov,TRUE
-mykonos.sandia.gov,TRUE
 omms.sandia.gov,TRUE
 opencsp.sandia.gov,TRUE
 overqc.sandia.gov,TRUE
@@ -10907,14 +10910,11 @@ rtc.sandia.gov,TRUE
 s3c.sandia.gov,TRUE
 sarape.sandia.gov,TRUE
 snltransfer.sandia.gov,TRUE
-energy.sandia.gov,TRUE
 suns.sandia.gov,TRUE
 thunderbirdhacks.sandia.gov,TRUE
-ttr.sandia.gov,TRUE
 usability.sandia.gov,TRUE
 vorocrust.sandia.gov,TRUE
 xraytoolkit.sandia.gov,TRUE
-xyce.sandia.gov,TRUE
 savingsbond.gov,TRUE
 savingsbondwizard.gov,TRUE
 advocacy.sba.gov,TRUE
@@ -11174,7 +11174,6 @@ srnl.gov,TRUE
 cab.srs.gov,TRUE
 ctxsfcb01.srs.gov,TRUE
 morpheus.srs.gov,TRUE
-proteus.srs.gov,TRUE
 ra.srs.gov,TRUE
 tela.srs.gov,TRUE
 ssab.gov,TRUE
@@ -11305,7 +11304,6 @@ studyabroad.dev.state.gov,TRUE
 studyabroad.state.gov,TRUE
 timekat.state.gov,TRUE
 touchbase.state.gov,TRUE
-travelmaps.state.gov,TRUE
 tsg.phototool.state.gov,TRUE
 usun.usmission.gov,TRUE
 vpn.ginl.state.gov,TRUE
@@ -12543,7 +12541,6 @@ lessons.fs2c.usda.gov,TRUE
 lrftool.sc.egov.usda.gov,TRUE
 ltar.ars.usda.gov,TRUE
 lyris.nifa.usda.gov,TRUE
-maps-stg.mrp.usda.gov,TRUE
 marsapidev.ams.usda.gov,TRUE
 mim.aphis.usda.gov,TRUE
 mobilelinc.icam.usda.gov,TRUE
@@ -12626,7 +12623,6 @@ scinet.usda.gov,TRUE
 sdmdataaccess.nrcs.usda.gov,TRUE
 sdmdataaccess.sc.egov.usda.gov,TRUE
 search.ers.usda.gov,TRUE
-service-portal.ocio.edc.usda.gov,TRUE
 snaped.fns.usda.gov,TRUE
 snaped.prod.usda.gov,TRUE
 snapqcs.fns.usda.gov,TRUE
@@ -12916,7 +12912,6 @@ coastalmap.marine.usgs.gov,TRUE
 code.usgs.gov,TRUE
 colorado-river-portal.usgs.gov,TRUE
 cotuit.er.usgs.gov,TRUE
-co.waterdata.usgs.gov,TRUE
 pubs.usgs.gov,TRUE
 crssp.usgs.gov,TRUE
 crustal.cr.usgs.gov,TRUE
@@ -13210,7 +13205,6 @@ cat-retail-pi.usps.com,TRUE
 cat-verified.usps.com,TRUE
 cfo.usps.com,TRUE
 verified.usps.com,TRUE
-usps.com,TRUE
 dbcalcsm.usps.com,TRUE
 eddm.usps.com,TRUE
 emailus.usps.com,TRUE
@@ -13228,6 +13222,7 @@ ibcalcsm.usps.com,TRUE
 ivs-sign.usps.com,TRUE
 media.usps.com,TRUE
 moversguide.usps.com,TRUE
+usps.com,TRUE
 news.usps.com,TRUE
 pe.usps.com,TRUE
 postalpro.usps.com,TRUE
