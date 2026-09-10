@@ -605,7 +605,7 @@ forms.osi.apps.mil
 sts1.auth.nduf.deas.mil
 login.microsoftonline.us
 safe.apps.mil
-login.microsoftonline.us
+webmail.apps.mil
 www.whitehouse.gov
 www.whitehouse.gov
 arc.gov
@@ -623,7 +623,6 @@ aotus11.blogs.archives.gov
 aotus.blogs.archives.gov
 archieai-pilot.archives.gov
 archie.archives.gov
-www.archives.gov
 arcis.archives.gov
 bidenwhitehouse.archives.gov
 www.archives.gov
@@ -1030,6 +1029,7 @@ www.socrata.com
 edit2.atf.gov
 edit.atf.gov
 eforms.atf.gov
+etrace.atf.gov
 felezcheck.atf.gov
 fflezcheck.atf.gov
 ness.atf.gov
@@ -1079,7 +1079,6 @@ www.hhs.gov
 www.bia.gov
 itims.bia.gov
 maximo.bia.gov
-www.bidenlibrary.gov
 enh.qa.bidenlibrary.gov
 qa.bidenlibrary.gov
 sme.qa.bidenlibrary.gov
@@ -1244,10 +1243,10 @@ bondpro.gov
 careers.bop.gov
 r3mx.bop.gov
 www2.fed.bop.gov
+access.test.bpa.gov
 www.bpa.gov
 www.bpa.gov
 mypc.bpa.gov
-mypcpiv.bpa.gov
 www.cbfish.org
 qa.cbfish.org
 sftesting.bpa.gov
@@ -1806,7 +1805,7 @@ ndwg.cap.gov
 www.ner.cap.gov
 nesa.cap.gov
 nesasoutheast.cap.gov
-newg.cap.gov
+www.newg.cap.gov
 nhwg.cap.gov
 nhwg.noc.ner.cap.gov
 nj102.cap.gov
@@ -1994,6 +1993,7 @@ auth.cdc.gov
 im.cdc.gov
 im-stg.cdc.gov
 int-ddt-vehss.cdc.gov
+jobs.cdc.gov
 jobs-origin.cdc.gov
 www.cdc.gov
 mets.cdc.gov
@@ -2803,6 +2803,7 @@ stib.cto.mil
 rt.cto.mil
 stib.cto.mil
 bids.cttso.gov
+www.cttso.gov
 events.cttso.gov
 specs.cttso.gov
 vendor.cttso.gov
@@ -2906,7 +2907,6 @@ www.dea.gov
 www.dea.gov
 takebackday.dea.gov
 www.dea.gov
-www.archives.gov
 2017dodtransition.defense.gov
 2021dodtransition.defense.gov
 2025dodtransition.defense.gov
@@ -4834,7 +4834,6 @@ signalboosters.fcc.gov
 specialreports.fcc.gov
 systrafoss.fcc.gov
 www.fcc.gov
-ulsbatch.fcc.gov
 www.fcc.gov
 wireless2.fcc.gov
 www.fcc.gov
@@ -4875,6 +4874,7 @@ ssoext.fda.gov
 ext-auth.fda.gov
 ext-auth.preprod.fda.gov
 ext-idm.fda.gov
+ext-idm.preprod.fda.gov
 fdagateway.fda.gov
 www.fda.gov
 fis.fda.gov
@@ -6120,6 +6120,7 @@ bulk.ginniemae.gov
 cms.ginniemae.gov
 www.ginniemae.gov
 gmaccess.ginniemae.gov
+gmars.ginniemae.gov
 jira.ginniemae.gov
 login.ginniemae.gov
 my8.uat.ginniemae.gov
@@ -6218,7 +6219,7 @@ artmstest.grantsolutions.gov
 bitbucket.grantsolutions.gov
 confluence.grantsolutions.gov
 crucible.grantsolutions.gov
-demo.grantsolutions.gov
+demo-home.grantsolutions.gov
 demo-home.grantsolutions.gov
 dev.grantsolutions.gov
 dev-home.grantsolutions.gov
@@ -6272,7 +6273,6 @@ ask.gsa.gov
 asset.fleet-stg.fcs.gsa.gov
 assist.gsa.gov
 auth.gsa.gov
-beta.ask.gsa.gov
 buy.gsa.gov
 buy.gsa.gov
 auth.gsa.gov
@@ -6835,7 +6835,6 @@ remm.hhs.gov
 remote.cloud.hhs.gov
 reports.cfsrportal.acf.hhs.gov
 respondere-learn.hhs.gov
-resources.rhyttac.org
 rhy-hmis.acf.hhs.gov
 safetyreporting.hhs.gov
 search1.hhs.gov
@@ -7629,7 +7628,7 @@ www.hud.gov
 www.hudhomestore.gov
 hudoig.gov
 archives.huduser.gov
-www.huduser.gov
+huduser.gov
 lihtc.huduser.gov
 qct.huduser.gov
 webstore.huduser.gov
@@ -9704,6 +9703,7 @@ ccmc.gsfc.nasa.gov
 ccmpp.gsfc.nasa.gov
 public.ksc.nasa.gov
 cdaweb.gsfc.nasa.gov
+cdaw.gsfc.nasa.gov
 cddis.nasa.gov
 cddis.nasa.gov
 cdf.gsfc.nasa.gov
@@ -10268,6 +10268,7 @@ modis-land.gsfc.nasa.gov
 landweb.modaps.eosdis.nasa.gov
 larc-exchange.larc.nasa.gov
 largelakes.jpl.nasa.gov
+lasco6.nascom.nasa.gov
 auth.launchpad.nasa.gov
 auth.launchpad-sbx.nasa.gov
 auth.launchpad-test.nasa.gov
@@ -10747,6 +10748,7 @@ auth.launchpad.nasa.gov
 www.nasa.gov
 sit.urs.earthdata.nasa.gov
 skyview.gsfc.nasa.gov
+skywatchers.larc.nasa.gov
 slsvvpub1.hosc.msfc.nasa.gov
 slsvvpub1ms.hosc.msfc.nasa.gov
 slsvvpub1owa.hosc.msfc.nasa.gov
@@ -11917,7 +11919,6 @@ irbo.nih.gov
 radiationcalculators.cancer.gov
 irp.nida.nih.gov
 irp.nih.gov
-irp-positions.nih.gov
 irpseminar.nlm.nih.gov
 irpseminar.wip.nlm.nih.gov
 irtsectraining.nih.gov
@@ -12413,7 +12414,7 @@ sl-biodp.nci.nih.gov
 sl.nci.nih.gov
 sl-sg.ha.nci.nih.gov
 www.nichd.nih.gov
-smokefree.nci.nih.gov
+smokefree.gov
 snengs.nichd.nih.gov
 www.nichd.nih.gov
 dceg.cancer.gov
@@ -13187,7 +13188,7 @@ inwsqa.ncep.noaa.gov
 iocm.noaa.gov
 ioos.noaa.gov
 sso.noaa.gov
-sso.noaa.gov
+irisqa.ncep.noaa.gov
 itsm.rdhpcs.noaa.gov
 sso-dev.noaa.gov
 sso.noaa.gov
@@ -13831,7 +13832,6 @@ d10.qa.obamalibrary.gov
 qa.obamalibrary.gov
 letsmove.obamawhitehouse.archives.gov
 obamawhitehouse.archives.gov
-open.obamawhitehouse.archives.gov
 petitions.obamawhitehouse.archives.gov
 apps.occ.gov
 beta.occ.gov
@@ -14943,7 +14943,7 @@ spars.samhsa.gov
 spars-signin.samhsa.gov
 spars-sts.samhsa.gov
 spars-signin.samhsa.gov
-spars-signin.samhsa.gov
+spars-tta.samhsa.gov
 spars-signin.samhsa.gov
 spars-upload-csat.samhsa.gov
 store.samhsa.gov
@@ -14955,7 +14955,6 @@ anywhere.sandia.gov
 sso.sandia.gov
 sso.sandia.gov
 sso.sandia.gov
-capgradsmobile.sandia.gov
 casa.sandia.gov
 sso.sandia.gov
 charon.sandia.gov
@@ -15013,6 +15012,7 @@ sso.sandia.gov
 modsimtoolsdownloads.sandia.gov
 modsimtools.sandia.gov
 login.microsoftonline.com
+mykonos.sandia.gov
 sso.sandia.gov
 neuroscience.sandia.gov
 sso.sandia.gov
@@ -15054,15 +15054,16 @@ suns.sandia.gov
 sso.sandia.gov
 thunderbirdhacks.sandia.gov
 login.microsoftonline.com
+ttr.sandia.gov
 sso.sandia.gov
-umbra.sandia.gov
 university.sandia.gov
 usability.sandia.gov
 voroclust.sandia.gov
 vorocrust.sandia.gov
 sso.sandia.gov
-energy.sandia.gov
+sso.sandia.gov
 xraise.sandia.gov
+xyce.sandia.gov
 z-beamlet.sandia.gov
 www.whitehouse.gov
 savingsbond.gov
@@ -15384,6 +15385,7 @@ www.speaker.gov
 www.spectrum.gov
 www.srnl.gov
 cab.srs.gov
+proteus.srs.gov
 public.srs.gov
 ra.srs.gov
 public.srs.gov
@@ -15571,7 +15573,6 @@ touchbase.state.gov
 tour.diplomaticrooms.state.gov
 state.okta.com
 www.state.gov
-travelmaps.state.gov
 travel.state.gov
 tsg.phototool.state.gov
 usun.usmission.gov
@@ -15618,7 +15619,7 @@ symbols.gov
 taaps.gov
 tak.gov
 tapevents.mil
-tasefiling.powerappsportals.us
+itatasb2c.b2clogin.com
 techforce.gov
 www.eda.gov
 www.peacecorps.gov
@@ -16941,6 +16942,7 @@ aibpf-rma.fpac.usda.gov
 aip.rma.usda.gov
 ams.prod.usda.gov
 ams.stg.platform.usda.gov
+www.ams.usda.gov
 annotator.nal.usda.gov
 aphis.prod.usda.gov
 api.cert.eauth.usda.gov
@@ -17054,7 +17056,6 @@ www.fsa.usda.gov
 fs.edc.usda.gov
 fsis-prod.fsis.usda.gov
 fsistraining.fsis.usda.gov
-www.fs.usda.gov
 fungi.ars.usda.gov
 www.eauth.usda.gov
 gain.fas.usda.gov
@@ -17125,7 +17126,6 @@ www.eauth.usda.gov
 ncsslabdatamart.sc.egov.usda.gov
 apps.ars.usda.gov
 nesr-prd.kwaps.platform.usda.gov
-nesr-stg.kwaps.platform.usda.gov
 nesruat.fns.edc.usda.gov
 nesr-uat.kwaps.platform.usda.gov
 nesr.usda.gov
@@ -17226,6 +17226,7 @@ www.eauth.usda.gov
 www.cert.eauth.usda.gov
 rural.stg.platform.usda.gov
 www.rd.usda.gov
+graingenes.org
 sandbox.fsa.usda.gov
 scientificdiscoveries.ars.usda.gov
 scinet.usda.gov
@@ -18196,7 +18197,6 @@ tools.usps.com
 verified.usps.com
 about.usps.com
 zh-store.usps.com
-zh-store.usps.com
 zh-tools.usps.com
 zh.usps.com
 amps.usps.gov
@@ -18516,10 +18516,12 @@ pool.care.va.gov
 portal.nprod.vetbiz.va.gov
 portal.vetbiz.va.gov
 portlandcoin.research.va.gov
+staging.va.gov
 www.preprod.mvp-reef.va.gov
 preprod.vlm.cem.va.gov
 prevention.va.gov
 prod.adfs.federation.va.gov
+productionchat.vrm.vba.va.gov
 prosthetics.va.gov
 psychologytraining.va.gov
 ptsd.va.gov
@@ -18644,6 +18646,7 @@ www.weather.gov
 www.weather.gov
 ocean.weather.gov
 preview-api.weather.gov
+preview.weather.gov
 preview.weather.gov
 preview-radar.weather.gov
 preview-spot.weather.gov
