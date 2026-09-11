@@ -18,7 +18,7 @@ Virtually all of the ~300 agencies that make up the US federal government mainta
 Here's the process we use to build the website index: 
 * Download, combine, and deduplicate some of the below datasets.
 * Remove websites that contain [certain character strings](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) that we've found almost always indicate a non-public website, such as `admin.` or `staging.`.
-* Use the list of federal `.gov` domains to assign each website an agency and bureau.
+* Use the list of federal `.gov` domains to assign each website an agency and bureau
 * Use the OMB list of agency and bureau codes to match and add website agency and bureau codes.  
 * Remove any websites that do not have a base domain that is on the list of federal `.gov` domains.
 
