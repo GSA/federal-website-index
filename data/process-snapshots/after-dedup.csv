@@ -61,7 +61,7 @@ americorps.gov,Executive,Corporation for National and Community Service,AmeriCor
 americorpsoig.gov,Executive,Corporation for National and Community Service,AmeriCorps Office of Inspector General,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,true
 cncs.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cns.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-joinamericorps.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+joinamericorps.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mentor.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mlkday.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nationalservice.gov,Executive,Corporation for National and Community Service,AmeriCorps,,true,true,false,false,true,true,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -120,7 +120,7 @@ chips.gov,Executive,Department of Commerce,National Institute of Standards and T
 climate.gov,Executive,Department of Commerce,National Oceanic and Atmospheric Administration,,true,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,true,false,false,true,true,false,true,false,true,false,false,true
 commerce.gov,Executive,Department of Commerce,,,true,true,true,true,true,true,true,false,false,true,false,false,false,false,true,false,false,true,false,false,true,true,false,true,false,true,false,false,true
 cwc.gov,Executive,Department of Commerce,Bureau of Industry and Security,,true,true,false,true,true,false,false,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false
-dataprivacyframework.gov,Executive,Department of Commerce,International Trade Administration,,true,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,true,false,false,true
+dataprivacyframework.gov,Executive,Department of Commerce,International Trade Administration,,true,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,true,false,false,false
 doc.gov,Executive,Department of Commerce,,,true,true,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 drought.gov,Executive,Department of Commerce,National Oceanic and Atmospheric Administration,,true,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,true,false,false,false,true,false,true,false,true,false,false,true
 eda.gov,Executive,Department of Commerce,Economic Development Administration,,true,true,false,true,true,true,true,false,false,true,false,false,false,false,true,false,false,true,false,false,false,true,false,true,false,true,false,false,true
@@ -179,7 +179,7 @@ cap.gov,Executive,Department of Defense,Air Force,,true,true,false,false,false,f
 capnhq.gov,Executive,Department of Defense,Air Force,,true,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cmts.gov,Executive,Department of Defense,Army,,true,true,true,true,true,false,false,false,false,true,false,false,true,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,false
 cnss.gov,Executive,Department of Defense,Office of the Secretary of Defense,,true,true,false,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-cttso.gov,Executive,Department of Defense,Office of the Secretary of Defense,,true,true,false,true,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
+cttso.gov,Executive,Department of Defense,Office of the Secretary of Defense,,true,true,false,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 dc3on.gov,Executive,Department of Defense,Air Force,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 defense.gov,Executive,Department of Defense,Defense Media Activity,,true,true,true,true,true,true,true,false,false,true,true,false,true,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 doddns.gov,Executive,Department of Defense,Office of the Secretary of Defense,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -816,6 +816,7 @@ quantum.gov,Executive,Executive Office of the President,Office of Science and Te
 realfood.gov,Executive,Executive Office of the President,White House Office,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 safedc.gov,Executive,Executive Office of the President,White House Office,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 saveamerica.gov,Executive,Executive Office of the President,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+si.gov,Executive,Executive Office of the President,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sotu.gov,Executive,Executive Office of the President,White House Office,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 techforce.gov,Executive,Executive Office of the President,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 transparency.gov,Executive,Executive Office of the President,White House Office,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -1085,6 +1086,7 @@ telework.gov,Executive,Office of Personnel Management,,,true,true,false,false,tr
 usajobs.gov,Executive,Office of Personnel Management,,,true,true,true,true,true,false,true,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
 usalearning.gov,Executive,Office of Personnel Management,,,true,true,true,true,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 usastaffing.gov,Executive,Office of Personnel Management,,,true,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+whitehousefellows.gov,Executive,Office of Personnel Management,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 osc.gov,Executive,Office of Special Counsel,,,true,true,false,true,true,true,true,false,true,true,false,false,true,false,true,false,false,true,false,true,true,true,false,false,false,false,false,false,true
 oscnet.gov,Executive,Office of Special Counsel,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ce-ncsc.gov,Executive,Office of the Director of National Intelligence,,,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -2292,7 +2294,7 @@ data.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,fal
 dfuzenet.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 edit.atf.gov,,,,atf.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 eforms.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
-etrace.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+etrace.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 felezcheck.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 fflezcheck.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 ness.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
@@ -2301,7 +2303,7 @@ nessapptest.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,fal
 nesstest.atf.gov,,,,atf.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 pilot.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pilot2.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-regulations.atf.gov,,,,atf.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
+regulations.atf.gov,,,,atf.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,false,false,false,false,false,false,false
 search.atf.gov,,,,atf.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 vpn1.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 vpn2.atf.gov,,,,atf.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -2535,7 +2537,7 @@ nndc.bnl.gov,,,,bnl.gov,false,true,false,false,false,false,false,false,false,fal
 npp.bnl.gov,,,,bnl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nsac2004.bnl.gov,,,,bnl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nsrl.bnl.gov,,,,bnl.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-online.star.bnl.gov,,,,bnl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+online.star.bnl.gov,,,,bnl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 openscience.bnl.gov,,,,bnl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ordo.bnl.gov,,,,bnl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 panoramix.phy.bnl.gov,,,,bnl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -2610,13 +2612,13 @@ customerportalpre.test.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,fal
 idm.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 info.bpa.gov,,,,bpa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mypc.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-mypcpiv.bpa.gov,,,,bpa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+mypcpiv.bpa.gov,,,,bpa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pisces.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pisces.test.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ptcs.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ptcs.test.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-sftesting.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-sftestingpiv.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+sftesting.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+sftestingpiv.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 srdocuments.bpa.gov,,,,bpa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 storefront.bpa.gov,,,,bpa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 storefrontpiv.bpa.gov,,,,bpa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -3321,7 +3323,7 @@ im.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false
 imats-train.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 imats.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 immunizationinvestments.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-jobs.cdc.gov,,,,cdc.gov,false,true,true,true,false,false,true,false,false,true,false,false,false,false,true,false,false,true,false,false,true,true,false,false,false,false,false,false,true
+jobs.cdc.gov,,,,cdc.gov,false,true,true,true,false,false,true,false,false,true,false,false,false,false,false,false,false,true,false,false,true,true,false,false,false,false,false,false,true
 join.vtc.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 korean.cdc.gov,,,,cdc.gov,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false
 lgconfweb-ext.cdc.gov,,,,cdc.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -5437,7 +5439,7 @@ ftawebprod.fta.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,
 ftp.nhtsa.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 geo.dot.gov,,,,dot.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gis.fhwa.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-gradedec.fra.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+gradedec.fra.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 grants.ost.dot.gov,,,,dot.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 hazmatgrants.phmsa.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 hazmatonlinedevtest.phmsa.dot.gov,,,,dot.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -5962,7 +5964,7 @@ appc.transcom.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,
 apply.loanprograms.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apps.loanprograms.energy.gov,,,,energy.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apps.transcom.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-apps1.eere.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+apps1.eere.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apps1.hydrogen.energy.gov,,,,energy.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apps2.eere.energy.gov,,,,energy.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 arpa-e-epic.energy.gov,,,,energy.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -6601,7 +6603,7 @@ qa-author-www.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,
 qa-author.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 qa-employees.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 qa-my.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-qa-wildlife.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+qa-wildlife.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 qa-www.faa.gov,,,,faa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 ra.npn.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 radar.tc.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -6662,7 +6664,7 @@ webfcr.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,f
 webmail.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 webopss-preprod.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 webopss.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
-wildlife.faa.gov,,,,faa.gov,false,true,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+wildlife.faa.gov,,,,faa.gov,false,true,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 wmtscheduler.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 wmtschedulertest.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 xml.notams.faa.gov,,,,faa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -9253,7 +9255,7 @@ stg-phe.hhs.gov,,,,hhs.gov,false,true,false,true,false,false,false,false,false,f
 stgirads.acf.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 stratcomm.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 strategicplanning.aspe.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-sts.oig.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+sts.oig.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 submit-mfcu-convictions.oig.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 surveyortraining.cms.hhs.gov,,,,hhs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sv4.oig.hhs.gov,,,,hhs.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -11967,7 +11969,7 @@ angler.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,
 answers.nssc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 antispam.ndc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ants.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-antwrp.gsfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+antwrp.gsfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 aom.giss.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 aorg.arc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apd440.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
@@ -11976,7 +11978,7 @@ api.echo.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,fal
 api.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false,true
 api.urs.eosdis.nasa.gov,,,,nasa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apod.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-apod.nasa.gov,,,,nasa.gov,false,true,true,true,true,false,true,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,true,false,false,true
+apod.nasa.gov,,,,nasa.gov,false,true,true,true,true,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,false,true,false,true,false,false,true
 app-test.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 appel.nasa.gov,,,,nasa.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,true,false,false,true
 appliedsciences.nasa.gov,,,,nasa.gov,false,true,false,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false,true
@@ -12785,7 +12787,7 @@ gs615-icesat2scf-pz.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false
 gs6151-isfops3.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gs618-glam1.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gs618-glam1n1.gsfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-gs618-glihtl1.ndc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+gs618-glihtl1.ndc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 gs66-vdclambda.ndc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 gs671-sdoweb.ndc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gs671-suske.ndc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
@@ -13130,7 +13132,7 @@ larcsos.larc.nasa.gov,,,,nasa.gov,false,true,false,true,false,false,false,false,
 larcud.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 larcvoicemail.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 largelakes.jpl.nasa.gov,,,,nasa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
-lasco6.nascom.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+lasco6.nascom.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 lasersdb.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 lasersdbw.larc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 lasirs.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -13400,7 +13402,7 @@ mymobile.jpl.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false
 mynasa.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mynasadata-las.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mynasadata.larc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false,true
-mysteries.jpl.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
+mysteries.jpl.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false
 n2cad.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 na.grc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 naames.larc.nasa.gov,,,,nasa.gov,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -13931,7 +13933,7 @@ section508.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,f
 securefs.nssc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sed.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sedupdate.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-sedvme.gsfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+sedvme.gsfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 sedwebtest.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 seec.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
 seecdev.gsfc.nasa.gov,,,,nasa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -13947,13 +13949,13 @@ sesi.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,fals
 settlement.arc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sewp.nasa.gov,,,,nasa.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
 sfa.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-sfa.jsc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
+sfa.jsc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,true,false,false,true
 sfa.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sgp.cddis.eosdis.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 sgp.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sgss.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 shannon.jpl.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-shemesh.larc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
+shemesh.larc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,true,false,false,true
 shfe.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 short.arc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 shuttle-mir.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -14177,7 +14179,7 @@ swehb.msfc.nasa.gov,,,,nasa.gov,false,true,true,false,false,false,false,false,fa
 swehb.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false,false
 swift.gsfc.nasa.gov,,,,nasa.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,true,false,false,true
 swiftsc.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-swl.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+swl.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 swot.jpl.nasa.gov,,,,nasa.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true
 swrc.gsfc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 tad.larc.nasa.gov,,,,nasa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -14475,7 +14477,7 @@ edits-staging.nationalmap.gov,,,,nationalmap.gov,false,true,false,false,false,fa
 edits.nationalmap.gov,,,,nationalmap.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 elevation.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 hydro-wfs.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-hydro.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+hydro.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 hydrowfs.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 index.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 partnerships.nationalmap.gov,,,,nationalmap.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -16261,7 +16263,7 @@ nlm.nih.gov,,,,nih.gov,false,true,true,true,true,true,true,false,false,true,fals
 nlmcatalog.ncbi.nlm.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nlmdirector.nlm.nih.gov,,,,nih.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
 nlmnccsvpxcb.nlm.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-nlmnccsvpxpiv.nlm.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+nlmnccsvpxpiv.nlm.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nlmpubs.nlm.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 nlmrsaweb.nlm.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 nmr.cit.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
@@ -16708,7 +16710,7 @@ snpinfo.niehs.nih.gov,,,,nih.gov,false,true,true,true,false,false,false,false,fa
 soa.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 soa.ninds.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 soadev.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-soatest.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+soatest.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 soccer.nci.nih.gov,,,,nih.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 sodtlab.nichd.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 sourcebook.od.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -16743,7 +16745,7 @@ stagetestdomain3.nih.gov,,,,nih.gov,false,true,true,false,false,false,false,fals
 stagetestdomain4.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 staging.cnms.cit.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 staging.ehp.niehs.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-staging.nia.nih.gov,,,,nih.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+staging.nia.nih.gov,,,,nih.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 starmetrics.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 stbb.nichd.nih.gov,,,,nih.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 stemcelldb.nih.gov,,,,nih.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
@@ -17970,7 +17972,7 @@ photos.fisheries.noaa.gov,,,,noaa.gov,false,true,false,false,false,false,false,f
 photos.orr.noaa.gov,,,,noaa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pico.atdd.noaa.gov,,,,noaa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pidvms.irc.noaa.gov,,,,noaa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,true,false,false,false
-pier.seagrant.noaa.gov,,,,noaa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,true,false,false,true
+pier.seagrant.noaa.gov,,,,noaa.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,true,false,false,false
 pifsc-irc-proxy.irc.noaa.gov,,,,noaa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pifsc-vpn.irc.noaa.gov,,,,noaa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pifsc-xfer.irc.noaa.gov,,,,noaa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -18651,7 +18653,7 @@ icbsnew-qa.nwcg.gov,,,,nwcg.gov,false,true,false,false,false,false,false,false,f
 icbsnew-trng.nwcg.gov,,,,nwcg.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 incitest.nwcg.gov,,,,nwcg.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 inciweb.nwcg.gov,,,,nwcg.gov,false,true,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true
-iqcs.nwcg.gov,,,,nwcg.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+iqcs.nwcg.gov,,,,nwcg.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 iqcsgold.nwcg.gov,,,,nwcg.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 iqcsweb.nwcg.gov,,,,nwcg.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 isuite.nwcg.gov,,,,nwcg.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -18952,7 +18954,7 @@ cades.ornl.gov,,,,ornl.gov,false,true,false,true,false,false,false,false,false,t
 cam.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 carve.ornl.gov,,,,ornl.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true
 ccsi-dev.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-ccsi.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+ccsi.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cdash-minimal.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cem.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 certauth.opsadfs.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -19168,7 +19170,7 @@ qa.esd.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false
 qa.nerp.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 qa.visac.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 quantum-qa.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-quantum.ornl.gov,,,,ornl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+quantum.ornl.gov,,,,ornl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 radware.phy.ornl.gov,,,,ornl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 rais.ornl.gov,,,,ornl.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 ready.ornl.gov,,,,ornl.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -19504,7 +19506,7 @@ pentagon.gov,,,,pentagon.gov,false,true,false,false,true,false,false,false,false
 cms.permits.performance.gov,,,,performance.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,true,false,false,false,false,false,false,false,false
 cms7.permits.performance.gov,,,,performance.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 data.permits.performance.gov,,,,performance.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,true,false,false,true,false,false,false,false,false,false,false,true
-obamaadministration.archives.performance.gov,,,,performance.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+obamaadministration.archives.performance.gov,,,,performance.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 permits.performance.gov,,,,performance.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,true,false,false,true,true,false,false,false,false,false,false,true
 staging.performance.gov,,,,performance.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 demo.pic.gov,,,,pic.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
@@ -20207,7 +20209,7 @@ reporting.sam.gov,,,,sam.gov,false,true,false,false,false,false,false,false,fals
 wdolhome.sam.gov,,,,sam.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 autodiscover.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 bgas.samhsa.gov,,,,samhsa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-blog.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true
+blog.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false
 brss-tacs-decision-tool.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 bup-webboard.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 buprenorphine.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -20215,7 +20217,7 @@ cmhi-library.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,f
 dasis2.samhsa.gov,,,,samhsa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 dasis3.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 dasis9.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-datafiles.samhsa.gov,,,,samhsa.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+datafiles.samhsa.gov,,,,samhsa.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 dawn.samhsa.gov,,,,samhsa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 disasterdistress.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 dpt.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -20233,7 +20235,7 @@ ncsacw.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,f
 newsletter.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false
 oas.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 otp-extranet.samhsa.gov,,,,samhsa.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-pathpdx.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+pathpdx.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pdas.samhsa.gov,,,,samhsa.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,true,false,false,false,false,false,false,false
 pepc.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 rdas.samhsa.gov,,,,samhsa.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,true,false,false,false,false,false,false,false
@@ -20290,7 +20292,7 @@ cg.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false
 chemcell.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cint.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cis.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-clean-air.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+clean-air.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 cmc.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cognitivescience.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 collaborate.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -20411,7 +20413,7 @@ livesafe.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false
 lps.web.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 lps.webdev.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 lps.webqual.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-lsimaging.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+lsimaging.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 maccs.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 macdist01.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mail.ca.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -20469,7 +20471,7 @@ partnershipsprogram.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,
 peco.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 peridigm.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 persec.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-pgradsmobile.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+pgradsmobile.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 photovoltaics.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pim.sandia.gov,,,,sandia.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pizza.sandia.gov,,,,sandia.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -21012,7 +21014,7 @@ touchbase.state.gov,,,,state.gov,false,true,false,true,false,false,false,false,f
 training.state.gov,,,,state.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 translations.state.gov,,,,state.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 travel.state.gov,,,,state.gov,false,true,true,true,true,true,true,false,true,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
-travelmaps.state.gov,,,,state.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+travelmaps.state.gov,,,,state.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 travelregistration.state.gov,,,,state.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 usun.state.gov,,,,state.gov,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 usvisas.state.gov,,,,state.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -21484,7 +21486,7 @@ webmail.aj.ugov.gov,,,,ugov.gov,false,true,false,false,false,false,false,false,f
 webmail.ugov.gov,,,,ugov.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 unlocktalent.gov,,,,unlocktalent.gov,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 buildsecurityin.us-cert.gov,,,,us-cert.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-edit-preview.niccs.us-cert.gov,,,,us-cert.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+edit-preview.niccs.us-cert.gov,,,,us-cert.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 edit-preview.us-cert.gov,,,,us-cert.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 edit.niccs.us-cert.gov,,,,us-cert.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 edit.nics.us-cert.gov,,,,us-cert.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -22246,7 +22248,7 @@ climatehubs.oce.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,fa
 cloudfiles.ocio.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cnpp.usda.gov,,,,usda.gov,false,true,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 co.nrcs.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-cod.nfc.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+cod.nfc.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 code.fs.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cognos.aphis.usda.gov,,,,usda.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cognosprod.aphis.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -22536,7 +22538,7 @@ nestservices.sc.egov.usda.gov,,,,usda.gov,false,true,false,true,false,false,fals
 new.cloudvault.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 newfarmers.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 nfat.sc.egov.usda.gov,,,,usda.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-nfc.usda.gov,,,,usda.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,true,true,false,true,false,false,false,false,true
+nfc.usda.gov,,,,usda.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,true,false,false,true,true,false,true,false,false,false,false,true
 nfctam.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nh.nrcs.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nhc.fns.usda.gov,,,,usda.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -23755,7 +23757,7 @@ igskahcgvmp1aq1.cr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false
 igskmncgvmp2aq1.cr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 igskmnkahitsup1.cr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 igsrglib03.er.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-il.water.usgs.gov,,,,usgs.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+il.water.usgs.gov,,,,usgs.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 ims.cr.usgs.gov,,,,usgs.gov,false,true,true,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 imsdemo.cr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 in.water.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -24079,7 +24081,7 @@ vulcan3.wr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,f
 wa.water.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 wa.waterdata.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 walrus.wr.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-warcapps.usgs.gov,,,,usgs.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,false
+warcapps.usgs.gov,,,,usgs.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,false,false,false,false,false,false,false
 warcdata.usgs.gov,,,,usgs.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 warcservices.usgs.gov,,,,usgs.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 water.usgs.gov,,,,usgs.gov,false,true,true,false,true,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
@@ -24207,7 +24209,7 @@ tst-dcmsv2.uspis.gov,,,,uspis.gov,false,true,false,false,false,false,false,false
 tst-ehome.uspis.gov,,,,uspis.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 tst-incidentssurvey.uspis.gov,,,,uspis.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 tst-iras.uspis.gov,,,,uspis.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-amps.usps.gov,,,,usps.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+amps.usps.gov,,,,usps.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 blueearth.usps.gov,,,,usps.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 bpvpn.usps.gov,,,,usps.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 caps.usps.gov,,,,usps.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -24618,7 +24620,7 @@ grandjunction.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,fa
 gravelocator.cem.va.gov,,,,va.gov,false,true,true,true,false,true,true,false,false,false,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 green.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gwera02-vpn.vpn.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-gwnra02-vpn.vpn.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+gwnra02-vpn.vpn.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gwsra02-vpn.vpn.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 gwwra02-vpn.vpn.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 hampton.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
@@ -24688,7 +24690,7 @@ medicalinspector.va.gov,,,,va.gov,false,true,false,false,false,false,false,false
 meet.rtc.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 memphis.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 mentalhealth.va.gov,,,,va.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
-mhvidp-prod.myhealth.va.gov,,,,va.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,true
+mhvidp-prod.myhealth.va.gov,,,,va.gov,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,false,false,false,false,false,false,false
 miami.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,true
 milwaukee.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 minneapolis.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
@@ -24703,7 +24705,7 @@ mountainhome.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,fal
 move.va.gov,,,,va.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 muskogee.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 mvp.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-myhealth.va.gov,,,,va.gov,false,true,true,true,false,false,true,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
+myhealth.va.gov,,,,va.gov,false,true,true,true,false,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 myhealthevet.custhelp.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 myhealthevet.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 myhealthyvet.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
@@ -24753,7 +24755,7 @@ peprec.research.va.gov,,,,va.gov,false,true,true,true,false,false,false,false,fa
 philadelphia.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 phoenix.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 pint.access.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-pint.eauth.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+pint.eauth.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pint.ebenefits.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pint.fed.eauth.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 pint.sep.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -24817,7 +24819,7 @@ preprod.vta.va.gov,,,,va.gov,false,true,false,true,false,false,false,false,false
 prescott.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 prevention.va.gov,,,,va.gov,false,true,true,true,true,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 prod.adfs.federation.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-productionchat.vrm.vba.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+productionchat.vrm.vba.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 prosthetics.va.gov,,,,va.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
 providence.va.gov,,,,va.gov,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false
 psychologytraining.va.gov,,,,va.gov,false,true,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,true,false,true,false,false,false,false,true
@@ -26374,7 +26376,7 @@ kscweather.ksc.nasa.gov,,,,,false,false,true,true,false,false,false,false,false,
 test4bhwnextgen.bhwenv.hrsa.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 mechanical.usajobs.gov,,,,,false,false,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 mwrresourcecenter.com,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-trumpadministration.archives.performance.gov,,,,,false,false,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+trumpadministration.archives.performance.gov,,,,,false,false,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 newsreleases.sandia.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 8af.af.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,true,true,false,false,false,false,false,false,false,false,false,true,false,true,false,false,false,false
 cdn.clinicaltrials.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
@@ -26831,7 +26833,7 @@ talent.usajobs.gov,,,,,false,false,true,true,false,false,false,false,false,true,
 www-ncbi-nlm-nih-gov.ezproxy.library.tufts.edu,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 wads.ang.af.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,false,false,false,false,false,false,false,true,false,true,false,false,false,false,false,true
 pubmed-ncbi-nlm-nih-gov.ezproxy.lib.utah.edu,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-shi.cdc.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+shi.cdc.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 pubmed-ncbi-nlm-nih-gov.bengurionu.idm.oclc.org,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 310sw.afrc.af.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
 angtec.ang.af.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,false,false,false,false,false,false,false,true,false,true,false,true,false,false,false,false
@@ -27382,7 +27384,7 @@ www-ncbi-nlm-nih-gov.ezproxy.utu.fi,,,,,false,false,true,false,false,false,false
 band.eur.army.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,true,true,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 apps-st.fisheries.noaa.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,true,false,false,false,false,false,false,false
 155arw.ang.af.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,false,false,false,false,false,false,false,true,false,true,false,true,false,false,false,false
-cqr.cms.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+cqr.cms.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pubmed-ncbi-nlm-nih-gov.tudelft.idm.oclc.org,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 sfa.staging.ird.appdat.jsc.nasa.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 tscaguideme.epa.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
@@ -28510,7 +28512,7 @@ www-nationalguard-mil.translate.goog,,,,,false,false,true,false,false,false,fals
 www-ncbi-nlm-nih-gov.ahs.idm.oclc.org,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 www-ncbi-nlm-nih-gov.ezproxy.rgu.ac.uk,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 whitehousecommsagency.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-autonomy.sandia.gov,,,,,false,false,true,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+autonomy.sandia.gov,,,,,false,false,true,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 designsystem.cancer.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 diegogarcia.tricare.mil,,,,,false,false,true,true,false,false,false,false,false,true,true,false,true,false,true,false,false,false,false,false,true,false,true,false,false,false,false,false,false
 federalist-a2423046-fe43-4e75-a2ef-2651e5e123ca.sites.pages.cloud.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -28520,7 +28522,7 @@ portallab.cms.cmstest,,,,,false,false,true,false,false,false,false,false,false,f
 psss.jpl.nasa.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false
 pubmed-ncbi-nlm-nih-gov.ezproxy.uthsc.edu,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 uat-vsac.nlm.nih.gov,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-virtualsolar.org,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+virtualsolar.org,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 www-ncbi-nlm-nih-gov.ezproxy.utica.edu,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 www-ncbi-nlm-nih-gov.lecomlrc.lecom.edu,,,,,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mccywg.marines.mil,,,,,false,false,true,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,true,false,false,false,false,false,false,false,false
@@ -31387,7 +31389,7 @@ c2h.fcc.gov,,,,,false,false,false,true,false,false,false,false,false,true,false,
 c4isuite.atfp.cnic.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 c4isuite.atfp.cnic.navy.smil.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 c5isrcenter.devcom.army.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,true
-cac.jten.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
+cac.jten.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 cadbimcenter.erdc.dren.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,true
 cadlink.epa.gov,,,,,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 cadpad.navair.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
@@ -32028,7 +32030,7 @@ idp.sujana09.identitysandbox.gov,,,,,false,false,false,true,false,false,false,fa
 idp.vivek.identitysandbox.gov,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ieapp.hpc.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 iee.tva.gov,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-iefacman.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
+iefacman.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 iis.net,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 ijarchive.org,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 iler-test.csd.disa.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
@@ -32276,7 +32278,7 @@ mebs.dla.mil,,,,,false,false,false,true,false,false,false,false,false,true,false
 medcoe.army.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,true,true,false,true,false,false,false,false,true,false,false,true,false,false,false,false,false,true
 medcop.jten.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 media.myafn.dodmedia.osd.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,true
-metbenchhq01.nmci.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
+metbenchhq01.nmci.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 metcal.corona.nmci.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 metrics-stage.phmsa.dot.gov,,,,,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 mfa.tva.gov,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -32425,7 +32427,7 @@ nif.nmci.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,
 nights.ncdc.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 nimhimgprd.nimh.nih.gov,,,,,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 nipo.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
-niris.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
+niris.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 nitep.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 nitra.navair.navy.smil.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 nitrex.nmci.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
@@ -32892,7 +32894,7 @@ spectrum.tva.gov,,,,,false,false,false,true,false,false,false,false,false,false,
 speedtest.erdc.dren.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 spextrow.tva.gov,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 spider.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
-spiders.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
+spiders.navfac.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 spk-wc.usace.army.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false
 spmide.plm.dc3n.navy.mil,,,,,false,false,false,true,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false
 spotthestation-preprod.hqmce.nasa.gov,,,,,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -33324,7 +33326,7 @@ pacer.uscourts.gov,,,,,false,false,false,false,true,false,false,false,false,fals
 earthchem.org,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 prepdata.org,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 intelligence.senate.gov,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,false,true
-rhyttac.net,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+rhyttac.net,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 targethiv.org,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 data.usbr.gov,,,,,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false
 cfa.harvard.edu,,,,,false,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -34543,7 +34545,7 @@ hudgov-answers.force.com,,,,,false,false,false,false,false,true,false,false,fals
 moversguide.usps.com,,,,,false,false,false,false,false,true,true,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 rmi.marines.com,,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 usps.force.com,,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-1800runaway.org,,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+1800runaway.org,,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 "cms.gov, recursos en español",,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 dau.edu,,,,,false,false,false,false,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 "dhs.gov, información en español",,,,,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -35984,7 +35986,6 @@ forms.osi.apps.mil,,,,,false,false,false,false,false,false,false,false,false,fal
 sts1.auth.nduf.deas.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 login.microsoftonline.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 safe.apps.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,true
-webmail.apps.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,true
 data.arc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false
 pathways.arc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 archieai-pilot.archives.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -36308,8 +36309,9 @@ art.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,fals
 atsdr-origin.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 cdi.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 dsmes-portal.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-dsmes-program-locator.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+dsmes-program-locator.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 hdsbpc.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
+heart-stroke-atlas.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 hehr.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 hehrstage.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 im-stg.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -36322,7 +36324,6 @@ profiles-explorer.cdc.gov,,,,,false,false,false,false,false,false,false,false,fa
 auth.sharefile.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 snapshot2024.atsdr.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 snapshot2024atsdr.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-vaxvizapp.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 etdabtechlabas.azurewebsites.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 wisqars.glb.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 wisqars-viz.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
@@ -36949,7 +36950,7 @@ int.fedhub.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,fal
 int.xms.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 juntossipodemos.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,false,false,false,false,false,false,false,false
 onegrants.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-resources.rhyttac.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+resources.rhyttac.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 tech.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 treatments.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 wecandothis.hhs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,true,false,false,false,true,false,false,false,false,false,false,false
@@ -37265,7 +37266,6 @@ ht.taxpayeradvocate.irs.gov,,,,,false,false,false,false,false,false,false,false,
 sso.sts.irs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pt.taxpayeradvocate.irs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 ru.taxpayeradvocate.irs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
-d9k8goml1al75.cloudfront.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 zh-tw.taxpayeradvocate.irs.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 bids.iwtsd.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 d10.qa.jimmycarterlibrary.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
@@ -37563,6 +37563,7 @@ searchuatapi-2287602643.auto.earthdatacloud.nasa.gov,,,,,false,false,false,false
 searchvertex-400990605.auto.earthdatacloud.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 securefoia.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sso2.jpl.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+sfa.ird.nmc.luna.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 soto.podaac.earthdatacloud.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false
 spacecenter.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sscweb-v4.sci.gsfc.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
@@ -37734,6 +37735,7 @@ skippy.nhgri.nih.gov,,,,,false,false,false,false,false,false,false,false,false,f
 sl-sg.ha.nci.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 stage.alcoholtreatment.niaaa.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 stage.cloud.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+nia-iqsolutions.auth.us-east-1.amazoncognito.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 strap.trials.nci.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 strap.trials-staging.nci.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 support.analytics.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,false
@@ -38002,6 +38004,7 @@ famauth-qa.wildfire.gov,,,,,false,false,false,false,false,false,false,false,fals
 iiahelpdesk.nwcg.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 inciweb-stg.wildfire.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 inciweb.wildfire.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+sso.nifc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 d10.qa.obamalibrary.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 qa.obamalibrary.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 learning.ocwr.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -38222,6 +38225,7 @@ asp.samhsa.gov,,,,,false,false,false,false,false,false,false,false,false,false,f
 library.samhsa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 nsumhss.samhsa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 spars-signin.samhsa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+spars-tta.samhsa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 access.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 banyan.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 capgradsmobile.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -38367,7 +38371,6 @@ qa.trumanlibrary.gov,,,,,false,false,false,false,false,false,false,false,false,f
 qa.trumplibrary.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 onboarding.tsp.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 valleyconnect.tva.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-crsg.tva.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 tva-prd-5e0zcn9e-prd-cpp-guest-app-router.cfapps.cre.scp.sapns2.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false
 apps.gov.powerapps.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 readerportal.udall.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -39014,7 +39017,7 @@ www-war-gov.translate.goog,,,,,false,false,false,false,false,false,false,false,f
 test-tolnet.larc.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 stage-childwelfare.cwigng.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 https-pubmed-ncbi-nlm-nih-gov-443.fmmulib.webvpn.net.cn,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-snlweather.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+snlweather.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
 cdxoarapps.epa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pmc-ncbi-nlm-nih-gov.pbidi.unam.mx,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 exascaleproject.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
@@ -39139,7 +39142,6 @@ inetdevaz,,,,,false,false,false,false,false,false,false,false,false,false,false,
 staging.mars.jpllab.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 ejobs.ro,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 diy.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-heart-stroke-atlas.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 cdn.census.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pmc-ncbi-nlm-nih-gov.acces.bibl.ulaval.ca,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pmc-ncbi-nlm-nih-gov.offcampus.lib.washington.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
@@ -39362,7 +39364,7 @@ teepublic.com,,,,,false,false,false,false,false,false,false,false,false,false,fa
 fda-cdrh.my.salesforce-sites.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pmc-ncbi-nlm-nih-gov.ezproxy.cul.columbia.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 hotel.com.au,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-apod.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,true
+apod.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 usda.stg.platform.usda.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 share-america.mwp.usembassy.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 poca.fda.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
@@ -40300,6 +40302,7 @@ stg.pbgc.gov,,,,,false,false,false,false,false,false,false,false,false,false,fal
 dmz-cc.nih.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 form-survey-yqh5.vercel.app,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 gsfcarparts.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
+vaxvizapp.cdc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 0-pmc-ncbi-nlm-nih-gov.innopac.wits.ac.za,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 aem-p-beta.lanl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 exascaleage.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
@@ -40962,7 +40965,6 @@ nmsfloridakeyseus2.azurewebsites.net,,,,,false,false,false,false,false,false,fal
 pmc-ncbi-nlm-nih-gov.libproxy.mit.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pubmed-ncbi-nlm-nih-gov.ezproxy.umgc.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 pubmed-ncbi-nlm-nih-gov.proxy.lib.ltu.se,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
-sfa.ird.nmc.luna.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 161.55.85.35,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 161.55.85.42,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
 test-dsfa.nmfs.noaa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false
@@ -42253,7 +42255,7 @@ clintonco.illinois.gov,,,,,false,false,false,false,false,false,false,false,false
 cloudgisapps.bonnercountyid.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 cma.sc.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 cms.agr.wa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
-cms.fms.usda.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
+cms.fms.usda.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,true
 cms.illinois.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 cms.leoncountyfl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
 co.colorado.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false
@@ -45794,6 +45796,7 @@ usacimt.tradoc.army.mil,,,,,false,false,false,false,false,false,false,false,fals
 uwww.pacaf.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
 vmpf.us.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
 web.mail.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
+webmail.apps.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true
 144fw.ang.af.milwww.144fw.ang.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
 165aw.ang.af.milwww.165aw.ang.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
 171arw.ang.af.milwww.171arw.ang.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false
@@ -46131,6 +46134,7 @@ app-na.readspeaker.com,,,,,false,false,false,false,false,false,false,false,false
 app.assembla.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 app.astrobin.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 app.brazenconnect.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+app.bruin.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 app.certain.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 app.getflywheel.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 app.hellosign.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -46277,7 +46281,6 @@ betahassociates.regfox.com,,,,,false,false,false,false,false,false,false,false,f
 bev.lbl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bhoonidhi.nrsc.gov.in,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 biceforms.house.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-bidenadministration.archives.performance.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bids.berkeley.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bigoceanmanagers.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bio-mirror.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -46568,7 +46571,6 @@ code.google.com,,,,,false,false,false,false,false,false,false,false,false,false,
 code.il2.dso.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 code.il4.dso.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 code.il5.dso.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-code.visualstudio.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 codemirror.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 coe.lanl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 coephi.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -46667,7 +46669,6 @@ cris.ncics.org,,,,,false,false,false,false,false,false,false,false,false,false,f
 crism.jhuapl.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 crosssearch.nps.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 crp.trb.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-crypto.news,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cs.eis.af.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 csares.questionpro.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 csda-documentation.s3.us-west-2.amazonaws.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -47156,6 +47157,7 @@ friendsofthewildwhoopers.org,,,,,false,false,false,false,false,false,false,false
 fsa.blogs.govdelivery.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 fsa.my.site.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 fsabcl-nonb02p.ncifcrf.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+fscssl-fnl03t.ncifcrf.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 fsdw.ocfo.usda.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 fsi.ucf.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 ftaconfluence.ad.dot.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -47707,7 +47709,6 @@ latticeqcd.blogspot.com,,,,,false,false,false,false,false,false,false,false,fals
 launcher.myapps.microsoft.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 law.lclark.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 law.qu.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-lbl-srg.github.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 lbl.confex.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 lbl.freshservice.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 lbl.galaxydigital.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -47781,6 +47782,7 @@ lnks.gd,,,,,false,false,false,false,false,false,false,false,false,false,false,fa
 lobach-esb-pi3.fnal.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 loc.libapps.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 local.gocivilairpatrol.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+login.earthnetworks.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 login.excl.ornl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 login.fwslibrary.idm.oclc.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 login.live.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48391,6 +48393,7 @@ pdssbn.astro.umd.edu,,,,,false,false,false,false,false,false,false,false,false,f
 pediatrictrials.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pepquery2.pepquery.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pged.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+pgrads.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 phauth.health.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 phc-hotels.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 phf.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48399,7 +48402,6 @@ phlow.github.io,,,,,false,false,false,false,false,false,false,false,false,false,
 photosynthesis.uci.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 php.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 phys.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-physics-astronomy.jhu.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 physics.aps.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 physics.clas.wayne.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 physics.sdsu.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48513,9 +48515,7 @@ publicmeetings.delaware.gov,,,,,false,false,false,false,false,false,false,false,
 pubs.acs.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pubs.aip.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pubs.rsc.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-punch.space.swri.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 purl.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-pvs.csl.sri.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pwgdata.gsfc.nasa.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pydap.github.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 pypi.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48779,7 +48779,6 @@ shine.web.cern.ch,,,,,false,false,false,false,false,false,false,false,false,fals
 shiny.posit.co,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 shorturl.at,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 showerstream.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-shreve.house.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 shuttles.lbl.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 si.linkedin.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sibyls-beamline-documentation.readthedocs.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48835,6 +48834,7 @@ snapshot.epa.gov,,,,,false,false,false,false,false,false,false,false,false,false
 snfactory.in2p3.fr,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 snl-dakota.github.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 snltransfer.sandia.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+snlweather.elements360.aem.eco,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sobp.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 socialequity.duke.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 socialmobileregistry.digitalgov.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48848,7 +48848,6 @@ solar.physics.montana.edu,,,,,false,false,false,false,false,false,false,false,fa
 solarb.mssl.ucl.ac.uk,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solarconsultingservices.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solardat.uoregon.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-solarmonitor.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solarstorms.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solarwww.mtk.nao.ac.jp,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solicitation.nasaprs.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -48924,7 +48923,6 @@ status.nwave.noaa.gov,,,,,false,false,false,false,false,false,false,false,false,
 status.zoom.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 stayarmyreserve.army.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 stctm.readthedocs.io,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-sten.astronomycafe.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 stereo.sr.unh.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 stg-geoapi.geoplatform.gov,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sti.usra.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49285,6 +49283,7 @@ wcrp-cordex.ipsl.jussieu.fr,,,,,false,false,false,false,false,false,false,false,
 wd5.myworkday.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 weather.cod.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 weather.ou.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+weather.rap.ucar.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 web-cdn.bsky.app,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 web-stlm01.mail.mil,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 web.cvent.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49407,7 +49406,6 @@ aamc.org,,,,,false,false,false,false,false,false,false,false,false,false,false,f
 aamu.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 aamva.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 aanp.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-aao.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 aap.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 aapor.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 aar.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49539,7 +49537,6 @@ aspet.org,,,,,false,false,false,false,false,false,false,false,false,false,false,
 asrcfederal.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 astm.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 astro.gsu.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-astro.ljmu.ac.uk,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 astro.princeton.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 astro.umd.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 astrobin.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49574,7 +49571,6 @@ battelle.org,,,,,false,false,false,false,false,false,false,false,false,false,fal
 battellesra.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 baybackpack.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bayviewcafelbl.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-bbahc.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bbc.co.uk,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bbc.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 bbgstrategy.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49752,11 +49748,11 @@ cnr.it,,,,,false,false,false,false,false,false,false,false,false,false,false,fal
 cnri.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cnrs.fr,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 co.maui.hi.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+cocorahs.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 codesmithtools.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cognitoforms.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 coindesk.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 collectiveinfrastructures.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-color-hex.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 colorado.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 colostate.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 comets-analytics.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -49814,7 +49810,6 @@ ctg.queensu.ca,,,,,false,false,false,false,false,false,false,false,false,false,f
 ctic.purdue.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 ctrswb.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cuny.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-curiositybox.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cv.nrao.edu,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cyberscoop.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 cyberseek.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -50299,7 +50294,6 @@ keycloak.org,,,,,false,false,false,false,false,false,false,false,false,false,fal
 kfe.re.kr,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 kfunigraz.ac.at,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 ki.si,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
-kictribe.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 kidney.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 kintera.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 kintsugihealth.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -50860,6 +50854,7 @@ snomed.org,,,,,false,false,false,false,false,false,false,false,false,false,false
 sociablekit.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 soctera.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solardynllc.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+solarmonitor.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 solarpaces.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 soos.aq,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 sos.state.tx.us,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -50944,6 +50939,7 @@ tera.org,,,,,false,false,false,false,false,false,false,false,false,false,false,f
 theadvocate.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 thealpenanews.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 theassemblync.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+thecooldown.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 thefp.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 theglobalresearchplatform.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 thehotline.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
@@ -51127,6 +51123,7 @@ wellworksforyoulogin.com,,,,,false,false,false,false,false,false,false,false,fal
 wendoverairbase.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 westernroofing.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 westinghousenuclear.com,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
+wfas.net,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 wglt.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 whalealert.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
 whatcanyoudocampaign.org,,,,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true
