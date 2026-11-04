@@ -491,6 +491,7 @@ forms.osi.apps.mil,TRUE
 sts1.auth.nduf.deas.mil,TRUE
 login.microsoftonline.us,TRUE
 safe.apps.mil,TRUE
+webmail.apps.mil,TRUE
 arc.gov,TRUE
 arcnet.arc.gov,TRUE
 data.arc.gov,TRUE
@@ -725,7 +726,6 @@ publibrary.sec.usace.army.mil,TRUE
 publications.usace.army.mil,TRUE
 rader.nrmc.amedd.army.mil,TRUE
 recruiting.army.mil,TRUE
-redriver.army.mil,TRUE
 regulatory.ops.usace.army.mil,TRUE
 research.ari.army.mil,TRUE
 resreg.spl.usace.army.mil,TRUE
@@ -1056,8 +1056,10 @@ access1.bpa.gov,TRUE
 access.bpa.gov,TRUE
 access.test.bpa.gov,TRUE
 bpa.gov,TRUE
+mypcpiv.bpa.gov,TRUE
 cbfish.org,TRUE
 qa.cbfish.org,TRUE
+storefront.bpa.gov,TRUE
 storefrontpiv.bpa.gov,TRUE
 test.bpa.gov,TRUE
 nih.gov,TRUE
@@ -1577,7 +1579,6 @@ mpoxvaccine.cdc.gov,TRUE
 mvpiccs-viz.cdc.gov,TRUE
 mvpiccs-viz.glb.cdc.gov,TRUE
 nationaldppcsc.cdc.gov,TRUE
-nccd.cdc.gov,TRUE
 ndc.services.cdc.gov,TRUE
 ndpp-ops-center.cdc.gov,TRUE
 nfr.cdc.gov,TRUE
@@ -2217,6 +2218,7 @@ cssbmb.gov,TRUE
 ac.cto.mil,TRUE
 stib.cto.mil,TRUE
 rt.cto.mil,TRUE
+cttso.gov,TRUE
 events.cttso.gov,TRUE
 cuidadodesalud.gov,TRUE
 ayudalocal.dev.cuidadodesalud.gov,TRUE
@@ -2629,6 +2631,7 @@ cairstrain.doe.gov,TRUE
 cdn.lm.doe.gov,TRUE
 nepa.gov,TRUE
 cid.doe.gov,TRUE
+citrixpgh-rs.netl.doe.gov,TRUE
 contacts.jgi.doe.gov,TRUE
 cpsweb.ee.doe.gov,TRUE
 ctsedwweb.ee.doe.gov,TRUE
@@ -3321,6 +3324,7 @@ employeeexpress.gov,TRUE
 test.employeeexpress.gov,TRUE
 uat.employeeexpress.gov,TRUE
 employer.gov,TRUE
+dhs.empowhr.gov,TRUE
 train.empowhr.gov,TRUE
 usda.empowhr.gov,TRUE
 ems.gov,TRUE
@@ -3686,6 +3690,7 @@ sda.npn.faa.gov,TRUE
 sdrs.faa.gov,TRUE
 skywatch.faa.gov,TRUE
 soar.airports.faa.gov,TRUE
+soarproto.airports.faa.gov,TRUE
 sua.faa.gov,TRUE
 support.swim.faa.gov,TRUE
 taf.faa.gov,TRUE
@@ -6527,6 +6532,7 @@ electricalsafety.lbl.gov,TRUE
 elements.lbl.gov,TRUE
 emdatasets.lbl.gov,TRUE
 energizedlearning.lbl.gov,TRUE
+energy.lbl.gov,TRUE
 engineering.lbl.gov,TRUE
 enhancer.lbl.gov,TRUE
 enigma.lbl.gov,TRUE
@@ -7367,7 +7373,6 @@ cearun.grc.nasa.gov,TRUE
 ceres.larc.nasa.gov,TRUE
 ceres-tool.larc.nasa.gov,TRUE
 channel-emulator.ndc.nasa.gov,TRUE
-chapea.nasa.gov,TRUE
 sewpprod.servicenowservices.com,TRUE
 ciencia.nasa.gov,TRUE
 tmf.jpl.nasa.gov,TRUE
@@ -7787,7 +7792,7 @@ montepy.jpl.nasa.gov,TRUE
 mplnet.gsfc.nasa.gov,TRUE
 mrss.jpl.nasa.gov,TRUE
 msfcvpn.nasa.gov,TRUE
-msqs.gsfc.nasa.gov,TRUE
+wind.nasa.gov,TRUE
 mts2.nasa.gov,TRUE
 mttc.jpl.nasa.gov,TRUE
 mwsci.jpl.nasa.gov,TRUE
@@ -8072,6 +8077,7 @@ uat.gibs.earthdata.nasa.gov,TRUE
 uat.gitc.earthdata.nasa.gov,TRUE
 uat.urs.earthdata.nasa.gov,TRUE
 uavdb.jpl.nasa.gov,TRUE
+umbra.nascom.nasa.gov,TRUE
 uq.jpl.nasa.gov,TRUE
 uqtools.larc.nasa.gov,TRUE
 userdocuments.nasa.gov,TRUE
@@ -8086,7 +8092,6 @@ vmsfc.russia.nasa.gov,TRUE
 voyager.gsfc.nasa.gov,TRUE
 vpn.hst.nasa.gov,TRUE
 vulcan-cfd.larc.nasa.gov,TRUE
-wind.nasa.gov,TRUE
 wallops-prf.gsfc.nasa.gov,TRUE
 weather.dfrc.nasa.gov,TRUE
 web.cddis.eosdis.nasa.gov,TRUE
@@ -9003,7 +9008,6 @@ raresource.nih.gov,TRUE
 rdf.ncbi.nlm.nih.gov,TRUE
 receiver.niaid.nih.gov,TRUE
 receiver-test.niaid.nih.gov,TRUE
-redirects.lhcaws-prod-pub.nlm.nih.gov,TRUE
 registries.ncats.nih.gov,TRUE
 remoteaccesscb.nlm.nih.gov,TRUE
 remoteapps.nci.nih.gov,TRUE
@@ -10731,7 +10735,6 @@ dmamc.pnnl.gov,TRUE
 doe417.pnnl.gov,TRUE
 ebs.pnnl.gov,TRUE
 gc859.pnnl.gov,TRUE
-gridpiq.pnnl.gov,TRUE
 gsdt.pnnl.gov,TRUE
 hops.pnnl.gov,TRUE
 hydromod.pnnl.gov,TRUE
@@ -10919,7 +10922,6 @@ pathpdx-learning.samhsa.gov,TRUE
 pathpdx.samhsa.gov,TRUE
 pdas.samhsa.gov,TRUE
 pepc.samhsa.gov,TRUE
-samhsa.gov,TRUE
 snacregister.samhsa.gov,TRUE
 spars-cmhs.samhsa.gov,TRUE
 spars-signin.samhsa.gov,TRUE
@@ -10959,7 +10961,6 @@ ldes-tool.sandia.gov,TRUE
 lsimaging.sandia.gov,TRUE
 maccs.sandia.gov,TRUE
 mapreduce.sandia.gov,TRUE
-mykonos.sandia.gov,TRUE
 neuroscience.sandia.gov,TRUE
 nirp.sandia.gov,TRUE
 nsr-chip.sandia.gov,TRUE
@@ -10979,7 +10980,7 @@ scot-qual.sandia.gov,TRUE
 snlweather.sandia.gov,TRUE
 storms.sandia.gov,TRUE
 thunderbirdhacks.sandia.gov,TRUE
-umbra.sandia.gov,TRUE
+ttr.sandia.gov,TRUE
 vanguard.sandia.gov,TRUE
 voroclust.sandia.gov,TRUE
 waterpower.sandia.gov,TRUE
@@ -13306,7 +13307,6 @@ tools.usps.com,TRUE
 zh-store.usps.com,TRUE
 zh-tools.usps.com,TRUE
 zh.usps.com,TRUE
-amps.usps.gov,TRUE
 cdsrenew-cat.usps.gov,TRUE
 cdsrenew.usps.gov,TRUE
 coaa.usps.gov,TRUE
