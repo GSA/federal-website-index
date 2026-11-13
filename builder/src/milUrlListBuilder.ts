@@ -63,9 +63,9 @@ async function main() {
 
 }
 
-main();
+if (import.meta.main) main();
 
-async function loadSourceList(url: string, hasHeaders: boolean, urlHeader?: string): Promise<DataFrame> {
+export async function loadSourceList(url: string, hasHeaders: boolean, urlHeader?: string): Promise<DataFrame> {
   try {
     let source = await DataFrame.fromCSV(url, hasHeaders);
     if (urlHeader) {
@@ -81,7 +81,7 @@ async function loadSourceList(url: string, hasHeaders: boolean, urlHeader?: stri
   }
 }
 
-function addRequiredColumns(data: DataFrame): DataFrame {
+export function addRequiredColumns(data: DataFrame): DataFrame {
   // Add the Branch and Agency columns based on the source list
   data = data.withColumn('Domain type', () => 'Federal - Executive');
   data = data.withColumn('Agency', () => 'Department of Defense');
@@ -89,7 +89,16 @@ function addRequiredColumns(data: DataFrame): DataFrame {
   return data;
 }
 
-function removeAllNonMilDomains(data: DataFrame): DataFrame {
+export function removeAllNonMilDomains(data: DataFrame): DataFrame {
+  // Lowercase first. The source lists are not consistent about case
+  // (dod_public.csv carries rows such as www.SERDP-ESTCP.MIL), and everything
+  // downstream of this point, the suffix test here, the second-level domain
+  // conversion and the dedup, compares these values as written.
+  //@ts-ignore
+  data = data.withColumn('Domain name', (row) => {
+    return row.get('Domain name').trim().toLowerCase();
+  });
+
   // Remove all non-Mil domains
   //@ts-ignore
   data = data.filter(row => {
@@ -100,7 +109,7 @@ function removeAllNonMilDomains(data: DataFrame): DataFrame {
   return data;
 }
 
-function convertDomainToSecondLevelDomain(data: DataFrame): DataFrame {
+export function convertDomainToSecondLevelDomain(data: DataFrame): DataFrame {
   // Convert the domain to a second-level domain
   //@ts-ignore
   data = data.withColumn('Domain name', (row) => {
